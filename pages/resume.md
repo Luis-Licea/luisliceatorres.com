@@ -28,9 +28,10 @@ description: My résumé, meant for anyone wishing to know about my work.
   </p>
   <h2>Skills</h2>
     <ul>
-      <li><b>Programming Languages:</b> Python, Java, C#, Swift, C++, Rust</li>
-      <li><b>Tools:</b> Linux, VSCode, Vim, Xcode, Qt</li>
-      <li><b>Spoken Languages:</b> English, Spanish, Low-intermediate in Russian</li>
+      <li><b>Programming Languages:</b> Python, Java</li>
+      <li><b>Previous Experience:</b> VHDL, C, Swift, C#, C++, Rust</li>
+      <li><b>Tools:</b> Linux, VSCode, Vim</li>
+      <li><b>Spoken Languages:</b> English, Spanish</li>
     </ul>
   <h2>Education</h2>
   <dl>
@@ -93,15 +94,6 @@ description: My résumé, meant for anyone wishing to know about my work.
   </dl>
   <h2>Projects</h2>
   <dl>
-    <dt>NoteSpisok &mdash; July 2019–Present</dt>
-    <dd>
-      <ul>
-        <li>A portable note-taking program designed to facilitate studying languages</li>
-        <li>Download: github.com/Luis-Licea/NoteSpisok-Portable</li>
-        <li>Source code: github.com/Luis-Licea/NoteSpisok </li>
-        <li>Technologies used: Qt Creator, C++</li>
-      </ul>
-    </dd>
     <dt>luisliceatorres.com &mdash; March 2020–Present</dt>
     <dd>
       <ul>
