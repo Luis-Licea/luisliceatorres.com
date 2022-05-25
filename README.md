@@ -1,7 +1,9 @@
-# Luis Licea Torres Homepage
+# LuisLiceaTorres.com Source Code
+![Arch Linux](https://img.shields.io/badge/arch%20linux-1690cc?style=for-the-badge&logo=archlinux&logoColor=white)
+![VSCode](https://img.shields.io/badge/vscode-0082d0?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Ruby](https://img.shields.io/badge/ruby-e81522?style=for-the-badge&logo=ruby&logoColor=white)
 
 This is a personal website for writing about things I am interested about.
-
 
 ## Setup
 ```bash
