@@ -1,0 +1,14 @@
+.centered-image {
+  /*Display the image as a block.*/
+  display: block;
+  /*Center the image.*/
+  margin: 1rem auto;
+  /*Add a border around the picture.*/
+  border-style: solid;
+  /*Make the picture border of thin thickness.*/
+  border-width: thin;
+  /*Make the images responsive. Make size relative to screen size.*/
+  max-width: 40% !important;
+  /*Make borders round.*/
+  border-radius: 5px;
+}
