@@ -13,36 +13,51 @@
 # https://learnxinyminutes.com/docs/yaml/
 #
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# These are used to personalize the site. If you look in the HTML files, you
+# will see them accessed via {{ site.author.title }}, {{ site.author.email }},
+# and so on. You can create any custom variable you would like, and they will be
+# accessible in the templates via {{ site.myvariable }}.
 
 title: Luis D. Licea Torres
-email: luisliceatorres@gmail.com
+author:
+  name: &author_full_name Luis David Licea Torres
+  email: luisliceatorres@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A portfolio website for projects and blogs.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://luisliceatorres.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Luis-Licea
 linkedin_username:  Luis-David-Licea-Torres
 
 # Build settings
-theme: minima
+# Use the minima theme in the Jekyll repo. The latest version supports custom
+# HTML heads and color schemes. It is possible to use a theme from a certain
+# point by specifying the hash number like so:
+# jekyll/minima@<commit-hash-number>
+remote_theme: jekyll/minima
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
 
 # Front Matter Defaults
 defaults:
-  -
+  - # Set the default author globally.
     scope:
       # An empty string means all files in the project.
       path: ""
     values:
       # Set the default author.
-      author: Luis David Licea Torres
+      author: *author_full_name
+  - # Make every file in posts folder use the page layout.
+    scope:
+      path: "_posts"
+    values:
+      layout: "post"
+  - # Make every file in pages folder use the page layout.
+    scope:
+      path: "pages"
+    values:
+      layout: "page"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
