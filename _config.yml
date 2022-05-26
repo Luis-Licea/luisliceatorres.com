@@ -26,8 +26,31 @@ description: >- # this means to ignore newlines until "baseurl:"
   A portfolio website for projects and blogs.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://luisliceatorres.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  Luis-Licea
-linkedin_username:  Luis-David-Licea-Torres
+minima:
+  social_links:
+    # twitter: jekyllrb
+    github: Luis-Licea
+    # stackoverflow: "11111"
+    linkedin: Luis-David-Licea-Torres
+    # telegram: jekyll
+    # keybase: jekyll
+
+    # mastodon:
+    #  - username: jekyll
+    #    instance: example.com
+    #  - username: jekyll2
+    #    instance: example.com
+
+    # gitlab:
+    #  - username: jekyll
+    #    instance: example.com
+    #  - username: jekyll2
+    #    instance: example.com
+
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+
 
 # Build settings
 # Use the minima theme in the Jekyll repo. The latest version supports custom
@@ -58,6 +81,13 @@ defaults:
       path: "pages"
     values:
       layout: "page"
+
+# Choose minima color scheme.
+# minima:
+  # skin: dark
+  # skin: classic
+  # skin: solarized
+  # skin: solarized-dark
 
 # Exclude from processing.
 # The following items will not be processed, by default.
