@@ -82,6 +82,9 @@ defaults:
     values:
       layout: "page"
 
+# When listing posts, display first post paragraph.
+show_excerpts: true
+
 # Choose minima color scheme.
 # minima:
   # skin: dark
