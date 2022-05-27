@@ -6,12 +6,13 @@ tags: [Astronomy, Image Processing]
 keywords: [Astronomy, Image Processing]
 ---
 
-<link rel="stylesheet" href="/assets/common-css/class-centered-image.css">
-{% assign assets="assets/2021-07-03-how-to-sharpen-blurry-asteroid-images" | relative_url %}
+{% assign assets="assets" | relative_url %}
+<link rel="stylesheet" href="{{ assets }}/common-css/class-centered-image.css">
+{% assign post_assets="assets/2021-07-03-how-to-sharpen-blurry-asteroid-images" | relative_url %}
 <div style="display: flex; border-radius: 15px; align-items: center; font-size: 3em;">
-  <img class="centered-image" style="border-radius: inherit;" src="{{ assets }}/images/15-eunomia.png" alt="Image of 15 Eunomia asteroid.">
+  <img class="centered-image" style="border-radius: inherit;" src="{{ post_assets }}/images/15-eunomia.png" alt="Image of 15 Eunomia asteroid.">
   &rarr;
-  <img class="centered-image" style="border-radius: inherit;" src="{{ assets }}/images/15-eunomia-processed.jpg" alt="Image of 15 Eunomia asteroid after being color corrected.">
+  <img class="centered-image" style="border-radius: inherit;" src="{{ post_assets }}/images/15-eunomia-processed.jpg" alt="Image of 15 Eunomia asteroid after being color corrected.">
 </div>
 
 ## Get asteroid images
@@ -19,24 +20,24 @@ keywords: [Astronomy, Image Processing]
 Download asteroid images from [archive.eso.org](https://archive.eso.org/eso/eso_archive_main.html).
 
 1. Check **sphere** in the imaging section.
-   <img class="centered-image" src="{{ assets }}/images/imaging-section.png" alt="Image of the imaging section.">
+   <img class="centered-image" src="{{ post_assets }}/images/imaging-section.png" alt="Image of the imaging section.">
 
 2. Type **asteroid** into the **Title** field.
-   <img class="centered-image" src="{{ assets }}/images/title-field.png" alt="Image of the title field.">
+   <img class="centered-image" src="{{ post_assets }}/images/title-field.png" alt="Image of the title field.">
 
 3. Type **zimpol** into the **TPL ID** field.
-   <img class="centered-image" src="{{ assets }}/images/tpl-id-and-object-name.png" alt="Image of the TPL ID and object name fields.">
+   <img class="centered-image" src="{{ post_assets }}/images/tpl-id-and-object-name.png" alt="Image of the TPL ID and object name fields.">
 
 4. **Optional**: specify the name of the asteroid in the **OB Name** field. Some asteroid name examples are Ceres, Pallas, Psyche, Vesta, etc.
 
 5. Press **Search** and select the datasets you want to download.
-   <img class="centered-image" src="{{ assets }}/images/search-button.png" alt="Image of the search button.">
+   <img class="centered-image" src="{{ post_assets }}/images/search-button.png" alt="Image of the search button.">
 
 6. Click on **Request marked datasets (new service)** at the bottom of the page.
-   <img class="centered-image" src="{{ assets }}/images/request-marked-datasets.png" alt="Image of button to request marked datasets.">
+   <img class="centered-image" src="{{ post_assets }}/images/request-marked-datasets.png" alt="Image of button to request marked datasets.">
 
 7. Click on **Download ZIP file** to download the images.
-   <img class="centered-image" src="{{ assets }}/images/download-zip.png" alt="Image of button to download zip file.">
+   <img class="centered-image" src="{{ post_assets }}/images/download-zip.png" alt="Image of button to download zip file.">
 
 ## Uncompress the .zip and .Z files on Linux
 
@@ -63,22 +64,22 @@ $ uncompress "unzipped_archive/SPHER.(DATE)T(TIME).fits.Z"
 
 Use **[GIMP](https://www.gimp.org/downloads/)** to open the .fits file and check that there are no large, black stripes on the image. These vertical stripes ruin the image and require us to obtain a different one. I recommend using the [ephermis](https://ssd.jpl.nasa.gov/horizons.cgi?find_body=1&body_group=sb&sstr=1) feature here before choosing what images to process.
 
-<img class="centered-image" src="{{ assets }}/images/large-black-stripe.png" alt="The image shows how a large, black stripe ruins the image.">
+<img class="centered-image" src="{{ post_assets }}/images/large-black-stripe.png" alt="The image shows how a large, black stripe ruins the image.">
 
 ## How to process images
 
 Download **[ImageJ](https://imagej.nih.gov/ij/)** to do image processing. ImageJ can open .fits files after they have been processed by GIMP. Use GIMP to export .fits files into files that ImageJ can accept. Here is how an image on ImageJ should look.
 
-<img class="centered-image" src="{{ assets }}/images/15-eunomia.png" alt="Image of 15 Eunomia asteroid.">
+<img class="centered-image" src="{{ post_assets }}/images/15-eunomia.png" alt="Image of 15 Eunomia asteroid.">
 
 On the raw images there are 1-pixel-high stripes that span the entirety of the images. To remove these horizontal black stripes, use ImageJ’s **remove outliers** feature with a radius of 1 pixel, a threshold of 1, and set to dark. After that, it is necessary to smooth the images a few times. Then open the image on GIMP and sharpen it a lot to the point that it looks pretty noisy, then open the image on ImageJ and remove both bright and dark outliers with a radius of 3 to 8 pixels, then smooth the image again a few times. This is how the image should look.
 
-<img class="centered-image" src="{{ assets }}/images/15-eunomia-overexposed.png" alt="Overexposed image of 15 Eunomia asteroid.">
+<img class="centered-image" src="{{ post_assets }}/images/15-eunomia-overexposed.png" alt="Overexposed image of 15 Eunomia asteroid.">
 
 If you change an 8-bit image to a 16 or 32-bit image, it will automatically and significantly increase the brightness of the image; however, changing a 32 or 16-bit image into an 8-bit image does not change the brightness. Make any color corrections if they are needed. Here is the image after making color corrections.
 
-<img class="centered-image" src="{{ assets }}/images/15-eunomia-processed.jpg" alt="Image of 15 Eunomia asteroid after being color corrected.">
+<img class="centered-image" src="{{ post_assets }}/images/15-eunomia-processed.jpg" alt="Image of 15 Eunomia asteroid after being color corrected.">
 
 This asteroid is called _15 Eunomia_ and there appear to be two _faculae_ (bright spots) on its surface.
 
-<img class="centered-image" src="{{ assets }}/images/15-eunomia-faculae.png" alt="Image of 15 Eunomia asteroid faculae (bright spots).">
+<img class="centered-image" src="{{ post_assets }}/images/15-eunomia-faculae.png" alt="Image of 15 Eunomia asteroid faculae (bright spots).">

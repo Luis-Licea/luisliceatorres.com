@@ -24,8 +24,8 @@ author:
   email: luisliceatorres@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A portfolio website for projects and blogs.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://luisliceatorres.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/luisliceatorres.com" # the subpath of your site, e.g. /blog
+url: "//luis-licea.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 minima:
   social_links:
     # twitter: jekyllrb

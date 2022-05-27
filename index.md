@@ -8,8 +8,9 @@ date: 2021-06-21T04:07:57.636Z
 categories:
   - Personal
 ---
-<link rel="stylesheet" href="assets/index/css/profile-picture.css">
-<img id="profile-picture" src="assets/index/images/luis.jpg" alt="Luis David Licea Torres">
+{% assign assets='assets' | relative_url %}
+<link rel="stylesheet" href="{{ assets }}/index/css/profile-picture.css">
+<img id="profile-picture" src="{{ assets }}/index/images/luis.jpg" alt="Luis David Licea Torres">
 
 # About me
 I am a computer science graduate, and I am interested in software development.
