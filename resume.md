@@ -1,6 +1,7 @@
 ---
 title: Résumé
-permalink: /resume/
+layout: page
+permalink: /resume.html
 date: 2021-07-03T16:53:21.000Z
 categories:
   - Personal
