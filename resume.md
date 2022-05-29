@@ -27,9 +27,8 @@ description: My résumé, meant for anyone wishing to know about my work.
 </p>
 <h2>Skills</h2>
   <ul>
-    <li><b>Programming Languages:</b> Python, Java</li>
-    <li><b>Previous Experience:</b> VHDL, C, Swift, C#, C++, Rust</li>
-    <li><b>Tools:</b> Linux, VSCode, Vim</li>
+    <li><b>Programming Languages:</b> Python, Java, C++, C, C#</li>
+    <li><b>Skills:</b> Git, Linux Terminal, Continuous Integration, VSCode, Vim</li>
     <li><b>Spoken Languages:</b> English, Spanish</li>
   </ul>
 <h2>Education</h2>
@@ -64,7 +63,7 @@ description: My résumé, meant for anyone wishing to know about my work.
 </dl>
 <h2>Work Experience</h2>
 <dl>
-  <dt>Research Assistant, <em>Computing Sciences Department</em> &mdash; July 2020-February 2021</dt>
+  <dt>Research Assistant, <em>Computing Sciences Department</em> &mdash; July 2020 - February 2021</dt>
   <dd>University of Houston-Clear Lake; Houston, TX
     <ul>
       <li>Attended the <a href="https://saiconference.com/Computing">SAI Computing Conference 2021</a></li>
@@ -73,14 +72,14 @@ description: My résumé, meant for anyone wishing to know about my work.
       <li>Used Python to perform data processing and analysis on <a href="https://www.omim.org/">inheritable disease data</a></li>
     </ul>
   </dd>
-  <dt>Tutor &mdash; January 2019-August 2019</dt>
+  <dt>Tutor &mdash; January 2019 - August 2019</dt>
   <dd>Lee College; Baytown, TX
     <ul>
       <li>Tutored students computer science, calculus, physics, and chemistry</li>
       <li>Scheduled tutoring appointments and prepared tutoring environment to promote learning</li>
     </ul>
   </dd>
-  <dt>Student Assistant &mdash; September 2017-August 2018</dt>
+  <dt>Student Assistant &mdash; September 2017 - August 2018</dt>
   <dd>Lee College; Baytown, TX
     <ul>
       <li>Verified and updated MSDS for newly acquired chemicals</li>
@@ -93,7 +92,7 @@ description: My résumé, meant for anyone wishing to know about my work.
 </dl>
 <h2>Projects</h2>
 <dl>
-  <dt>luisliceatorres.com &mdash; March 2020–Present</dt>
+  <dt>luisliceatorres.com &mdash; March 2020 – Present</dt>
   <dd>
     <ul>
       <li>Personal website built using Jekyll to facilitate contacting me</li>
