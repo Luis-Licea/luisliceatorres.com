@@ -132,7 +132,7 @@ description: My résumé, meant for anyone wishing to know about my work.
     </ul>
     <ul>
       <li>Location: Virtual</li>
-      <li>Date: July 15-16 2021</li>
+      <li>Date: July 15&ndash;16 2021</li>
       <li>Type: Oral presentation</li>
       <li>Speaker: Luis David Licea Torres</li>
     </ul>
@@ -143,7 +143,7 @@ description: My résumé, meant for anyone wishing to know about my work.
   <dt>
     <ul class="hfill bold">
       <span>Research Assistant, <em>Computing Sciences Department</em></span>
-      <span>July 2020 - February 2021</span>
+      <span>July 2020&ndash;February 2021</span>
     </ul>
   </dt>
   <dd>
@@ -161,7 +161,7 @@ description: My résumé, meant for anyone wishing to know about my work.
   <dt>
     <ul class="hfill bold">
       <span>Tutor</span>
-      <span>January 2019 - August 2019</span>
+      <span>January 2019&ndash;August 2019</span>
     </ul>
   </dt>
   <dd>
@@ -177,7 +177,7 @@ description: My résumé, meant for anyone wishing to know about my work.
   <dt>
     <ul class="hfill bold">
       <span>Student Assistant</span>
-      <span>September 2017 - August 2018</span>
+      <span>September 2017&ndash;August 2018</span>
     </ul>
   </dt>
   <dd>
@@ -198,8 +198,8 @@ description: My résumé, meant for anyone wishing to know about my work.
 <dl>
   <dt>
     <ul class="hfill bold">
-      <span>luisliceatorres.com</span>
-      <span>March 2020 – Present</span>
+      <span><a href="https://luisliceatorres.com">luisliceatorres.com</a></span>
+      <span>March 2020&ndash;Present</span>
     </ul>
   </dt>
   <dd>
