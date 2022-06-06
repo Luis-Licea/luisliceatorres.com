@@ -7,6 +7,19 @@ categories:
   - Personal
 description: My résumé, meant for anyone wishing to know about my work.
 ---
+
+<style>
+  /* Horizontally fill space between elements. */
+  .hfill {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 !important;
+  }
+  /* Make elements bold. */
+  .bold {
+    font-weight: bold;
+  }
+</style>
 <h2>Contact</h2>
 <p id="general-info">
   <!-- Home icon. -->
@@ -38,15 +51,44 @@ description: My résumé, meant for anyone wishing to know about my work.
   </ul>
 <h2>Education</h2>
 <dl>
-  <dt>Bachelor of Science, Computer Science &mdash; Expected May 2022</dt>
-  <dd>University of Houston-Clear Lake; Houston, TX &mdash; GPA 3.983 </dd>
-  <dt>Associate of Applied Science, Computer Science &mdash; Expected May 2022</dt>
-  <dd>Lee College; Baytown, TX &mdash; GPA 4.0</dd>
+  <dt>
+    <ul class="hfill bold">
+      <span>Bachelor of Science, Computer Science</span>
+      <span>Expected May 2022</span>
+    </ul>
+  </dt>
+  <dd>
+    <ul class="hfill">
+      <span>University of Houston-Clear Lake; GPA 3.983</span>
+      <span>Houston, TX</span>
+    </ul>
+  </dd>
+  <dt>
+    <ul class="hfill bold">
+      <span>Associate of Applied Science, Computer Science</span>
+      <span>Expected May 2022</span>
+    </ul>
+  </dt>
+  <dd>
+    <ul class="hfill">
+      <span>Lee College; GPA 4.0</span>
+      <span>Baytown, TX </span>
+    </ul>
+  </dd>
 </dl>
 <h2>Publications</h2>
 <dl>
-  <dt>A Disease Similarity Technique Using Biological Process Functional Annotations &mdash; July 2021</dt>
-  <dd>University of Houston-Clear Lake, <em>Computing Sciences Department</em>; Houston, TX
+  <dt>
+    <ul class="hfill bold">
+      <span>A Disease Similarity Technique Using Biological Process Functional Annotations</span>
+      <span>July 2021</span>
+    </ul>
+  </dt>
+  <dd>
+    <ul class="hfill">
+      <span>University of Houston-Clear Lake, <em>Computing Sciences Department</em></span>
+      <span>Houston, TX</span>
+    </ul>
     <ul>
       <li>Journal: Springer</li>
       <li>Series: Advances in Intelligent Systems and Computing</li>
@@ -56,8 +98,17 @@ description: My résumé, meant for anyone wishing to know about my work.
 </dl>
 <h2>Presentations</h2>
 <dl>
-  <dt>A Disease Similarity Technique Using Biological Process Functional Annotations &mdash; July 2021</dt>
-  <dd><a href="https://saiconference.com/Computing">SAI Computing Conference 2021</a>; London, UK
+  <dt>
+    <ul class="hfill bold">
+      <span>A Disease Similarity Technique Using Biological Process Functional Annotations</span>
+      <span>July 2021</span>
+    </ul>
+  </dt>
+  <dd>
+    <ul class="hfill">
+      <span><a href="https://saiconference.com/Computing">SAI Computing Conference 2021</a></span>
+      <span>London, UK</span>
+    </ul>
     <ul>
       <li>Location: Virtual</li>
       <li>Date: July 15-16 2021</li>
@@ -68,8 +119,17 @@ description: My résumé, meant for anyone wishing to know about my work.
 </dl>
 <h2>Work Experience</h2>
 <dl>
-  <dt>Research Assistant, <em>Computing Sciences Department</em> &mdash; July 2020 - February 2021</dt>
-  <dd>University of Houston-Clear Lake; Houston, TX
+  <dt>
+    <ul class="hfill bold">
+      <span>Research Assistant, <em>Computing Sciences Department</em></span>
+      <span>July 2020 - February 2021</span>
+    </ul>
+  </dt>
+  <dd>
+    <ul class="hfill">
+      <span>University of Houston-Clear Lake</span>
+      <span>Houston, TX</span>
+    </ul>
     <ul>
       <li>Attended the <a href="https://saiconference.com/Computing">SAI Computing Conference 2021</a></li>
       <li>Presented research results on the <a href="https://saiconference.com/Computing">SAI Computing Conference 2021</a></li>
@@ -77,15 +137,33 @@ description: My résumé, meant for anyone wishing to know about my work.
       <li>Used Python to perform data processing and analysis on <a href="https://www.omim.org/">inheritable disease data</a></li>
     </ul>
   </dd>
-  <dt>Tutor &mdash; January 2019 - August 2019</dt>
-  <dd>Lee College; Baytown, TX
+  <dt>
+    <ul class="hfill bold">
+      <span>Tutor</span>
+      <span>January 2019 - August 2019</span>
+    </ul>
+  </dt>
+  <dd>
+    <ul class="hfill">
+      <span>Lee College</span>
+      <span>Baytown, TX</span>
+    </ul>
     <ul>
       <li>Tutored students computer science, calculus, physics, and chemistry</li>
       <li>Scheduled tutoring appointments and prepared tutoring environment to promote learning</li>
     </ul>
   </dd>
-  <dt>Student Assistant &mdash; September 2017 - August 2018</dt>
-  <dd>Lee College; Baytown, TX
+  <dt>
+    <ul class="hfill bold">
+      <span>Student Assistant</span>
+      <span>September 2017 - August 2018</span>
+    </ul>
+  </dt>
+  <dd>
+    <ul class="hfill">
+      <span>Lee College</span>
+      <span>Baytown, TX</span>
+    </ul>
     <ul>
       <li>Verified and updated MSDS for newly acquired chemicals</li>
       <li>Cleaned and sterilized laboratory instruments and glassware</li>
@@ -97,7 +175,12 @@ description: My résumé, meant for anyone wishing to know about my work.
 </dl>
 <h2>Projects</h2>
 <dl>
-  <dt>luisliceatorres.com &mdash; March 2020 – Present</dt>
+  <dt>
+    <ul class="hfill bold">
+      <span>luisliceatorres.com</span>
+      <span>March 2020 – Present</span>
+    </ul>
+  </dt>
   <dd>
     <ul>
       <li>Personal website built using Jekyll to facilitate contacting me</li>
