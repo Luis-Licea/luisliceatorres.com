@@ -75,25 +75,13 @@ description: My résumé, meant for anyone wishing to know about my work.
   <dt>
     <ul class="hfill bold">
       <span>Bachelor of Science, Computer Science</span>
-      <span>Expected May 2022</span>
+      <span>Pending, May 2022</span>
     </ul>
   </dt>
   <dd>
     <ul class="hfill">
       <span>University of Houston-Clear Lake; GPA 3.983</span>
       <span>Houston, TX</span>
-    </ul>
-  </dd>
-  <dt>
-    <ul class="hfill bold">
-      <span>Associate of Applied Science, Computer Science</span>
-      <span>Expected May 2022</span>
-    </ul>
-  </dt>
-  <dd>
-    <ul class="hfill">
-      <span>Lee College; GPA 4.0</span>
-      <span>Baytown, TX </span>
     </ul>
   </dd>
 </dl>
