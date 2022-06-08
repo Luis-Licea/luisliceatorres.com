@@ -152,10 +152,10 @@ description: My résumé, meant for anyone wishing to know about my work.
       <span>Houston, TX</span>
     </ul>
     <ul>
-      <li>Attended the <a href="https://saiconference.com/Computing">SAI Computing Conference 2021</a></li>
       <li>Presented research results on the <a href="https://saiconference.com/Computing">SAI Computing Conference 2021</a></li>
       <li>Co-authored a research paper under the guidance of <a href="https://sce.uhcl.edu/almubaid/">Dr. Hisham Al-Mubaid</a></li>
       <li>Used Python to perform data processing and analysis on <a href="https://www.omim.org/">inheritable disease data</a></li>
+      <li>Made disease analysis code public in <a href="https://github.com/Luis-Licea/BP-Functional-Annotations">github.com/luis-licea/bp-functional-annotations</a></li>
     </ul>
   </dd>
   <dt>
@@ -198,14 +198,41 @@ description: My résumé, meant for anyone wishing to know about my work.
 <dl>
   <dt>
     <ul class="hfill bold">
+      <span><a href="https://nifti.work">nifti.work</a></span>
+      <span>February 2022&ndash;May 2022</span>
+    </ul>
+  </dt>
+  <dd>
+    <ul>
+      <li>Nifti allows you to search for work or post work for others, opening a new market for freelancers</li>
+      <li>Technologies used: Python, Django, HTML, CSS, JS, Google Cloud, Apache, Git</li>
+      <li>Repository: <a href="https://github.com/Luis-Licea/nifti">github.com/luis-licea/nifti</a></li>
+    </ul>
+  </dd>
+  <dt>
+    <ul class="hfill bold">
+      <span><a href="https://luis-licea.github.io/radio/">luis-licea.github.io/radio</a></span>
+      <span>December 2021&ndash;Present</span>
+    </ul>
+  </dt>
+  <dd>
+    <ul>
+      <li>An online radio player built with Rust and WebAssembly</li>
+      <li>Technologies used: Rust, WebAssembly, Git</li>
+      <li>Repository: <a href="https://github.com/Luis-Licea/radio">github.com/luis-licea/radio</a></li>
+    </ul>
+  </dd>
+  <dt>
+    <ul class="hfill bold">
       <span><a href="https://luisliceatorres.com">luisliceatorres.com</a></span>
       <span>March 2020&ndash;Present</span>
     </ul>
   </dt>
   <dd>
     <ul>
-      <li>Personal website built using Jekyll to facilitate contacting me</li>
-      <li>Technologies used: Jekyll, HMTL/CSS/JS</li>
+      <li>A personal website for blogging built with Jekyll</li>
+      <li>Technologies used: Jekyll, HMTL, CSS, JS, Git</li>
+      <li>Repository: <a href="https://github.com/Luis-Licea/luisliceatorres.com">github.com/luis-licea/luisliceatorres.com</a></li>
     </ul>
   </dd>
 </dl>
