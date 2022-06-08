@@ -159,7 +159,6 @@ description: My résumé, meant for anyone wishing to know about my work.
     </ul>
     <ul>
       <li>Tutored students computer science, calculus, physics, and chemistry</li>
-      <li>Scheduled tutoring appointments and prepared tutoring environment to promote learning</li>
     </ul>
   </dd>
   <dt>
@@ -174,11 +173,8 @@ description: My résumé, meant for anyone wishing to know about my work.
       <span>Baytown, TX</span>
     </ul>
     <ul>
-      <li>Verified and updated MSDS for newly acquired chemicals</li>
-      <li>Cleaned and sterilized laboratory instruments and glassware</li>
       <li>Supervised lab experiments performed by classes of up to 20 students</li>
       <li>Prepared experiments weekly according to 4 different chemistry classes</li>
-      <li>Verified safety showers and eyewashes weekly to ensure proper operation</li>
     </ul>
   </dd>
 </dl>
