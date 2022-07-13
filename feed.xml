@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://luisliceatorres.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://luisliceatorres.com/" rel="alternate" type="text/html" /><updated>2022-07-13T01:40:55+00:00</updated><id>https://luisliceatorres.com/feed.xml</id><title type="html">Luis D. Licea Torres</title><subtitle>A portfolio website for projects and blogs.</subtitle><author><name>Luis David Licea Torres</name><email>luisliceatorres@gmail.com</email></author><entry><title type="html">How to export and import GPG key pairs</title><link href="https://luisliceatorres.com/2022/06/14/how-to-export-and-import-gpg-key-pairs.html" rel="alternate" type="text/html" title="How to export and import GPG key pairs" /><published>2022-06-14T00:00:00+00:00</published><updated>2022-06-14T00:00:00+00:00</updated><id>https://luisliceatorres.com/2022/06/14/how-to-export-and-import-gpg-key-pairs</id><content type="html" xml:base="https://luisliceatorres.com/2022/06/14/how-to-export-and-import-gpg-key-pairs.html"><![CDATA[<p>For context, GPG key pairs are necessary for password managers such as <code class="language-plaintext highlighter-rouge">pass</code>.
+Migrating computers requires migrating the GPG key pairs or else <code class="language-plaintext highlighter-rouge">pass</code> will be
+unable to load or create passwords. Migrating GPG pairs requires exporting them
+in the original computer and exporting them in the target computer. That is
+what this tutorial shows.</p>
+
+<h2 id="how-to-export-gpg-key-pairs">How to export GPG key pairs</h2>
+
+<h3 id="export-the-private-key">Export the private key</h3>
+<p>Export an existing private key. Make sure to use the <code class="language-plaintext highlighter-rouge">--armor</code> flag if the
+private key will be printed in the future as a backup.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gpg <span class="nt">--export-secret-keys</span> <span class="nt">--armor</span> &lt;key-name|key-email&gt; <span class="o">&gt;</span> &lt;private-key-file&gt;
+</code></pre></div></div>
+<h3 id="export-a-public-key">Export a public key</h3>
+<p>A public key can be created now or later on. What matters is the private key,
+which can generate more public keys. To create the key now:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gpg <span class="nt">--export</span> <span class="nt">--armor</span> &lt;key-name|key-email&gt; <span class="o">&gt;</span> &lt;public-key-file&gt;
+</code></pre></div></div>
+
+<h2 id="how-to-import-the-gpg-key-pair">How to import the GPG key pair</h2>
+
+<h3 id="import-the-private-key">Import the private key</h3>
+<p>You will be asked for the password.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gpg <span class="nt">--import</span> &lt;private-key-file&gt;
+</code></pre></div></div>
+
+<h3 id="export-a-public-key-if-this-has-not-been-done">Export a public key if this has not been done</h3>
+<p>Generate a public key from the exported private key. Redirect the output into a
+file.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gpg <span class="nt">--export</span> <span class="nt">--armor</span> &lt;key-name|key-email&gt; <span class="o">&gt;</span> &lt;publick-key-file&gt;
+</code></pre></div></div>
+
+<h3 id="import-the-public-key-and-change-the-trust-level">Import the public key and change the trust level</h3>
+<p>Import the key and edit it by changing the trust level from unknown to
+ultimate.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gpg <span class="nt">--import</span> &lt;public-key-file&gt;
+gpg <span class="nt">--edit-key</span> &lt;name or email&gt;
+<span class="o">&gt;</span>trust
+<span class="o">&gt;</span>5
+<span class="o">&gt;</span>save
+<span class="o">&gt;</span>quit
+</code></pre></div></div>
+
+<h3 id="scripts-for-exporting-and-importing-key-pairs">Scripts for exporting and importing key pairs</h3>
+<p>Use the following scripts to export and import key pairs like so:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># An email like john@doe.com is also  valid.</span>
+./export-key-pair.sh <span class="s2">"John Doe"</span>
+./import-key-pair.sh <span class="s2">"John Doe"</span>
+</code></pre></div></div>
+<p>Inspect the code briefly — do not trust internet scripts blindly.
+<script src="https://gist.github.com/Luis-Licea/b63bbd079288b6327bd119bf0bcd1277.js"></script></p>]]></content><author><name>Luis David Licea Torres</name></author><summary type="html"><![CDATA[For context, GPG key pairs are necessary for password managers such as pass. Migrating computers requires migrating the GPG key pairs or else pass will be unable to load or create passwords. Migrating GPG pairs requires exporting them in the original computer and exporting them in the target computer. That is what this tutorial shows.]]></summary></entry><entry><title type="html">How to sharpen blurry asteroid images</title><link href="https://luisliceatorres.com/2021/07/03/how-to-sharpen-blurry-asteroid-images.html" rel="alternate" type="text/html" title="How to sharpen blurry asteroid images" /><published>2021-07-03T00:00:00+00:00</published><updated>2021-07-03T00:00:00+00:00</updated><id>https://luisliceatorres.com/2021/07/03/how-to-sharpen-blurry-asteroid-images</id><content type="html" xml:base="https://luisliceatorres.com/2021/07/03/how-to-sharpen-blurry-asteroid-images.html"><![CDATA[<link rel="stylesheet" href="/assets/common-css/class-centered-image.css" />
+
+<div style="display: flex; border-radius: 15px; align-items: center; font-size: 3em;">
+  <img class="centered-image" style="border-radius: inherit;" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/15-eunomia.png" alt="Image of 15 Eunomia asteroid." />
+  &rarr;
+  <img class="centered-image" style="border-radius: inherit;" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/15-eunomia-processed.jpg" alt="Image of 15 Eunomia asteroid after being color corrected." />
+</div>
+
+<h2 id="get-asteroid-images">Get asteroid images</h2>
+
+<p>Download asteroid images from <a href="https://archive.eso.org/eso/eso_archive_main.html">archive.eso.org</a>.</p>
+
+<ol>
+  <li>
+    <p>Check <strong>sphere</strong> in the imaging section.
+<img class="centered-image" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/imaging-section.png" alt="Image of the imaging section." /></p>
+  </li>
+  <li>
+    <p>Type <strong>asteroid</strong> into the <strong>Title</strong> field.
+<img class="centered-image" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/title-field.png" alt="Image of the title field." /></p>
+  </li>
+  <li>
+    <p>Type <strong>zimpol</strong> into the <strong>TPL ID</strong> field.
+<img class="centered-image" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/tpl-id-and-object-name.png" alt="Image of the TPL ID and object name fields." /></p>
+  </li>
+  <li>
+    <p><strong>Optional</strong>: specify the name of the asteroid in the <strong>OB Name</strong> field. Some asteroid name examples are Ceres, Pallas, Psyche, Vesta, etc.</p>
+  </li>
+  <li>
+    <p>Press <strong>Search</strong> and select the datasets you want to download.
+<img class="centered-image" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/search-button.png" alt="Image of the search button." /></p>
+  </li>
+  <li>
+    <p>Click on <strong>Request marked datasets (new service)</strong> at the bottom of the page.
+<img class="centered-image" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/request-marked-datasets.png" alt="Image of button to request marked datasets." /></p>
+  </li>
+  <li>
+    <p>Click on <strong>Download ZIP file</strong> to download the images.
+<img class="centered-image" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/download-zip.png" alt="Image of button to download zip file." /></p>
+  </li>
+</ol>
+
+<h2 id="uncompress-the-zip-and-z-files-on-linux">Uncompress the .zip and .Z files on Linux</h2>
+
+<ol>
+  <li>Install the <strong>unzip</strong> utility to uncompress the .zip file.</li>
+  <li>Unzip the .zip file and save the contents in a folder called <strong>unzipped_archive</strong>.</li>
+</ol>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>unzip archive.zip <span class="nt">-d</span> unzipped_archive
+</code></pre></div></div>
+
+<ol>
+  <li>Install the <strong>uncompress</strong> utility to convert .Z files into .fits files.</li>
+  <li>Decompress the .Z file and verify the values for DATE and TIME match your file.</li>
+</ol>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>uncompress <span class="s2">"unzipped_archive/SPHER.(DATE)T(TIME).fits.Z"</span>
+</code></pre></div></div>
+
+<h2 id="uncompress-the-zip-and-z-files-on-windows">Uncompress the .zip and .Z files on Windows</h2>
+
+<ol>
+  <li>Right-click the .zip file and select <strong>Extract All</strong> to chose a destination folder.</li>
+  <li>Use <strong><a href="https://cloudconvert.com">cloudconvert</a></strong> to uncompress the .Z file of the form <strong>SPHER.(DATE)T(TIME).fits.Z</strong></li>
+</ol>
+
+<h2 id="view-your-fits-file-and-inspect-your-asteroid">View your .fits file and inspect your asteroid</h2>
+
+<p>Use <strong><a href="https://www.gimp.org/downloads/">GIMP</a></strong> to open the .fits file and check that there are no large, black stripes on the image. These vertical stripes ruin the image and require us to obtain a different one. I recommend using the <a href="https://ssd.jpl.nasa.gov/horizons.cgi?find_body=1&amp;body_group=sb&amp;sstr=1">ephermis</a> feature here before choosing what images to process.</p>
+
+<p><img class="centered-image" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/large-black-stripe.png" alt="The image shows how a large, black stripe ruins the image." /></p>
+
+<h2 id="how-to-process-images">How to process images</h2>
+
+<p>Download <strong><a href="https://imagej.nih.gov/ij/">ImageJ</a></strong> to do image processing. ImageJ can open .fits files after they have been processed by GIMP. Use GIMP to export .fits files into files that ImageJ can accept. Here is how an image on ImageJ should look.</p>
+
+<p><img class="centered-image" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/15-eunomia.png" alt="Image of 15 Eunomia asteroid." /></p>
+
+<p>On the raw images there are 1-pixel-high stripes that span the entirety of the images. To remove these horizontal black stripes, use ImageJ’s <strong>remove outliers</strong> feature with a radius of 1 pixel, a threshold of 1, and set to dark. After that, it is necessary to smooth the images a few times. Then open the image on GIMP and sharpen it a lot to the point that it looks pretty noisy, then open the image on ImageJ and remove both bright and dark outliers with a radius of 3 to 8 pixels, then smooth the image again a few times. This is how the image should look.</p>
+
+<p><img class="centered-image" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/15-eunomia-overexposed.png" alt="Overexposed image of 15 Eunomia asteroid." /></p>
+
+<p>If you change an 8-bit image to a 16 or 32-bit image, it will automatically and significantly increase the brightness of the image; however, changing a 32 or 16-bit image into an 8-bit image does not change the brightness. Make any color corrections if they are needed. Here is the image after making color corrections.</p>
+
+<p><img class="centered-image" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/15-eunomia-processed.jpg" alt="Image of 15 Eunomia asteroid after being color corrected." /></p>
+
+<p>This asteroid is called <em>15 Eunomia</em> and there appear to be two <em>faculae</em> (bright spots) on its surface.</p>
+
+<p><img class="centered-image" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/15-eunomia-faculae.png" alt="Image of 15 Eunomia asteroid faculae (bright spots)." /></p>]]></content><author><name>Luis David Licea Torres</name></author><category term="Astronomy" /><category term="Image Processing" /><summary type="html"><![CDATA[A tutorial on how to sharpen blurry asteroid images.]]></summary></entry><entry><title type="html">La diferencia entre teoría e hipótesis</title><link href="https://luisliceatorres.com/2020/07/04/la-diferencia-entre-teoria-e-hipotesis.html" rel="alternate" type="text/html" title="La diferencia entre teoría e hipótesis" /><published>2020-07-04T00:00:00+00:00</published><updated>2020-07-04T00:00:00+00:00</updated><id>https://luisliceatorres.com/2020/07/04/la-diferencia-entre-teoria-e-hipotesis</id><content type="html" xml:base="https://luisliceatorres.com/2020/07/04/la-diferencia-entre-teoria-e-hipotesis.html"><![CDATA[<p>Una teoría es increíblemente detallada, es lo más cercano que existe a la verdad. Una teoría tiene un peso similar a una ley, así como la ley de la gravedad. Una hipótesis, por el otro lado, es una conjetura, un tanteo. Solo cuando la comunidad científica (es decir, varias organizaciones y universidades al rededor del mundo) ponen a prueba una hipótesis, es que la hipótesis se convierte en una teoría.</p>
+
+<p>En otras palabras, una hipótesis no significa nada grande, pero decir que una teoría que ha sido soportada por varías organizaciones y universidades es solo una mentira es el equivalente a decir que cientos de científicos no saben lo que hacen. Cosas importantes que hay que tomar en cuenta:</p>
+
+<ol>
+  <li>Una ley no dice por qué ocurren las cosas, solo dice que así son. Por ejemplo, la ley de la gravedad dice que un objeto siempre caerá, pero no explica por qué.</li>
+  <li>Una teoría siempre explica el fenómeno. La teoría de relatividad de Einstein explica que la gravedad atrae objetos debido a la curvatura proyectada en el espacio por la misma masa de los objetos.</li>
+  <li>Una teoría nunca puede ser comprobada, solo corroborada.</li>
+  <li>Más de una teoría puede explicar el mismo fenómeno. Por ejemplo, existe un científico llamado Erik Verlinde que ha propuesto una teoría de gravedad diferente a la de Einstein. El resultado es el mismo, pero la explicación es diferente.</li>
+  <li>Antes de que una hipótesis se considere como una teoría, debe de explicar correctamente todo los hechos relacionados a tal fenómeno. Si una sola excepción ocurre, la teoría cae.</li>
+  <li>Una teoría no puede ser perfecta, pero es lo más cercano a la verdad, ya que provee una explicación mientras que una ley no lo hace.</li>
+</ol>]]></content><author><name>Luis David Licea Torres</name></author><category term="Ciencia" /><summary type="html"><![CDATA[Una teoría es increíblemente detallada, es lo más cercano que existe a la verdad. Una teoría tiene un peso similar a una ley, así como la ley de la gravedad. Una hipótesis, por el otro lado, es una conjetura, un tanteo. Solo cuando la comunidad científica (es decir, varias organizaciones y universidades al rededor del mundo) ponen a prueba una hipótesis, es que la hipótesis se convierte en una teoría.]]></summary></entry></feed>
