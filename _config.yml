@@ -71,7 +71,7 @@ defaults:
     values:
       # Set the default author.
       author: *author_full_name
-  - # Make every file in posts folder use the page layout.
+  - # Make every file in posts folder use the post layout.
     scope:
       path: "_posts"
     values:
