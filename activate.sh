@@ -19,11 +19,11 @@ jserve() {
 # Serve Jekyll website with livereload.
 jlive(){
     # Serve with live reload.
-    jserve --livereload
+    jserve --livereload "$@"
 }
 
 # Open served website in web browser.
 jview() {
     # Specify url and port number.
-    xdg-open localhost:4000
+    xdg-open localhost:4000 "$@"
 }

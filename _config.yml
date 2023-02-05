@@ -29,9 +29,9 @@ url: "https://luisliceatorres.com" # the base hostname & protocol for your site,
 minima:
   social_links:
     # twitter: jekyllrb
-    github: Luis-Licea
+    - { platform: github, user_url: "https://github.com/Luis-Licea" }
     # stackoverflow: "11111"
-    linkedin: Luis-David-Licea-Torres
+    - { platform: linkedin, user_url: "https://linkedin.com/in/Luis-David-Licea-Torres" }
     # telegram: jekyll
     # keybase: jekyll
 
