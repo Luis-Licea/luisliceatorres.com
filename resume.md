@@ -56,7 +56,7 @@ description: My résumé, meant for anyone wishing to know about my work.
   <li>
     <!-- GitHub icon. -->
     <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align: -0.125em;" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4" d="M29.344 30.477c2.404-.5 4.585-1.366 6.28-2.638C38.52 25.668 40 22.314 40 19c0-2.325-.881-4.495-2.407-6.333c-.85-1.024 1.636-8.667-.573-7.638c-2.21 1.03-5.45 3.308-7.147 2.805A20.712 20.712 0 0 0 24 7c-1.8 0-3.532.223-5.147.635C16.505 8.232 14.259 6 12 5.029c-2.26-.97-1.026 6.934-1.697 7.766C8.84 14.605 8 16.729 8 19c0 3.314 1.79 6.668 4.686 8.84c1.93 1.446 4.348 2.368 7.054 2.822m0 0c-1.158 1.275-1.738 2.486-1.738 3.633v8.716m11.342-12.534c1.098 1.44 1.647 2.734 1.647 3.88v8.654M6 31.216c.899.11 1.566.523 2 1.24c.652 1.074 3.074 5.062 5.825 5.062h4.177"/></svg>
-    <a href="https://github.com/Luis-Licea">github.com/{{ site.minima.social_links.github | downcase }}</a>
+    <a href="https://github.com/Luis-Licea">github.com/Luis-Licea</a>
   </li>
   <li>
     <!-- Mail icon. -->
@@ -66,8 +66,8 @@ description: My résumé, meant for anyone wishing to know about my work.
 </ul>
 <h2>Skills</h2>
   <ul>
-    <li><b>Programming Languages:</b> Python, Java, C++, C, C#</li>
-    <li><b>Skills:</b> Git, Linux Terminal, Continuous Integration, VSCode, Vim</li>
+    <li><b>Programming Languages:</b> JavaScript, Python, Bash, C++, C, C#</li>
+    <li><b>Skills:</b> Git, Linux, MongoDB, Neovim, VSCode</li>
     <li><b>Spoken Languages:</b> English, Spanish</li>
   </ul>
 <h2>Education</h2>
@@ -75,7 +75,7 @@ description: My résumé, meant for anyone wishing to know about my work.
   <dt>
     <ul class="hfill bold">
       <span>Bachelor of Science, Computer Science</span>
-      <span>Pending, May 2022</span>
+      <span>May 2022</span>
     </ul>
   </dt>
   <dd>
@@ -128,6 +128,26 @@ description: My résumé, meant for anyone wishing to know about my work.
 </dl>
 <h2>Work Experience</h2>
 <dl>
+  <dt>
+    <ul class="hfill bold">
+      <span>Software Test and Verification Engineer, Dream Chaser</span>
+      <span>November 2022&ndash;Present</span>
+    </ul>
+  </dt>
+  <dd>
+    <ul class="hfill">
+      <span>Odyssey Space Research</span>
+      <span>Houston, TX</span>
+    </ul>
+    <ul>
+      <li>Migrated database back-end from <a href="https://github.com/Ivshti/linvodb3">LinvoDB</a> to <a href="https://www.mongodb.com/">MongoDB</a></li>
+      <li>Used aggregate queries to reduce query times by a factor of 10</li>
+      <li>Reduced database entry insertion time from 4 hours to 1 minute</li>
+      <li>Wrote asynchronous <a href="https://www.mongodb.com/">MongoDB</a> queries in JavaScript</li>
+      <li>Wrote JavaScript unit tests using the <a href="https://mochajs.org/">Mocha</a> and <a href="https://www.chaijs.com/">Chai</a> modules</li>
+      <li>Wrote Python unit tests using the <a href="https://docs.python.org/3/library/unittest.html">unittest</a> module</li>
+    </ul>
+  </dd>
   <dt>
     <ul class="hfill bold">
       <span>Research Assistant, <em>Computing Sciences Department</em></span>
