@@ -14,8 +14,8 @@ effort on your part past the initial setup.
 ## Block YouTube on your phone
 
 Download the [LeechBlock](https://www.proginosko.com/leechblock/) plugin into
-your phone's browser and use the plugin settings to block YouTube. For
-example, I modified _Block Set 1_ to block all _youtube_ URLs except for
+your phone's browser and use the plugin settings to block YouTube. For example,
+I modified _Block Set 1_ to block all _youtube_ URLs except for
 [music.youtube.com](https://music.youtube.com/):
 
 - Custom name for the block set:
@@ -44,7 +44,7 @@ example, I modified _Block Set 1_ to block all _youtube_ URLs except for
 
 ## Block YouTube on your computer
 
-Execute `sudoedit /etc/hosts` and add the following hostname-to-IP-address
-maps. Restart your browser or computer for changes to take effect.
+Execute `sudoedit /etc/hosts` and add the following hostname-to-IP-address maps.
+Restart your browser or computer for changes to take effect.
 
 <script src="https://gist.github.com/Luis-Licea/2322ab37e437698fdf3cfe0746dee1d7.js"></script>

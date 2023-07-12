@@ -1,6 +1,8 @@
 ---
 title: Shortest C program with a segmentation fault
-description: What is the smallest C program you can write that will give you segmentation fault?
+description:
+  What is the smallest C program you can write that will give you segmentation
+  fault?
 tags: Programming
 keywords: Programming
 ---
