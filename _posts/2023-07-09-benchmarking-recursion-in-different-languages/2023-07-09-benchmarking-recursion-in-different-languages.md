@@ -1,6 +1,6 @@
 ---
 title: Benchmarking recursion in different languages
-tags: Programming
+tags: [Programming, Benchmarkig]
 languages: [en]
 ---
 
