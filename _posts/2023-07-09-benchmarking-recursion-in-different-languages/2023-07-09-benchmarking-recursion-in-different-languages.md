@@ -10,16 +10,19 @@ controlled environment. I found that Python was slower than I expected, while
 JavaScript was faster than I expected. As for Bash, I found it pointless to
 continue measuring after the 5-hour mark.
 
-| Language   | Compiler/Interpreter | Flags          | Time        |
+Execution times for calculating the 39th term of the Fibonacci sequence:
+
+| Language   | Compiler/Interpreter | Flags          | Time (sec)  |
 | ---------- | -------------------- | -------------- | ----------- |
-| C          | gcc                  | -O3 -Ofast     | 0sec 266ms  |
-| C++        | g++                  | -O3 -Ofast     | 0sec 267ms  |
-| Rust       | rustc                | -C opt-level=3 | 0sec 433ms  |
-| Java       | javac/java           | None           | 0sec 715ms  |
-| JavaScript | node                 | None           | 1sec 185ms  |
-| Lua        | lua                  | None           | 9sec 152ms  |
-| Python     | python3              | None           | 15sec 831ms |
-| Bash       | bash                 | None           | 5hr+        |
+| C          | gcc                  | -O3 -Ofast     |       0.266 |
+| C++        | g++                  | -O3 -Ofast     |       0.267 |
+| Rust       | rustc                | -C opt-level=3 |       0.433 |
+| Java       | javac/java           | None           |       0.715 |
+| JavaScript | node 21.2.0          | None           |       0.802 |
+| Lua        | lua 5.2.4            | None           |       8.192 |
+| Python     | python3 3.11.6       | None           |      11.116 |
+| Perl       | perl 5.38.2          | None           |      40.427 |
+| Bash       | bash                 | None           |   18000.000 |
 
 ## Implementations
 
@@ -69,6 +72,13 @@ continue measuring after the 5-hour mark.
 <summary>Python</summary>
 {% highlight python %}
 {% include_relative assets/fibonacci.py %}
+{% endhighlight %}
+</details>
+
+<details>
+<summary>Perl</summary>
+{% highlight perl %}
+{% include_relative assets/fibonacci.pl %}
 {% endhighlight %}
 </details>
 
