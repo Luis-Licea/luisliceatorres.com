@@ -15,7 +15,7 @@ sub fibonacci {
 
 sub main {
     if (scalar @ARGV >= 1) {
-        my $value = fibonacci($ARGV[0]);
+        my $value = fibonacci(int($ARGV[0]));
         say($value);
     }
 }

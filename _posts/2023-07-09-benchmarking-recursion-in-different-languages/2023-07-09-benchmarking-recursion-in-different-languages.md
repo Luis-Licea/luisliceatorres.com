@@ -13,15 +13,15 @@ continue measuring after the 5-hour mark.
 Execution times for calculating the 39th term of the Fibonacci sequence:
 
 | Language   | Compiler/Interpreter | Flags          | Time (sec)  |
-| ---------- | -------------------- | -------------- | ----------- |
-| C          | gcc                  | -O3 -Ofast     |       0.266 |
-| C++        | g++                  | -O3 -Ofast     |       0.267 |
-| Rust       | rustc                | -C opt-level=3 |       0.433 |
-| Java       | javac/java           | None           |       0.715 |
+| ---------- | -------------------- | -------------- | ----------: |
+| C          | gcc 12.3.0           | -O3 -Ofast     |       0.124 |
+| C++        | g++ 12.3.0           | -O3 -Ofast     |       0.125 |
+| Rust       | rustc 1.73.0         | -C opt-level=3 |       0.247 |
+| Java       | javac/java 17.0.7    | None           |       0.460 |
 | JavaScript | node 21.2.0          | None           |       0.802 |
 | Lua        | lua 5.2.4            | None           |       8.192 |
-| Python     | python3 3.11.6       | None           |      11.116 |
-| Perl       | perl 5.38.2          | None           |      40.427 |
+| Python     | python3 3.11.6       | None           |      10.828 |
+| Perl       | perl 5.38.2          | None           |      38.966 |
 | Bash       | bash                 | None           |   18000.000 |
 
 ## Implementations
