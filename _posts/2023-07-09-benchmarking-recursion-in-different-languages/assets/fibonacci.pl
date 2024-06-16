@@ -26,33 +26,29 @@ unless (caller) {
 
 __END__
 
-=head1 Methods
-
-=head2 main
+=head1 DESCRIPTION
 
 Calculate a Fibonacci sequence number from user input.
 
-=head2 fibonacci
+=cut
+
+=head1 FUNCTIONS
+
+=over
+
+=item fibonacci($term)
 
 Calculate a Fibonacci sequence number.
 
-Arguments:
+$term C<int> is the sequence number to produce. Don't use large numbers as the
+time complexity is exponential.
 
-=over
+Returns C<int>, the sequence number.
 
-=item C<$term>: C<int>
+=item main
 
-The sequence number to produce. Don't use large numbers as
-the time complexity is exponential.
-
-=back
-
-Return:
-
-=over
-
-=item C<int>
-
-The sequence number.
+Calculate a Fibonacci sequence number from user input.
 
 =back
+
+=cut
