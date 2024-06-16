@@ -24,6 +24,7 @@ Execution times for calculating the 39th term of the Fibonacci sequence:
 | Lua        | lua 5.2.4            | None           |       8.192 |
 | Python     | python3 3.11.6       | None           |      10.828 |
 | Perl       | perl 5.38.2          | None           |      38.966 |
+| Vimscript  | nvim 0.10.0          | None           |     346.000 |
 | Bash       | bash                 | None           |   18000.000 |
 
 ## Implementations
@@ -81,6 +82,13 @@ Execution times for calculating the 39th term of the Fibonacci sequence:
 <summary>Perl</summary>
 {% highlight perl %}
 {% include_relative assets/fibonacci.pl %}
+{% endhighlight %}
+</details>
+
+<details>
+<summary>Vimscript</summary>
+{% highlight vimscript %}
+{% include_relative assets/fibonacci.vim %}
 {% endhighlight %}
 </details>
 
