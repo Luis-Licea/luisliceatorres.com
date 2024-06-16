@@ -7,8 +7,10 @@ languages: [en]
 I used the Fibonacci sequence to test the speed of recursive calls in different
 languages. Take the results with a grain of salt because my computer is not a
 controlled environment. I found that Python was slower than I expected, while
-JavaScript was faster than I expected. As for Bash, I found it pointless to
-continue measuring after the 5-hour mark.
+JavaScript was faster than I expected. Bash was more than 100,000 times
+slower than C because the Bash benchmark did not finish after the 5-hour mark.
+My hypothesis is that Bash is very slow because math is done in sub-shells,
+requiring bash to spawn a process for every arithmetic operation.
 
 Execution times for calculating the 39th term of the Fibonacci sequence:
 
