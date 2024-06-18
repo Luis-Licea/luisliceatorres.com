@@ -16,9 +16,9 @@ The results show that Bash, in average, executed the commands in the shortest
 amount of time. It also shows that the slowest language, Python, was 34% slower
 than Bash. This is surprising considering that [Bash is exceptionally slow at
 recursion](
-{% post_url 2023-07-09-benchmarking-recursion-in-different-languages %}) and
-[Bash is slow at arithmetic](
-{% post_url 2024-06-08-benchmarking-arithmetic-in-different-languages %}).
+{% post_url 2023-07-09-benchmarking-recursion-in-different-languages/2023-07-09-benchmarking-recursion-in-different-languages %})
+and [Bash is slow at arithmetic](
+{% post_url 2024-06-08-benchmarking-arithmetic-in-different-languages/2024-06-08-benchmarking-arithmetic-in-different-languages %}).
 
 Python and JavaScript, despite being slower at this specific task, provide:
 

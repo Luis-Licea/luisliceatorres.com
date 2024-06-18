@@ -23,10 +23,10 @@ Unsurprisingly, the Rust implementation was the fastest. This is likely due to
 Rust being a compiled language while the other languages are interpreted. This
 shows that Bash is not designed to perform arithmetic operations since it is
 slow at addition and [exceptionally slow at recursion](
-{% post_url 2023-07-09-benchmarking-recursion-in-different-languages %}).
+{% post_url 2023-07-09-benchmarking-recursion-in-different-languages/2023-07-09-benchmarking-recursion-in-different-languages %}).
 Instead, Bash should be used for calling external commands since it is [the
 fastest command interpreter](
-{% post_url 2024-06-15-benchmarking-external-command-execution-time %}).
+{% post_url 2024-06-15-benchmarking-external-command-execution-time/2024-06-15-benchmarking-external-command-execution-time %}).
 
 Execution times for calculating the series sum of 100,000:
 
