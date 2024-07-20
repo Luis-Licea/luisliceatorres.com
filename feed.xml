@@ -1,0 +1,1334 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://luisliceatorres.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://luisliceatorres.com/" rel="alternate" type="text/html" /><updated>2024-07-20T02:46:49+00:00</updated><id>https://luisliceatorres.com/feed.xml</id><title type="html">Luis D. Licea Torres</title><subtitle>A portfolio website for projects and blogs.</subtitle><author><name>Luis David Licea Torres</name><email>luisliceatorres@gmail.com</email></author><entry><title type="html">Install Nix and Home-Manager in PinePhone via Arch Linux</title><link href="https://luisliceatorres.com/2024/07/19/install-nix-and-home-manager-in-pinephone-via-arch-linux.html" rel="alternate" type="text/html" title="Install Nix and Home-Manager in PinePhone via Arch Linux" /><published>2024-07-19T00:00:00+00:00</published><updated>2024-07-19T00:00:00+00:00</updated><id>https://luisliceatorres.com/2024/07/19/install-nix-and-home-manager-in-pinephone-via-arch-linux</id><content type="html" xml:base="https://luisliceatorres.com/2024/07/19/install-nix-and-home-manager-in-pinephone-via-arch-linux.html"><![CDATA[<p>I am running <a href="https://github.com/dreemurrs-embedded/Pine64-Arch/releases/download/20240326/archlinux-pinephone-phosh-20240326.img.xz">Arch Linux ARM</a> on my <a href="https://pine64.org/devices/pinephone/">PinePhone</a>. Installing the native <code class="language-plaintext highlighter-rouge">nix</code>
+package via <code class="language-plaintext highlighter-rouge">sudo pacman -S nix</code> did not work for me because I ran into
+<code class="language-plaintext highlighter-rouge">libboost_context.so</code> shared library errors. I had to remove and cleanup the
+<code class="language-plaintext highlighter-rouge">nix</code> installation and use the official <a href="https://nixos.org/nix/install">Nix installation script</a>.</p>
+
+<p>Before running the <a href="https://nixos.org/nix/install">Nix installation script</a> I had to uninstall the native <code class="language-plaintext highlighter-rouge">nix</code>
+package with <code class="language-plaintext highlighter-rouge">sudo pacman -Rs nix</code> and remove the users and groups that had been
+created, otherwise the official script would fail:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for </span>i <span class="k">in</span> <span class="o">{</span>01..10<span class="o">}</span><span class="p">;</span> <span class="k">do
+    </span><span class="nb">sudo </span>userdel <span class="s2">"nixbld</span><span class="nv">$i</span><span class="s2">"</span><span class="p">;</span>
+<span class="k">done</span><span class="p">;</span>
+<span class="nb">sudo </span>groupdel nixbld
+</code></pre></div></div>
+
+<p>Then, I used the following commands to install <code class="language-plaintext highlighter-rouge">nix</code> and <code class="language-plaintext highlighter-rouge">home-manager</code>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-L</span> https://nixos.org/nix/install | sh <span class="nt">-s</span> <span class="nt">--</span> <span class="nt">--daemon</span>
+<span class="nb">sudo </span>systemctl <span class="nb">enable </span>nix-daemon.service
+<span class="nb">sudo </span>usermod <span class="nt">-aG</span> nix-users <span class="nv">$USER</span>
+nix-channel <span class="nt">--add</span> https://nixos.org/channels/nixpkgs-unstable
+nix-channel <span class="nt">--add</span> https://github.com/nix-community/home-manager/archive/master.tar.gz home-manager
+nix-channel <span class="nt">--update</span>
+nix-shell <span class="s1">'&lt;home-manager&gt;'</span> <span class="nt">-A</span> <span class="nb">install</span>
+</code></pre></div></div>
+
+<p>Then I used <code class="language-plaintext highlighter-rouge">home-manager edit</code> and <code class="language-plaintext highlighter-rouge">home-manager switch</code> to add packages to the
+home-manger configuration file and install the packages.</p>
+
+<p>Installing different <code class="language-plaintext highlighter-rouge">nixpkgs</code> channels is described in the <a href="https://nix-community.github.io/home-manager/index.xhtml#sec-install-standalone">Home-Manager standalone installation</a> section.</p>]]></content><author><name>Luis David Licea Torres</name></author><category term="Programming" /><summary type="html"><![CDATA[I am running Arch Linux ARM on my PinePhone. Installing the native nix package via sudo pacman -S nix did not work for me because I ran into libboost_context.so shared library errors. I had to remove and cleanup the nix installation and use the official Nix installation script.]]></summary></entry><entry><title type="html">Benchmarking external command execution time</title><link href="https://luisliceatorres.com/2024/06/15/benchmarking-external-command-execution-time.html" rel="alternate" type="text/html" title="Benchmarking external command execution time" /><published>2024-06-15T00:00:00+00:00</published><updated>2024-06-15T00:00:00+00:00</updated><id>https://luisliceatorres.com/2024/06/15/benchmarking-external-command-execution-time</id><content type="html" xml:base="https://luisliceatorres.com/2024/06/15/benchmarking-external-command-execution-time.html"><![CDATA[<p>Bash is a command interpreter used in system scripts for calling external
+commands, so I wanted to compare the speed of Bash to the speed of other
+interpreted languages by doing a simple test.</p>
+
+<p>For the test, the scripts call the same external command one hundred times and
+then the times are compared to see which interpreter executed the commands in
+the shortest time.</p>
+
+<p>The results show that Bash, in average, executed the commands in the shortest
+amount of time. It also shows that the slowest language, Python, was 34% slower
+than Bash. This is surprising considering that <a href="/2023/07/09/benchmarking-recursion-in-different-languages.html">Bash is exceptionally slow at
+recursion</a>
+and <a href="/2024/06/08/benchmarking-arithmetic-in-different-languages.html">Bash is slow at arithmetic</a>.</p>
+
+<p>Python and JavaScript, despite being slower at this specific task, provide:</p>
+
+<ul>
+  <li>Support for object-oriented code</li>
+  <li>Package managers</li>
+  <li>Rich standard libraries</li>
+  <li>Development tools like linters</li>
+</ul>
+
+<p>This means that you can write scripts that call external commands in your
+preferred language instead of in Bash if you find a performance loss of 34%
+acceptable. For example, I prefer to write Git hooks in JavaScript when working
+in JavaScript projects instead of writing the hooks in Bash.</p>
+
+<p>Execution times for calling an external command one hundred times:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Command</th>
+      <th style="text-align: left">Interpreter</th>
+      <th style="text-align: right">Mean [s]</th>
+      <th style="text-align: right">Min [s]</th>
+      <th style="text-align: right">Max [s]</th>
+      <th style="text-align: right">Relative</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">./test.bash</code></td>
+      <td style="text-align: left">bash 5.2.26</td>
+      <td style="text-align: right">3.230 ± 0.285</td>
+      <td style="text-align: right">2.712</td>
+      <td style="text-align: right">3.670</td>
+      <td style="text-align: right">1.00</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">./test.pl</code></td>
+      <td style="text-align: left">perl 5.38.2</td>
+      <td style="text-align: right">4.079 ± 0.265</td>
+      <td style="text-align: right">3.652</td>
+      <td style="text-align: right">4.529</td>
+      <td style="text-align: right">1.26 ± 0.14</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">./test.mjs</code></td>
+      <td style="text-align: left">node 22.2.0</td>
+      <td style="text-align: right">4.252 ± 0.106</td>
+      <td style="text-align: right">4.109</td>
+      <td style="text-align: right">4.427</td>
+      <td style="text-align: right">1.32 ± 0.12</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">./test.py</code></td>
+      <td style="text-align: left">python 3.11.9</td>
+      <td style="text-align: right">4.341 ± 0.190</td>
+      <td style="text-align: right">4.058</td>
+      <td style="text-align: right">4.630</td>
+      <td style="text-align: right">1.34 ± 0.13</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="implementations">Implementations</h2>
+
+<details>
+<summary>Bash</summary>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/usr/bin/env bash</span>
+<span class="k">for </span>_ <span class="k">in</span> <span class="o">{</span>1..100<span class="o">}</span><span class="p">;</span> <span class="k">do
+    </span>nix <span class="nb">eval</span> <span class="nt">--expr</span> 1+1<span class="p">;</span>
+<span class="k">done</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>Perl</summary>
+
+<figure class="highlight"><pre><code class="language-perl" data-lang="perl"><span class="c1">#!/usr/bin/env perl</span>
+<span class="nb">system</span> <span class="sx">qw(nix eval --expr 1+1)</span> <span class="k">for</span> <span class="mi">1</span> <span class="o">..</span> <span class="mi">100</span><span class="p">;</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>JavaScript</summary>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="cp">#!/usr/bin/env node
+</span><span class="k">import</span> <span class="p">{</span><span class="nx">execSync</span><span class="p">}</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">node:child_process</span><span class="dl">"</span><span class="p">;</span>
+<span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="mi">100</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">process</span><span class="p">.</span><span class="nx">stdout</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="nx">execSync</span><span class="p">(</span><span class="dl">"</span><span class="s2">nix eval --expr 1+1</span><span class="dl">"</span><span class="p">,</span> <span class="p">{</span><span class="na">encoding</span><span class="p">:</span> <span class="dl">"</span><span class="s2">utf-8</span><span class="dl">"</span><span class="p">}));</span>
+<span class="p">}</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>Python</summary>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c1">#!/usr/bin/env python3
+</span><span class="kn">from</span> <span class="nn">subprocess</span> <span class="kn">import</span> <span class="n">call</span>
+<span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">100</span><span class="p">):</span>
+    <span class="n">call</span><span class="p">([</span><span class="s">"nix"</span><span class="p">,</span> <span class="s">"eval"</span><span class="p">,</span> <span class="s">"--expr"</span><span class="p">,</span> <span class="s">"1+1"</span><span class="p">])</span></code></pre></figure>
+
+</details>]]></content><author><name>Luis David Licea Torres</name></author><category term="Programming" /><category term="Benchmarkig" /><summary type="html"><![CDATA[Bash is a command interpreter used in system scripts for calling external commands, so I wanted to compare the speed of Bash to the speed of other interpreted languages by doing a simple test.]]></summary></entry><entry><title type="html">Benchmarking arithmetic in different languages</title><link href="https://luisliceatorres.com/2024/06/08/benchmarking-arithmetic-in-different-languages.html" rel="alternate" type="text/html" title="Benchmarking arithmetic in different languages" /><published>2024-06-08T00:00:00+00:00</published><updated>2024-06-08T00:00:00+00:00</updated><id>https://luisliceatorres.com/2024/06/08/benchmarking-arithmetic-in-different-languages</id><content type="html" xml:base="https://luisliceatorres.com/2024/06/08/benchmarking-arithmetic-in-different-languages.html"><![CDATA[<p>This simple benchmark compares the speed at which different languages are able
+to sum values:</p>
+<math display="block" style="font-size: x-large; margin: 0.5em;">
+    <munderover>
+        <mo>∑</mo>
+        <mrow>
+            <mi>i</mi>
+            <mo>=</mo>
+            <mn>0</mn>
+        </mrow>
+        <mn>10000</mn>
+    </munderover>
+    <mi>i</mi>
+</math>
+
+<p>Unsurprisingly, the Rust implementation was the fastest. This is likely due to
+Rust being a compiled language while the other languages are interpreted. This
+shows that Bash is not designed to perform arithmetic operations since it is
+slow at addition and <a href="/2023/07/09/benchmarking-recursion-in-different-languages.html">exceptionally slow at recursion</a>.
+Instead, Bash should be used for calling external commands since it is <a href="/2024/06/15/benchmarking-external-command-execution-time.html">the
+fastest command interpreter</a>.</p>
+
+<p>Execution times for calculating the series sum of 100,000:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Language</th>
+      <th style="text-align: right">Mean [ms]</th>
+      <th style="text-align: right">Min [ms]</th>
+      <th style="text-align: right">Max [ms]</th>
+      <th style="text-align: right">Relative</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">rustc 1.79.0</td>
+      <td style="text-align: right">24.4 ± 11.2</td>
+      <td style="text-align: right">7.7</td>
+      <td style="text-align: right">39.4</td>
+      <td style="text-align: right">1.00</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">perl 5.38.2</td>
+      <td style="text-align: right">28.1 ± 11.5</td>
+      <td style="text-align: right">9.3</td>
+      <td style="text-align: right">43.5</td>
+      <td style="text-align: right">1.15 ± 0.71</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">python 3.11.9</td>
+      <td style="text-align: right">35.1 ± 12.6</td>
+      <td style="text-align: right">16.5</td>
+      <td style="text-align: right">48.1</td>
+      <td style="text-align: right">1.44 ± 0.84</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">node 22.2.0</td>
+      <td style="text-align: right">46.7 ± 10.5</td>
+      <td style="text-align: right">33.1</td>
+      <td style="text-align: right">63.2</td>
+      <td style="text-align: right">1.91 ± 0.98</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">bash 5.2.26</td>
+      <td style="text-align: right">307.2 ± 13.6</td>
+      <td style="text-align: right">289.6</td>
+      <td style="text-align: right">325.4</td>
+      <td style="text-align: right">12.59 ± 5.81</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="implementations">Implementations</h2>
+
+<details>
+<summary>Rust</summary>
+
+<figure class="highlight"><pre><code class="language-rust" data-lang="rust"><span class="err">#</span><span class="o">!/</span><span class="n">usr</span><span class="o">/</span><span class="n">bin</span><span class="o">/</span><span class="n">env</span> <span class="n">cached</span><span class="o">-</span><span class="n">nix</span><span class="o">-</span><span class="n">shell</span>
+<span class="cm">/*
+#!nix-shell -i rust-script -p rustc -p rust-script -p cargo
+*/</span>
+
+<span class="cd">//! Do arithmetic operations.</span>
+<span class="k">use</span> <span class="nn">std</span><span class="p">::</span><span class="nn">env</span><span class="p">::</span><span class="n">args</span><span class="p">;</span>
+
+<span class="cd">/// Perform sum operations.</span>
+<span class="cd">///</span>
+<span class="cd">/// * `operations`: The number of operations to perform.</span>
+<span class="cd">///</span>
+<span class="cd">/// Returns the series sum.</span>
+<span class="k">fn</span> <span class="nf">do_sum</span><span class="p">(</span><span class="n">operations</span><span class="p">:</span> <span class="nb">i32</span><span class="p">)</span> <span class="k">-&gt;</span> <span class="nb">i32</span> <span class="p">{</span>
+    <span class="k">let</span> <span class="k">mut</span> <span class="n">counter</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="k">in</span> <span class="mi">0</span><span class="o">..</span><span class="n">operations</span> <span class="o">+</span> <span class="mi">1</span> <span class="p">{</span>
+        <span class="n">counter</span> <span class="o">=</span> <span class="n">counter</span> <span class="o">+</span> <span class="n">i</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="n">counter</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="cd">/// Do the number of arithmetic operations specified by the user input.</span>
+<span class="k">fn</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">let</span> <span class="n">arguments</span><span class="p">:</span> <span class="nb">Vec</span><span class="o">&lt;</span><span class="nb">String</span><span class="o">&gt;</span> <span class="o">=</span> <span class="nf">args</span><span class="p">()</span><span class="nf">.collect</span><span class="p">();</span>
+    <span class="k">if</span> <span class="k">let</span> <span class="nf">Some</span><span class="p">(</span><span class="n">argument</span><span class="p">)</span> <span class="o">=</span> <span class="n">arguments</span><span class="nf">.get</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">let</span> <span class="n">operations</span><span class="p">:</span> <span class="nb">i32</span> <span class="o">=</span> <span class="n">argument</span><span class="nf">.parse</span><span class="p">()</span><span class="nf">.unwrap_or</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+        <span class="k">let</span> <span class="n">result</span> <span class="o">=</span> <span class="nf">do_sum</span><span class="p">(</span><span class="n">operations</span><span class="p">);</span>
+        <span class="nd">println!</span><span class="p">(</span><span class="s">"{}"</span><span class="p">,</span> <span class="n">result</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>Perl</summary>
+
+<figure class="highlight"><pre><code class="language-perl" data-lang="perl"><span class="c1">#!/usr/bin/env perl</span>
+<span class="k">use</span> <span class="nv">strict</span><span class="p">;</span>
+<span class="k">use</span> <span class="nv">warnings</span><span class="p">;</span>
+
+<span class="cm">=head1 DESCRIPTION
+
+Do arithmetic operations.
+
+=head1 FUNCTIONS
+
+=over
+
+=item count($total)
+
+Perform sum operations.
+
+$total C&lt;int&gt; is the number of operations to perform.
+
+Returns C&lt;int&gt;, the series sum.
+
+=back
+
+=cut</span>
+<span class="k">sub </span><span class="nf">doSum</span> <span class="p">{</span>
+    <span class="k">my</span> <span class="nv">$total</span> <span class="o">=</span> <span class="nb">shift</span><span class="p">;</span>
+    <span class="k">my</span> <span class="nv">$sum</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">for</span> <span class="k">my</span> <span class="nv">$i</span> <span class="p">(</span><span class="mi">1</span><span class="o">..</span><span class="nv">$total</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nv">$sum</span> <span class="o">=</span> <span class="nv">$sum</span> <span class="o">+</span> <span class="nv">$i</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="nv">$sum</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="k">print</span> <span class="nv">doSum</span> <span class="nb">shift</span><span class="p">;</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>Python</summary>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c1">#!/usr/bin/env python3
+</span><span class="s">"""Do arithmetic operations."""</span>
+<span class="kn">from</span> <span class="nn">sys</span> <span class="kn">import</span> <span class="n">argv</span>
+
+
+<span class="k">def</span> <span class="nf">do_sum</span><span class="p">(</span><span class="n">operations</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="s">"""Perform sum operations.
+
+    Args:
+        operations (int): The number of operations to perform.
+
+    Returns:
+        int: The series sum.
+    """</span>
+    <span class="n">counter</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">operations</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+        <span class="n">counter</span> <span class="o">=</span> <span class="n">counter</span> <span class="o">+</span> <span class="n">i</span>
+    <span class="k">return</span> <span class="n">counter</span>
+
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="s">"""Calculate a Fibonacci sequence number from user input."""</span>
+    <span class="n">term</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">do_sum</span><span class="p">(</span><span class="n">term</span><span class="p">))</span>
+
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>JavaScript</summary>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="cp">#!/usr/bin/env node
+</span><span class="cm">/**
+ * @module Do arithmetic operations.
+ */</span>
+
+<span class="cm">/**
+ * Perform sum operations.
+ *
+ * @param {number} operations The number of operations to perform.
+ * @returns {number} The series sum.
+ */</span>
+<span class="kd">function</span> <span class="nx">doSum</span><span class="p">(</span><span class="nx">operations</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">let</span> <span class="nx">sum</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="nx">operations</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">sum</span> <span class="o">=</span> <span class="nx">sum</span> <span class="o">+</span> <span class="nx">i</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="nx">sum</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kd">const</span> <span class="nx">term</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">process</span><span class="p">.</span><span class="nx">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">]);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">doSum</span><span class="p">(</span><span class="nx">term</span><span class="p">));</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>Bash</summary>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/usr/bin/env bash</span>
+<span class="c"># Do arithmetic operations.</span>
+
+<span class="c">#######################################</span>
+<span class="c"># Perform sum operations.</span>
+<span class="c"># Arguments:</span>
+<span class="c">#   $1: The number of operations to perform</span>
+<span class="c"># Returns:</span>
+<span class="c">#   int: The series sum.</span>
+<span class="c">#######################################</span>
+count<span class="o">()</span> <span class="o">{</span>
+    <span class="nb">local sum</span><span class="o">=</span>0
+    <span class="k">for</span> <span class="o">((</span>i <span class="o">=</span> 0<span class="p">;</span> i &lt;<span class="o">=</span> <span class="nv">$1</span><span class="p">;</span> i++<span class="o">))</span><span class="p">;</span> <span class="k">do</span>
+        <span class="o">((</span><span class="nb">sum</span> <span class="o">=</span> <span class="nb">sum</span> + i<span class="o">))</span>
+    <span class="k">done
+    </span><span class="nb">echo</span> <span class="nv">$sum</span>
+<span class="o">}</span>
+
+count <span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span></code></pre></figure>
+
+</details>]]></content><author><name>Luis David Licea Torres</name></author><category term="Programming" /><category term="Benchmarkig" /><summary type="html"><![CDATA[This simple benchmark compares the speed at which different languages are able to sum values: ∑ i = 0 10000 i]]></summary></entry><entry><title type="html">Benchmarking recursion in different languages</title><link href="https://luisliceatorres.com/2023/07/09/benchmarking-recursion-in-different-languages.html" rel="alternate" type="text/html" title="Benchmarking recursion in different languages" /><published>2023-07-09T00:00:00+00:00</published><updated>2023-07-09T00:00:00+00:00</updated><id>https://luisliceatorres.com/2023/07/09/benchmarking-recursion-in-different-languages</id><content type="html" xml:base="https://luisliceatorres.com/2023/07/09/benchmarking-recursion-in-different-languages.html"><![CDATA[<p>I used the Fibonacci sequence to test the speed of recursive calls in different
+languages. Take the results with a grain of salt because my computer is not a
+controlled environment. I found that Python was slower than I expected, while
+JavaScript was faster than I expected. Bash was more than 100,000 times
+slower than C because the Bash benchmark did not finish after the 5-hour mark.
+My hypothesis is that Bash is very slow because math is done in sub-shells,
+requiring bash to spawn a process for every arithmetic operation.</p>
+
+<p>Execution times for calculating the 39th term of the Fibonacci sequence:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Language</th>
+      <th>Compiler/Interpreter</th>
+      <th>Flags</th>
+      <th style="text-align: right">Time (sec)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C</td>
+      <td>gcc 12.3.0</td>
+      <td>-O3 -Ofast</td>
+      <td style="text-align: right">0.124</td>
+    </tr>
+    <tr>
+      <td>C++</td>
+      <td>g++ 12.3.0</td>
+      <td>-O3 -Ofast</td>
+      <td style="text-align: right">0.125</td>
+    </tr>
+    <tr>
+      <td>Rust</td>
+      <td>rustc 1.73.0</td>
+      <td>-C opt-level=3</td>
+      <td style="text-align: right">0.247</td>
+    </tr>
+    <tr>
+      <td>Java</td>
+      <td>javac/java 17.0.7</td>
+      <td>None</td>
+      <td style="text-align: right">0.460</td>
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td>node 21.2.0</td>
+      <td>None</td>
+      <td style="text-align: right">0.802</td>
+    </tr>
+    <tr>
+      <td>Lua</td>
+      <td>lua 5.2.4</td>
+      <td>None</td>
+      <td style="text-align: right">8.192</td>
+    </tr>
+    <tr>
+      <td>Python</td>
+      <td>python3 3.11.6</td>
+      <td>None</td>
+      <td style="text-align: right">10.828</td>
+    </tr>
+    <tr>
+      <td>Perl</td>
+      <td>perl 5.38.2</td>
+      <td>None</td>
+      <td style="text-align: right">38.966</td>
+    </tr>
+    <tr>
+      <td>Vimscript</td>
+      <td>nvim 0.10.0</td>
+      <td>None</td>
+      <td style="text-align: right">346.000</td>
+    </tr>
+    <tr>
+      <td>Bash</td>
+      <td>bash</td>
+      <td>None</td>
+      <td style="text-align: right">18000.000</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="implementations">Implementations</h2>
+
+<details>
+<summary>C</summary>
+
+<figure class="highlight"><pre><code class="language-c" data-lang="c"><span class="cm">/**
+ * @file
+ * @brief Calculate the a Fibonacci sequence number from user input.
+ */</span>
+<span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;stdlib.h&gt;</span><span class="cp">
+</span>
+<span class="cm">/**
+ * @brief Calculate a Fibonacci sequence number.
+ *
+ * @param term The sequence number to produce. Don't use large
+ * numbers as the time complexity is exponential.
+ * @return The sequence number.
+ */</span>
+<span class="kt">int</span> <span class="nf">fibonacci</span><span class="p">(</span><span class="kt">int</span> <span class="n">term</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// Base case.</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">term</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">term</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="c1">// Recursive step.</span>
+    <span class="k">return</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">2</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="cm">/**
+ * @brief Calculate a Fibonacci sequence number from user input.
+ *
+ * @param argc The argument count.
+ * @param argv The argument vector.
+ * @return The error code.
+ */</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">**</span><span class="n">argv</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">argc</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kt">int</span> <span class="n">term</span> <span class="o">=</span> <span class="n">atoi</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span>
+        <span class="kt">int</span> <span class="n">result</span> <span class="o">=</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span><span class="p">);</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">"%d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">result</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>C++</summary>
+
+<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="cm">/**
+ * @file
+ * @brief Calculate a Fibonacci sequence number from user input.
+ */</span>
+<span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span>
+<span class="cm">/**
+ * @brief Calculate a Fibonacci sequence number.
+ *
+ * @param term The sequence number to produce. Don't use large
+ * numbers as the time complexity is exponential.
+ * @return The sequence number.
+ */</span>
+<span class="kt">int</span> <span class="nf">fibonacci</span><span class="p">(</span><span class="kt">int</span> <span class="n">term</span><span class="p">)</span> <span class="p">{</span>
+  <span class="c1">// Base case.</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">term</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">term</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="c1">// Recursive step.</span>
+  <span class="k">return</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">2</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="cm">/**
+ * @brief Calculate a Fibonacci sequence number from user input.
+ *
+ * @param argc The argument count.
+ * @param argv The argument vector.
+ * @return The error code.
+ */</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">**</span><span class="n">argv</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">argc</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">term</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">stoi</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span>
+    <span class="kt">int</span> <span class="n">result</span> <span class="o">=</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span><span class="p">);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">result</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>Rust</summary>
+
+<figure class="highlight"><pre><code class="language-rust" data-lang="rust"><span class="cd">//! Calculate a Fibonacci sequence number from user input.</span>
+<span class="k">use</span> <span class="nn">std</span><span class="p">::</span><span class="nn">env</span><span class="p">::</span><span class="n">args</span><span class="p">;</span>
+
+<span class="cd">/// Calculate a Fibonacci sequence number.</span>
+<span class="cd">///</span>
+<span class="cd">/// * `term`: The sequence number to produce. Don't use large numbers as the</span>
+<span class="cd">/// time complexity is exponential.</span>
+<span class="k">fn</span> <span class="nf">fibonacci</span><span class="p">(</span><span class="n">term</span><span class="p">:</span> <span class="nb">i32</span><span class="p">)</span> <span class="k">-&gt;</span> <span class="nb">i32</span> <span class="p">{</span>
+    <span class="c1">// Base case.</span>
+    <span class="k">if</span> <span class="n">term</span> <span class="o">&lt;=</span> <span class="mi">1</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">term</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="c1">// Recursive step.</span>
+    <span class="nf">fibonacci</span><span class="p">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="nf">fibonacci</span><span class="p">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="cd">/// Calculate a Fibonacci sequence number from user input.</span>
+<span class="k">fn</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">let</span> <span class="n">arguments</span><span class="p">:</span> <span class="nb">Vec</span><span class="o">&lt;</span><span class="nb">String</span><span class="o">&gt;</span> <span class="o">=</span> <span class="nf">args</span><span class="p">()</span><span class="nf">.collect</span><span class="p">();</span>
+    <span class="k">if</span> <span class="k">let</span> <span class="nf">Some</span><span class="p">(</span><span class="n">argument</span><span class="p">)</span> <span class="o">=</span> <span class="n">arguments</span><span class="nf">.get</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">let</span> <span class="n">term</span><span class="p">:</span> <span class="nb">i32</span> <span class="o">=</span> <span class="n">argument</span><span class="nf">.parse</span><span class="p">()</span><span class="nf">.unwrap_or</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+        <span class="k">let</span> <span class="n">result</span> <span class="o">=</span> <span class="nf">fibonacci</span><span class="p">(</span><span class="n">term</span><span class="p">);</span>
+        <span class="nd">println!</span><span class="p">(</span><span class="s">"{}"</span><span class="p">,</span> <span class="n">result</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>Java</summary>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="cm">/**
+ * Calculate a Fibonacci sequence number from user input.
+ */</span>
+<span class="kd">class</span> <span class="nc">Fibonacci</span> <span class="o">{</span>
+    <span class="cm">/**
+     * Calculate a Fibonacci sequence number.
+     *
+     * @param term The sequence number to produce. Don't use large numbers as
+     * the time complexity is exponential.
+     *
+     * @return The sequence number.
+     */</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">int</span> <span class="nf">fibonacci</span><span class="o">(</span><span class="kt">int</span> <span class="n">term</span><span class="o">)</span> <span class="o">{</span>
+        <span class="c1">// Base case.</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">term</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="o">)</span> <span class="o">{</span>
+            <span class="k">return</span> <span class="n">term</span><span class="o">;</span>
+        <span class="o">}</span>
+        <span class="c1">// Recursive step.</span>
+        <span class="k">return</span> <span class="nf">fibonacci</span><span class="o">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">1</span><span class="o">)</span> <span class="o">+</span> <span class="n">fibonacci</span><span class="o">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">2</span><span class="o">);</span>
+    <span class="o">}</span>
+
+    <span class="cm">/**
+     * Calculate a Fibonacci sequence number from user input.
+     *
+     * @param args The command-line arguments.
+     */</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">args</span><span class="o">.</span><span class="na">length</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span>
+            <span class="kt">int</span> <span class="n">term</span> <span class="o">=</span> <span class="nc">Integer</span><span class="o">.</span><span class="na">parseInt</span><span class="o">(</span><span class="n">args</span><span class="o">[</span><span class="mi">0</span><span class="o">]);</span>
+            <span class="kt">int</span> <span class="n">result</span> <span class="o">=</span> <span class="n">fibonacci</span><span class="o">(</span><span class="n">term</span><span class="o">);</span>
+            <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">result</span><span class="o">);</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+<span class="o">}</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>JavaScript</summary>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="cp">#!/usr/bin/env node
+</span>
+<span class="cm">/**
+ * @module Calculate a Fibonacci sequence number from user input.
+ */</span>
+
+<span class="cm">/**
+ * Calculate a Fibonacci sequence number.
+ *
+ * @param {number} term The sequence number to produce. Don't use large numbers
+ * as the time complexity is exponential.
+ * @returns {number} The sequence number.
+ */</span>
+<span class="kd">function</span> <span class="nx">fibonacci</span><span class="p">(</span><span class="nx">term</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// Base case.</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">term</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="nx">term</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="c1">// Recursive step.</span>
+    <span class="k">return</span> <span class="nx">fibonacci</span><span class="p">(</span><span class="nx">term</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="nx">fibonacci</span><span class="p">(</span><span class="nx">term</span> <span class="o">-</span> <span class="mi">2</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="nx">process</span><span class="p">.</span><span class="nx">argv</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">const</span> <span class="nx">term</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">process</span><span class="p">.</span><span class="nx">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">]);</span>
+    <span class="kd">const</span> <span class="nx">result</span> <span class="o">=</span> <span class="nx">fibonacci</span><span class="p">(</span><span class="nx">term</span><span class="p">);</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">result</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>Lua</summary>
+
+<figure class="highlight"><pre><code class="language-lua" data-lang="lua"><span class="cp">#!/usr/bin/env lua</span>
+<span class="c1">--- @module Calculate a Fibonacci sequence number from user input.</span>
+
+<span class="c1">--- Calculate a Fibonacci sequence number.</span>
+<span class="c1">--- @param term number The sequence number to produce. Don't use large numbers as</span>
+<span class="c1">--- the time complexity is exponential.</span>
+<span class="c1">--- @return number</span>
+<span class="kd">local</span> <span class="k">function</span> <span class="nf">fibonacci</span><span class="p">(</span><span class="n">term</span><span class="p">)</span>
+    <span class="c1">-- Base case.</span>
+    <span class="k">if</span> <span class="n">term</span> <span class="o">&lt;=</span> <span class="mi">1</span> <span class="k">then</span>
+        <span class="k">return</span> <span class="n">term</span><span class="p">;</span>
+    <span class="k">end</span>
+    <span class="c1">-- Recursive step.</span>
+    <span class="k">return</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">2</span><span class="p">);</span>
+<span class="k">end</span>
+
+<span class="k">if</span> <span class="o">#</span><span class="n">arg</span> <span class="o">&gt;=</span> <span class="mi">1</span> <span class="k">then</span>
+    <span class="kd">local</span> <span class="n">term</span> <span class="o">=</span> <span class="nb">tonumber</span><span class="p">(</span><span class="n">arg</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="ow">or</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="kd">local</span> <span class="n">result</span> <span class="o">=</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span><span class="p">);</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">);</span>
+<span class="k">end</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>Python</summary>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c1">#!/usr/bin/python3
+</span><span class="s">"""Calculate a Fibonacci sequence number from user input."""</span>
+<span class="kn">from</span> <span class="nn">sys</span> <span class="kn">import</span> <span class="n">argv</span>
+
+<span class="k">def</span> <span class="nf">fibonacci</span><span class="p">(</span><span class="n">term</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="s">"""Calculate a Fibonacci sequence number.
+
+    Args:
+        term (int): The sequence number to produce. Don't use large numbers as
+        the time complexity is exponential.
+
+    Returns:
+        int: The sequence number.
+    """</span>
+    <span class="c1"># Base case.
+</span>    <span class="k">if</span> <span class="n">term</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">term</span>
+    <span class="c1"># Recursive step.
+</span>    <span class="k">return</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="s">"""Calculate a Fibonacci sequence number from user input."""</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">argv</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="n">term</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>Perl</summary>
+
+<figure class="highlight"><pre><code class="language-perl" data-lang="perl"><span class="c1">#!/usr/bin/env perl</span>
+<span class="k">use</span> <span class="nv">strict</span><span class="p">;</span>
+<span class="k">use</span> <span class="nv">warnings</span><span class="p">;</span>
+<span class="k">use</span> <span class="nv">feature</span> <span class="p">'</span><span class="s1">say</span><span class="p">';</span>
+
+<span class="k">sub </span><span class="nf">fibonacci</span> <span class="p">{</span>
+    <span class="k">my</span> <span class="nv">$term</span> <span class="o">=</span> <span class="nb">shift</span><span class="p">;</span>
+    <span class="c1"># Base case.</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nv">$term</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="nv">$term</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="c1"># Recursive step.</span>
+    <span class="k">return</span> <span class="nv">fibonacci</span><span class="p">(</span><span class="nv">$term</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="nv">fibonacci</span><span class="p">(</span><span class="nv">$term</span> <span class="o">-</span> <span class="mi">2</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="k">sub </span><span class="nf">main</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nb">scalar</span> <span class="nv">@ARGV</span> <span class="o">&gt;=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">my</span> <span class="nv">$value</span> <span class="o">=</span> <span class="nv">fibonacci</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="nv">$ARGV</span><span class="p">[</span><span class="mi">0</span><span class="p">]));</span>
+        <span class="nv">say</span><span class="p">(</span><span class="nv">$value</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">unless</span> <span class="p">(</span><span class="nb">caller</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nv">main</span><span class="p">();</span>
+<span class="p">}</span>
+
+<span class="cp">__END__
+
+=head1 DESCRIPTION
+
+Calculate a Fibonacci sequence number from user input.
+
+=cut
+
+=head1 FUNCTIONS
+
+=over
+
+=item fibonacci($term)
+
+Calculate a Fibonacci sequence number.
+
+$term C&lt;int&gt; is the sequence number to produce. Don't use large numbers as the
+time complexity is exponential.
+
+Returns C&lt;int&gt;, the sequence number.
+
+=item main
+
+Calculate a Fibonacci sequence number from user input.
+
+=back
+
+=cut</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>Vimscript</summary>
+
+<figure class="highlight"><pre><code class="language-vimscript" data-lang="vimscript">#<span class="p">!</span><span class="sr">/usr/</span><span class="nb">bin</span>/env <span class="p">-</span>S nvim <span class="p">--</span>cmd <span class="s2">":source fibonacci.vim"</span>
+<span class="k">function</span><span class="p">!</span> Fibonacci<span class="p">(</span><span class="k">n</span><span class="p">)</span>
+    <span class="k">if</span> <span class="nv">a:n</span> <span class="p">&lt;=</span> <span class="m">2</span>
+        <span class="k">return</span> <span class="m">1</span>
+    <span class="k">else</span>
+        <span class="k">return</span> Fibonacci<span class="p">(</span><span class="nv">a:n</span> <span class="p">-</span> <span class="m">2</span><span class="p">)</span> <span class="p">+</span> Fibonacci<span class="p">(</span><span class="nv">a:n</span> <span class="p">-</span> <span class="m">1</span><span class="p">)</span>
+    <span class="k">endif</span>
+<span class="k">endfunction</span>
+
+<span class="k">echom</span> Fibonacci<span class="p">(</span><span class="m">39</span><span class="p">)</span>
+<span class="k">quit</span><span class="p">!</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>Bash</summary>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/usr/bin/bash</span>
+
+<span class="c"># Calculate a Fibonacci sequence number from user input.</span>
+
+<span class="c"># Exit on errors and undefined variables.</span>
+<span class="nb">set</span> <span class="nt">-eu</span>
+
+<span class="c">################################################################################</span>
+<span class="c"># Calculate a Fibonacci sequence number.</span>
+<span class="c"># Arguments:</span>
+<span class="c">#     $1: int The sequence number to produce. Don't use large numbers as</span>
+<span class="c">#         the time complexity is exponential.</span>
+<span class="c"># Outputs:</span>
+<span class="c">#     int The sequence number.</span>
+<span class="c">################################################################################</span>
+fibonacci<span class="o">()</span> <span class="o">{</span>
+    <span class="nb">declare</span> <span class="nt">-ir</span> <span class="nv">term</span><span class="o">=</span><span class="nv">$1</span>
+    <span class="c"># Base case.</span>
+    <span class="k">if</span> <span class="o">((</span> term &lt;<span class="o">=</span> 1 <span class="o">))</span><span class="p">;</span> <span class="k">then
+        </span><span class="nb">echo</span> <span class="nv">$term</span>
+        <span class="k">return
+    fi</span>
+    <span class="c"># Recursive step.</span>
+    <span class="nb">echo</span> <span class="k">$((</span> <span class="si">$(</span>fibonacci <span class="k">$((</span>term <span class="o">-</span> <span class="m">1</span><span class="k">))</span> <span class="si">)</span> <span class="o">+</span> <span class="si">$(</span>fibonacci <span class="k">$((</span>term <span class="o">-</span> <span class="m">2</span><span class="k">))</span> <span class="si">)</span> <span class="k">))</span>
+<span class="o">}</span>
+
+fibonacci <span class="nv">$1</span></code></pre></figure>
+
+</details>]]></content><author><name>Luis David Licea Torres</name></author><category term="Programming" /><category term="Benchmarkig" /><summary type="html"><![CDATA[I used the Fibonacci sequence to test the speed of recursive calls in different languages. Take the results with a grain of salt because my computer is not a controlled environment. I found that Python was slower than I expected, while JavaScript was faster than I expected. Bash was more than 100,000 times slower than C because the Bash benchmark did not finish after the 5-hour mark. My hypothesis is that Bash is very slow because math is done in sub-shells, requiring bash to spawn a process for every arithmetic operation.]]></summary></entry><entry><title type="html">Benchmarking Python multiprocessing and multithreading</title><link href="https://luisliceatorres.com/2023/06/25/benchmarking-python-multiprocessing-and-multithreading.html" rel="alternate" type="text/html" title="Benchmarking Python multiprocessing and multithreading" /><published>2023-06-25T00:00:00+00:00</published><updated>2023-06-25T00:00:00+00:00</updated><id>https://luisliceatorres.com/2023/06/25/benchmarking-python-multiprocessing-and-multithreading</id><content type="html" xml:base="https://luisliceatorres.com/2023/06/25/benchmarking-python-multiprocessing-and-multithreading.html"><![CDATA[<p>I benchmarked the Fibonacci sequence using multiprocessing and multithreading. I
+found that multiprocessing was faster than multithreading by approximately a
+factor of <em>p</em>, where <em>p</em> is the number of processes or threads. In other words,
+five processes working on one task each will finish approximately five times
+faster than five threads working on one task each, where the given tasks require
+the same number of calculations to complete. Creating processes was relatively
+slow compared to creating threads, but the time it took to create the processes
+was negligible when executing long-running programs.</p>
+
+<p>The table shows the speed of 5 processes and 5 threads each independently
+calculating the 25-th term of the Fibonacci sequence.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 fibonacci.py 25 5
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>multithreading</td>
+      <td>0sec 027ms</td>
+    </tr>
+    <tr>
+      <td>multiprocessing</td>
+      <td>0sec 033ms</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The table shows the speed of 5 processes and 5 threads each independently
+calculating the 30-th term of the Fibonacci sequence.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 fibonacci.py 30 5
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>multiprocessing</td>
+      <td>13sec 143ms</td>
+    </tr>
+    <tr>
+      <td>multithreading</td>
+      <td>66sec 397ms</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The results show that multiprocessing is faster than multithreading for
+long-running programs by a factor of <em>p</em>, where <em>p</em> is the number of processes
+or threads. This means that multiprocessing should be used in situations where
+processes can work independently, like processing data and writing it to
+different files.</p>
+
+<h2 id="implementations">Implementations</h2>
+
+<details>
+<summary>Python</summary>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c1">#!/usr/bin/python3
+</span><span class="s">"""Benchmark ProcessPoolExecutor and ThreadPoolExecutor performance."""</span>
+<span class="kn">from</span> <span class="nn">concurrent.futures</span> <span class="kn">import</span> <span class="n">ThreadPoolExecutor</span>
+<span class="kn">from</span> <span class="nn">concurrent.futures.process</span> <span class="kn">import</span> <span class="n">ProcessPoolExecutor</span>
+<span class="kn">from</span> <span class="nn">functools</span> <span class="kn">import</span> <span class="n">wraps</span>
+<span class="kn">from</span> <span class="nn">sys</span> <span class="kn">import</span> <span class="n">argv</span>
+<span class="kn">from</span> <span class="nn">time</span> <span class="kn">import</span> <span class="n">perf_counter</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Callable</span>
+
+
+<span class="k">def</span> <span class="nf">fibonacci</span><span class="p">(</span><span class="n">term</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="s">"""Calculate the n-th term of the Fibonacci sequence.
+
+    Args:
+        term (int): The sequence number to produce. Don't use large
+        numbers as the time complexity is exponential.
+
+    Returns:
+        int: The sequence number.
+    """</span>
+    <span class="n">match</span> <span class="n">term</span><span class="p">:</span>
+        <span class="n">case</span> <span class="n">term</span> <span class="k">if</span> <span class="n">term</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">return</span> <span class="mi">0</span>
+        <span class="n">case</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="k">return</span> <span class="mi">1</span>
+        <span class="n">case</span> <span class="n">_</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span> <span class="o">-</span><span class="mi">2</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">intense_task</span><span class="p">(</span><span class="n">value</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+    <span class="s">"""Simulates a CPU-intensive operation.
+
+    Args:
+        value (int): Some value that will increase CPU work exponentially.
+    """</span>
+    <span class="n">fibonacci</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">timeit</span><span class="p">(</span><span class="n">func</span><span class="p">:</span> <span class="n">Callable</span><span class="p">[[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">],</span> <span class="bp">None</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">Callable</span><span class="p">:</span>
+    <span class="s">"""Time how long a function takes to execute.
+
+    Args:
+        func (callable): The function to time.
+
+    Returns:
+        The wrapped function result.
+    """</span>
+    <span class="o">@</span><span class="n">wraps</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">timeit_wrapper</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="n">start_time</span> <span class="o">=</span> <span class="n">perf_counter</span><span class="p">()</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="n">end_time</span> <span class="o">=</span> <span class="n">perf_counter</span><span class="p">()</span>
+        <span class="n">total_time</span> <span class="o">=</span> <span class="n">end_time</span> <span class="o">-</span> <span class="n">start_time</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'Function </span><span class="si">{</span><span class="n">func</span><span class="p">.</span><span class="n">__name__</span><span class="si">}{</span><span class="n">args</span><span class="si">}</span><span class="s"> </span><span class="si">{</span><span class="n">kwargs</span><span class="si">}</span><span class="s"> Took </span><span class="si">{</span><span class="n">total_time</span><span class="p">:.</span><span class="mi">4</span><span class="n">f</span><span class="si">}</span><span class="s"> seconds'</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">result</span>
+    <span class="k">return</span> <span class="n">timeit_wrapper</span>
+
+<span class="o">@</span><span class="n">timeit</span>
+<span class="k">def</span> <span class="nf">multiprocessing</span><span class="p">(</span><span class="n">max_workers</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">iterations</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+    <span class="s">"""Perform a time-intensive task using multiprocessing.
+
+    Args:
+        max_workers (int): The max number of process workers.
+        iterations (int): The number of times to repeat the operation.
+    """</span>
+    <span class="k">with</span> <span class="n">ProcessPoolExecutor</span><span class="p">(</span><span class="n">max_workers</span><span class="o">=</span><span class="n">max_workers</span><span class="p">)</span> <span class="k">as</span> <span class="n">executor</span><span class="p">:</span>
+        <span class="n">executor</span><span class="p">.</span><span class="nb">map</span><span class="p">(</span><span class="n">intense_task</span><span class="p">,</span> <span class="nb">range</span><span class="p">(</span><span class="n">iterations</span><span class="p">))</span>
+
+<span class="o">@</span><span class="n">timeit</span>
+<span class="k">def</span> <span class="nf">multithreading</span><span class="p">(</span><span class="n">max_workers</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">iterations</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+    <span class="s">"""Perform a time-intensive task using multithreading.
+
+    Args:
+        max_workers (int): The max number of thread workers.
+        iterations (int): The number of times to repeat the operation.
+    """</span>
+    <span class="k">with</span> <span class="n">ThreadPoolExecutor</span><span class="p">(</span><span class="n">max_workers</span><span class="o">=</span><span class="n">max_workers</span><span class="p">)</span> <span class="k">as</span> <span class="n">executor</span><span class="p">:</span>
+        <span class="n">executor</span><span class="p">.</span><span class="nb">map</span><span class="p">(</span><span class="n">intense_task</span><span class="p">,</span> <span class="nb">range</span><span class="p">(</span><span class="n">iterations</span><span class="p">))</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="s">"""Benchmark multithreading and multiprocessing on the same function."""</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">iterations</span><span class="p">,</span> <span class="n">max_workers</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]),</span> <span class="nb">int</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+        <span class="n">multiprocessing</span><span class="p">(</span><span class="n">max_workers</span><span class="p">,</span> <span class="n">iterations</span><span class="p">)</span>
+        <span class="n">multithreading</span><span class="p">(</span><span class="n">max_workers</span><span class="p">,</span> <span class="n">iterations</span><span class="p">)</span>
+    <span class="k">except</span> <span class="nb">IndexError</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Usage: </span><span class="si">{</span><span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s"> &lt;iterations&gt; &lt;max_wokers&gt;"</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Example: </span><span class="si">{</span><span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s"> 30 5"</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span></code></pre></figure>
+
+</details>]]></content><author><name>Luis David Licea Torres</name></author><category term="Programming" /><category term="Benchmarkig" /><summary type="html"><![CDATA[I benchmarked the Fibonacci sequence using multiprocessing and multithreading. I found that multiprocessing was faster than multithreading by approximately a factor of p, where p is the number of processes or threads. In other words, five processes working on one task each will finish approximately five times faster than five threads working on one task each, where the given tasks require the same number of calculations to complete. Creating processes was relatively slow compared to creating threads, but the time it took to create the processes was negligible when executing long-running programs.]]></summary></entry><entry><title type="html">Logic circuit for a two-floor elevator</title><link href="https://luisliceatorres.com/2023/03/03/logig-behind-a-two-floor-evelvator.html" rel="alternate" type="text/html" title="Logic circuit for a two-floor elevator" /><published>2023-03-03T00:00:00+00:00</published><updated>2023-03-03T00:00:00+00:00</updated><id>https://luisliceatorres.com/2023/03/03/logig-behind-a-two-floor-evelvator</id><content type="html" xml:base="https://luisliceatorres.com/2023/03/03/logig-behind-a-two-floor-evelvator.html"><![CDATA[<p>What is the minimum number of ways to test a two-floor elevator with two
+buttons? One button is for floor 1 and the other button is for floor 2. We can
+assume that if both buttons are pressed simultaneously, the elevator will ignore
+the current floor button and go to the other floor. If we create a truth table
+we will see that there are 8 possible outcomes.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Current Floor</th>
+      <th>Floor 1 Button</th>
+      <th>Floor 2 Button</th>
+      <th>Next Floor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Then we can create a Karnaugh map to express the next floor (N) variable in
+terms of the current floor (C) and the first and second floor buttons (F1 and
+F2).</p>
+
+<style>
+    .green {
+        background-color:green;
+        color:white;
+    }
+    .blue {
+        background-color:blue;
+        color:white;
+    }
+</style>
+
+<table>
+    <tr>
+        <th></th>
+        <th>F1'F2'</th>
+        <th>F1'F2</th>
+        <th>F1F2</th>
+        <th>F1F2'</th>
+    </tr>
+    <tr>
+        <td><b>C'</b></td>
+        <td>0</td>
+        <td class="green">1</td>
+        <td class="green">1</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><b>C</b></td>
+        <td class="blue">1</td>
+        <td class="blue">1</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+</table>
+
+<p>This shows that the formula is <code class="language-plaintext highlighter-rouge">N = C'F2 + CF1'</code>.</p>
+
+<div id="diagram-space" class="sb-mobile-diagram">
+            <div id="diagram" class="e-control e-diagram e-lib e-droppable e-tooltip" style="width: 100%; height: 100%; position: relative; overflow: hidden;"><div id="diagramcontent" tabindex="0" style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; overflow: auto; background: transparent; cursor: default;" class=""><svg id="diagram_backgroundLayer_svg" width="648" height="750" style="position: absolute; top: 0px; left: 0px; overflow: hidden; pointer-events: none;"><g id="diagram_backgroundImageLayer" class="e-background-image-layer"></g><g id="diagram_backgroundLayer" class="e-background-layer"><rect id="diagram_backgroundLayerrect" x="0" y="228.95999999999998" width="573.12" height="181.44" visibility="visible" transform="rotate(0,0,228.95999999999998)" rx="0" ry="0" opacity="1" pointer-events="none" stroke-width="1" stroke-dasharray="0" fill="transparent"></rect></g></svg><svg id="diagram_gridline_svg" width="648" height="750" class="e-grid-layer" style="position: absolute; top: 0px; left: 0px; overflow: hidden; pointer-events: none;"><g id="diagram_gridline" transform="translate(328.32,0)"><rect id="diagram_grid_rect" x="-328.32" y="0" width="100%" height="100%" fill="url(#diagram_pattern)"></rect></g><defs id="diagram_grid_pattern_defn"><pattern id="diagram_pattern" x="0" y="0" width="144" height="144" patternUnits="userSpaceOnUse"></pattern></defs></svg><div id="diagram_diagramLayer_div" style="width: 648px; height: 750px; position: absolute; top: 0px; left: 0px; overflow: hidden; pointer-events: none;"><svg id="diagram_diagramLayer_svg" width="648" height="750" style="pointer-events: all;" class="e-diagram-layer"><g><g id="diagram_diagramLayer" transform="translate(328.32,0),scale(1.44)"><g id="Not1_groupElement" transform="translate(0,0)"><rect id="Not1" x="-174.91" y="159.34" width="49.99999999999998" height="39.93999999999999" visibility="visible" transform="rotate(0,-149.91,179.31)" rx="0" ry="0" opacity="1" role="img" aria-label="Not1" stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="transparent"></rect><g id="Not1_content_groupElement"><path d="M37.76,19.97 L11.22,39.94 L11.22,0 L37.76,19.97 Z M40.82,19.97 L50,19.97 M0,19.97 L11.22,19.97 M39.29,17.83 C38.42,17.83,37.76,18.76,37.76,19.97 C37.76,21.179999999999996,38.42,22.11,39.29,22.11 C40.16,22.11,40.82,21.18,40.82,19.97 C40.82,18.759999999999998,40.15,17.83,39.29,17.83 Z " id="Not1_content" transform="rotate(0,-149.91,179.31)translate(-174.91,159.34)" visibility="visible" opacity="1" role="img" aria-label="Not1" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="white"></path></g><g id="Not1_dewAS_groupElement" transform="translate(0,0)"><rect id="Not1_dewAS" x="-151.41" y="172.11" width="3" height="14.399999999999999" visibility="visible" transform="rotate(0,-149.91,179.31)" rx="0" ry="0" opacity="1" pointer-events="none" stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="transparent"></rect><text stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="black" style="font-style: normal; font-weight: normal; font-size: 12px; font-family: Arial;" id="Not1_dewAS_text" visibility="visible" text-decoration="None" transform="rotate(0,-149.91,179.31)translate(-151.41,172.11)" opacity="1" role="img" aria-label="Not1_dewAS"><tspan x="0" y="10.8"></tspan></text></g></g><g id="OrXmQVi_groupElement" transform="translate(0,0)"><rect id="OrXmQVi" x="-25.47499999999998" y="192.4716666666667" width="80.18999999999997" height="59.88999999999996" visibility="visible" transform="rotate(0,14.620000000000005,222.41666666666669)" rx="0" ry="0" opacity="1" role="img" aria-label="OrXmQVi" stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="transparent"></rect><g id="OrXmQVi_content_groupElement"><path d="M17.49,59.89 L17.49,59.89 C22.65,40.53,22.65,19.46,17.49,0.11 L17.49,0 L18.78,0 C36.11,0,52.39,11.12,62.46,29.95 L62.46,29.95 L62.46,29.95 C52.39,48.77,36.11,59.89,18.78,59.89 L17.49,59.89 Z M80.19,29.95 L62.46,29.95 M0,11.76 L20.15,11.76 M0,48.13 L20.15,48.13 " id="OrXmQVi_content" transform="rotate(0,14.620000000000005,222.41666666666669)translate(-25.47499999999998,192.4716666666667)" visibility="visible" opacity="1" role="img" aria-label="OrXmQVi" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="white"></path></g></g><g id="Andtahey_groupElement" transform="translate(0,0)"><rect id="Andtahey" x="-110.33944444444447" y="168.29500000000004" width="70.32999999999998" height="50.469999999999985" visibility="visible" transform="rotate(0,-75.17444444444448,193.53000000000003)" rx="0" ry="0" opacity="1" role="img" aria-label="Andtahey" stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="transparent"></rect><g id="Andtahey_content_groupElement"><path d="M15.12,0 L34.81,0 A19.692399999999996,25.234999999999992,0,0,1,54.51,25.23 L54.51,25.23 A19.692399999999996,25.234999999999992,0,0,1,34.81,50.47 L15.12,50.47 A0,0,0,0,1,15.12,50.47 L15.12,0 A0,0,0,0,1,15.12,0 Z M54.86,25.23 L70.33,25.23 Z M0,10.81 L15.05,10.81 Z M0,40.56 L15.05,40.56 Z " id="Andtahey_content" transform="rotate(0,-75.17444444444448,193.53000000000003)translate(-110.33944444444447,168.29500000000004)" visibility="visible" opacity="1" role="img" aria-label="Andtahey" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="white"></path></g></g><g id="AndtaheyC5amS_groupElement" transform="translate(0,0)"><rect id="AndtaheyC5amS" x="-110.23166666666663" y="225.25222222222231" width="70.33000000000003" height="49.77999999999999" visibility="visible" transform="rotate(0,-75.0666666666666,250.1422222222223)" rx="0" ry="0" opacity="1" role="img" aria-label="AndtaheyC5amS" stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="transparent"></rect><g id="AndtaheyC5amS_content_groupElement"><path d="M15.12,0 L34.81,0 A19.692400000000006,24.889999999999993,0,0,1,54.51,24.89 L54.51,24.89 A19.692400000000006,24.889999999999993,0,0,1,34.81,49.78 L15.12,49.78 A0,0,0,0,1,15.12,49.78 L15.12,0 A0,0,0,0,1,15.12,0 Z M54.86,24.89 L70.33,24.89 Z M0,10.67 L15.05,10.67 Z M0,40 L15.05,40 Z " id="AndtaheyC5amS_content" transform="rotate(0,-75.0666666666666,250.1422222222223)translate(-110.23166666666663,225.25222222222231)" visibility="visible" opacity="1" role="img" aria-label="AndtaheyC5amS" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="white"></path></g></g><g id="Not2yJIpd_groupElement" transform="translate(0,0)"><rect id="Not2yJIpd" x="-175.25" y="245.60999999999999" width="50" height="39.93999999999998" visibility="visible" transform="rotate(0,-150.25,265.58)" rx="0" ry="0" opacity="1" role="img" aria-label="Not2yJIpd" stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="transparent"></rect><g id="Not2yJIpd_content_groupElement"><path d="M37.76,19.97 L11.22,39.94 L11.22,0 L37.76,19.97 Z M40.82,19.97 L50,19.97 M0,19.97 L11.22,19.97 M39.29,17.83 C38.42,17.83,37.76,18.76,37.76,19.97 C37.76,21.179999999999996,38.42,22.11,39.29,22.11 C40.16,22.11,40.82,21.18,40.82,19.97 C40.82,18.759999999999998,40.15,17.83,39.29,17.83 Z " id="Not2yJIpd_content" transform="rotate(0,-150.25,265.58)translate(-175.25,245.60999999999999)" visibility="visible" opacity="1" role="img" aria-label="Not2yJIpd" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="white"></path></g></g><g id="Link3PBDTX_groupElement"><rect id="Link3PBDTX" x="-125.75" y="265.33" width="16.22" height="0.25" visibility="visible" transform="rotate(0,-117.64,265.455)" rx="0" ry="0" opacity="1" role="img" aria-label="Link3PBDTX" stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="transparent"></rect><g id="Link3PBDTX_path_groupElement"><path d="M0,0.25 L16.22,0 " id="Link3PBDTX_path" transform="rotate(0,-117.64,265.455)translate(-125.75,265.33)" visibility="visible" opacity="1" role="img" aria-label="Link3PBDTX_path" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="transparent"></path></g><g id="Link3PBDTX_srcDec_groupElement"><path d="" id="Link3PBDTX_srcDec" transform="rotate(359.11696604430267,-125.75,265.58)translate(-125.75,260.58)" visibility="visible" opacity="1" role="img" aria-label="Link3PBDTX_srcDec" stroke="black" stroke-width="1" stroke-dasharray="none" fill="black"></path></g><g id="Link3PBDTX_tarDec_groupElement"><path d="" id="Link3PBDTX_tarDec" transform="rotate(179.11696604430267,-109.53,265.33)translate(-109.53,260.33)" visibility="visible" opacity="1" role="img" aria-label="Link3PBDTX_tarDec" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="#444"></path></g></g><g id="line1ZqN35_groupElement"><rect id="line1ZqN35" x="-208.93" y="235.95" width="99.4" height="1.0300000000000011" visibility="visible" transform="rotate(0,-159.23000000000002,236.46499999999997)" rx="0" ry="0" opacity="1" role="img" aria-label="line1ZqN35" stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="transparent"></rect><g id="line1ZqN35_path_groupElement"><path d="M0.93,0.57 L8.05,0.84 Q13.05,1.03,13.05,0.52 Q13.05,0,18.05,0 L99.4,0 " id="line1ZqN35_path" transform="rotate(0,-159.23000000000002,236.46499999999997)translate(-208.93,235.95)" visibility="visible" opacity="1" role="img" aria-label="line1ZqN35_path" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="transparent"></path></g><g id="line1ZqN35_srcDec_groupElement"><path d="M0,6 A6,6,0,1,1,12,6 A6,6,0,1,1,0,6 Z " id="line1ZqN35_srcDec" transform="rotate(2.173549033377977,-208,236.52)translate(-208,230.52)" visibility="visible" opacity="1" role="img" aria-label="line1ZqN35_srcDec" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="white"></path></g><g id="line1ZqN35_tarDec_groupElement"><path d="" id="line1ZqN35_tarDec" transform="rotate(179.99673395994373,-109.53,235.95)translate(-109.53,230.95)" visibility="visible" opacity="1" role="img" aria-label="line1ZqN35_tarDec" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="#444"></path></g><g id="line1ZqN35_fXwr9_groupElement" transform="translate(0,0)"><rect id="line1ZqN35_fXwr9" x="-228" y="228.12" width="20" height="16.8" visibility="visible" transform="rotate(0,-218,236.52)" rx="0" ry="0" opacity="1" pointer-events="none" stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="transparent"></rect><text stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="black" style="font-style: normal; font-weight: normal; font-size: 14px; font-family: Segoe UI;" id="line1ZqN35_fXwr9_text" visibility="visible" text-decoration="None" transform="rotate(0,-218,236.52)translate(-228,228.12)" opacity="1" role="img" aria-label="line1ZqN35_fXwr9"><tspan x="0" y="12.4">F2</tspan></text></g></g><g id="line1ZqN35h3vWArTHGN_groupElement"><rect id="line1ZqN35h3vWArTHGN" x="-208.14" y="208.63" width="98.49999999999999" height="0.2933500000000322" visibility="visible" transform="rotate(0,-158.89,208.776675)" rx="0" ry="0" opacity="1" role="img" aria-label="line1ZqN35h3vWArTHGN" stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="transparent"></rect><g id="line1ZqN35h3vWArTHGN_path_groupElement"><path d="M0.14,-0.13 L74.36,-0.01 Q79.36,0,79.36,0.15 Q79.36,0.29,84.36,0.29 L98.5,0.29 " id="line1ZqN35h3vWArTHGN_path" transform="rotate(0,-158.89,208.776675)translate(-208.14,208.63)" visibility="visible" opacity="1" role="img" aria-label="line1ZqN35h3vWArTHGN_path" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="transparent"></path></g><g id="line1ZqN35h3vWArTHGN_srcDec_groupElement"><path d="M0,6 A6,6,0,1,1,12,6 A6,6,0,1,1,0,6 Z " id="line1ZqN35h3vWArTHGN_srcDec" transform="rotate(0.09402227531914004,-208,208.5)translate(-208,202.5)" visibility="visible" opacity="1" role="img" aria-label="line1ZqN35h3vWArTHGN_srcDec" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="white"></path></g><g id="line1ZqN35h3vWArTHGN_tarDec_groupElement"><path d="" id="line1ZqN35h3vWArTHGN_tarDec" transform="rotate(179.98997174193255,-109.64,208.92)translate(-109.64,203.92)" visibility="visible" opacity="1" role="img" aria-label="line1ZqN35h3vWArTHGN_tarDec" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="#444"></path></g><g id="line1ZqN35h3vWArTHGN_fXwr9_groupElement" transform="translate(0,0)"><rect id="line1ZqN35h3vWArTHGN_fXwr9" x="-228" y="200.1" width="13" height="16.8" visibility="visible" transform="rotate(0,-221.5,208.5)" rx="0" ry="0" opacity="1" pointer-events="none" stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="transparent"></rect><text stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="black" style="font-style: normal; font-weight: normal; font-size: 14px; font-family: Segoe UI;" id="line1ZqN35h3vWArTHGN_fXwr9_text" visibility="visible" text-decoration="None" transform="rotate(0,-221.5,208.5)translate(-228,200.1)" opacity="1" role="img" aria-label="line1ZqN35h3vWArTHGN_fXwr9"><tspan x="0" y="12.4">C</tspan></text></g></g><g id="line1ZqN35h3vWArTHGNB8kPd_groupElement"><rect id="line1ZqN35h3vWArTHGNB8kPd" x="-208.14" y="179.18" width="33.72999999999999" height="0.12999999999999545" visibility="visible" transform="rotate(0,-191.27499999999998,179.245)" rx="0" ry="0" opacity="1" role="img" aria-label="line1ZqN35h3vWArTHGNB8kPd" stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="transparent"></rect><g id="line1ZqN35h3vWArTHGNB8kPd_path_groupElement"><path d="M0.14,0.31 L14.73,0.08 Q19.73,0,19.73,0.06 Q19.73,0.13,24.73,0.13 L33.73,0.13 " id="line1ZqN35h3vWArTHGNB8kPd_path" transform="rotate(0,-191.27499999999998,179.245)translate(-208.14,179.18)" visibility="visible" opacity="1" role="img" aria-label="line1ZqN35h3vWArTHGNB8kPd_path" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="transparent"></path></g><g id="line1ZqN35h3vWArTHGNB8kPd_srcDec_groupElement"><path d="M0,6 A6,6,0,1,1,12,6 A6,6,0,1,1,0,6 Z " id="line1ZqN35h3vWArTHGNB8kPd_srcDec" transform="rotate(359.09340432395885,-208,179.49)translate(-208,173.49)" visibility="visible" opacity="1" role="img" aria-label="line1ZqN35h3vWArTHGNB8kPd_srcDec" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="white"></path></g><g id="line1ZqN35h3vWArTHGNB8kPd_tarDec_groupElement"><path d="" id="line1ZqN35h3vWArTHGNB8kPd_tarDec" transform="rotate(180,-174.41,179.31)translate(-174.41,174.31)" visibility="visible" opacity="1" role="img" aria-label="line1ZqN35h3vWArTHGNB8kPd_tarDec" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="#444"></path></g><g id="line1ZqN35h3vWArTHGNB8kPd_fXwr9_groupElement" transform="translate(0,0)"><rect id="line1ZqN35h3vWArTHGNB8kPd_fXwr9" x="-228" y="171.09" width="20" height="16.8" visibility="visible" transform="rotate(0,-218,179.49)" rx="0" ry="0" opacity="1" pointer-events="none" stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="transparent"></rect><text stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="black" style="font-style: normal; font-weight: normal; font-size: 14px; font-family: Segoe UI;" id="line1ZqN35h3vWArTHGNB8kPd_fXwr9_text" visibility="visible" text-decoration="None" transform="rotate(0,-218,179.49)translate(-228,171.09)" opacity="1" role="img" aria-label="line1ZqN35h3vWArTHGNB8kPd_fXwr9"><tspan x="0" y="12.4">F1</tspan></text></g></g><g id="Link3PBDTXFZrXA_groupElement"><rect id="Link3PBDTXFZrXA" x="-125.41" y="179.15000000000003" width="15.769999999999996" height="0.1599999999999966" visibility="visible" transform="rotate(0,-117.525,179.23000000000002)" rx="0" ry="0" opacity="1" role="img" aria-label="Link3PBDTXFZrXA" stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="transparent"></rect><g id="Link3PBDTXFZrXA_path_groupElement"><path d="M0,0.16 L15.77,0 " id="Link3PBDTXFZrXA_path" transform="rotate(0,-117.525,179.23000000000002)translate(-125.41,179.15000000000003)" visibility="visible" opacity="1" role="img" aria-label="Link3PBDTXFZrXA_path" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="transparent"></path></g><g id="Link3PBDTXFZrXA_srcDec_groupElement"><path d="" id="Link3PBDTXFZrXA_srcDec" transform="rotate(359.41870575868455,-125.41,179.31)translate(-125.41,174.31)" visibility="visible" opacity="1" role="img" aria-label="Link3PBDTXFZrXA_srcDec" stroke="black" stroke-width="1" stroke-dasharray="none" fill="black"></path></g><g id="Link3PBDTXFZrXA_tarDec_groupElement"><path d="" id="Link3PBDTXFZrXA_tarDec" transform="rotate(179.41870575868455,-109.64,179.15)translate(-109.64,174.15)" visibility="visible" opacity="1" role="img" aria-label="Link3PBDTXFZrXA_tarDec" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="#444"></path></g></g><g id="line1ZqN35h3vWArTHGNtTXur_groupElement"><rect id="line1ZqN35h3vWArTHGNtTXur" x="-208.83000000000004" y="265.49" width="34.08000000000001" height="0.08999999999997499" visibility="visible" transform="rotate(0,-191.79000000000002,265.53499999999997)" rx="0" ry="0" opacity="1" role="img" aria-label="line1ZqN35h3vWArTHGNtTXur" stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="transparent"></rect><g id="line1ZqN35h3vWArTHGNtTXur_path_groupElement"><path d="M0.83,0.01 L13.08,0 Q18.08,0,18.08,0.04 Q18.08,0.09,23.08,0.09 L34.08,0.09 " id="line1ZqN35h3vWArTHGNtTXur_path" transform="rotate(0,-191.79000000000002,265.53499999999997)translate(-208.83000000000004,265.49)" visibility="visible" opacity="1" role="img" aria-label="line1ZqN35h3vWArTHGNtTXur_path" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="transparent"></path></g><g id="line1ZqN35h3vWArTHGNtTXur_srcDec_groupElement"><path d="M0,6 A6,6,0,1,1,12,6 A6,6,0,1,1,0,6 Z " id="line1ZqN35h3vWArTHGNtTXur_srcDec" transform="rotate(359.96678505907556,-208,265.5)translate(-208,259.5)" visibility="visible" opacity="1" role="img" aria-label="line1ZqN35h3vWArTHGNtTXur_srcDec" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="white"></path></g><g id="line1ZqN35h3vWArTHGNtTXur_tarDec_groupElement"><path d="" id="line1ZqN35h3vWArTHGNtTXur_tarDec" transform="rotate(180,-174.75,265.58)translate(-174.75,260.58)" visibility="visible" opacity="1" role="img" aria-label="line1ZqN35h3vWArTHGNtTXur_tarDec" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="#444"></path></g><g id="line1ZqN35h3vWArTHGNtTXur_fXwr9_groupElement" transform="translate(0,0)"><rect id="line1ZqN35h3vWArTHGNtTXur_fXwr9" x="-228" y="257.1" width="13" height="16.8" visibility="visible" transform="rotate(0,-221.5,265.5)" rx="0" ry="0" opacity="1" pointer-events="none" stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="transparent"></rect><text stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="black" style="font-style: normal; font-weight: normal; font-size: 14px; font-family: Segoe UI;" id="line1ZqN35h3vWArTHGNtTXur_fXwr9_text" visibility="visible" text-decoration="None" transform="rotate(0,-221.5,265.5)translate(-228,257.1)" opacity="1" role="img" aria-label="line1ZqN35h3vWArTHGNtTXur_fXwr9"><tspan x="0" y="12.4">C</tspan></text></g></g><g id="Link1fWBBv_groupElement"><rect id="Link1fWBBv" x="-40.709999999999994" y="193.53" width="16.04" height="10.699999999999989" visibility="visible" transform="rotate(0,-32.69,198.88)" rx="0" ry="0" opacity="1" role="img" aria-label="Link1fWBBv" stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="transparent"></rect><g id="Link1fWBBv_path_groupElement"><path d="M0,0 L3.63,0 Q7.26,0,7.26,5 L7.26,5.7 Q7.26,10.7,11.65,10.7 L16.04,10.7 " id="Link1fWBBv_path" transform="rotate(0,-32.69,198.88)translate(-40.709999999999994,193.53)" visibility="visible" opacity="1" role="img" aria-label="Link1fWBBv_path" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="transparent"></path></g><g id="Link1fWBBv_srcDec_groupElement"><path d="" id="Link1fWBBv_srcDec" transform="rotate(0,-40.71,193.53)translate(-40.71,188.53)" visibility="visible" opacity="1" role="img" aria-label="Link1fWBBv_srcDec" stroke="black" stroke-width="1" stroke-dasharray="none" fill="black"></path></g><g id="Link1fWBBv_tarDec_groupElement"><path d="" id="Link1fWBBv_tarDec" transform="rotate(180,-24.67,204.23)translate(-24.67,199.23)" visibility="visible" opacity="1" role="img" aria-label="Link1fWBBv_tarDec" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="#444"></path></g><g id="Link1fWBBv_orGUU_groupElement" transform="translate(0,0)"><rect id="Link1fWBBv_orGUU" x="-34.95" y="192.44" width="3" height="14.399999999999999" visibility="visible" transform="rotate(0,-33.45,199.64)" rx="0" ry="0" opacity="1" pointer-events="none" stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="transparent"></rect><text stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="black" style="font-style: normal; font-weight: normal; font-size: 12px; font-family: Arial;" id="Link1fWBBv_orGUU_text" visibility="visible" text-decoration="None" transform="rotate(0,-33.45,199.64)translate(-34.95,192.44)" opacity="1" role="img" aria-label="Link1fWBBv_orGUU"><tspan x="0" y="10.8"></tspan></text></g></g><g id="Link1hmkXl_groupElement"><rect id="Link1hmkXl" x="-40.60000000000001" y="240.68" width="15.93" height="9.45999999999998" visibility="visible" transform="rotate(0,-32.635000000000005,245.41)" rx="0" ry="0" opacity="1" role="img" aria-label="Link1hmkXl" stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="transparent"></rect><g id="Link1hmkXl_path_groupElement"><path d="M0,9.46 L3.61,9.46 Q7.21,9.46,7.21,4.73 Q7.21,0,11.57,0 L15.93,0 " id="Link1hmkXl_path" transform="rotate(0,-32.635000000000005,245.41)translate(-40.60000000000001,240.68)" visibility="visible" opacity="1" role="img" aria-label="Link1hmkXl_path" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="transparent"></path></g><g id="Link1hmkXl_srcDec_groupElement"><path d="" id="Link1hmkXl_srcDec" transform="rotate(0,-40.6,250.14)translate(-40.6,245.14)" visibility="visible" opacity="1" role="img" aria-label="Link1hmkXl_srcDec" stroke="black" stroke-width="1" stroke-dasharray="none" fill="black"></path></g><g id="Link1hmkXl_tarDec_groupElement"><path d="" id="Link1hmkXl_tarDec" transform="rotate(180,-24.67,240.68)translate(-24.67,235.68)" visibility="visible" opacity="1" role="img" aria-label="Link1hmkXl_tarDec" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="#444"></path></g></g><g id="line1ZqN35h3vWArTHGNNIAqd_groupElement"><rect id="line1ZqN35h3vWArTHGNNIAqd" x="39.14" y="213" width="131.19" height="9.419999999999987" visibility="visible" transform="rotate(0,104.735,217.70999999999998)" rx="0" ry="0" opacity="1" role="img" aria-label="line1ZqN35h3vWArTHGNNIAqd" stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="transparent"></rect><g id="line1ZqN35h3vWArTHGNNIAqd_path_groupElement"><path d="M130.86,0.49 L116.19,0.12 Q111.19,0,111.19,4.71 Q111.19,9.42,106.19,9.42 L0,9.42 " id="line1ZqN35h3vWArTHGNNIAqd_path" transform="rotate(0,104.735,217.70999999999998)translate(39.14,213)" visibility="visible" opacity="1" role="img" aria-label="line1ZqN35h3vWArTHGNNIAqd_path" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="transparent"></path></g><g id="line1ZqN35h3vWArTHGNNIAqd_srcDec_groupElement"><path d="M0,6 A6,6,0,1,1,12,6 A6,6,0,1,1,0,6 Z " id="line1ZqN35h3vWArTHGNNIAqd_srcDec" transform="rotate(181.42700186751472,170,213.49)translate(170,207.49)" visibility="visible" opacity="1" role="img" aria-label="line1ZqN35h3vWArTHGNNIAqd_srcDec" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="white"></path></g><g id="line1ZqN35h3vWArTHGNNIAqd_tarDec_groupElement"><path d="" id="line1ZqN35h3vWArTHGNNIAqd_tarDec" transform="rotate(0,39.14,222.42)translate(39.14,217.42)" visibility="visible" opacity="1" role="img" aria-label="line1ZqN35h3vWArTHGNNIAqd_tarDec" stroke="#444" stroke-width="1" stroke-dasharray="none" fill="#444"></path></g><g id="line1ZqN35h3vWArTHGNNIAqd_fXwr9_groupElement" transform="translate(0,0)"><rect id="line1ZqN35h3vWArTHGNNIAqd_fXwr9" x="47" y="205.09" width="103" height="16.8" visibility="visible" transform="rotate(0,98.5,213.49)" rx="0" ry="0" opacity="1" pointer-events="none" stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="transparent"></rect><text stroke="transparent" stroke-width="0" stroke-dasharray="none" fill="black" style="font-style: normal; font-weight: normal; font-size: 14px; font-family: Segoe UI;" id="line1ZqN35h3vWArTHGNNIAqd_fXwr9_text" visibility="visible" text-decoration="None" transform="rotate(0,98.5,213.49)translate(47,205.09)" opacity="1" role="img" aria-label="line1ZqN35h3vWArTHGNNIAqd_fXwr9"><tspan x="0" y="12.4">N = C'F2 + CF1'</tspan></text></g></g></g></g></svg><svg id="diagram_nativeLayer_svg" width="648" height="750" class="e-native-layer" style="position: absolute; top: 0px; left: 0px; overflow: hidden; pointer-events: none;"><g id="diagram_nativeLayer" style="pointer-events: all;" transform="translate(328.32,0),scale(1.44)"></g></svg></div><div id="diagram_htmlLayer" style="width: 648px; height: 750px; position: absolute; top: 0px; left: 0px; overflow: hidden; pointer-events: none;" class="e-html-layer"><div id="diagram_htmlLayer_div" style="position: absolute; top: 0px; left: 0px; pointer-events: all; transform: translate(328.32px) scale(1.44);"></div></div><svg id="diagram_diagramPorts_svg" width="648" height="750" class="e-ports-expand-layer" style="position: absolute; top: 0px; left: 0px; overflow: hidden; pointer-events: none;"><g id="diagram_diagramPorts" class="e-ports-layer" style="pointer-events: all;" transform="translate(328.32,0),scale(1.44)"><g id="Not1_Not_port1_groupElement" transform="translate(0,0)"><path d="M0,0 L12,0 L12,12 L0,12 Z " id="Not1_Not_port1" transform="rotate(0,-174.41,179.31)translate(-180.41,173.31)" visibility="hidden" opacity="1" role="img" aria-label="Not1_Not_port1" stroke="black" stroke-width="1" stroke-dasharray="none" fill="white"></path></g><g id="Not1_Not_port2_groupElement" transform="translate(0,0)"><path d="M0,0 L12,0 L12,12 L0,12 Z " id="Not1_Not_port2" transform="rotate(0,-125.41000000000003,179.31)translate(-131.41000000000003,173.31)" visibility="hidden" opacity="1" role="img" aria-label="Not1_Not_port2" stroke="black" stroke-width="1" stroke-dasharray="none" fill="white"></path></g><g id="OrXmQVi_Or_port1_groupElement" transform="translate(0,0)"><path d="M0,0 L12,0 L12,12 L0,12 Z " id="OrXmQVi_Or_port1" transform="rotate(0,-24.67309999999998,204.2280736666667)translate(-30.67309999999998,198.2280736666667)" visibility="hidden" opacity="1" role="img" aria-label="OrXmQVi_Or_port1" stroke="black" stroke-width="1" stroke-dasharray="none" fill="white"></path></g><g id="OrXmQVi_Or_port2_groupElement" transform="translate(0,0)"><path d="M0,0 L12,0 L12,12 L0,12 Z " id="OrXmQVi_Or_port2" transform="rotate(0,-4.625599999999988,222.41666666666669)translate(-10.625599999999988,216.41666666666669)" visibility="hidden" opacity="1" role="img" aria-label="OrXmQVi_Or_port2" stroke="black" stroke-width="1" stroke-dasharray="none" fill="white"></path></g><g id="OrXmQVi_Or_port3_groupElement" transform="translate(0,0)"><path d="M0,0 L12,0 L12,12 L0,12 Z " id="OrXmQVi_Or_port3" transform="rotate(0,-24.67309999999998,240.68311666666665)translate(-30.67309999999998,234.68311666666665)" visibility="hidden" opacity="1" role="img" aria-label="OrXmQVi_Or_port3" stroke="black" stroke-width="1" stroke-dasharray="none" fill="white"></path></g><g id="OrXmQVi_Or_port4_groupElement" transform="translate(0,0)"><path d="M0,0 L12,0 L12,12 L0,12 Z " id="OrXmQVi_Or_port4" transform="rotate(0,53.913099999999986,222.41666666666669)translate(47.913099999999986,216.41666666666669)" visibility="hidden" opacity="1" role="img" aria-label="OrXmQVi_Or_port4" stroke="black" stroke-width="1" stroke-dasharray="none" fill="white"></path></g><g id="Andtahey_And_port1_groupElement" transform="translate(0,0)"><path d="M0,0 L12,0 L12,12 L0,12 Z " id="Andtahey_And_port1" transform="rotate(0,-109.63614444444447,179.14605000000003)translate(-115.63614444444447,173.14605000000003)" visibility="hidden" opacity="1" role="img" aria-label="Andtahey_And_port1" stroke="black" stroke-width="1" stroke-dasharray="none" fill="white"></path></g><g id="Andtahey_And_port2_groupElement" transform="translate(0,0)"><path d="M0,0 L12,0 L12,12 L0,12 Z " id="Andtahey_And_port2" transform="rotate(0,-94.86684444444447,193.53000000000003)translate(-100.86684444444447,187.53000000000003)" visibility="hidden" opacity="1" role="img" aria-label="Andtahey_And_port2" stroke="black" stroke-width="1" stroke-dasharray="none" fill="white"></path></g><g id="Andtahey_And_port3_groupElement" transform="translate(0,0)"><path d="M0,0 L12,0 L12,12 L0,12 Z " id="Andtahey_And_port3" transform="rotate(0,-109.63614444444447,208.92335000000003)translate(-115.63614444444447,202.92335000000003)" visibility="hidden" opacity="1" role="img" aria-label="Andtahey_And_port3" stroke="black" stroke-width="1" stroke-dasharray="none" fill="white"></path></g><g id="Andtahey_And_port4_groupElement" transform="translate(0,0)"><path d="M0,0 L12,0 L12,12 L0,12 Z " id="Andtahey_And_port4" transform="rotate(0,-40.71274444444448,193.53000000000003)translate(-46.71274444444448,187.53000000000003)" visibility="hidden" opacity="1" role="img" aria-label="Andtahey_And_port4" stroke="black" stroke-width="1" stroke-dasharray="none" fill="white"></path></g><g id="AndtaheyC5amS_And_port1_groupElement" transform="translate(0,0)"><path d="M0,0 L12,0 L12,12 L0,12 Z " id="AndtaheyC5amS_And_port1" transform="rotate(0,-109.52836666666663,235.9549222222223)translate(-115.52836666666663,229.9549222222223)" visibility="hidden" opacity="1" role="img" aria-label="AndtaheyC5amS_And_port1" stroke="black" stroke-width="1" stroke-dasharray="none" fill="white"></path></g><g id="AndtaheyC5amS_And_port2_groupElement" transform="translate(0,0)"><path d="M0,0 L12,0 L12,12 L0,12 Z " id="AndtaheyC5amS_And_port2" transform="rotate(0,-94.75906666666663,250.1422222222223)translate(-100.75906666666663,244.1422222222223)" visibility="hidden" opacity="1" role="img" aria-label="AndtaheyC5amS_And_port2" stroke="black" stroke-width="1" stroke-dasharray="none" fill="white"></path></g><g id="AndtaheyC5amS_And_port3_groupElement" transform="translate(0,0)"><path d="M0,0 L12,0 L12,12 L0,12 Z " id="AndtaheyC5amS_And_port3" transform="rotate(0,-109.52836666666663,265.3251222222223)translate(-115.52836666666663,259.3251222222223)" visibility="hidden" opacity="1" role="img" aria-label="AndtaheyC5amS_And_port3" stroke="black" stroke-width="1" stroke-dasharray="none" fill="white"></path></g><g id="AndtaheyC5amS_And_port4_groupElement" transform="translate(0,0)"><path d="M0,0 L12,0 L12,12 L0,12 Z " id="AndtaheyC5amS_And_port4" transform="rotate(0,-40.6049666666666,250.1422222222223)translate(-46.6049666666666,244.1422222222223)" visibility="hidden" opacity="1" role="img" aria-label="AndtaheyC5amS_And_port4" stroke="black" stroke-width="1" stroke-dasharray="none" fill="white"></path></g><g id="Not2yJIpd_Not_port1_groupElement" transform="translate(0,0)"><path d="M0,0 L12,0 L12,12 L0,12 Z " id="Not2yJIpd_Not_port1" transform="rotate(0,-174.75,265.58)translate(-180.75,259.58)" visibility="hidden" opacity="1" role="img" aria-label="Not2yJIpd_Not_port1" stroke="black" stroke-width="1" stroke-dasharray="none" fill="white"></path></g><g id="Not2yJIpd_Not_port2_groupElement" transform="translate(0,0)"><path d="M0,0 L12,0 L12,12 L0,12 Z " id="Not2yJIpd_Not_port2" transform="rotate(0,-125.75,265.58)translate(-131.75,259.58)" visibility="hidden" opacity="1" role="img" aria-label="Not2yJIpd_Not_port2" stroke="black" stroke-width="1" stroke-dasharray="none" fill="white"></path></g></g><g id="diagram_diagramExpander" class="e-expand-layer" style="pointer-events: all;" transform="translate(328.32,0),scale(1.44)"></g></svg><div id="diagram_diagramAdornerLayer" style="width: 648px; height: 750px; position: absolute; top: 0px; left: 0px; overflow: hidden; pointer-events: none;"><div id="diagram_diagramUserHandleLayer" style="width: 648px; height: 750px; position: absolute; top: 0px; left: 0px; overflow: hidden; pointer-events: none;" class="e-userHandle-layer"></div><svg id="diagram_diagramAdorner_svg" width="648" height="750" class="e-adorner-layer" style="pointer-events: none;"><g id="diagram_diagramAdorner" style="pointer-events: all;"><g id="diagram_SelectorElement"></g></g></svg></div></div><div class="diagram_hiddenUserHandleTemplate" style="width: 1597px; height: 598px; visibility: hidden; overflow: hidden;"></div></div>
+        </div>]]></content><author><name>Luis David Licea Torres</name></author><category term="Logic" /><summary type="html"><![CDATA[What is the minimum number of ways to test a two-floor elevator?]]></summary></entry><entry><title type="html">Shortest C program with a segmentation fault</title><link href="https://luisliceatorres.com/2023/03/03/shortest-c-program-with-a-segfault.html" rel="alternate" type="text/html" title="Shortest C program with a segmentation fault" /><published>2023-03-03T00:00:00+00:00</published><updated>2023-03-03T00:00:00+00:00</updated><id>https://luisliceatorres.com/2023/03/03/shortest-c-program-with-a-segfault</id><content type="html" xml:base="https://luisliceatorres.com/2023/03/03/shortest-c-program-with-a-segfault.html"><![CDATA[<p>What is the shortest C program with a segmentation fault that you can write?</p>
+
+<p>Create a file named <code class="language-plaintext highlighter-rouge">main.c</code> and compile it using <code class="language-plaintext highlighter-rouge">gcc -nostdlib main.c</code>.</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">_start</span><span class="p">()</span> <span class="p">{}</span>
+</code></pre></div></div>
+
+<p>Execute the output binary to get a segmentation fault.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1]    15054 segmentation fault  ./a.out
+</code></pre></div></div>
+
+<p>Congratulations! Now consider learning Rust.</p>]]></content><author><name>Luis David Licea Torres</name></author><category term="Programming" /><summary type="html"><![CDATA[What is the smallest C program you can write that will give you segmentation fault?]]></summary></entry><entry><title type="html">How to block YouTube on your phone and computer</title><link href="https://luisliceatorres.com/2023/02/05/how-to-block-youtube-on-your-phone-and-computer.html" rel="alternate" type="text/html" title="How to block YouTube on your phone and computer" /><published>2023-02-05T00:00:00+00:00</published><updated>2023-02-05T00:00:00+00:00</updated><id>https://luisliceatorres.com/2023/02/05/how-to-block-youtube-on-your-phone-and-computer</id><content type="html" xml:base="https://luisliceatorres.com/2023/02/05/how-to-block-youtube-on-your-phone-and-computer.html"><![CDATA[<p>Watching YouTube, becoming unaware of time, and missing the entire day is
+common. Will power is not enough to moderate your internet habits because it
+requires perpetual, active conscientiousness and abstinence, so relying on
+device customization is better in the long run because it does not require
+effort on your part past the initial setup.</p>
+
+<h2 id="block-youtube-on-your-phone">Block YouTube on your phone</h2>
+
+<p>Download the <a href="https://www.proginosko.com/leechblock/">LeechBlock</a> plugin into
+your phone’s browser and use the plugin settings to block YouTube. For example,
+I modified <em>Block Set 1</em> to block all <em>youtube</em> URLs except for
+<a href="https://music.youtube.com/">music.youtube.com</a>:</p>
+
+<ul>
+  <li>Custom name for the block set:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>youtube.com
+</code></pre></div>    </div>
+  </li>
+  <li>Domain names to block:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>*youtube*
++music.youtube.com/
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Block from midnight to 10AM and 10PM to midnight:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0000-1000,2200-2400
+</code></pre></div>    </div>
+  </li>
+  <li>Turn on these rules every day of the week:
+    <ul class="task-list">
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Sun</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Mon</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Tue</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Wed</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Thur</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Fri</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Sat</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="block-youtube-on-your-computer">Block YouTube on your computer</h2>
+
+<p>Execute <code class="language-plaintext highlighter-rouge">sudoedit /etc/hosts</code> and add the following hostname-to-IP-address maps.
+Restart your browser or computer for changes to take effect.</p>
+
+<script src="https://gist.github.com/Luis-Licea/2322ab37e437698fdf3cfe0746dee1d7.js"></script>]]></content><author><name>Luis David Licea Torres</name></author><category term="Productivity" /><summary type="html"><![CDATA[Prevent YouTube from funneling all your time]]></summary></entry><entry><title type="html">How to export and import GPG key pairs</title><link href="https://luisliceatorres.com/2022/06/14/how-to-export-and-import-gpg-key-pairs.html" rel="alternate" type="text/html" title="How to export and import GPG key pairs" /><published>2022-06-14T00:00:00+00:00</published><updated>2022-06-14T00:00:00+00:00</updated><id>https://luisliceatorres.com/2022/06/14/how-to-export-and-import-gpg-key-pairs</id><content type="html" xml:base="https://luisliceatorres.com/2022/06/14/how-to-export-and-import-gpg-key-pairs.html"><![CDATA[<p>For context, GPG key pairs are necessary for password managers such as <code class="language-plaintext highlighter-rouge">pass</code>.
+Migrating computers requires migrating the GPG key pairs or else <code class="language-plaintext highlighter-rouge">pass</code> will be
+unable to load or create passwords. Migrating GPG pairs requires exporting them
+in the original computer and exporting them in the target computer. That is what
+this tutorial shows.</p>
+
+<h2 id="how-to-export-gpg-key-pairs">How to export GPG key pairs</h2>
+
+<h3 id="export-the-private-key">Export the private key</h3>
+
+<p>Export an existing private key. Make sure to use the <code class="language-plaintext highlighter-rouge">--armor</code> flag if the
+private key will be printed in the future as a backup.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gpg <span class="nt">--export-secret-keys</span> <span class="nt">--armor</span> &lt;key-name|key-email&gt; <span class="o">&gt;</span> &lt;private-key-file&gt;
+</code></pre></div></div>
+
+<h3 id="export-a-public-key">Export a public key</h3>
+
+<p>A public key can be created now or later on. What matters is the private key,
+which can generate more public keys. To create the key now:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gpg <span class="nt">--export</span> <span class="nt">--armor</span> &lt;key-name|key-email&gt; <span class="o">&gt;</span> &lt;public-key-file&gt;
+</code></pre></div></div>
+
+<h2 id="how-to-import-the-gpg-key-pair">How to import the GPG key pair</h2>
+
+<h3 id="import-the-private-key">Import the private key</h3>
+
+<p>You will be asked for the password.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gpg <span class="nt">--import</span> &lt;private-key-file&gt;
+</code></pre></div></div>
+
+<h3 id="export-a-public-key-if-this-has-not-been-done">Export a public key if this has not been done</h3>
+
+<p>Generate a public key from the exported private key. Redirect the output into a
+file.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gpg <span class="nt">--export</span> <span class="nt">--armor</span> &lt;key-name|key-email&gt; <span class="o">&gt;</span> &lt;publick-key-file&gt;
+</code></pre></div></div>
+
+<h3 id="import-the-public-key-and-change-the-trust-level">Import the public key and change the trust level</h3>
+
+<p>Import the key and edit it by changing the trust level from unknown to ultimate.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gpg <span class="nt">--import</span> &lt;public-key-file&gt;
+gpg <span class="nt">--edit-key</span> &lt;name or email&gt;
+<span class="o">&gt;</span>trust
+<span class="o">&gt;</span>5
+<span class="o">&gt;</span>save
+<span class="o">&gt;</span>quit
+</code></pre></div></div>
+
+<h3 id="scripts-for-exporting-and-importing-key-pairs">Scripts for exporting and importing key pairs</h3>
+
+<p>Use the following scripts to export and import key pairs like so:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># An email like john@doe.com is also  valid.</span>
+./export-key-pair.sh <span class="s2">"John Doe"</span>
+./import-key-pair.sh <span class="s2">"John Doe"</span>
+</code></pre></div></div>
+
+<p>Inspect the code briefly — do not trust internet scripts blindly.</p>
+
+<script src="https://gist.github.com/Luis-Licea/b63bbd079288b6327bd119bf0bcd1277.js"></script>]]></content><author><name>Luis David Licea Torres</name></author><summary type="html"><![CDATA[For context, GPG key pairs are necessary for password managers such as pass. Migrating computers requires migrating the GPG key pairs or else pass will be unable to load or create passwords. Migrating GPG pairs requires exporting them in the original computer and exporting them in the target computer. That is what this tutorial shows.]]></summary></entry><entry><title type="html">How to sharpen blurry asteroid images</title><link href="https://luisliceatorres.com/2021/07/03/how-to-sharpen-blurry-asteroid-images.html" rel="alternate" type="text/html" title="How to sharpen blurry asteroid images" /><published>2021-07-03T00:00:00+00:00</published><updated>2021-07-03T00:00:00+00:00</updated><id>https://luisliceatorres.com/2021/07/03/how-to-sharpen-blurry-asteroid-images</id><content type="html" xml:base="https://luisliceatorres.com/2021/07/03/how-to-sharpen-blurry-asteroid-images.html"><![CDATA[<link rel="stylesheet" href="/assets/common-css/class-centered-image.css" />
+
+<div style="display: flex; border-radius: 15px; align-items: center; font-size: 3em;">
+  <img class="centered-image" style="border-radius: inherit;" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/15-eunomia.png" alt="Image of 15 Eunomia asteroid." />
+  &rarr;
+  <img class="centered-image" style="border-radius: inherit;" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/15-eunomia-processed.jpg" alt="Image of 15 Eunomia asteroid after being color corrected." />
+</div>
+
+<h2 id="get-asteroid-images">Get asteroid images</h2>
+
+<p>Download asteroid images from
+<a href="https://archive.eso.org/eso/eso_archive_main.html">archive.eso.org</a>.</p>
+
+<ol>
+  <li>
+    <p>Check <strong>sphere</strong> in the imaging section.
+<img class="centered-image" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/imaging-section.png" alt="Image of the imaging section." /></p>
+  </li>
+  <li>
+    <p>Type <strong>asteroid</strong> into the <strong>Title</strong> field.
+<img class="centered-image" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/title-field.png" alt="Image of the title field." /></p>
+  </li>
+  <li>
+    <p>Type <strong>zimpol</strong> into the <strong>TPL ID</strong> field.
+<img class="centered-image" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/tpl-id-and-object-name.png" alt="Image of the TPL ID and object name fields." /></p>
+  </li>
+  <li>
+    <p><strong>Optional</strong>: specify the name of the asteroid in the <strong>OB Name</strong> field. Some
+asteroid name examples are Ceres, Pallas, Psyche, Vesta, etc.</p>
+  </li>
+  <li>
+    <p>Press <strong>Search</strong> and select the datasets you want to download.
+<img class="centered-image" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/search-button.png" alt="Image of the search button." /></p>
+  </li>
+  <li>
+    <p>Click on <strong>Request marked datasets (new service)</strong> at the bottom of the page.
+<img class="centered-image" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/request-marked-datasets.png" alt="Image of button to request marked datasets." /></p>
+  </li>
+  <li>
+    <p>Click on <strong>Download ZIP file</strong> to download the images.
+<img class="centered-image" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/download-zip.png" alt="Image of button to download zip file." /></p>
+  </li>
+</ol>
+
+<h2 id="uncompress-the-zip-and-z-files-on-linux">Uncompress the .zip and .Z files on Linux</h2>
+
+<ol>
+  <li>Install the <strong>unzip</strong> utility to uncompress the .zip file.</li>
+  <li>Unzip the .zip file and save the contents in a folder called
+<strong>unzipped_archive</strong>.</li>
+</ol>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>unzip archive.zip <span class="nt">-d</span> unzipped_archive
+</code></pre></div></div>
+
+<ol>
+  <li>Install the <strong>uncompress</strong> utility to convert .Z files into .fits files.</li>
+  <li>Decompress the .Z file and verify the values for DATE and TIME match your
+file.</li>
+</ol>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>uncompress <span class="s2">"unzipped_archive/SPHER.(DATE)T(TIME).fits.Z"</span>
+</code></pre></div></div>
+
+<h2 id="uncompress-the-zip-and-z-files-on-windows">Uncompress the .zip and .Z files on Windows</h2>
+
+<ol>
+  <li>Right-click the .zip file and select <strong>Extract All</strong> to chose a destination
+folder.</li>
+  <li>Use <strong><a href="https://cloudconvert.com">cloudconvert</a></strong> to uncompress the .Z file of
+the form <strong>SPHER.(DATE)T(TIME).fits.Z</strong></li>
+</ol>
+
+<h2 id="view-your-fits-file-and-inspect-your-asteroid">View your .fits file and inspect your asteroid</h2>
+
+<p>Use <strong><a href="https://www.gimp.org/downloads/">GIMP</a></strong> to open the .fits file and check
+that there are no large, black stripes on the image. These vertical stripes ruin
+the image and require us to obtain a different one. I recommend using the
+<a href="https://ssd.jpl.nasa.gov/horizons.cgi?find_body=1&amp;body_group=sb&amp;sstr=1">ephermis</a>
+feature here before choosing what images to process.</p>
+
+<p><img class="centered-image" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/large-black-stripe.png" alt="The image shows how a large, black stripe ruins the image." /></p>
+
+<h2 id="how-to-process-images">How to process images</h2>
+
+<p>Download <strong><a href="https://imagej.nih.gov/ij/">ImageJ</a></strong> to do image processing. ImageJ
+can open .fits files after they have been processed by GIMP. Use GIMP to export
+.fits files into files that ImageJ can accept. Here is how an image on ImageJ
+should look.</p>
+
+<p><img class="centered-image" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/15-eunomia.png" alt="Image of 15 Eunomia asteroid." /></p>
+
+<p>On the raw images there are 1-pixel-high stripes that span the entirety of the
+images. To remove these horizontal black stripes, use ImageJ’s <strong>remove
+outliers</strong> feature with a radius of 1 pixel, a threshold of 1, and set to dark.
+After that, it is necessary to smooth the images a few times. Then open the
+image on GIMP and sharpen it a lot to the point that it looks pretty noisy, then
+open the image on ImageJ and remove both bright and dark outliers with a radius
+of 3 to 8 pixels, then smooth the image again a few times. This is how the image
+should look.</p>
+
+<p><img class="centered-image" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/15-eunomia-overexposed.png" alt="Overexposed image of 15 Eunomia asteroid." /></p>
+
+<p>If you change an 8-bit image to a 16 or 32-bit image, it will automatically and
+significantly increase the brightness of the image; however, changing a 32 or
+16-bit image into an 8-bit image does not change the brightness. Make any color
+corrections if they are needed. Here is the image after making color
+corrections.</p>
+
+<p><img class="centered-image" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/15-eunomia-processed.jpg" alt="Image of 15 Eunomia asteroid after being color corrected." /></p>
+
+<p>This asteroid is called <em>15 Eunomia</em> and there appear to be two <em>faculae</em>
+(bright spots) on its surface.</p>
+
+<p><img class="centered-image" src="/assets/2021-07-03-how-to-sharpen-blurry-asteroid-images/images/15-eunomia-faculae.png" alt="Image of 15 Eunomia asteroid faculae (bright spots)." /></p>]]></content><author><name>Luis David Licea Torres</name></author><category term="Astronomy" /><category term="Image Processing" /><summary type="html"><![CDATA[A tutorial on how to sharpen blurry asteroid images.]]></summary></entry></feed>
