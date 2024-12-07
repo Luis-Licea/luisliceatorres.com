@@ -48,3 +48,15 @@ Execute `sudoedit /etc/hosts` and add the following hostname-to-IP-address maps.
 Restart your browser or computer for changes to take effect.
 
 <script src="https://gist.github.com/Luis-Licea/2322ab37e437698fdf3cfe0746dee1d7.js"></script>
+
+## Block YouTube shorts to escape the algorithm
+
+It is possible to use browser extensions like [Unhook] or [UnTrap for YouTube]
+to block YouTube shorts and modify other aspects of the page. These extensions
+work on Chrome, Brave, Firefox, and their mobile versions.
+
+After installing [Unhook], the option to "Hide shorts" needs to be enabled
+manually.
+
+[UnTrap for YouTube]: https://chromewebstore.google.com/detail/unhook-remove-youtube-rec/khncfooichmfjbepaaaebmommgaepoid
+[Unhook]: https://chromewebstore.google.com/detail/untrap-for-youtube/enboaomnljigfhfjfoalacienlhjlfil
