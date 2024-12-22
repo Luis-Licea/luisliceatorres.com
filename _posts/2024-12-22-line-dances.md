@@ -4,6 +4,9 @@ tags: Dance
 keywords: Dance
 ---
 
+A list of line dances with accompanying dance steps, instructional videos, or music
+videos.
+
 <p>
 <details>
   <summary>Shaboozey - A Bar Song (Tipsy)</summary>
@@ -51,7 +54,9 @@ keywords: Dance
           <li>3 steps forward (right, left, right) and kick with your left leg</li>
           <li>3 steps backward (left, right, left) and tap with your right foot (now you should be in the starting position)</li>
           <li>3 steps forward (right, left, right) and kick with your left leg</li>
-          <li>3 steps backward (left, right, left) and tap with your right foot to the right (this will make it easier to cross your feet in the next step)</li>
+          <li>3 steps backward (left, right, left) and tap with your right foot
+              to the right (this will make it easier to cross your feet in the next
+              step)</li>
           <li>left cross and tap</li>
           <li>right cross and tap</li>
           <li>left cross and tap</li>
@@ -64,3 +69,44 @@ keywords: Dance
 </p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0xNDiVM7_2s?si=bydeTHrLB8mrXmap&amp;start=35" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Line dances without instruction videos
+
+<p>
+<details>
+  <summary>Pitbull, Kesha - Timber</summary>
+  <p>
+      <p>
+      You begin with your weight on your left foot and on the toes of your right
+      foot, as though you were tapping the floor, because the first step is a
+      forward step.
+      <br>
+      Notice that the first 8 steps are essentially 4 rock steps. Then you do 4
+      triple steps forward beginning with your right foot.
+      </p>
+      <ol>
+          <li>right foot steps forward</li>
+          <li>left foot steps in place</li>
+          <li>right foot steps backwards</li>
+          <li>left foot steps in place</li>
+          <li>right foot steps forward</li>
+          <li>left foot steps in place</li>
+          <li>right foot steps backwards</li>
+          <li>left foot steps in place</li>
+          <li>right foot steps forward and does a triple step</li>
+          <li>left foot steps forward and does a triple step</li>
+          <li>right foot steps forward and does a triple step</li>
+          <li>left foot steps forward and does a triple step</li>
+          <li>8 steps back (left, right, left, right, left, right, left, right)
+              back to starting position, with your weight on both feet</li>
+          <li>right hip</li>
+          <li>left hip</li>
+          <li>do a pivot step to do half a counter-clockwise turn (your weight
+              is on your left foot and you turn on the ball of your left foot as
+              you take 2 or 4 small steps with your left foot to turn you)</li>
+      </ol>
+  </p>
+</details>
+</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EQzXwcZS-FU?si=SSRjiKRnQUs5Vxwf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
