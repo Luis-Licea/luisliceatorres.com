@@ -1,5 +1,5 @@
 ---
-title: Houston and Galveston Bay Area dance classes
+title: Houston and Webster area dance classes
 tags: Dance
 keywords: Dance
 ---
@@ -8,19 +8,21 @@ Here are some dance class locations around Houston and the Galveston Bay Area.
 
 ## [Rowdys] | Free!
 
-Just show up and dance!
+Just show up and learn to dance!
 
-| Time | Monday                                    | Friday     |
-| ---- | ----------------------------------------- | ---------- |
-| 7PM  | Polka, West Coast Swing, East Coast Swing | Line dance |
+| Time | Wednesday  | Friday                                            |
+| ---- | ---------- | ------------------------------------------------- |
+| 7PM  | Line dance | 2-Step, Polka, West Coast Swing, East Coast Swing |
 
 ## [Buck Wild] | \$5
 
-The entrance fee is \$5 in cash!
+The entrance fee is \$10 (18+) or \$5 (21+) in cash from 6PM to 8PM! The
+entrance is free after 8PM if you are over 21.
 
-| Time | Monday                                    | Friday     |
-| ---- | ----------------------------------------- | ---------- |
-| 7PM  | Polka, West Coast Swing, East Coast Swing | Line dance |
+| Time   | Friday                          | Saturday                                                  |
+| ------ | ------------------------------- | --------------------------------------------------------- |
+| 6:45PM | West Coast Swing                |                                                           |
+| 7:15PM | 2-Step, Polka, East Coast Swing | Line dance (only on 1st, 3rd, and 5th weeks of the month) |
 
 ## [Bay Area Whip Dance Club] | \$100
 
@@ -34,7 +36,8 @@ The yearly membership is $100. That is very cheap!
 
 The class price depends on how long the class is, and whether you are a walk-in or you
 have an appointment. Either way, the price is not bad, and Eddy is such a good
-instructor!
+instructor! If you are new to Salsa, you may want to take Salsa on 1 before you
+take Salsa on 2.
 
 | Time   | Monday           | Tuesday          | Wednesday        | Thursday         | Sunday           |
 | ------ | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
