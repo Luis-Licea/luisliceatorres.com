@@ -34,15 +34,20 @@ I learned these valuable lessons about dancing:
      forget the next step. Stringing your moves into combinations is hard, but
      that is what it takes to be a good dancer and a good lead.
 
-- You must always stay in synch with the music, otherwise you are not dancing.
-- If you are the lead, you need to lead your partner as though she were blind.
-  If your dance partner can close her eyes and the dance still looks good, then
-  you are leading well.
 - Your feet should never stop moving, otherwise you are not dancing.
+- You footwork count must be in synch with the music, otherwise you are counting
+  for the sake of counting.
 - Your footwork count must determine the count you say out-loud, otherwise you
   are just counting for the sake of counting.
+- If you are the lead, you need to use your hands to push and pull your partner
+  in such a way that even if she were blind she would know in what direction to
+  move. If your dance partner can close her eyes and the dance still looks good,
+  then you are leading well.
 - You must know when to shift your weight onto a leg. For example, for
   Salsa on 2, you use your left foot for steps 1, 3, and 6, while you use your
   right for steps 2, 5, and 7.
+- The beat for Salsa on 1 is quick, quick, slow, pause, quick, quick, slow,
+  pause, whereas the beat for Salsa on 2 is quick, slow, quick, pause, quick,
+  slow, quick, pause.
 
 [Salsa Eddy]: https://www.salsaeddy.com/
