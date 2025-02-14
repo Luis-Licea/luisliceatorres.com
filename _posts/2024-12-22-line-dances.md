@@ -16,24 +16,45 @@ videos.
       In the first 6 steps you are basically making a square.
       It is not shown in this video, but there is a dance brake that consists of
       a right tap and a left tap at the end of the sequence before restarting
-      the sequence.
+      the sequence. After wall 10 you have to make a step touch (4 steps).
       </p>
       <ol>
           <li>right foot to the right</li>
+          <li>tap</li>
           <li>right foot forward</li>
+          <li>tap</li>
           <li>left foot to the left</li>
+          <li>tap</li>
           <li>left foot backwards</li>
-          <li>right tap</li>
-          <li>left tap</li>
-          <li>right grape vine</li>
-          <li>left tap</li>
-          <li>right tap</li>
-          <li>left grape vine and half turn counter-clockwise</li>
-          <li>right heel</li>
-          <li>left heel</li>
-          <li>pop (stand in the ball of your feet)</li>
+          <li>tap</li>
+          <!-- 8 -->
+          <li>step right</li>
+          <li>tap</li>
+          <li>step left</li>
+          <li>tap</li>
+          <li>step right with right foot</li>
+          <li>back cross step to the right with left foot</li>
+          <li>step right with right foot</li>
+          <li>tap</li>
+          <!-- 16 -->
+          <li>step left</li>
+          <li>tap</li>
+          <li>step right</li>
+          <li>tap</li>
+          <li>step left with left foot</li>
+          <li>back cross step to the left with right foot</li>
+          <li>step left with left foot</li>
+          <li>kick with right foot while doing 1/4th turn to the left</li>
+          <!-- 24 -->
+          <li>right foot heel</li>
+          <li>right foot tap</li>
+          <li>left foot heel</li>
+          <li>left foot tap</li>
+          <li>jump while opening feet to shoulder width</li>
+          <li>hold</li>
           <li>right hip</li>
           <li>left hip</li>
+          <!-- 32 -->
       </ol>
   </p>
 </details>
@@ -69,6 +90,39 @@ videos.
 </p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0xNDiVM7_2s?si=bydeTHrLB8mrXmap&amp;start=35" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>
+<details>
+  <summary>Laura Bell Bundy - Two Step ft. Colt Ford</summary>
+  <p>
+      <p>
+      This one is a 16-count. You begin standing straight on both feet.
+      </p>
+      <ol>
+          <li>slide right</li>
+          <li>bring feet together</li>
+          <li>slide right</li>
+          <li>bring feet together and do a triple step</li>
+          <li>slide left</li>
+          <li>bring feet together</li>
+          <li>slide left</li>
+          <li>bring feet together and do a triple step</li>
+          <li>kick with you right foot</li>
+          <li>bring feet together and do a triple step (kick stomp stomp, AKA
+                  kick ball change)</li>
+          <li>kick with you right foot</li>
+          <li>bring feet together and do a triple step (kick stomp stomp, AKA
+                  kick ball change)</li>
+          <li>slide right while doing a 1/4th of a quarter turn to the left</li>
+          <li>slide left while doing a 1/4th of a quarter turn to the left</li>
+          <li>slide right while doing a 1/4th of a quarter turn to the left</li>
+          <li>slide left while doing a 1/4th of a quarter turn to the left</li>
+      </ol>
+  </p>
+</details>
+</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QvxLmAUsjos?si=yogi6Ucs9tlfsJCF&amp;start=33" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Line dances without instruction videos
 
