@@ -33,3 +33,5 @@ jview() {
     # Specify url and port number.
     xdg-open localhost:4000 "$@"
 }
+
+"$@"

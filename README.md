@@ -5,7 +5,18 @@
 
 This is a personal website for writing about things I am interested about.
 
-## Setup
+## NixOS Setup
+
+```bash
+# Install dependencies.
+nix-shell
+
+# Serve the website.
+./bashrc jlive
+```
+
+## Arch Linux Setup
+
 ```bash
 # Install Ruby and its package management framework.
 sudo pacman -S ruby
