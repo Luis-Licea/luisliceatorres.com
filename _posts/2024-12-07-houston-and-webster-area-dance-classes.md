@@ -28,7 +28,8 @@ entrance is free after 8PM if you are over 21.
 
 ## [Bay Area Whip Dance Club] | \$100
 
-The yearly membership is $100. That is very cheap!
+The yearly membership is $100. That is very cheap! The classes take place inside
+the [Walter Hall Banquet Hall].
 
 | Time   | Tuesday          |
 | ------ | ---------------- |
@@ -90,3 +91,4 @@ wedding dance or a competitive dance.
 [Fred Astaire]: https://ekkart.com/
 [Rowdys]: https://rowdysdancehall.com/home/webster/
 [Salsa Eddy]: https://www.salsaeddy.com/
+[Walter Hall Banquet Hall]: https://maps.app.goo.gl/dNKeYf1f2xzajpEN7
