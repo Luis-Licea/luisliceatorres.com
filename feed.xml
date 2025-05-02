@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://luisliceatorres.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://luisliceatorres.com/" rel="alternate" type="text/html" /><updated>2025-05-02T02:31:36+00:00</updated><id>https://luisliceatorres.com/feed.xml</id><title type="html">Luis D. Licea Torres</title><subtitle>A portfolio website for projects and blogs.</subtitle><author><name>Luis David Licea Torres</name><email>luisliceatorres@gmail.com</email></author><entry><title type="html">Русский язык очень трудный</title><link href="https://luisliceatorres.com/2025/01/18/russkij-jazyk-o%C4%8Den-trudnyj.html" rel="alternate" type="text/html" title="Русский язык очень трудный" /><published>2025-01-18T00:00:00+00:00</published><updated>2025-01-18T00:00:00+00:00</updated><id>https://luisliceatorres.com/2025/01/18/russkij-jazyk-o%C4%8Den-trudnyj</id><content type="html" xml:base="https://luisliceatorres.com/2025/01/18/russkij-jazyk-o%C4%8Den-trudnyj.html"><![CDATA[<p>Когда я был маленьким (мне было меньше чем 12), я смотрел телевизор и слышал что
+русско-говорящие требовали 17 лет чтобы вычить свой язык, пока
+испанско-говорящие требовали 10-13 (я забыл конкретно сколько) лет. Мне это было
+интересно потому что я говорил по-испански.</p>
+
+<p>Слышав это, я захотел знать почему русско-говорящие требовали больше времини.
+“Либо они тупие, либо руский насколько труднее чем испанский” – я подумал.
+Десять лет спустия, я наконец-то знаю что русский на самом деле труднее чем
+испанский.</p>
+
+<p>Склонения, ударения, спряжения, все из тех труднее.</p>
+
+<p>Честно говоря, вычить русский язык требует много времени а он практически
+безполезен потому что найти русско-говорящих никак. Твой семья, друзья, и
+знакомые подумают то, что ты учишь русский язык из-за девушек, или за того, что
+ты шпион. Эти мысли избитые.</p>
+
+<p>Та одна вещь что постоянно заставлят меня учить русский - это музыка.</p>]]></content><author><name>Luis David Licea Torres</name></author><summary type="html"><![CDATA[Когда я был маленьким (мне было меньше чем 12), я смотрел телевизор и слышал что русско-говорящие требовали 17 лет чтобы вычить свой язык, пока испанско-говорящие требовали 10-13 (я забыл конкретно сколько) лет. Мне это было интересно потому что я говорил по-испански.]]></summary></entry><entry><title type="html">Gym Progress</title><link href="https://luisliceatorres.com/2024/12/22/gym-progress.html" rel="alternate" type="text/html" title="Gym Progress" /><published>2024-12-22T00:00:00+00:00</published><updated>2024-12-22T00:00:00+00:00</updated><id>https://luisliceatorres.com/2024/12/22/gym-progress</id><content type="html" xml:base="https://luisliceatorres.com/2024/12/22/gym-progress.html"><![CDATA[<p>Unless I am doing a bodyweight exercise, I like to increase the weight until I
+can do at most 7 repetitions.</p>
+
+<table>
+  <thead>
+    <tr><th>Exercise</th> <th>Max Weight (lb)</th> <th>Repetitions</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Abdominal</td> <td>120</td> <td>4</td></tr>
+    <tr><td>AbCoaster</td> <td>35</td> <td>8</td></tr>
+    <tr><td>Bicep Curl</td> <td>105</td> <td>3</td></tr>
+    <tr><td>Calf Extension</td> <td>235</td> <td>6</td></tr>
+    <tr><td>Chest Press</td> <td>120</td> <td>3</td></tr>
+    <tr><td>Hip Abduction</td> <td>205</td> <td>8</td></tr>
+    <tr><td>Lat Pull Down</td> <td>165</td> <td>1</td></tr>
+    <tr><td>Leg Curl</td> <td>160</td> <td>10</td></tr>
+    <tr><td>Leg Extension</td> <td>165</td> <td>8</td></tr>
+    <tr><td>Seated Row</td> <td>135</td> <td>7</td></tr>
+    <tr><td>Shoulder Press</td> <td>105</td> <td>2</td></tr>
+    <tr><td>Tricep Extension</td> <td>105</td> <td>2</td></tr>
+  </tbody>
+</table>
+
+<div id="exercise-plot"></div>
+
+<table>
+  <thead>
+    <tr><th>Exercise</th> <th>Max Repetition</th> <th>Body Weight (lb)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Captain&#39;s Chair Leg Raise</td> <td>25</td> <td>128</td></tr>
+    <tr><td>Pull Up</td> <td>8</td> <td>131</td></tr>
+  </tbody>
+</table>
+
+<div id="exercise-plot2"></div>
+
+<script type="module">
+
+import * as Plot from "https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm";
+import exercises from "./assets/exerciseWithWeights.json" with { type: "json" };
+import exercises2 from "./assets/exerciseWithBodyweight.json" with { type: "json" };
+
+const data = [];
+for (const [exerciseName, exerciseDates] of Object.entries(exercises)) {
+        for (const [exerciseDate, repetitionsAndWeight] of Object.entries(exerciseDates)) {
+            data.push({
+                exercise: exerciseName,
+                date: new Date(exerciseDate),
+                lb: Math.max(...repetitionsAndWeight.map(([repetition, weight]) => weight)),
+            });
+        }
+}
+
+const data2 = [];
+for (const [exerciseName, exerciseDates] of Object.entries(exercises2)) {
+        for (const [exerciseDate, repetitionsAndWeight] of Object.entries(exerciseDates)) {
+            data2.push({
+                exercise: exerciseName,
+                date: new Date(exerciseDate),
+                repetitions: Math.max(...repetitionsAndWeight.map(([repetition, weight]) => repetition)),
+            });
+        }
+}
+
+const plot = Plot.plot({
+    color: { scheme: "Warm", legend: true },
+    x: {grid: true, line: true, insetRight: 80},
+    y: {grid: true, domain: [0, 300]},
+    marks: [
+        Plot.line(data, {x: "date", y: "lb", stroke: "exercise", marker: true, tip: true}),
+        Plot.text(data, Plot.selectLast({x: "date", y: "lb", text: "exercise", z: "exercise", textAnchor: "start", dx: 18, fontWeight: "bold"})),
+        // Plot.tip(data, Plot.pointerX({ x: "date", y: "lb", })),
+    ],
+});
+
+const plot2 = Plot.plot({
+    color: { scheme: "Warm", legend: true },
+    x: {grid: true, line: true, insetRight: 80},
+    y: {grid: true, domain: [0, 30]},
+    marks: [
+        Plot.line(data2, {x: "date", y: "repetitions", stroke: "exercise", marker: true, tip: true}),
+        Plot.text(data2, Plot.selectLast({x: "date", y: "repetitions", text: "exercise", z: "exercise", textAnchor: "start", dx: 18, fontWeight: "bold"})),
+    ],
+});
+
+document.querySelector("#exercise-plot").append(plot);
+document.querySelector("#exercise-plot2").append(plot2);
+</script>]]></content><author><name>Luis David Licea Torres</name></author><summary type="html"><![CDATA[Unless I am doing a bodyweight exercise, I like to increase the weight until I can do at most 7 repetitions.]]></summary></entry><entry><title type="html">Line dances</title><link href="https://luisliceatorres.com/2024/12/22/line-dances.html" rel="alternate" type="text/html" title="Line dances" /><published>2024-12-22T00:00:00+00:00</published><updated>2024-12-22T00:00:00+00:00</updated><id>https://luisliceatorres.com/2024/12/22/line-dances</id><content type="html" xml:base="https://luisliceatorres.com/2024/12/22/line-dances.html"><![CDATA[<p>A list of line dances with accompanying dance steps, instructional videos, or music
+videos.</p>
+
+<p>
+<details>
+  <summary>Shaboozey - A Bar Song (Tipsy)</summary>
+  <p>
+      <p>
+      You begin with your weight on your left foot.
+      In the first 6 steps you are basically making a square.
+      It is not shown in this video, but there is a dance brake that consists of
+      a right tap and a left tap at the end of the sequence before restarting
+      the sequence. After wall 10 you have to make a step touch (4 steps).
+      </p>
+      <ol>
+          <li>right foot to the right</li>
+          <li>tap</li>
+          <li>right foot forward</li>
+          <li>tap</li>
+          <li>left foot to the left</li>
+          <li>tap</li>
+          <li>left foot backwards</li>
+          <li>tap</li>
+          <!-- 8 -->
+          <li>step right</li>
+          <li>tap</li>
+          <li>step left</li>
+          <li>tap</li>
+          <li>step right with right foot</li>
+          <li>back cross step to the right with left foot</li>
+          <li>step right with right foot</li>
+          <li>tap</li>
+          <!-- 16 -->
+          <li>step left</li>
+          <li>tap</li>
+          <li>step right</li>
+          <li>tap</li>
+          <li>step left with left foot</li>
+          <li>back cross step to the left with right foot</li>
+          <li>step left with left foot</li>
+          <li>kick with right foot while doing 1/4th turn to the left</li>
+          <!-- 24 -->
+          <li>right foot heel</li>
+          <li>right foot tap</li>
+          <li>left foot heel</li>
+          <li>left foot tap</li>
+          <li>jump while opening feet to shoulder width</li>
+          <li>hold</li>
+          <li>right hip</li>
+          <li>left hip</li>
+          <!-- 32 -->
+      </ol>
+  </p>
+</details>
+</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6WUNB-EQbsc?si=zOGzfs2XTpyA3NuT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p>
+<details>
+  <summary>Pitbull ft. John Ryan - Fireball</summary>
+  <p>
+      <p>
+      You begin with your weight on your left foot and on the toes of your right
+      foot, as though you were tapping the floor.
+      You are doing 4 cross steps moving forward.
+      </p>
+      <ol>
+          <li>3 steps forward (right, left, right) and kick with your left leg</li>
+          <li>3 steps backward (left, right, left) and tap with your right foot (now you should be in the starting position)</li>
+          <li>3 steps forward (right, left, right) and kick with your left leg</li>
+          <li>3 steps backward (left, right, left) and tap with your right foot
+              to the right (this will make it easier to cross your feet in the next
+              step)</li>
+          <li>left cross and tap</li>
+          <li>right cross and tap</li>
+          <li>left cross and tap</li>
+          <li>right cross and tap</li>
+          <li>jazz step while doing a half clockwise turn (right foot crosses left foot, left foot steps back, right foot returns to neutral position)</li>
+          <li>jazz step (but no turn)</li>
+      </ol>
+  </p>
+</details>
+</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0xNDiVM7_2s?si=bydeTHrLB8mrXmap&amp;start=35" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p>
+<details>
+  <summary>Laura Bell Bundy - Two Step ft. Colt Ford</summary>
+  <p>
+      <p>
+      This one is a 16-count. You begin standing straight on both feet.
+      </p>
+      <ol>
+          <li>slide right</li>
+          <li>bring feet together</li>
+          <li>slide right</li>
+          <li>bring feet together and do a triple step</li>
+          <li>slide left</li>
+          <li>bring feet together</li>
+          <li>slide left</li>
+          <li>bring feet together and do a triple step</li>
+          <li>kick with you right foot</li>
+          <li>bring feet together and do a triple step (kick stomp stomp, AKA
+                  kick ball change)</li>
+          <li>kick with you right foot</li>
+          <li>bring feet together and do a triple step (kick stomp stomp, AKA
+                  kick ball change)</li>
+          <li>slide right while doing a 1/4th of a quarter turn to the left</li>
+          <li>slide left while doing a 1/4th of a quarter turn to the left</li>
+          <li>slide right while doing a 1/4th of a quarter turn to the left</li>
+          <li>slide left while doing a 1/4th of a quarter turn to the left</li>
+      </ol>
+  </p>
+</details>
+</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QvxLmAUsjos?si=yogi6Ucs9tlfsJCF&amp;start=33" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<h2 id="line-dances-without-instruction-videos">Line dances without instruction videos</h2>
+
+<p>
+<details>
+  <summary>Pitbull, Kesha - Timber</summary>
+  <p>
+      <p>
+      You begin with your weight on your left foot and on the toes of your right
+      foot, as though you were tapping the floor, because the first step is a
+      forward step.
+      <br />
+      Notice that the first 8 steps are essentially 4 rock steps. Then you do 4
+      triple steps forward beginning with your right foot.
+      </p>
+      <ol>
+          <li>right foot steps forward</li>
+          <li>left foot steps in place</li>
+          <li>right foot steps backwards</li>
+          <li>left foot steps in place</li>
+          <li>right foot steps forward</li>
+          <li>left foot steps in place</li>
+          <li>right foot steps backwards</li>
+          <li>left foot steps in place</li>
+          <li>right foot steps forward and does a triple step</li>
+          <li>left foot steps forward and does a triple step</li>
+          <li>right foot steps forward and does a triple step</li>
+          <li>left foot steps forward and does a triple step</li>
+          <li>8 steps back (left, right, left, right, left, right, left, right)
+              back to starting position, with your weight on both feet</li>
+          <li>right hip</li>
+          <li>left hip</li>
+          <li>do a pivot step to do half a counter-clockwise turn (your weight
+              is on your left foot and you turn on the ball of your left foot as
+              you take 2 or 4 small steps with your left foot to turn you)</li>
+      </ol>
+  </p>
+</details>
+</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EQzXwcZS-FU?si=SSRjiKRnQUs5Vxwf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>]]></content><author><name>Luis David Licea Torres</name></author><category term="Dance" /><summary type="html"><![CDATA[A list of line dances with accompanying dance steps, instructional videos, or music videos.]]></summary></entry><entry><title type="html">Houston and Webster area dance classes</title><link href="https://luisliceatorres.com/2024/12/07/houston-and-webster-area-dance-classes.html" rel="alternate" type="text/html" title="Houston and Webster area dance classes" /><published>2024-12-07T00:00:00+00:00</published><updated>2024-12-07T00:00:00+00:00</updated><id>https://luisliceatorres.com/2024/12/07/houston-and-webster-area-dance-classes</id><content type="html" xml:base="https://luisliceatorres.com/2024/12/07/houston-and-webster-area-dance-classes.html"><![CDATA[<p>Here are some dance class locations around Houston and the Galveston Bay Area.</p>
+
+<h2 id="rowdys--free"><a href="https://rowdysdancehall.com/home/webster/">Rowdys</a> | Free!</h2>
+
+<p>Just show up and learn to dance!</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Wednesday</th>
+      <th>Friday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>7PM</td>
+      <td>Line dance</td>
+      <td>2-Step, Polka, West Coast Swing, East Coast Swing</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="buck-wild--5"><a href="https://www.buckwildcountrydanceclub.com/">Buck Wild</a> | $5</h2>
+
+<p>The entrance fee is $10 (18+) or $5 (21+) in cash from 6PM to 8PM! The
+entrance is free after 8PM if you are over 21.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Friday</th>
+      <th>Saturday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>6:45PM</td>
+      <td>West Coast Swing</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>7:15PM</td>
+      <td>2-Step, Polka, East Coast Swing</td>
+      <td>Line dance (only on 1st, 3rd, and 5th weeks of the month)</td>
+    </tr>
+    <tr>
+      <td>5:00PM</td>
+      <td> </td>
+      <td>Nightclub (only on 4th week of the month)</td>
+    </tr>
+    <tr>
+      <td>7:00PM</td>
+      <td> </td>
+      <td>Salsa, Bachata, Waltz, Rumba, Foxtrot, Chacha, West Coast Swing, East Coast Swing (only on 4th week of the month)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="bay-area-whip-dance-club--100"><a href="https://www.bawdc.org/">Bay Area Whip Dance Club</a> | $100</h2>
+
+<p>The yearly membership is $100. That is very cheap! The classes take place inside
+the <a href="https://maps.app.goo.gl/dNKeYf1f2xzajpEN7">Walter Hall Banquet Hall</a>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Tuesday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>7:30PM</td>
+      <td>West Coast Swing</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="salsa-eddy--20100"><a href="https://www.salsaeddy.com/">Salsa Eddy</a> | $20–$100</h2>
+
+<p>The class price depends on how long the class is, and whether you are a walk-in
+or you have an appointment. Either way, the price is not bad, and Eddy is such a
+good instructor! If you are new to Salsa, you may want to take Salsa on 1 before
+you take Salsa on 2.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Sunday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>4:00PM</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>Bachata</td>
+    </tr>
+    <tr>
+      <td>5:00PM</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>Salsa</td>
+    </tr>
+    <tr>
+      <td>6:00PM</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>(social dancing)</td>
+    </tr>
+    <tr>
+      <td>7:00PM</td>
+      <td>Bachata</td>
+      <td>Bachata</td>
+      <td>Salsa on 2</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>7:30PM</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>Salsa</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>8:00PM</td>
+      <td>Salsa</td>
+      <td>Salsa</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>8:30PM</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>Bachata</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>9:00PM</td>
+      <td>(social dancing)</td>
+      <td>(social dancing)</td>
+      <td>(social dancing)</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>9:30PM</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>(social dancing)</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="dance-vision-studio--"><a href="https://dancevisiontexas.com/dance-vision-clear-lake/">Dance Vision Studio</a> | 💰</h2>
+
+<p>For me, each private lesson was about $120. However, the membership allows you
+to attend group classes for free. If you take advantage of every single free
+group class and you schedule your private lessons two weeks apart, the average
+price per session could be $30. If you only take private classes, then it is
+virtually the same as paying $120 per class. As far as private dance lesson
+prices go, $120 per lesson is a reasonable price.</p>
+
+<p>Private lessons are done via appointment, and group lessons are spread out
+regularly throughout the week.</p>
+
+<p>I would recommend these guys if you have an important dance coming up, like a
+wedding dance or a competitive dance.</p>
+
+<h2 id="fred-astaire--"><a href="https://ekkart.com/">Fred Astaire</a> | 💰💰💰💰💰</h2>
+
+<p>The place looked like a very elegant establishment, suggesting the private
+lessons would be more expensive than in <a href="https://dancevisiontexas.com/dance-vision-clear-lake/">Dance Vision Studio</a>. If you take
+advantage of every single free group class, the average price per session will
+also drop, but <a href="https://ekkart.com/">Fred Astaire</a> seem to offer fewer group classes than <a href="https://dancevisiontexas.com/dance-vision-clear-lake/">Dance
+Vision Studio</a>.</p>
+
+<p>Anecdotally, I have heard that <a href="https://ekkart.com/">Fred Astaire</a> caters to competitive dancers who
+may spend from $1,000 to $5,000 per month in lesson fees. I did not get a
+quote, so take this anecdote with a grain of salt. Casual dancers will probably
+get charged much less.</p>
+
+<p>I would recommend these guys if have a very important dance coming up, like a
+wedding dance or a competitive dance.</p>]]></content><author><name>Luis David Licea Torres</name></author><category term="Dance" /><summary type="html"><![CDATA[Here are some dance class locations around Houston and the Galveston Bay Area.]]></summary></entry><entry><title type="html">What I learned from Salsa Eddy</title><link href="https://luisliceatorres.com/2024/12/07/what-I-learned-from-salsa-eddy.html" rel="alternate" type="text/html" title="What I learned from Salsa Eddy" /><published>2024-12-07T00:00:00+00:00</published><updated>2024-12-07T00:00:00+00:00</updated><id>https://luisliceatorres.com/2024/12/07/what-I-learned-from-salsa-eddy</id><content type="html" xml:base="https://luisliceatorres.com/2024/12/07/what-I-learned-from-salsa-eddy.html"><![CDATA[<p><a href="https://www.salsaeddy.com/">Eddy</a> is a very technical teacher with 26 years of experience who
+will ask you technical questions to see if you are paying attention. He does not
+give classes where you can simply stay quiet and dance. You will have to answer
+questions. The classes are challenging, at least they were for me.</p>
+
+<p>I learned these valuable lessons about dancing:</p>
+
+<ul>
+  <li>
+    <p>For any dance you learn, you must know two things:</p>
+
+    <ol>
+      <li>The step counts. You must count your steps, preferably out-loud so you are
+confident about every step you take. In salsa, every move has 6 steps that
+get counted as 1, 2, 3, pause, 5, 6, 7, pause.</li>
+      <li>
+        <p>The move names. You must know the move names so you can easily combine them
+and brush up the details after you forget them. Some move names are
+traditional, basic, basic turn, etc.</p>
+
+        <p>If you know the step count and you know the move names, then all you have
+to do is iron out the hesitation between each step and between each move.</p>
+
+        <p>Once you know the move names and you are confident doing them, you MUST be
+able to quickly string them together into combinations. Any hesitation will
+be translated to a miss-step on the dance-floor. For example, if I were to
+ask you what combination you are planing to dance, you should be able to
+say “traditional, basic, basic turn, double cross body lead,
+counterclockwise turn, outside turn, cross-body lead, inside turn,
+cross-body lead, and copa” without any hesitation. If you say um, hmm,
+well, or ah, then that hesitation will cause you to miss your beat or to
+forget the next step. Stringing your moves into combinations is hard, but
+that is what it takes to be a good dancer and a good lead.</p>
+      </li>
+    </ol>
+  </li>
+  <li>Your feet should never stop moving, otherwise you are not dancing.</li>
+  <li>You footwork count must be in synch with the music, otherwise you are counting
+for the sake of counting.</li>
+  <li>Your footwork count must determine the count you say out-loud, otherwise you
+are just counting for the sake of counting.</li>
+  <li>If you are the lead, you need to use your hands to push and pull your partner
+in such a way that even if she were blind she would know in what direction to
+move. If your dance partner can close her eyes and the dance still looks good,
+then you are leading well.</li>
+  <li>You must know when to shift your weight onto a leg. For example, for
+Salsa on 2, you use your left foot for steps 1, 3, and 6, while you use your
+right for steps 2, 5, and 7.</li>
+  <li>The beat for Salsa on 1 is quick, quick, slow, pause, quick, quick, slow,
+pause, whereas the beat for Salsa on 2 is quick, slow, quick, pause, quick,
+slow, quick, pause.</li>
+</ul>]]></content><author><name>Luis David Licea Torres</name></author><category term="Dance" /><summary type="html"><![CDATA[Eddy is a very technical teacher with 26 years of experience who will ask you technical questions to see if you are paying attention. He does not give classes where you can simply stay quiet and dance. You will have to answer questions. The classes are challenging, at least they were for me.]]></summary></entry><entry><title type="html">How to vote in Harris county, Texas</title><link href="https://luisliceatorres.com/2024/11/03/how-to-vote-in-Harris-county,-Texas.html" rel="alternate" type="text/html" title="How to vote in Harris county, Texas" /><published>2024-11-03T00:00:00+00:00</published><updated>2024-11-03T00:00:00+00:00</updated><id>https://luisliceatorres.com/2024/11/03/how-to-vote-in-Harris-county,-Texas</id><content type="html" xml:base="https://luisliceatorres.com/2024/11/03/how-to-vote-in-Harris-county,-Texas.html"><![CDATA[<p>In Texas, you can register to vote and vote on even years (2020, 2022, 2024,
+etc).</p>
+
+<p>You can register to vote at a university, tax office, or department of motor
+vehicles (DMV) around September. Volunteers will stand outside the buildings,
+giving out voter registration applications. You can also register to vote or
+update your information online:
+<a href="https://www.votetexas.gov/register-to-vote/update-voter-registration.html">www.votetexas.gov</a>.</p>
+
+<p>Be aware that in Texas, you may need to re-register if you do not vote after 4
+years or you change your address.</p>
+
+<p>You can find vote centers, sample ballots, and election results on
+<a href="https://www.harrisvotes.com/">www.harrisvotes.com</a>.</p>
+
+<p>You may want to add the website to your phone’s Home screen or bookmark it so
+you will not forget.</p>
+
+<p>Whenever you go to vote, you will need the following things:</p>
+
+<ul>
+  <li>Required: Your driver’s license. It is needed to verify your identity.</li>
+  <li>Optional: Your voter registration card. It is proof that you are registered to
+vote, so election workers have to let you vote if you have your registration
+card with you.</li>
+</ul>]]></content><author><name>Luis David Licea Torres</name></author><category term="Politics" /><summary type="html"><![CDATA[In Texas, you can register to vote and vote on even years (2020, 2022, 2024, etc).]]></summary></entry><entry><title type="html">How to follow semantic versioning via testing</title><link href="https://luisliceatorres.com/2024/10/29/how-to-follow-semantic-versioning-via-testing.html" rel="alternate" type="text/html" title="How to follow semantic versioning via testing" /><published>2024-10-29T00:00:00+00:00</published><updated>2024-10-29T00:00:00+00:00</updated><id>https://luisliceatorres.com/2024/10/29/how-to-follow-semantic-versioning-via-testing</id><content type="html" xml:base="https://luisliceatorres.com/2024/10/29/how-to-follow-semantic-versioning-via-testing.html"><![CDATA[<p>An easy way to follow semantic versioning is to create unit tests for your API.</p>
+
+<p>When you make changes to the source code:</p>
+
+<ul>
+  <li>If the unit test pass then you can increase the minor or the bug-fix release.</li>
+  <li>If you added unit tests in a backwards-compatible way then you can increase
+the minor release.</li>
+  <li>If the unit test fails then you need to fix the failing tests and increase the
+major release.</li>
+</ul>]]></content><author><name>Luis David Licea Torres</name></author><category term="Programming" /><summary type="html"><![CDATA[An easy way to follow semantic versioning is to create unit tests for your API.]]></summary></entry><entry><title type="html">Correcting nearsightedness</title><link href="https://luisliceatorres.com/2024/08/28/correcting-nearsightedness.html" rel="alternate" type="text/html" title="Correcting nearsightedness" /><published>2024-08-28T00:00:00+00:00</published><updated>2024-08-28T00:00:00+00:00</updated><id>https://luisliceatorres.com/2024/08/28/correcting-nearsightedness</id><content type="html" xml:base="https://luisliceatorres.com/2024/08/28/correcting-nearsightedness.html"><![CDATA[<p>Allegedly there is a way to correct nearsightedness, and for what I have read,
+the methodology and the reasoning seem convincing. The method involves actively
+focusing on objects far away. Preferably, the objects you look at should be 6
+feet away or further, but there is not a considerable difference between looking
+at objects past 6 feet compared to hypothetical objects infinitely far away
+since the difference in focus for your eyes is 0.2
+<a href="https://wiki.endmyopia.org/wiki/Diopters">diopters</a>.</p>
+
+<p>When you look at objects far away, the muscles inside your eyes relax. Those
+muscles are the ciliary muscles, and they pull on the lens to focus your sight.</p>
+
+<div style="display: flex; margin: 2em">
+  <img style="border-radius: 15px" src="/assets/2024-08-28-correcting-nearsightedness/images/lens-state.jpg" alt="A diagram of relaxed and accomodated lenses." />
+</div>
+
+<p>Unfortunately, after looking at objects that are close-by for too long, the
+ciliary muscles become permanently contracted and the eyes are unable to relax,
+meaning that far away objects look blurry. The worst part is that when this
+happens, people get near-sighted glasses, which work for some time, but over
+time these glasses worsen the problem because they ciliary muscles must contract
+even further in order to look at close-by objects. This leads to a cycle of
+getting new glasses each time the eyes become more near-sighted.</p>
+
+<p>If I understand what I read correctly, according to the wiki for fixing
+nearsightedness,
+<a href="https://wiki.endmyopia.org/wiki/EndMyopia_Wiki">wiki.endmyopia.org</a>, the
+solution to improve vision is simply to get progressively weaker glasses, which
+the wiki calls <a href="https://wiki.endmyopia.org/wiki/Normalized">normalized</a> glasses,
+and put up with the blurry vision while looking at objects that are 6 feet away.
+Eventually your ciliary muscles will relax a little, meaning that the blurry
+vision will improve a little. After that happens, you get slightly weaker
+glasses to make your vision slightly blurrier. This, again, stimulates your eyes
+to relax and improve.</p>
+
+<p>I actually tried this method myself and I want to say it worked, but I am not
+100% sure myself since I never got glasses prescribed. Basically, I was noticing
+that my left eye vision was getting blurrier. I could barely read the time from
+my computer monitor’s clock. The distance from my seat to my monitor did not
+change, so I knew my vision had worsened.</p>
+
+<p>So the way I went about improving my vision was that I bought a presentation
+clicker. The Back <code class="language-plaintext highlighter-rouge">&lt;</code> and Next <code class="language-plaintext highlighter-rouge">&gt;</code> buttons on the clicker were mapped to <code class="language-plaintext highlighter-rouge">Page
+Down</code> and <code class="language-plaintext highlighter-rouge">Page Up</code> on the keyboard, so I used the clicker to scroll from far away.</p>
+
+<p>Initially, I was using a wireless keyboard for scrolling, but I only needed the
+<code class="language-plaintext highlighter-rouge">Up</code> and <code class="language-plaintext highlighter-rouge">Down</code> keys for reading.</p>
+
+<p>This meant that I could read books while lying on my bed, making the distance
+between my computer monitor and my eyes about 6 feet. If the text got too
+blurry, then I changed the zoom to adjust the text size.</p>
+
+<p>After a few weeks of reading like this, I could use my left eye to read the clock
+time from the computer monitor again.</p>
+
+<div style="display: flex; margin: 2em">
+  <img style="border-radius: 15px" src="/assets/2024-08-28-correcting-nearsightedness/images/presentation-clicker.webp" alt="An image of a presentation clicker." />
+</div>]]></content><author><name>Luis David Licea Torres</name></author><category term="Myopia" /><summary type="html"><![CDATA[Allegedly there is a way to correct nearsightedness, and for what I have read, the methodology and the reasoning seem convincing. The method involves actively focusing on objects far away. Preferably, the objects you look at should be 6 feet away or further, but there is not a considerable difference between looking at objects past 6 feet compared to hypothetical objects infinitely far away since the difference in focus for your eyes is 0.2 diopters.]]></summary></entry><entry><title type="html">Install Nix and Home-Manager in PinePhone via Arch Linux</title><link href="https://luisliceatorres.com/2024/07/19/install-nix-and-home-manager-in-pinephone-via-arch-linux.html" rel="alternate" type="text/html" title="Install Nix and Home-Manager in PinePhone via Arch Linux" /><published>2024-07-19T00:00:00+00:00</published><updated>2024-07-19T00:00:00+00:00</updated><id>https://luisliceatorres.com/2024/07/19/install-nix-and-home-manager-in-pinephone-via-arch-linux</id><content type="html" xml:base="https://luisliceatorres.com/2024/07/19/install-nix-and-home-manager-in-pinephone-via-arch-linux.html"><![CDATA[<p>I am running <a href="https://github.com/dreemurrs-embedded/Pine64-Arch/releases/download/20240326/archlinux-pinephone-phosh-20240326.img.xz">Arch Linux ARM</a> on my <a href="https://pine64.org/devices/pinephone/">PinePhone</a>. Installing the native <code class="language-plaintext highlighter-rouge">nix</code>
+package via <code class="language-plaintext highlighter-rouge">sudo pacman -S nix</code> did not work for me because I ran into
+<code class="language-plaintext highlighter-rouge">libboost_context.so</code> shared library errors. I had to remove and cleanup the
+<code class="language-plaintext highlighter-rouge">nix</code> installation and use the official <a href="https://nixos.org/nix/install">Nix installation script</a>.</p>
+
+<p>Before running the <a href="https://nixos.org/nix/install">Nix installation script</a> I had to uninstall the native <code class="language-plaintext highlighter-rouge">nix</code>
+package with <code class="language-plaintext highlighter-rouge">sudo pacman -Rs nix</code> and remove the users and groups that had been
+created, otherwise the official script would fail:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for </span>i <span class="k">in</span> <span class="o">{</span>01..10<span class="o">}</span><span class="p">;</span> <span class="k">do
+    </span><span class="nb">sudo </span>userdel <span class="s2">"nixbld</span><span class="nv">$i</span><span class="s2">"</span><span class="p">;</span>
+<span class="k">done</span><span class="p">;</span>
+<span class="nb">sudo </span>groupdel nixbld
+</code></pre></div></div>
+
+<p>Then, I used the following commands to install <code class="language-plaintext highlighter-rouge">nix</code> and <code class="language-plaintext highlighter-rouge">home-manager</code>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-L</span> https://nixos.org/nix/install | sh <span class="nt">-s</span> <span class="nt">--</span> <span class="nt">--daemon</span>
+<span class="nb">sudo </span>systemctl <span class="nb">enable </span>nix-daemon.service
+<span class="nb">sudo </span>usermod <span class="nt">-aG</span> nix-users <span class="nv">$USER</span>
+nix-channel <span class="nt">--add</span> https://nixos.org/channels/nixpkgs-unstable
+nix-channel <span class="nt">--add</span> https://github.com/nix-community/home-manager/archive/master.tar.gz home-manager
+nix-channel <span class="nt">--update</span>
+nix-shell <span class="s1">'&lt;home-manager&gt;'</span> <span class="nt">-A</span> <span class="nb">install</span>
+</code></pre></div></div>
+
+<p>Then I used <code class="language-plaintext highlighter-rouge">home-manager edit</code> and <code class="language-plaintext highlighter-rouge">home-manager switch</code> to add packages to the
+home-manger configuration file and install the packages.</p>
+
+<p>Installing different <code class="language-plaintext highlighter-rouge">nixpkgs</code> channels is described in the <a href="https://nix-community.github.io/home-manager/index.xhtml#sec-install-standalone">Home-Manager standalone installation</a> section.</p>]]></content><author><name>Luis David Licea Torres</name></author><category term="Programming" /><summary type="html"><![CDATA[I am running Arch Linux ARM on my PinePhone. Installing the native nix package via sudo pacman -S nix did not work for me because I ran into libboost_context.so shared library errors. I had to remove and cleanup the nix installation and use the official Nix installation script.]]></summary></entry><entry><title type="html">Benchmarking external command execution time</title><link href="https://luisliceatorres.com/2024/06/15/benchmarking-external-command-execution-time.html" rel="alternate" type="text/html" title="Benchmarking external command execution time" /><published>2024-06-15T00:00:00+00:00</published><updated>2024-06-15T00:00:00+00:00</updated><id>https://luisliceatorres.com/2024/06/15/benchmarking-external-command-execution-time</id><content type="html" xml:base="https://luisliceatorres.com/2024/06/15/benchmarking-external-command-execution-time.html"><![CDATA[<p>Bash is a command interpreter used in system scripts for calling external
+commands, so I wanted to compare the speed of Bash to the speed of other
+interpreted languages by doing a simple test.</p>
+
+<p>For the test, the scripts call the same external command one hundred times and
+then the times are compared to see which interpreter executed the commands in
+the shortest time.</p>
+
+<p>The results show that Bash, in average, executed the commands in the shortest
+amount of time. It also shows that the slowest language, Python, was 34% slower
+than Bash. This is surprising considering that <a href="/2023/07/09/benchmarking-recursion-in-different-languages.html">Bash is exceptionally slow at
+recursion</a>
+and <a href="/2024/06/08/benchmarking-arithmetic-in-different-languages.html">Bash is slow at arithmetic</a>.</p>
+
+<p>Python and JavaScript, despite being slower at this specific task, provide:</p>
+
+<ul>
+  <li>Support for object-oriented code</li>
+  <li>Package managers</li>
+  <li>Rich standard libraries</li>
+  <li>Development tools like linters</li>
+</ul>
+
+<p>This means that you can write scripts that call external commands in your
+preferred language instead of in Bash if you find a performance loss of 34%
+acceptable. For example, I prefer to write Git hooks in JavaScript when working
+in JavaScript projects instead of writing the hooks in Bash.</p>
+
+<p>Execution times for calling an external command one hundred times:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Command</th>
+      <th style="text-align: left">Interpreter</th>
+      <th style="text-align: right">Mean [s]</th>
+      <th style="text-align: right">Min [s]</th>
+      <th style="text-align: right">Max [s]</th>
+      <th style="text-align: right">Relative</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">./test.bash</code></td>
+      <td style="text-align: left">bash 5.2.26</td>
+      <td style="text-align: right">3.230 ± 0.285</td>
+      <td style="text-align: right">2.712</td>
+      <td style="text-align: right">3.670</td>
+      <td style="text-align: right">1.00</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">./test.pl</code></td>
+      <td style="text-align: left">perl 5.38.2</td>
+      <td style="text-align: right">4.079 ± 0.265</td>
+      <td style="text-align: right">3.652</td>
+      <td style="text-align: right">4.529</td>
+      <td style="text-align: right">1.26 ± 0.14</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">./test.mjs</code></td>
+      <td style="text-align: left">node 22.2.0</td>
+      <td style="text-align: right">4.252 ± 0.106</td>
+      <td style="text-align: right">4.109</td>
+      <td style="text-align: right">4.427</td>
+      <td style="text-align: right">1.32 ± 0.12</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">./test.py</code></td>
+      <td style="text-align: left">python 3.11.9</td>
+      <td style="text-align: right">4.341 ± 0.190</td>
+      <td style="text-align: right">4.058</td>
+      <td style="text-align: right">4.630</td>
+      <td style="text-align: right">1.34 ± 0.13</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="implementations">Implementations</h2>
+
+<details>
+<summary>Bash</summary>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/usr/bin/env bash</span>
+<span class="k">for </span>_ <span class="k">in</span> <span class="o">{</span>1..100<span class="o">}</span><span class="p">;</span> <span class="k">do
+    </span>nix <span class="nb">eval</span> <span class="nt">--expr</span> 1+1<span class="p">;</span>
+<span class="k">done</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>Perl</summary>
+
+<figure class="highlight"><pre><code class="language-perl" data-lang="perl"><span class="c1">#!/usr/bin/env perl</span>
+<span class="nb">system</span> <span class="sx">qw(nix eval --expr 1+1)</span> <span class="k">for</span> <span class="mi">1</span> <span class="o">..</span> <span class="mi">100</span><span class="p">;</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>JavaScript</summary>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="cp">#!/usr/bin/env node
+</span><span class="k">import</span> <span class="p">{</span><span class="nx">execSync</span><span class="p">}</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">node:child_process</span><span class="dl">"</span><span class="p">;</span>
+<span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="mi">100</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">process</span><span class="p">.</span><span class="nx">stdout</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="nx">execSync</span><span class="p">(</span><span class="dl">"</span><span class="s2">nix eval --expr 1+1</span><span class="dl">"</span><span class="p">,</span> <span class="p">{</span><span class="na">encoding</span><span class="p">:</span> <span class="dl">"</span><span class="s2">utf-8</span><span class="dl">"</span><span class="p">}));</span>
+<span class="p">}</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>Python</summary>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c1">#!/usr/bin/env python3
+</span><span class="kn">from</span> <span class="nn">subprocess</span> <span class="kn">import</span> <span class="n">call</span>
+<span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">100</span><span class="p">):</span>
+    <span class="n">call</span><span class="p">([</span><span class="s">"nix"</span><span class="p">,</span> <span class="s">"eval"</span><span class="p">,</span> <span class="s">"--expr"</span><span class="p">,</span> <span class="s">"1+1"</span><span class="p">])</span></code></pre></figure>
+
+</details>]]></content><author><name>Luis David Licea Torres</name></author><category term="Programming" /><category term="Benchmarkig" /><summary type="html"><![CDATA[Bash is a command interpreter used in system scripts for calling external commands, so I wanted to compare the speed of Bash to the speed of other interpreted languages by doing a simple test.]]></summary></entry></feed>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>How to export and import GPG key pairs | Luis D. Licea Torres</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="How to export and import GPG key pairs" />
+<meta name="author" content="Luis David Licea Torres" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="For context, GPG key pairs are necessary for password managers such as pass. Migrating computers requires migrating the GPG key pairs or else pass will be unable to load or create passwords. Migrating GPG pairs requires exporting them in the original computer and exporting them in the target computer. That is what this tutorial shows." />
+<meta property="og:description" content="For context, GPG key pairs are necessary for password managers such as pass. Migrating computers requires migrating the GPG key pairs or else pass will be unable to load or create passwords. Migrating GPG pairs requires exporting them in the original computer and exporting them in the target computer. That is what this tutorial shows." />
+<link rel="canonical" href="https://luisliceatorres.com/2022/06/14/how-to-export-and-import-gpg-key-pairs.html" />
+<meta property="og:url" content="https://luisliceatorres.com/2022/06/14/how-to-export-and-import-gpg-key-pairs.html" />
+<meta property="og:site_name" content="Luis D. Licea Torres" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-06-14T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="How to export and import GPG key pairs" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Luis David Licea Torres"},"dateModified":"2022-06-14T00:00:00+00:00","datePublished":"2022-06-14T00:00:00+00:00","description":"For context, GPG key pairs are necessary for password managers such as pass. Migrating computers requires migrating the GPG key pairs or else pass will be unable to load or create passwords. Migrating GPG pairs requires exporting them in the original computer and exporting them in the target computer. That is what this tutorial shows.","headline":"How to export and import GPG key pairs","mainEntityOfPage":{"@type":"WebPage","@id":"https://luisliceatorres.com/2022/06/14/how-to-export-and-import-gpg-key-pairs.html"},"url":"https://luisliceatorres.com/2022/06/14/how-to-export-and-import-gpg-key-pairs.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link id="main-stylesheet" rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://luisliceatorres.com/feed.xml" title="Luis D. Licea Torres" />
+
+<!-- Add favicons. -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/common-favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/common-favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/common-favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/common-favicon/site.webmanifest">
+<link rel="mask-icon" href="/assets/common-favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="msapplication-TileImage" content="/assets/common-favicon/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!-- Add theme color switch HTML. -->
+<script src="/assets/common-js/switch-html-adder.js" defer></script>
+<!-- Add theme color switch JS. -->
+<script src="/assets/common-js/switch.js" defer></script>
+<!-- Add theme color switch CSS. -->
+<link rel="stylesheet" href="/assets/common-css/switch.css">
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/">Luis D. Licea Torres</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/resume.html">Résumé</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">How to export and import GPG key pairs</h1>
+    <div class="post-meta">
+      <time class="dt-published" datetime="2022-06-14T00:00:00+00:00" itemprop="datePublished">
+        Jun 14, 2022
+      </time>
+      <div class="force-inline post-authors">
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">Luis David Licea Torres</span></span>
+      </div>
+    </div>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>For context, GPG key pairs are necessary for password managers such as <code class="language-plaintext highlighter-rouge">pass</code>.
+Migrating computers requires migrating the GPG key pairs or else <code class="language-plaintext highlighter-rouge">pass</code> will be
+unable to load or create passwords. Migrating GPG pairs requires exporting them
+in the original computer and exporting them in the target computer. That is what
+this tutorial shows.</p>
+
+<h2 id="how-to-export-gpg-key-pairs">How to export GPG key pairs</h2>
+
+<h3 id="export-the-private-key">Export the private key</h3>
+
+<p>Export an existing private key. Make sure to use the <code class="language-plaintext highlighter-rouge">--armor</code> flag if the
+private key will be printed in the future as a backup.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gpg <span class="nt">--export-secret-keys</span> <span class="nt">--armor</span> &lt;key-name|key-email&gt; <span class="o">&gt;</span> &lt;private-key-file&gt;
+</code></pre></div></div>
+
+<h3 id="export-a-public-key">Export a public key</h3>
+
+<p>A public key can be created now or later on. What matters is the private key,
+which can generate more public keys. To create the key now:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gpg <span class="nt">--export</span> <span class="nt">--armor</span> &lt;key-name|key-email&gt; <span class="o">&gt;</span> &lt;public-key-file&gt;
+</code></pre></div></div>
+
+<h2 id="how-to-import-the-gpg-key-pair">How to import the GPG key pair</h2>
+
+<h3 id="import-the-private-key">Import the private key</h3>
+
+<p>You will be asked for the password.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gpg <span class="nt">--import</span> &lt;private-key-file&gt;
+</code></pre></div></div>
+
+<h3 id="export-a-public-key-if-this-has-not-been-done">Export a public key if this has not been done</h3>
+
+<p>Generate a public key from the exported private key. Redirect the output into a
+file.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gpg <span class="nt">--export</span> <span class="nt">--armor</span> &lt;key-name|key-email&gt; <span class="o">&gt;</span> &lt;publick-key-file&gt;
+</code></pre></div></div>
+
+<h3 id="import-the-public-key-and-change-the-trust-level">Import the public key and change the trust level</h3>
+
+<p>Import the key and edit it by changing the trust level from unknown to ultimate.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gpg <span class="nt">--import</span> &lt;public-key-file&gt;
+gpg <span class="nt">--edit-key</span> &lt;name or email&gt;
+<span class="o">&gt;</span>trust
+<span class="o">&gt;</span>5
+<span class="o">&gt;</span>save
+<span class="o">&gt;</span>quit
+</code></pre></div></div>
+
+<h3 id="scripts-for-exporting-and-importing-key-pairs">Scripts for exporting and importing key pairs</h3>
+
+<p>Use the following scripts to export and import key pairs like so:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># An email like john@doe.com is also  valid.</span>
+./export-key-pair.sh <span class="s2">"John Doe"</span>
+./import-key-pair.sh <span class="s2">"John Doe"</span>
+</code></pre></div></div>
+
+<p>Inspect the code briefly — do not trust internet scripts blindly.</p>
+
+<script src="https://gist.github.com/Luis-Licea/b63bbd079288b6327bd119bf0bcd1277.js"></script>
+
+
+  </div>
+
+  <a class="u-url" href="/2022/06/14/how-to-export-and-import-gpg-key-pairs.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <ul class="contact-list">
+          <li class="p-name">Luis David Licea Torres</li>
+          <li><a class="u-email" href="mailto:luisliceatorres@gmail.com">luisliceatorres@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p>A portfolio website for projects and blogs.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li>
+    <a rel="me" href="" target="_blank" title="">
+      <span class="grey fa-brands fa- fa-lg"></span>
+    </a>
+  </li><li>
+    <a rel="me" href="" target="_blank" title="">
+      <span class="grey fa-brands fa- fa-lg"></span>
+    </a>
+  </li>
+  <li>
+    <a href="https://luisliceatorres.com/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

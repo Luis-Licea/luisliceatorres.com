@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Install Nix and Home-Manager in PinePhone via Arch Linux | Luis D. Licea Torres</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Install Nix and Home-Manager in PinePhone via Arch Linux" />
+<meta name="author" content="Luis David Licea Torres" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I am running Arch Linux ARM on my PinePhone. Installing the native nix package via sudo pacman -S nix did not work for me because I ran into libboost_context.so shared library errors. I had to remove and cleanup the nix installation and use the official Nix installation script." />
+<meta property="og:description" content="I am running Arch Linux ARM on my PinePhone. Installing the native nix package via sudo pacman -S nix did not work for me because I ran into libboost_context.so shared library errors. I had to remove and cleanup the nix installation and use the official Nix installation script." />
+<link rel="canonical" href="https://luisliceatorres.com/2024/07/19/install-nix-and-home-manager-in-pinephone-via-arch-linux.html" />
+<meta property="og:url" content="https://luisliceatorres.com/2024/07/19/install-nix-and-home-manager-in-pinephone-via-arch-linux.html" />
+<meta property="og:site_name" content="Luis D. Licea Torres" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-07-19T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Install Nix and Home-Manager in PinePhone via Arch Linux" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Luis David Licea Torres"},"dateModified":"2024-07-19T00:00:00+00:00","datePublished":"2024-07-19T00:00:00+00:00","description":"I am running Arch Linux ARM on my PinePhone. Installing the native nix package via sudo pacman -S nix did not work for me because I ran into libboost_context.so shared library errors. I had to remove and cleanup the nix installation and use the official Nix installation script.","headline":"Install Nix and Home-Manager in PinePhone via Arch Linux","mainEntityOfPage":{"@type":"WebPage","@id":"https://luisliceatorres.com/2024/07/19/install-nix-and-home-manager-in-pinephone-via-arch-linux.html"},"url":"https://luisliceatorres.com/2024/07/19/install-nix-and-home-manager-in-pinephone-via-arch-linux.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link id="main-stylesheet" rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://luisliceatorres.com/feed.xml" title="Luis D. Licea Torres" />
+
+<!-- Add favicons. -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/common-favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/common-favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/common-favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/common-favicon/site.webmanifest">
+<link rel="mask-icon" href="/assets/common-favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="msapplication-TileImage" content="/assets/common-favicon/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!-- Add theme color switch HTML. -->
+<script src="/assets/common-js/switch-html-adder.js" defer></script>
+<!-- Add theme color switch JS. -->
+<script src="/assets/common-js/switch.js" defer></script>
+<!-- Add theme color switch CSS. -->
+<link rel="stylesheet" href="/assets/common-css/switch.css">
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/">Luis D. Licea Torres</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/resume.html">Résumé</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Install Nix and Home-Manager in PinePhone via Arch Linux</h1>
+    <div class="post-meta">
+      <time class="dt-published" datetime="2024-07-19T00:00:00+00:00" itemprop="datePublished">
+        Jul 19, 2024
+      </time>
+      <div class="force-inline post-authors">
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">Luis David Licea Torres</span></span>
+      </div>
+    </div>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>I am running <a href="https://github.com/dreemurrs-embedded/Pine64-Arch/releases/download/20240326/archlinux-pinephone-phosh-20240326.img.xz">Arch Linux ARM</a> on my <a href="https://pine64.org/devices/pinephone/">PinePhone</a>. Installing the native <code class="language-plaintext highlighter-rouge">nix</code>
+package via <code class="language-plaintext highlighter-rouge">sudo pacman -S nix</code> did not work for me because I ran into
+<code class="language-plaintext highlighter-rouge">libboost_context.so</code> shared library errors. I had to remove and cleanup the
+<code class="language-plaintext highlighter-rouge">nix</code> installation and use the official <a href="https://nixos.org/nix/install">Nix installation script</a>.</p>
+
+<p>Before running the <a href="https://nixos.org/nix/install">Nix installation script</a> I had to uninstall the native <code class="language-plaintext highlighter-rouge">nix</code>
+package with <code class="language-plaintext highlighter-rouge">sudo pacman -Rs nix</code> and remove the users and groups that had been
+created, otherwise the official script would fail:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for </span>i <span class="k">in</span> <span class="o">{</span>01..10<span class="o">}</span><span class="p">;</span> <span class="k">do
+    </span><span class="nb">sudo </span>userdel <span class="s2">"nixbld</span><span class="nv">$i</span><span class="s2">"</span><span class="p">;</span>
+<span class="k">done</span><span class="p">;</span>
+<span class="nb">sudo </span>groupdel nixbld
+</code></pre></div></div>
+
+<p>Then, I used the following commands to install <code class="language-plaintext highlighter-rouge">nix</code> and <code class="language-plaintext highlighter-rouge">home-manager</code>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-L</span> https://nixos.org/nix/install | sh <span class="nt">-s</span> <span class="nt">--</span> <span class="nt">--daemon</span>
+<span class="nb">sudo </span>systemctl <span class="nb">enable </span>nix-daemon.service
+<span class="nb">sudo </span>usermod <span class="nt">-aG</span> nix-users <span class="nv">$USER</span>
+nix-channel <span class="nt">--add</span> https://nixos.org/channels/nixpkgs-unstable
+nix-channel <span class="nt">--add</span> https://github.com/nix-community/home-manager/archive/master.tar.gz home-manager
+nix-channel <span class="nt">--update</span>
+nix-shell <span class="s1">'&lt;home-manager&gt;'</span> <span class="nt">-A</span> <span class="nb">install</span>
+</code></pre></div></div>
+
+<p>Then I used <code class="language-plaintext highlighter-rouge">home-manager edit</code> and <code class="language-plaintext highlighter-rouge">home-manager switch</code> to add packages to the
+home-manger configuration file and install the packages.</p>
+
+<p>Installing different <code class="language-plaintext highlighter-rouge">nixpkgs</code> channels is described in the <a href="https://nix-community.github.io/home-manager/index.xhtml#sec-install-standalone">Home-Manager standalone installation</a> section.</p>
+
+
+  </div>
+
+  <a class="u-url" href="/2024/07/19/install-nix-and-home-manager-in-pinephone-via-arch-linux.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <ul class="contact-list">
+          <li class="p-name">Luis David Licea Torres</li>
+          <li><a class="u-email" href="mailto:luisliceatorres@gmail.com">luisliceatorres@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p>A portfolio website for projects and blogs.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li>
+    <a rel="me" href="" target="_blank" title="">
+      <span class="grey fa-brands fa- fa-lg"></span>
+    </a>
+  </li><li>
+    <a rel="me" href="" target="_blank" title="">
+      <span class="grey fa-brands fa- fa-lg"></span>
+    </a>
+  </li>
+  <li>
+    <a href="https://luisliceatorres.com/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

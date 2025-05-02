@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Benchmarking recursion in different languages | Luis D. Licea Torres</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Benchmarking recursion in different languages" />
+<meta name="author" content="Luis David Licea Torres" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I used the Fibonacci sequence to test the speed of recursive calls in different languages. Take the results with a grain of salt because my computer is not a controlled environment. I found that Python was slower than I expected, while JavaScript was faster than I expected. Bash was more than 100,000 times slower than C because the Bash benchmark did not finish after the 5-hour mark. My hypothesis is that Bash is very slow because math is done in sub-shells, requiring bash to spawn a process for every arithmetic operation." />
+<meta property="og:description" content="I used the Fibonacci sequence to test the speed of recursive calls in different languages. Take the results with a grain of salt because my computer is not a controlled environment. I found that Python was slower than I expected, while JavaScript was faster than I expected. Bash was more than 100,000 times slower than C because the Bash benchmark did not finish after the 5-hour mark. My hypothesis is that Bash is very slow because math is done in sub-shells, requiring bash to spawn a process for every arithmetic operation." />
+<link rel="canonical" href="https://luisliceatorres.com/2023/07/09/benchmarking-recursion-in-different-languages.html" />
+<meta property="og:url" content="https://luisliceatorres.com/2023/07/09/benchmarking-recursion-in-different-languages.html" />
+<meta property="og:site_name" content="Luis D. Licea Torres" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-07-09T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Benchmarking recursion in different languages" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Luis David Licea Torres"},"dateModified":"2023-07-09T00:00:00+00:00","datePublished":"2023-07-09T00:00:00+00:00","description":"I used the Fibonacci sequence to test the speed of recursive calls in different languages. Take the results with a grain of salt because my computer is not a controlled environment. I found that Python was slower than I expected, while JavaScript was faster than I expected. Bash was more than 100,000 times slower than C because the Bash benchmark did not finish after the 5-hour mark. My hypothesis is that Bash is very slow because math is done in sub-shells, requiring bash to spawn a process for every arithmetic operation.","headline":"Benchmarking recursion in different languages","mainEntityOfPage":{"@type":"WebPage","@id":"https://luisliceatorres.com/2023/07/09/benchmarking-recursion-in-different-languages.html"},"url":"https://luisliceatorres.com/2023/07/09/benchmarking-recursion-in-different-languages.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link id="main-stylesheet" rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://luisliceatorres.com/feed.xml" title="Luis D. Licea Torres" />
+
+<!-- Add favicons. -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/common-favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/common-favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/common-favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/common-favicon/site.webmanifest">
+<link rel="mask-icon" href="/assets/common-favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="msapplication-TileImage" content="/assets/common-favicon/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!-- Add theme color switch HTML. -->
+<script src="/assets/common-js/switch-html-adder.js" defer></script>
+<!-- Add theme color switch JS. -->
+<script src="/assets/common-js/switch.js" defer></script>
+<!-- Add theme color switch CSS. -->
+<link rel="stylesheet" href="/assets/common-css/switch.css">
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/">Luis D. Licea Torres</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/resume.html">Résumé</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Benchmarking recursion in different languages</h1>
+    <div class="post-meta">
+      <time class="dt-published" datetime="2023-07-09T00:00:00+00:00" itemprop="datePublished">
+        Jul 9, 2023
+      </time>
+      <div class="force-inline post-authors">
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">Luis David Licea Torres</span></span>
+      </div>
+    </div>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>I used the Fibonacci sequence to test the speed of recursive calls in different
+languages. Take the results with a grain of salt because my computer is not a
+controlled environment. I found that Python was slower than I expected, while
+JavaScript was faster than I expected. Bash was more than 100,000 times slower
+than C because the Bash benchmark did not finish after the 5-hour mark. My
+hypothesis is that Bash is very slow because math is done in sub-shells,
+requiring bash to spawn a process for every arithmetic operation.</p>
+
+<p>Execution times for calculating the 39th term of the Fibonacci sequence:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Language</th>
+      <th>Compiler/Interpreter</th>
+      <th>Flags</th>
+      <th style="text-align: right">Time (sec)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C</td>
+      <td>gcc 12.3.0</td>
+      <td>-O3 -Ofast</td>
+      <td style="text-align: right">0.124</td>
+    </tr>
+    <tr>
+      <td>C++</td>
+      <td>g++ 12.3.0</td>
+      <td>-O3 -Ofast</td>
+      <td style="text-align: right">0.125</td>
+    </tr>
+    <tr>
+      <td>Rust</td>
+      <td>rustc 1.73.0</td>
+      <td>-C opt-level=3</td>
+      <td style="text-align: right">0.247</td>
+    </tr>
+    <tr>
+      <td>Java</td>
+      <td>javac/java 17.0.7</td>
+      <td>None</td>
+      <td style="text-align: right">0.460</td>
+    </tr>
+    <tr>
+      <td>Dart</td>
+      <td>dart 3.3.4</td>
+      <td>compile aot-snapshot</td>
+      <td style="text-align: right">0.466</td>
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td>node 21.2.0</td>
+      <td>None</td>
+      <td style="text-align: right">0.802</td>
+    </tr>
+    <tr>
+      <td>Lua</td>
+      <td>lua 5.2.4</td>
+      <td>None</td>
+      <td style="text-align: right">8.192</td>
+    </tr>
+    <tr>
+      <td>Python</td>
+      <td>python3 3.11.6</td>
+      <td>None</td>
+      <td style="text-align: right">10.828</td>
+    </tr>
+    <tr>
+      <td>Perl</td>
+      <td>perl 5.38.2</td>
+      <td>None</td>
+      <td style="text-align: right">38.966</td>
+    </tr>
+    <tr>
+      <td>Vimscript</td>
+      <td>nvim 0.10.0</td>
+      <td>None</td>
+      <td style="text-align: right">346.000</td>
+    </tr>
+    <tr>
+      <td>Nushell</td>
+      <td>nu 0.93.0</td>
+      <td>None</td>
+      <td style="text-align: right">710.000</td>
+    </tr>
+    <tr>
+      <td>Bash</td>
+      <td>bash</td>
+      <td>None</td>
+      <td style="text-align: right">18000.000</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="implementations">Implementations</h2>
+
+<details>
+<summary>C</summary>
+
+<figure class="highlight"><pre><code class="language-c" data-lang="c"><span class="cm">/**
+ * @file
+ * @brief Calculate the a Fibonacci sequence number from user input.
+ */</span>
+<span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;stdlib.h&gt;</span><span class="cp">
+</span>
+<span class="cm">/**
+ * @brief Calculate a Fibonacci sequence number.
+ *
+ * @param term The sequence number to produce. Don't use large
+ * numbers as the time complexity is exponential.
+ * @return The sequence number.
+ */</span>
+<span class="kt">int</span> <span class="nf">fibonacci</span><span class="p">(</span><span class="kt">int</span> <span class="n">term</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// Base case.</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">term</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">term</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="c1">// Recursive step.</span>
+    <span class="k">return</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">2</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="cm">/**
+ * @brief Calculate a Fibonacci sequence number from user input.
+ *
+ * @param argc The argument count.
+ * @param argv The argument vector.
+ * @return The error code.
+ */</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">**</span><span class="n">argv</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">argc</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kt">int</span> <span class="n">term</span> <span class="o">=</span> <span class="n">atoi</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span>
+        <span class="kt">int</span> <span class="n">result</span> <span class="o">=</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span><span class="p">);</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">"%d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">result</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>C++</summary>
+
+<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="cm">/**
+ * @file
+ * @brief Calculate a Fibonacci sequence number from user input.
+ */</span>
+<span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span>
+<span class="cm">/**
+ * @brief Calculate a Fibonacci sequence number.
+ *
+ * @param term The sequence number to produce. Don't use large
+ * numbers as the time complexity is exponential.
+ * @return The sequence number.
+ */</span>
+<span class="kt">int</span> <span class="nf">fibonacci</span><span class="p">(</span><span class="kt">int</span> <span class="n">term</span><span class="p">)</span> <span class="p">{</span>
+  <span class="c1">// Base case.</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">term</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">term</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="c1">// Recursive step.</span>
+  <span class="k">return</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">2</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="cm">/**
+ * @brief Calculate a Fibonacci sequence number from user input.
+ *
+ * @param argc The argument count.
+ * @param argv The argument vector.
+ * @return The error code.
+ */</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">**</span><span class="n">argv</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">argc</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">term</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">stoi</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span>
+    <span class="kt">int</span> <span class="n">result</span> <span class="o">=</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span><span class="p">);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">result</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>Rust</summary>
+
+<figure class="highlight"><pre><code class="language-rust" data-lang="rust"><span class="cd">//! Calculate a Fibonacci sequence number from user input.</span>
+<span class="k">use</span> <span class="nn">std</span><span class="p">::</span><span class="nn">env</span><span class="p">::</span><span class="n">args</span><span class="p">;</span>
+
+<span class="cd">/// Calculate a Fibonacci sequence number.</span>
+<span class="cd">///</span>
+<span class="cd">/// * `term`: The sequence number to produce. Don't use large numbers as the</span>
+<span class="cd">/// time complexity is exponential.</span>
+<span class="k">fn</span> <span class="nf">fibonacci</span><span class="p">(</span><span class="n">term</span><span class="p">:</span> <span class="nb">i32</span><span class="p">)</span> <span class="k">-&gt;</span> <span class="nb">i32</span> <span class="p">{</span>
+    <span class="c1">// Base case.</span>
+    <span class="k">if</span> <span class="n">term</span> <span class="o">&lt;=</span> <span class="mi">1</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">term</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="c1">// Recursive step.</span>
+    <span class="nf">fibonacci</span><span class="p">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="nf">fibonacci</span><span class="p">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="cd">/// Calculate a Fibonacci sequence number from user input.</span>
+<span class="k">fn</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">let</span> <span class="n">arguments</span><span class="p">:</span> <span class="nb">Vec</span><span class="o">&lt;</span><span class="nb">String</span><span class="o">&gt;</span> <span class="o">=</span> <span class="nf">args</span><span class="p">()</span><span class="nf">.collect</span><span class="p">();</span>
+    <span class="k">if</span> <span class="k">let</span> <span class="nf">Some</span><span class="p">(</span><span class="n">argument</span><span class="p">)</span> <span class="o">=</span> <span class="n">arguments</span><span class="nf">.get</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">let</span> <span class="n">term</span><span class="p">:</span> <span class="nb">i32</span> <span class="o">=</span> <span class="n">argument</span><span class="nf">.parse</span><span class="p">()</span><span class="nf">.unwrap_or</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+        <span class="k">let</span> <span class="n">result</span> <span class="o">=</span> <span class="nf">fibonacci</span><span class="p">(</span><span class="n">term</span><span class="p">);</span>
+        <span class="nd">println!</span><span class="p">(</span><span class="s">"{}"</span><span class="p">,</span> <span class="n">result</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>Java</summary>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="cm">/** Calculate a Fibonacci sequence number from user input. */</span>
+<span class="kd">class</span> <span class="nc">Fibonacci</span> <span class="o">{</span>
+  <span class="cm">/**
+   * Calculate a Fibonacci sequence number.
+   *
+   * @param term The sequence number to produce. Don't use large numbers as the time complexity is
+   *     exponential.
+   * @return The sequence number.
+   */</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">int</span> <span class="nf">fibonacci</span><span class="o">(</span><span class="kt">int</span> <span class="n">term</span><span class="o">)</span> <span class="o">{</span>
+    <span class="c1">// Base case.</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">term</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="o">)</span> <span class="o">{</span>
+      <span class="k">return</span> <span class="n">term</span><span class="o">;</span>
+    <span class="o">}</span>
+    <span class="c1">// Recursive step.</span>
+    <span class="k">return</span> <span class="nf">fibonacci</span><span class="o">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">1</span><span class="o">)</span> <span class="o">+</span> <span class="n">fibonacci</span><span class="o">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">2</span><span class="o">);</span>
+  <span class="o">}</span>
+
+  <span class="cm">/**
+   * Calculate a Fibonacci sequence number from user input.
+   *
+   * @param args The command-line arguments.
+   */</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">args</span><span class="o">.</span><span class="na">length</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span>
+      <span class="kt">int</span> <span class="n">term</span> <span class="o">=</span> <span class="nc">Integer</span><span class="o">.</span><span class="na">parseInt</span><span class="o">(</span><span class="n">args</span><span class="o">[</span><span class="mi">0</span><span class="o">]);</span>
+      <span class="kt">int</span> <span class="n">result</span> <span class="o">=</span> <span class="n">fibonacci</span><span class="o">(</span><span class="n">term</span><span class="o">);</span>
+      <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">result</span><span class="o">);</span>
+    <span class="o">}</span>
+  <span class="o">}</span>
+<span class="o">}</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>Dart</summary>
+
+<figure class="highlight"><pre><code class="language-dart" data-lang="dart"><span class="c1">/// Calculate a Fibonacci sequence number from user input.</span>
+<span class="kt">void</span> <span class="nf">main</span><span class="p">(</span><span class="kt">List</span><span class="o">&lt;</span><span class="kt">String</span><span class="o">&gt;</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+    <span class="kd">final</span> <span class="n">term</span> <span class="o">=</span> <span class="kt">int</span><span class="o">.</span><span class="na">parse</span><span class="o">(</span><span class="n">args</span><span class="o">[</span><span class="mi">0</span><span class="o">]);</span>
+    <span class="n">print</span><span class="o">(</span><span class="n">fibonacci</span><span class="o">(</span><span class="n">term</span><span class="o">));</span>
+<span class="o">}</span>
+
+<span class="c1">/// Calculate the Fibonacci sequence number for the [n]-th term.</span>
+<span class="c1">///</span>
+<span class="c1">/// Don't use large numbers as the time complexity is exponential.</span>
+<span class="kt">int</span> <span class="nf">fibonacci</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="o">)</span> <span class="o">{</span>
+  <span class="c1">// Base case: the first two numbers in the sequence are 0 and 1.</span>
+  <span class="k">if</span> <span class="o">(</span><span class="n">n</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">return</span> <span class="n">n</span><span class="o">;</span>
+  <span class="o">}</span>
+
+  <span class="c1">// Recursive step: The nth number in the sequence is the sum of the (n - 1)th</span>
+  <span class="c1">// and (n - 2)th numbers.</span>
+  <span class="k">return</span> <span class="n">fibonacci</span><span class="o">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="o">)</span> <span class="o">+</span> <span class="n">fibonacci</span><span class="o">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">2</span><span class="o">);</span>
+<span class="o">}</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>JavaScript</summary>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="cp">#!/usr/bin/env node
+</span>
+<span class="cm">/**
+ * @module Calculate a Fibonacci sequence number from user input.
+ */</span>
+
+<span class="cm">/**
+ * Calculate a Fibonacci sequence number.
+ *
+ * @param {number} term The sequence number to produce. Don't use large numbers
+ * as the time complexity is exponential.
+ * @returns {number} The sequence number.
+ */</span>
+<span class="kd">function</span> <span class="nx">fibonacci</span><span class="p">(</span><span class="nx">term</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// Base case.</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">term</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="nx">term</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="c1">// Recursive step.</span>
+    <span class="k">return</span> <span class="nx">fibonacci</span><span class="p">(</span><span class="nx">term</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="nx">fibonacci</span><span class="p">(</span><span class="nx">term</span> <span class="o">-</span> <span class="mi">2</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="nx">process</span><span class="p">.</span><span class="nx">argv</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">const</span> <span class="nx">term</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">process</span><span class="p">.</span><span class="nx">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">]);</span>
+    <span class="kd">const</span> <span class="nx">result</span> <span class="o">=</span> <span class="nx">fibonacci</span><span class="p">(</span><span class="nx">term</span><span class="p">);</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">result</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>Lua</summary>
+
+<figure class="highlight"><pre><code class="language-lua" data-lang="lua"><span class="cp">#!/usr/bin/env lua</span>
+<span class="c1">--- @module Calculate a Fibonacci sequence number from user input.</span>
+
+<span class="c1">--- Calculate a Fibonacci sequence number.</span>
+<span class="c1">--- @param term number The sequence number to produce. Don't use large numbers as</span>
+<span class="c1">--- the time complexity is exponential.</span>
+<span class="c1">--- @return number</span>
+<span class="kd">local</span> <span class="k">function</span> <span class="nf">fibonacci</span><span class="p">(</span><span class="n">term</span><span class="p">)</span>
+    <span class="c1">-- Base case.</span>
+    <span class="k">if</span> <span class="n">term</span> <span class="o">&lt;=</span> <span class="mi">1</span> <span class="k">then</span>
+        <span class="k">return</span> <span class="n">term</span><span class="p">;</span>
+    <span class="k">end</span>
+    <span class="c1">-- Recursive step.</span>
+    <span class="k">return</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">2</span><span class="p">);</span>
+<span class="k">end</span>
+
+<span class="k">if</span> <span class="o">#</span><span class="n">arg</span> <span class="o">&gt;=</span> <span class="mi">1</span> <span class="k">then</span>
+    <span class="kd">local</span> <span class="n">term</span> <span class="o">=</span> <span class="nb">tonumber</span><span class="p">(</span><span class="n">arg</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="ow">or</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="kd">local</span> <span class="n">result</span> <span class="o">=</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span><span class="p">);</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">);</span>
+<span class="k">end</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>Python</summary>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c1">#!/usr/bin/python3
+</span><span class="s">"""Calculate a Fibonacci sequence number from user input."""</span>
+<span class="kn">from</span> <span class="nn">sys</span> <span class="kn">import</span> <span class="n">argv</span>
+
+<span class="k">def</span> <span class="nf">fibonacci</span><span class="p">(</span><span class="n">term</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="s">"""Calculate a Fibonacci sequence number.
+
+    Args:
+        term (int): The sequence number to produce. Don't use large numbers as
+        the time complexity is exponential.
+
+    Returns:
+        int: The sequence number.
+    """</span>
+    <span class="c1"># Base case.
+</span>    <span class="k">if</span> <span class="n">term</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">term</span>
+    <span class="c1"># Recursive step.
+</span>    <span class="k">return</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="s">"""Calculate a Fibonacci sequence number from user input."""</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">argv</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="n">term</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">term</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>Perl</summary>
+
+<figure class="highlight"><pre><code class="language-perl" data-lang="perl"><span class="c1">#!/usr/bin/env perl</span>
+<span class="k">use</span> <span class="nv">strict</span><span class="p">;</span>
+<span class="k">use</span> <span class="nv">warnings</span><span class="p">;</span>
+<span class="k">use</span> <span class="nv">feature</span> <span class="p">'</span><span class="s1">say</span><span class="p">';</span>
+
+<span class="k">sub </span><span class="nf">fibonacci</span> <span class="p">{</span>
+    <span class="k">my</span> <span class="nv">$term</span> <span class="o">=</span> <span class="nb">shift</span><span class="p">;</span>
+    <span class="c1"># Base case.</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nv">$term</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="nv">$term</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="c1"># Recursive step.</span>
+    <span class="k">return</span> <span class="nv">fibonacci</span><span class="p">(</span><span class="nv">$term</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="nv">fibonacci</span><span class="p">(</span><span class="nv">$term</span> <span class="o">-</span> <span class="mi">2</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="k">sub </span><span class="nf">main</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nb">scalar</span> <span class="nv">@ARGV</span> <span class="o">&gt;=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">my</span> <span class="nv">$value</span> <span class="o">=</span> <span class="nv">fibonacci</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="nv">$ARGV</span><span class="p">[</span><span class="mi">0</span><span class="p">]));</span>
+        <span class="nv">say</span><span class="p">(</span><span class="nv">$value</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">unless</span> <span class="p">(</span><span class="nb">caller</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nv">main</span><span class="p">();</span>
+<span class="p">}</span>
+
+<span class="cp">__END__
+
+=head1 DESCRIPTION
+
+Calculate a Fibonacci sequence number from user input.
+
+=cut
+
+=head1 FUNCTIONS
+
+=over
+
+=item fibonacci($term)
+
+Calculate a Fibonacci sequence number.
+
+$term C&lt;int&gt; is the sequence number to produce. Don't use large numbers as the
+time complexity is exponential.
+
+Returns C&lt;int&gt;, the sequence number.
+
+=item main
+
+Calculate a Fibonacci sequence number from user input.
+
+=back
+
+=cut</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>Vimscript</summary>
+
+<figure class="highlight"><pre><code class="language-vimscript" data-lang="vimscript">#<span class="p">!</span><span class="sr">/usr/</span><span class="nb">bin</span>/env <span class="p">-</span>S nvim <span class="p">--</span>cmd <span class="s2">":source fibonacci.vim"</span>
+<span class="k">function</span><span class="p">!</span> Fibonacci<span class="p">(</span><span class="k">n</span><span class="p">)</span>
+    <span class="k">if</span> <span class="nv">a:n</span> <span class="p">&lt;=</span> <span class="m">2</span>
+        <span class="k">return</span> <span class="m">1</span>
+    <span class="k">else</span>
+        <span class="k">return</span> Fibonacci<span class="p">(</span><span class="nv">a:n</span> <span class="p">-</span> <span class="m">2</span><span class="p">)</span> <span class="p">+</span> Fibonacci<span class="p">(</span><span class="nv">a:n</span> <span class="p">-</span> <span class="m">1</span><span class="p">)</span>
+    <span class="k">endif</span>
+<span class="k">endfunction</span>
+
+<span class="k">echom</span> Fibonacci<span class="p">(</span><span class="m">39</span><span class="p">)</span>
+<span class="k">quit</span><span class="p">!</span></code></pre></figure>
+
+</details>
+
+<details>
+<summary>Nushell</summary>
+
+<figure class="highlight"><pre><code class="language-nu" data-lang="nu">#!/usr/bin/env nu
+
+# Calculate a Fibonacci sequence number from user input.
+def main [ term: int ] {
+    print (fibonacci $term);
+}
+
+# Calculate a Fibonacci sequence number.
+# Returns: int The sequence number.
+def fibonacci [
+    term: int # The sequence number to produce. Don't use large numbers as the
+              # time complexity is exponential.
+] {
+    if $term &lt;= 1 {
+        # Base case.
+        return $term;
+    }
+    # Recursive step.
+    (fibonacci ($term - 1)) + (fibonacci ($term - 2))
+}</code></pre></figure>
+
+</details>
+
+<details>
+<summary>Bash</summary>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/usr/bin/bash</span>
+
+<span class="c"># Calculate a Fibonacci sequence number from user input.</span>
+
+<span class="c"># Exit on errors and undefined variables.</span>
+<span class="nb">set</span> <span class="nt">-eu</span>
+
+<span class="c">################################################################################</span>
+<span class="c"># Calculate a Fibonacci sequence number.</span>
+<span class="c"># Arguments:</span>
+<span class="c">#     $1: int The sequence number to produce. Don't use large numbers as</span>
+<span class="c">#         the time complexity is exponential.</span>
+<span class="c"># Outputs:</span>
+<span class="c">#     int The sequence number.</span>
+<span class="c">################################################################################</span>
+fibonacci<span class="o">()</span> <span class="o">{</span>
+    <span class="nb">declare</span> <span class="nt">-ir</span> <span class="nv">term</span><span class="o">=</span><span class="nv">$1</span>
+    <span class="c"># Base case.</span>
+    <span class="k">if</span> <span class="o">((</span> term &lt;<span class="o">=</span> 1 <span class="o">))</span><span class="p">;</span> <span class="k">then
+        </span><span class="nb">echo</span> <span class="nv">$term</span>
+        <span class="k">return
+    fi</span>
+    <span class="c"># Recursive step.</span>
+    <span class="nb">echo</span> <span class="k">$((</span> <span class="si">$(</span>fibonacci <span class="k">$((</span>term <span class="o">-</span> <span class="m">1</span><span class="k">))</span> <span class="si">)</span> <span class="o">+</span> <span class="si">$(</span>fibonacci <span class="k">$((</span>term <span class="o">-</span> <span class="m">2</span><span class="k">))</span> <span class="si">)</span> <span class="k">))</span>
+<span class="o">}</span>
+
+fibonacci <span class="nv">$1</span></code></pre></figure>
+
+</details>
+
+  </div>
+
+  <a class="u-url" href="/2023/07/09/benchmarking-recursion-in-different-languages.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <ul class="contact-list">
+          <li class="p-name">Luis David Licea Torres</li>
+          <li><a class="u-email" href="mailto:luisliceatorres@gmail.com">luisliceatorres@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p>A portfolio website for projects and blogs.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li>
+    <a rel="me" href="" target="_blank" title="">
+      <span class="grey fa-brands fa- fa-lg"></span>
+    </a>
+  </li><li>
+    <a rel="me" href="" target="_blank" title="">
+      <span class="grey fa-brands fa- fa-lg"></span>
+    </a>
+  </li>
+  <li>
+    <a href="https://luisliceatorres.com/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>
