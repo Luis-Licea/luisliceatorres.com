@@ -6,7 +6,7 @@ with import <nixpkgs> {}; let
   };
 in
   mkShell {
-    packages = [gems gems.wrappedRuby ruby];
+    packages = [gems gems.wrappedRuby ruby hugo go];
     shellHook = ''
       source bashrc
     '';
