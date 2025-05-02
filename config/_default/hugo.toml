@@ -5,6 +5,9 @@
 # baseURL = "https://your_domain.com/"
 defaultContentLanguage = "en"
 
+baseURL = 'https://luisliceatorres.com'
+languageCode = 'en-us'
+
 enableRobotsTXT = true
 summaryLength = 0
 
