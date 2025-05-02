@@ -1,6 +1,7 @@
 ---
 title: Benchmarking Python multiprocessing and multithreading
 tags: [Programming, Benchmarkig]
+date: 2023-06-25
 languages: [en]
 ---
 
@@ -47,7 +48,8 @@ different files.
 
 <details>
 <summary>Python</summary>
-{% highlight python %}
-{% include_relative assets/fibonacci.py %}
-{% endhighlight %}
+
+```python {{% include "assets/fibonacci.py" %}}
+```
+
 </details>
