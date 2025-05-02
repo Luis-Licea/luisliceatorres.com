@@ -3,5 +3,8 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-# A file for trying out scripts.
-scratchpad.sh
+
+# Ignore Hugo files.
+/public/
+/resources/
+.hugo_build.lock
