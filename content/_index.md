@@ -1,14 +1,10 @@
 ---
-# layout: home
-# permalink: /
 date: 2021-06-21T04:07:57.636Z
 ---
 
 
 <link rel="stylesheet" href="./profile-picture.css">
 <img src="luis.jpg" alt="Luis David Licea Torres">
-
-# About me
 
 I am a computer science graduate, and I am interested in software development.
 
