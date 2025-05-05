@@ -1,0 +1,14 @@
+img {
+  /*Display the border as a solid line around the element.*/
+  border-style: solid;
+  /*Make the border of medium thickness.*/
+  border-width: medium;
+  /*Display the picture as a block to show other elements above or below.*/
+  display: block;
+  /*Set the right and left margins to auto to center the block.*/
+  margin: 0 auto;
+  /*Make the picture a perfect circle by changing the border radius to 50%.*/
+  border-radius: 50%;
+  /*Resize the picture based on the screen size.*/
+  max-width: 40%;
+}
