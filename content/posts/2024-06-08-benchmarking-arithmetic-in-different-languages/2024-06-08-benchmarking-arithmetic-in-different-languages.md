@@ -1,5 +1,6 @@
 ---
 title: Benchmarking arithmetic in different languages
+date: 2024-06-08
 tags: [Programming, Benchmarkig]
 languages: [en]
 ---
@@ -42,35 +43,40 @@ Execution times for calculating the series sum of 100,000:
 
 <details>
 <summary>Rust</summary>
-{% highlight rust %}
-{% include_relative assets/arithmetic.rs %}
-{% endhighlight %}
+
+```rs {{% include "assets/arithmetic.rs" %}}
+```
+
 </details>
 
 <details>
 <summary>Perl</summary>
-{% highlight perl %}
-{% include_relative assets/arithmetic.pl %}
-{% endhighlight %}
+
+```pl {{% include "assets/arithmetic.pl" %}}
+```
+
 </details>
 
 <details>
 <summary>Python</summary>
-{% highlight python %}
-{% include_relative assets/arithmetic.py %}
-{% endhighlight %}
+
+```py {{% include "assets/arithmetic.py" %}}
+```
+
 </details>
 
 <details>
 <summary>JavaScript</summary>
-{% highlight javascript %}
-{% include_relative assets/arithmetic.js %}
-{% endhighlight %}
+
+```js {{% include "assets/arithmetic.js" %}}
+```
+
 </details>
 
 <details>
 <summary>Bash</summary>
-{% highlight bash %}
-{% include_relative assets/arithmetic.sh %}
-{% endhighlight %}
+
+```sh {{% include "assets/arithmetic.sh" %}}
+```
+
 </details>

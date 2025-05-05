@@ -1,5 +1,6 @@
 ---
 title: Benchmarking recursion in different languages
+date: 2023-07-09
 tags: [Programming, Benchmarkig]
 languages: [en]
 ---
@@ -33,84 +34,95 @@ Execution times for calculating the 39th term of the Fibonacci sequence:
 
 <details>
 <summary>C</summary>
-{% highlight c %}
-{% include_relative assets/fibonacci.c %}
-{% endhighlight %}
+
+```c {{% include "assets/fibonacci.c" %}}
+```
+
 </details>
 
 <details>
 <summary>C++</summary>
-{% highlight c++ %}
-{% include_relative assets/fibonacci.cpp %}
-{% endhighlight %}
+
+```c++ {{% include "assets/fibonacci.cpp" %}}
+```
+
 </details>
 
 <details>
 <summary>Rust</summary>
-{% highlight rust %}
-{% include_relative assets/fibonacci.rs %}
-{% endhighlight %}
+
+```rust {{% include "assets/fibonacci.rs" %}}
+```
+
 </details>
 
 <details>
 <summary>Java</summary>
-{% highlight java %}
-{% include_relative assets/Fibonacci.java %}
-{% endhighlight %}
+
+```java {{% include "assets/Fibonacci.java" %}}
+```
+
 </details>
 
 <details>
 <summary>Dart</summary>
-{% highlight dart %}
-{% include_relative assets/fibonacci.dart %}
-{% endhighlight %}
+
+```dart {{% include "assets/fibonacci.dart" %}}
+```
+
 </details>
 
 <details>
 <summary>JavaScript</summary>
-{% highlight javascript %}
-{% include_relative assets/fibonacci.js %}
-{% endhighlight %}
+
+```js {{% include "assets/fibonacci.js" %}}
+```
+
 </details>
 
 <details>
 <summary>Lua</summary>
-{% highlight lua %}
-{% include_relative assets/fibonacci.lua %}
-{% endhighlight %}
+{{< highlight lua >}}
+{{% include "assets/fibonacci.lua" %}}
+{{< /highlight >}}
 </details>
 
 <details>
 <summary>Python</summary>
-{% highlight python %}
-{% include_relative assets/fibonacci.py %}
-{% endhighlight %}
+
+```python {{% include "assets/fibonacci.py" %}}
+```
+
 </details>
 
 <details>
 <summary>Perl</summary>
-{% highlight perl %}
-{% include_relative assets/fibonacci.pl %}
-{% endhighlight %}
+
+```perl {{% include "assets/fibonacci.pl" %}}
+```
+
 </details>
 
 <details>
 <summary>Vimscript</summary>
-{% highlight vimscript %}
-{% include_relative assets/fibonacci.vim %}
-{% endhighlight %}
+
+```vimscript {{% include "assets/fibonacci.vim" %}}
+```
+
 </details>
 
 <details>
 <summary>Nushell</summary>
-{% highlight nu %}
-{% include_relative assets/fibonacci.nu %}
-{% endhighlight %}
+
+```nu {{% include "assets/fibonacci.nu" %}}
+```
+
 </details>
 
 <details>
 <summary>Bash</summary>
-{% highlight bash %}
-{% include_relative assets/fibonacci.bash %}
-{% endhighlight %}
+
+```bash {{% include "assets/fibonacci.bash" %}}
+```
+
 </details>

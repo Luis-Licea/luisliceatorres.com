@@ -1,5 +1,6 @@
 ---
 title: Benchmarking external command execution time
+date: 2024-06-15
 tags: [Programming, Benchmarkig]
 languages: [en]
 ---
@@ -45,28 +46,32 @@ Execution times for calling an external command one hundred times:
 
 <details>
 <summary>Bash</summary>
-{% highlight bash %}
-{% include_relative assets/test.bash %}
-{% endhighlight %}
+
+```bash {{% include "assets/test.bash" %}}
+```
+
 </details>
 
 <details>
 <summary>Perl</summary>
-{% highlight perl %}
-{% include_relative assets/test.pl %}
-{% endhighlight %}
+
+```pl {{% include "assets/test.pl" %}}
+```
+
 </details>
 
 <details>
 <summary>JavaScript</summary>
-{% highlight javascript %}
-{% include_relative assets/test.mjs %}
-{% endhighlight %}
+
+```js {{% include "assets/test.mjs" %}}
+```
+
 </details>
 
 <details>
 <summary>Python</summary>
-{% highlight python %}
-{% include_relative assets/test.py %}
-{% endhighlight %}
+
+```py {{% include "assets/test.py" %}}
+```
+
 </details>

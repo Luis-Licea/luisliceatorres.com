@@ -1,11 +1,17 @@
+---
+title: Gym Progress
+date: 2024-12-22
+tags: [Weight Training]
+---
+
 Unless I am doing a bodyweight exercise, I like to increase the weight until I
 can do at most 7 repetitions.
 
-{% include_relative assets/output/exerciseWithWeights.html %}
+{{% include "assets/output/exerciseWithWeights.html" %}}
 
 <div id="exercise-plot"></div>
 
-{% include_relative assets/output/exerciseWithBodyweight.html %}
+{{% include "assets/output/exerciseWithBodyweight.html" %}}
 
 <div id="exercise-plot2"></div>
 
