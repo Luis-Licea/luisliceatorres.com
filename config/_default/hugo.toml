@@ -28,3 +28,8 @@ summaryLength = 0
 [services]
   [services.x]
     disableInlineCSS = true
+
+# Add for GitHub pages according to https://gohugo.io/host-and-deploy/host-on-github-pages/
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
