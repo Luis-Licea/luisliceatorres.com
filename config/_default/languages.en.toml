@@ -10,7 +10,7 @@ title = "Luis D. Licea Torres"
   dateFormat = "2 January 2006"
 
   # mainSections = ["section1", "section2"]
-  # description = "My awesome website"
+  description = "A portfolio website for projects and blogs."
 
 [params.author]
   name = "Luis David Licea Torres"
