@@ -1,6 +1,8 @@
 ---
 title: La diferencia entre teoría e hipótesis
-tags: Ciencia
+date: 2020-07-04
+categories: Philosophy
+tags: Epistemology
 languages: [es]
 ---
 

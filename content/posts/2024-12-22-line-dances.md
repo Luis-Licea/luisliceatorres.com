@@ -1,7 +1,8 @@
 ---
 title: Line dances
-tags: Dance
-keywords: Dance
+date: 2024-12-22
+categories: Dance
+tags: Line Dance
 ---
 
 A list of line dances with accompanying dance steps, instructional videos, or music

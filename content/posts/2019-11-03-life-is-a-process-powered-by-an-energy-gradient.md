@@ -1,7 +1,8 @@
 ---
 title: Life is a process powered by an energy gradient
-tags: Philosophy
-keywords: Philosophy
+date: 2019-11-03
+categories: Biology
+tags: Biophysics
 ---
 
 Life, in the simplest terms, is a process going from a high energy state to a

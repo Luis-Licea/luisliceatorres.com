@@ -1,7 +1,8 @@
 ---
 title: Houston and Webster area dance classes
-tags: Dance
-keywords: Dance
+date: 2024-12-07
+categories: Dance
+tags: Places
 ---
 
 Here are some dance class locations around Houston and the Galveston Bay Area.

@@ -1,15 +1,16 @@
 ---
 title: How to block YouTube on your phone and computer
+date: 2023-02-05
 description: Prevent YouTube from funneling all your time
-tags: Productivity
-keywords: Productivity
+categories: Productivity
+tags: YouTube
 ---
 
 Watching YouTube, becoming unaware of time, and missing the entire day is
-common. Will power is not enough to moderate your internet habits because it
-requires perpetual, active conscientiousness and abstinence, so relying on
-device customization is better in the long run because it does not require
-effort on your part past the initial setup.
+common. Will power is not enough to moderate internet habits because it requires
+perpetual, active conscientiousness and abstinence, so relying on device
+customization is better in the long run because it does not require mental
+effort after past the initial setup.
 
 ## Block YouTube on your phone
 

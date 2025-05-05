@@ -1,7 +1,8 @@
 ---
 title: Benchmarking recursion in different languages
 date: 2023-07-09
-tags: [Programming, Benchmarkig]
+categories: Programming
+tags: Benchmarkig
 languages: [en]
 ---
 

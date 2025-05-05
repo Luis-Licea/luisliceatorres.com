@@ -1,7 +1,8 @@
 ---
 title: Benchmarking external command execution time
 date: 2024-06-15
-tags: [Programming, Benchmarkig]
+categories: Programming
+tags: Benchmarkig
 languages: [en]
 ---
 

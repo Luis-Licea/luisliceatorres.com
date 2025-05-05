@@ -1,7 +1,8 @@
 ---
 title: Benchmarking Python multiprocessing and multithreading
-tags: [Programming, Benchmarkig]
 date: 2023-06-25
+categories: Programming
+tags: Benchmarkig
 languages: [en]
 ---
 

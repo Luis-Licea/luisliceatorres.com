@@ -1,7 +1,8 @@
 ---
 title: How to vote in Harris county, Texas
-tags: Politics
-keywords: Politics
+date: 2024-11-03
+categories: Politics
+tags: Voting
 ---
 
 In Texas, you can register to vote and vote on even years (2020, 2022, 2024,
@@ -26,5 +27,5 @@ Whenever you go to vote, you will need the following things:
 
 - Required: Your driver's license. It is needed to verify your identity.
 - Optional: Your voter registration card. It is proof that you are registered to
-  vote, so election workers have to let you vote if you have your registration
-  card with you.
+  vote, so election workers must let you vote if you have your registration card
+  with you.

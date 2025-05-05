@@ -1,7 +1,8 @@
 ---
 title: Benchmarking arithmetic in different languages
 date: 2024-06-08
-tags: [Programming, Benchmarkig]
+categories: Programming
+tags: Benchmarkig
 languages: [en]
 ---
 

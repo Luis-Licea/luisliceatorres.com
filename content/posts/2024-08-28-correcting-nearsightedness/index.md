@@ -1,7 +1,8 @@
 ---
 title: Correcting nearsightedness
+date: 2024-08-28
+categories: Health
 tags: Myopia
-keywords: Myopia
 ---
 
 Allegedly there is a way to correct nearsightedness, and for what I have read,
@@ -16,7 +17,7 @@ When you look at objects far away, the muscles inside your eyes relax. Those
 muscles are the ciliary muscles, and they pull on the lens to focus your sight.
 
 <div style="display: flex; margin: 2em">
-  <img style="border-radius: 15px" src="/assets/2024-08-28-correcting-nearsightedness/images/lens-state.jpg" alt="A diagram of relaxed and accomodated lenses.">
+  <img style="border-radius: 15px" src="./images/lens-state.jpg" alt="A diagram of relaxed and accomodated lenses.">
 </div>
 
 Unfortunately, after looking at objects that are close-by for too long, the
@@ -59,6 +60,6 @@ After a few weeks of reading like this, I could use my left eye to read the cloc
 time from the computer monitor again.
 
 <div style="display: flex; margin: 2em">
-  <img style="border-radius: 15px" src="/assets/2024-08-28-correcting-nearsightedness/images/presentation-clicker.webp" alt="An image of a presentation clicker.">
+  <img style="border-radius: 15px" src="./images/presentation-clicker.webp" alt="An image of a presentation clicker.">
 </div>
 

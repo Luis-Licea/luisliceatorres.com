@@ -1,7 +1,8 @@
 ---
 title: What I learned from Salsa Eddy
-tags: Dance
-keywords: Dance
+date: 2024-12-07
+categories: Dance
+tags: Salsa
 ---
 
 [Eddy][Salsa Eddy] is a very technical teacher with 26 years of experience who

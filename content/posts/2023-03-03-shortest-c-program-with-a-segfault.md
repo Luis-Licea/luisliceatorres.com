@@ -1,10 +1,11 @@
 ---
 title: Shortest C program with a segmentation fault
+date: 2023-03-03
 description:
   What is the smallest C program you can write that will give you segmentation
   fault?
-tags: Programming
-keywords: Programming
+categories: Programming
+tags: C
 ---
 
 What is the shortest C program with a segmentation fault that you can write?
@@ -20,5 +21,3 @@ Execute the output binary to get a segmentation fault.
 ```
 [1]    15054 segmentation fault  ./a.out
 ```
-
-Congratulations! Now consider learning Rust.

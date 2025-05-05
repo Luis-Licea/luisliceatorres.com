@@ -1,7 +1,8 @@
 ---
 title: Install Nix and Home-Manager in PinePhone via Arch Linux
-tags: Programming
-keywords: Programming
+date: 2024-07-19
+categories: Programming
+tags: [PinePhone, NixOS]
 ---
 
 I am running [Arch Linux ARM] on my [PinePhone]. Installing the native `nix`

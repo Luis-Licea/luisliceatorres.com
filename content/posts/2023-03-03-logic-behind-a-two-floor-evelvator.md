@@ -1,8 +1,9 @@
 ---
 title: Logic circuit for a two-floor elevator
+date: 2023-03-03
 description: What is the minimum number of ways to test a two-floor elevator?
-tags: Logic
-keywords: Logic
+categories: Math
+tags: Boolean Algebra
 ---
 
 What is the minimum number of ways to test a two-floor elevator with two

@@ -1,7 +1,8 @@
 ---
 title: How to follow semantic versioning via testing
-tags: Programming
-keywords: ["Programming", "Semantic Versioning"]
+date: 2024-10-29
+categories: Programming
+tags: Semantic Versioning
 ---
 
 An easy way to follow semantic versioning is to create unit tests for your API.

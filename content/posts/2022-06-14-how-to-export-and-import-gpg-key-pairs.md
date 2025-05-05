@@ -1,9 +1,8 @@
 ---
-# layout: post
 title: "How to export and import GPG key pairs"
-# description: A tutorial on how to sharpen blurry asteroid images.
-# tags: [Astronomy, Image Processing]
-# keywords: [Astronomy, Image Processing]
+date: 2022-06-14
+categories: Programming
+tags: GPG
 ---
 
 For context, GPG key pairs are necessary for password managers such as `pass`.

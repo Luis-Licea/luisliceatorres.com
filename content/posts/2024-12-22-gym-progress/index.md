@@ -1,7 +1,8 @@
 ---
 title: Gym Progress
 date: 2024-12-22
-tags: [Weight Training]
+categories: Health
+tags: Weight Training
 ---
 
 Unless I am doing a bodyweight exercise, I like to increase the weight until I

@@ -1,9 +1,7 @@
 ---
-layout: home
-permalink: /
+# layout: home
+# permalink: /
 date: 2021-06-21T04:07:57.636Z
-categories:
-  - Personal
 ---
 
 
