@@ -1,11 +1,11 @@
 ---
-title: Résumé
-layout: page
-permalink: /resume.html
 date: 2021-07-03T16:53:21.000Z
-categories:
-  - Personal
 description: My résumé, meant for anyone wishing to know about my work.
+showDate: false
+showReadingTime: false
+showAuthor: false
+params:
+  email: luisliceatorres@gmail.com
 ---
 
 <style>
@@ -34,6 +34,10 @@ description: My résumé, meant for anyone wishing to know about my work.
     /* Do not show bullet points. */
     list-style: none;
   }
+  svg {
+    display: inline-block;
+    vertical-align: middle;
+  }
 </style>
 <h1 align="center" class="title">Luis David Licea Torres</h1>
 <h2>Contact</h2>
@@ -53,7 +57,7 @@ description: My résumé, meant for anyone wishing to know about my work.
     <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align: -0.125em;" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M12 12q-1.65 0-2.825-1.175Q8 9.65 8 8q0-1.65 1.175-2.825Q10.35 4 12 4q1.65 0 2.825 1.175Q16 6.35 16 8q0 1.65-1.175 2.825Q13.65 12 12 12Zm-8 8v-2.8q0-.85.438-1.563q.437-.712 1.162-1.087q1.55-.775 3.15-1.163Q10.35 13 12 13t3.25.387q1.6.388 3.15 1.163q.725.375 1.162 1.087Q20 16.35 20 17.2V20Zm2-2h12v-.8q0-.275-.137-.5q-.138-.225-.363-.35q-1.35-.675-2.725-1.013Q13.4 15 12 15t-2.775.337Q7.85 15.675 6.5 16.35q-.225.125-.362.35q-.138.225-.138.5Zm6-8q.825 0 1.413-.588Q14 8.825 14 8t-.587-1.412Q12.825 6 12 6q-.825 0-1.412.588Q10 7.175 10 8t.588 1.412Q11.175 10 12 10Zm0-2Zm0 10Z"/></svg>
     <a href="http://luisliceatorres.com">luisliceatorres.com</a>
   </li>
-  <li>
+  <li >
     <!-- GitHub icon. -->
     <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align: -0.125em;" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4" d="M29.344 30.477c2.404-.5 4.585-1.366 6.28-2.638C38.52 25.668 40 22.314 40 19c0-2.325-.881-4.495-2.407-6.333c-.85-1.024 1.636-8.667-.573-7.638c-2.21 1.03-5.45 3.308-7.147 2.805A20.712 20.712 0 0 0 24 7c-1.8 0-3.532.223-5.147.635C16.505 8.232 14.259 6 12 5.029c-2.26-.97-1.026 6.934-1.697 7.766C8.84 14.605 8 16.729 8 19c0 3.314 1.79 6.668 4.686 8.84c1.93 1.446 4.348 2.368 7.054 2.822m0 0c-1.158 1.275-1.738 2.486-1.738 3.633v8.716m11.342-12.534c1.098 1.44 1.647 2.734 1.647 3.88v8.654M6 31.216c.899.11 1.566.523 2 1.24c.652 1.074 3.074 5.062 5.825 5.062h4.177"/></svg>
     <a href="https://github.com/Luis-Licea">github.com/Luis-Licea</a>
@@ -61,7 +65,7 @@ description: My résumé, meant for anyone wishing to know about my work.
   <li>
     <!-- Mail icon. -->
     <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align: -0.125em;" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M2 20V4h20v16Zm10-7L4 8v10h16V8Zm0-2l8-5H4ZM4 8V6v2Z"/></svg>
-    <a href="mailto:{{ site.author.email }}?subject=Reaching%20Out&amp;body=Hello%20Luis,">{{ site.author.email }}</a>
+    <a href="mailto:{{% param email %}}?subject=Reaching%20Out&amp;body=Hello%20Luis,">{{% param email %}}</a>
   </li>
 </ul>
 <h2>Skills</h2>
@@ -202,19 +206,6 @@ description: My résumé, meant for anyone wishing to know about my work.
 <dl>
   <dt>
     <ul class="hfill bold">
-      <span><a href="https://nifti.work">nifti.work</a></span>
-      <span>February 2022&ndash;May 2022</span>
-    </ul>
-  </dt>
-  <dd>
-    <ul>
-      <li>Nifti allows you to search for work or post work for others, opening a new market for freelancers</li>
-      <li>Technologies used: Python, Django, HTML, CSS, JS, Google Cloud, Apache, Git</li>
-      <li>Repository: <a href="https://github.com/Luis-Licea/nifti">github.com/luis-licea/nifti</a></li>
-    </ul>
-  </dd>
-  <dt>
-    <ul class="hfill bold">
       <span><a href="https://luis-licea.github.io/radio/">luis-licea.github.io/radio</a></span>
       <span>December 2021&ndash;Present</span>
     </ul>
@@ -234,15 +225,14 @@ description: My résumé, meant for anyone wishing to know about my work.
   </dt>
   <dd>
     <ul>
-      <li>A personal website for blogging built with Jekyll</li>
-      <li>Technologies used: Jekyll, HMTL, CSS, JS, Git</li>
+      <li>A personal website for blogging built with Hugo</li>
+      <li>Technologies used: Hugo, HMTL, CSS, JS, Git</li>
       <li>Repository: <a href="https://github.com/Luis-Licea/luisliceatorres.com">github.com/luis-licea/luisliceatorres.com</a></li>
     </ul>
   </dd>
 </dl>
 <h2>
-  {% assign assets='assets' | relative_url %}
-  <a href="{{ assets }}/resume/Luis David Licea Torres Résumé.pdf" download="Luis David Licea Torres Résumé.pdf">
+  <a href="./Luis David Licea Torres Resume.pdf" download="Luis David Licea Torres Resume.pdf">
     <!-- Download Icon. -->
     <!-- material-symbols:download-sharp -->
     <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align: -0.125em;" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="m12 16l-5-5l1.4-1.45l2.6 2.6V4h2v8.15l2.6-2.6L17 11Zm-8 4v-5h2v3h12v-3h2v5Z"/></svg>
