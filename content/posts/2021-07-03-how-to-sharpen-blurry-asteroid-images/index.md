@@ -8,10 +8,8 @@ tags: Image Processing
 ---
 
 Raw asteroid images have visual artifacts that make them hard to analyze with
-the naked eye, so image processing is necessary to nightlight the features
-on the asteroid surfaces.
-
-It is hard to see the features on asteroid images without
+the naked eye, so image processing is necessary to highlight the features on the
+asteroid surfaces.
 
 <link rel="stylesheet" href="./css/class-centered-image.css">
 <div style="display: flex; border-radius: 15px; align-items: center; font-size: 3em;">
