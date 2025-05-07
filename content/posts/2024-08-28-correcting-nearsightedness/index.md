@@ -24,7 +24,7 @@ Unfortunately, after looking at objects that are close-by for too long, the
 ciliary muscles become permanently contracted and the eyes are unable to relax,
 meaning that far away objects look blurry. The worst part is that when this
 happens, people get near-sighted glasses, which work for some time, but over
-time these glasses worsen the problem because they ciliary muscles must contract
+time these glasses worsen the problem because the ciliary muscles must contract
 even further in order to look at close-by objects. This leads to a cycle of
 getting new glasses each time the eyes become more near-sighted.
 
