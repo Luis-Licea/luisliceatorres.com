@@ -5,7 +5,13 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-I have been gong to the [Bay Area Whip Dance Club] for a couple of weeks. Classes are divided in levels and instructors rotate so they can teach different levels. So far our instructor for level 1 classes has been [Chuck Anders]. He knows how to dance Salsa, Bachata, Tango, Polka, Waltz, Rumba, Two Step, West Coast Swing, and East Coast Swing. If I remember correctly, he said he began dancing when he was about 14 years old. Luckily Chuck was also my instructor for Level 2.
+I have been gong to the [Bay Area Whip Dance Club] for a couple of weeks.
+Classes are divided in levels and instructors rotate so they can teach different
+levels. So far our instructor for level 1 classes has been [Chuck Anders]. He
+knows how to dance Salsa, Bachata, Tango, Polka, Waltz, Rumba, Two Step, West
+Coast Swing, and East Coast Swing. If I remember correctly, he said he began
+dancing when he was about 14 years old. Luckily Chuck was also my instructor for
+Level 2.
 
 I have learned or reviewed the following steps there:
 
@@ -34,15 +40,35 @@ There are many elements in West Coast Swing dancing:
 - Repetition: Are the dancers able to take a basic pattern, split it into
 increments, and repeat those increments?
 - Tension and compression: Is the leader and the follower connected? Are they
-reacting to each other, or dancing independently?
+reacting to each other or dancing independently? Is the leader prepping
+correctly?
 
 ## General dance knowledge
 
-- An inside turn is a left, counterclockwise turn.
-- An outside turn is a right, clockwise turn.
-- Aim to have fun, stay safe, and dance every song.
-- 5 pattern types: side passes, sugar pushes, side pass with a roll, wrap in and wrap outs, and whips (8 beats)
-- A prep does not happen on step two, it happens between step 1 and 2, when the follower's left foot is floating and pulling on the arm would cause a rotation on the follower's right foot. In other words, it is 1-prep-2-3&4 as opposed to 1-prep-3&4.
+- Aim to have fun, stay safe, and dance every song
+- An inside turn is a left, counterclockwise turn
+- An outside turn is a right, clockwise turn
+
+## General West Coast Swing knowledge
+
+- There are 5 pattern types:
+    - side passes (6 beats)
+    - sugar pushes (6 beats)
+    - side pass with a roll (6 beats)
+    - wrap in and wrap outs (6 beats)
+    - and whips (8 beats)
+
+- A prep does not happen on step two, it happens between step 1 and 2, when the
+follower's left foot is floating and pulling on the arm would cause a rotation
+on the follower's right foot. In other words, it is 1-prep-2-3&4 as opposed to
+1-prep-3&4.
+
+- Side passes are named from the leader's perspective. For example, in a left
+pass, the follower passes by the leader's left side.
+
+- The forward and backward directions are named from the follower's perspective.
+When a follower and leader move forward, it means the follower is moving
+forwards while the leader is moving backward.
 
 ## Musicality
 
@@ -75,8 +101,12 @@ When leading a rock-and-go, do not let the follower settle back on the anchor
 step. The RAG must happen quickly so the anchor step --- which usually happens
 in place --- turns into triple step that moves the follower forward:
 
-- In a basic 6 count pattern, the RAG replaces steps 5&6 and turns into the count 1 2 3&4 5&2 or  1 2 3&4 rock-and-go. The RAG must happen quickly so the follower does not settle on steps &6, but instead moves forward.
-- In a basic 8 count pattern, the RAG replaces steps 7&8 and turns into the count 1 2 3&4 5 6 7&2 or  1 2 3&4 5 6 rock-and-go. The RAG must happen quickly so the follower does not settle on steps &8, but instead moves forward.
+- In a basic 6 count pattern, the RAG replaces steps 5&6 and turns into the
+count 1 2 3&4 5&2 or  1 2 3&4 rock-and-go. The RAG must happen quickly so the
+follower does not settle on steps &6, but instead moves forward.
+- In a basic 8 count pattern, the RAG replaces steps 7&8 and turns into the
+count 1 2 3&4 5 6 7&2 or  1 2 3&4 5 6 rock-and-go. The RAG must happen quickly
+so the follower does not settle on steps &8, but instead moves forward.
 
 ## Pattern count combinations
 
