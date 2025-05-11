@@ -5,7 +5,7 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-I have been gong to the [Bay Area Whip Dance Club] for a couple of weeks.
+I have been going to the [Bay Area Whip Dance Club] for a couple of weeks.
 Classes are divided in levels and instructors rotate so they can teach different
 levels. So far our instructor for level 1 classes has been [Chuck Anders]. He
 knows how to dance Salsa, Bachata, Tango, Polka, Waltz, Rumba, Two Step, West
