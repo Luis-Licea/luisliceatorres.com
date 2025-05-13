@@ -86,7 +86,7 @@ I have been told contradictory information about Rumba and Waltz:
 - Rumba and Waltz have a box step, but the Rumba rhythm is slow, quick, quick, while the Waltz rhythm is even because all steps are the same speed
 - Rumba and Waltz have the same rhythm: slow, quick, quick
 
-## Rock and go (RAG)
+## Rock-and-go (RAG)
 
 A rock-and-go (RAG) combines the last two steps of a pattern with the first two steps
 of the next pattern.
@@ -107,6 +107,22 @@ follower does not settle on steps &6, but instead moves forward.
 - In a basic 8 count pattern, the RAG replaces steps 7&8 and turns into the
 count 1 2 3&4 5 6 7&2 or  1 2 3&4 5 6 rock-and-go. The RAG must happen quickly
 so the follower does not settle on steps &8, but instead moves forward.
+
+## Handhold configurations
+
+Handhold configurations do not have formal names, but I refer to them like so:
+
+- right to right: handshake handhold
+- left to left: scout handshake handhold
+- left to right: regular handhold
+- right to left: goofy handhold
+- left to right and right to left: double handhold
+- left to left over right to right: cross-up handhold
+- right to right over left to left: cross-down handhold
+
+From a cross-up you may do an inside turn and from a cross-down you may do an outside turn (sugar tuck, for example).
+
+From a double you may do a sugar tuck and release the left hand so you will end in a goofy handhold.
 
 ## Pattern count combinations
 
