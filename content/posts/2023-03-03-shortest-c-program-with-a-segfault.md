@@ -5,7 +5,7 @@ description:
   What is the smallest C program you can write that will give you segmentation
   fault?
 categories: Programming
-tags: [C, Humor]
+tags: [C, Sarcasm]
 ---
 
 What is the shortest C program with a segmentation fault that you can write?

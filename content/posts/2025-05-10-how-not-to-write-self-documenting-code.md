@@ -2,7 +2,7 @@
 title: How not to write self-documenting code
 date: 2025-05-10T23:29:45-05:00
 categories: Programming
-tags: Humor
+tags: Sarcasm
 ---
 
 Self-documenting code is supposed to reduce the need for comments and increase
