@@ -151,6 +151,31 @@ hammerlock position
 a double handhold where the leader's hands point down and the follower's left
 hand is behind the back pointing outside while the right hand is pointing down.
 
+back-to-front position
+: The follower and the leader face in the same direction while the follower stands in front of the leader while holding the leader's hand in a regular handhold at waist-level.
+
+## Preparation variations
+
+A prep is used to rotate the follower clockwise or counter-clockwise.
+
+J-hook
+: Used to rotate the follower clockwise 180 degrees into a starter position
+during a whip.
+
+Piston
+: Used to rotate the follower clockwise 180 degrees into a back-to-front
+position during a single-arm turn-in. In a regular handhold, it consists of
+pulling the follower's arm on 1 and pushing it on 2.
+
+Left
+: Used for the left pass inside turn, right pass inside spin, handshake reverse
+whip, and free spin. Forward on 1, prep slightly to the left between 1 and 2,
+    and rotate counter-clockwise on 3.
+
+Right
+: Used for the right pass outside spin. Forward on 1, prep slightly to the right
+between 1 and 2, and rotate clockwise on 3.
+
 ## Pattern count combinations
 
 Many popular songs are composed such that each phrase is 32 beats. The leader
