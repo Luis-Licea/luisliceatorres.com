@@ -110,6 +110,13 @@ so the follower does not settle on steps &8, but instead moves forward.
 
 ## Handhold configurations
 
+The palm of the hand can point in four general directions:
+
+- upwards (supination)
+- inside (facing the interior)
+- downwards (pronation)
+- outside (facing the exterior)
+
 Handhold configurations do not have formal names, but I refer to them like so:
 
 - right to right: handshake handhold
@@ -123,6 +130,26 @@ Handhold configurations do not have formal names, but I refer to them like so:
 From a cross-up you may do an inside turn and from a cross-down you may do an outside turn (sugar tuck, for example).
 
 From a double you may do a sugar tuck and release the left hand so you will end in a goofy handhold.
+
+## Stance configurations
+
+Stance configurations define how the leader and the follower stand relative to
+each other and what handhold configuration they are in.
+
+closed position
+: The leader's right hand is on the follower's back (on the left shoulder blade), and the follower's left arm rests on the leader's right arm. The leader stands face-to-face to the follower, sort of like the characters ||.
+
+starter position
+: The handwork is identical to the closed position, but the leader stands
+perpendicularly to the follower's left side, sort of like the characters _|.
+
+open position
+: The leader's left hand ring finger and middle finger (pointing in) are held by the follower's right hand (pointing down) at waist level, sort of like the characters |¯|.
+
+hammerlock position
+: The leader stands slightly to the left of the follower, maintaining
+a double handhold where the leader's hands point down and the follower's left
+hand is behind the back pointing outside while the right hand is pointing down.
 
 ## Pattern count combinations
 
