@@ -169,6 +169,23 @@ hand is behind the back pointing outside while the right hand is pointing down.
 back-to-front position
 : The follower and the leader face in the same direction while the follower stands in front of the leader while holding the leader's hand in a regular handhold at waist-level.
 
+leader left-shoulder lock position
+: A closed position variation. The leader stands face to face with the follower,
+but the leader is offset about one foot to the left of the follower because the
+leader holds the follower's right hand with the left hand from a shoulder lock
+position. The leader places the back of the right hand on the follower's right
+shoulder in order to lead a whip or some other pattern. This position can be
+reached by the leader by starting from an open position and performing a right
+side pass inside turn with a leader clockwise turn without releasing the
+follower's hand.
+
+leader right-shoulder lock position
+: A closed position variation. The leader stands face to face with the follower,
+but the leader is offset about one foot to the right of the follower because the
+leader holds the follower's left hand with the right hand from a shoulder lock
+position. The leader places the back of the left hand on the follower's left
+shoulder in order to lead a whip or some other pattern. [^1]
+
 ## Preparation variations
 
 A prep is used to rotate the follower clockwise or counter-clockwise.
