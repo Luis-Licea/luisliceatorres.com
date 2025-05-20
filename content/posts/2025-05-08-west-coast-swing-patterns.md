@@ -1,5 +1,6 @@
 ---
 title: West Coast Swing Patterns
+showTableOfContents: true
 date: 2025-05-08
 categories: Dance
 tags: West Coast Swing
@@ -72,10 +73,17 @@ forwards while the leader is moving backward.
 
 ## Musicality
 
+- Music is commonly written in the 4/4 time signature and commonly structured in sets of 8 beats
 - A major phrase is 32 beats
 - A minor phrase is 16 beats (usually) or 8 beats (rarely)
-- Music is commonly composed using the 4/4 time signature, which has 8 beats
-- All ballroom dances can be danced to music based on 8 beats (4/4 time signature) or 4 (2/4 time signature)
+- All ballroom dances except Waltz are written in 4/4 time and can be danced using 8 beat patterns:
+    - Bachata: 4- or 8-beat patterns
+    - Chacha: 4- or 8-beat patterns
+    - Country Polka: 4- or 8-beat patterns
+    - Country Two Step: 4- or 8-beat patterns
+    - Salsa: 8-beat patterns
+    - West Coast Swing: primarily 6- and 8-beat patterns, with 10- and 12-beat patterns requiring a rock-and-go
+    - Waltz is written in 3/4 time signature and has 6-beat patterns
 
 ## Rhythm
 
@@ -115,7 +123,7 @@ The palm of the hand can point in four general directions:
 - upwards (supination)
 - inside (facing the interior)
 - downwards (pronation)
-- outside (facing the exterior)
+- outside (facing the exterior/posterior)
 
 Handhold configurations do not have formal names, but I refer to them like so:
 
@@ -127,9 +135,16 @@ Handhold configurations do not have formal names, but I refer to them like so:
 - left to left over right to right: cross-up handhold
 - right to right over left to left: cross-down handhold
 
-From a cross-up you may do an inside turn and from a cross-down you may do an outside turn (sugar tuck, for example).
+Examples:
 
-From a double you may do a sugar tuck and release the left hand so you will end in a goofy handhold.
+- A double handed sugar tuck into a hammerlock.
+- A double handed sugar push inside turn into a sweetheart.
+- A crossed-up sugar push inside turn into a cross-down handhold.[^1]
+- A crossed-down sugar push outside turn (sugar tuck) into a
+cross-up handhold.[^1]
+- A double handed sugar tuck with a left hand release into a goofy handhold.[^1]
+
+[^1]: This is a hypothetical move. I have not actually tried it. :smile_cat:
 
 ## Stance configurations
 
@@ -231,19 +246,34 @@ could be translated into \\(4\\) basic patterns and \\(1\\) whip.
 14&=? \\\
 \\\
 12&=6+6 \\\
-&=12 (RAG) \\\
+&=12 && \text{When doing a 6+RAG+8 pattern} \\\
 \\\
-10&=10 (RAG) \\\
+10&=10 && \text{When doing a 6+RAG+6 pattern} \\\
 \\\
 8&=8 \\\
 \\\
 6&=6 \\\
 \\\
-4&=? \\\
+4&=? && \text{Not including 4-beat starter steps} \\\
 \\\
-2&=? \\\
+2&=? && \text{Not including styling variations} \\\
 \end{aligned}
 \$\$
+
+I am not sure whether 4-beat or 2-beat patterns exist in West Coast Swing. There
+are starter steps that are 4-beats long, but they are only used to start the
+dance. Also, 6-beat and 8-beat patterns may be lengthened via styling to make
+them 2 beats longer, but I have never heard of a standalone 2-beat pattern.
+
+Some ways to lengthen a pattern by 2 beats are:
+
+- Replace the 2-beat anchor step with a 4-beat, slow, and smooth ronde
+- Replace the 2-beat anchor step with 4 small steps, 1-beat each
+- Split the 6-beat or the 8-beat pattern into 2-beat increments, and repeat any
+2-beat increment. For example, a 6-beat pattern can be split into 2-beat
+increment like walk-walk triple-step triple-step, and then lengthened by 2-beats
+by adding another walk-walk at the beginning or another triple-step any time
+after the initial walk-walk. It is a subtle form of copy-and-paste.
 
 [Bay Area Whip Dance Club]: https://www.bawdc.org/
 [Chuck Anders]: https://www.bawdc.org/profile/chuck-anders/
