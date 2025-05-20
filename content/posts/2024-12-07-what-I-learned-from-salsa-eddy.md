@@ -15,25 +15,26 @@ I learned these valuable lessons about dancing:
 - For any dance you learn, you must know two things:
 
   1. The step counts. You must count your steps, preferably out-loud so you are
-     confident about every step you take. In salsa, every move has 6 steps that
-     get counted as 1, 2, 3, pause, 5, 6, 7, pause.
-  2. The move names. You must know the move names so you can easily combine them
-     and brush up the details after you forget them. Some move names are
+     confident about every step you take. In salsa, every pattern has 6 steps
+     that get counted as 1, 2, 3, pause, 5, 6, 7, pause.
+  2. The pattern names. You must know the pattern names so you can easily combine them
+     and brush up the details after you forget them. Some pattern names are
      traditional, basic, basic turn, etc.
 
-     If you know the step count and you know the move names, then all you have
-     to do is iron out the hesitation between each step and between each move.
+     If you know the step count and you know the pattern names, then all you
+     have to do is iron out the hesitation between each step and between each
+     pattern.
 
-     Once you know the move names and you are confident doing them, you MUST be
-     able to quickly string them together into combinations. Any hesitation will
+     Once you know the pattern names and you are confident doing them, you MUST
+     be able to quickly string them together into sequences. Any hesitation will
      be translated to a miss-step on the dance-floor. For example, if I were to
-     ask you what combination you are planing to dance, you should be able to
-     say "traditional, basic, basic turn, double cross body lead,
-     counterclockwise turn, outside turn, cross-body lead, inside turn,
-     cross-body lead, and copa" without any hesitation. If you say um, hmm,
-     well, or ah, then that hesitation will cause you to miss your beat or to
-     forget the next step. Stringing your moves into combinations is hard, but
-     that is what it takes to be a good dancer and a good lead.
+     ask you what sequence you are planing to dance, you should be able to say
+     "traditional, basic, basic turn, double cross body lead, counterclockwise
+     turn, outside turn, cross-body lead, inside turn, cross-body lead, and
+     copa" without any hesitation. If you say um, hmm, well, or ah, then that
+     hesitation will cause you to miss your beat or to forget the next step.
+     Stringing your patterns into sequences is hard, but that is what it takes
+     to be a good dancer and a good lead.
 
 - Your feet should never stop moving, otherwise you are not dancing.
 - You footwork count must be in synch with the music, otherwise you are counting
