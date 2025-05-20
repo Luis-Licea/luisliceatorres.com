@@ -19,12 +19,11 @@ I have learned or reviewed the following steps there:
 - Sugar push
 - Left side pass
 - Sugar tuck
-- Reverse sugar tuck (right side redirect)
-- Reverse sugar tuck (right side redirect) to close position: put fingertips in between shoulder blades as she
+- Reverse sugar tuck
+- Reverse sugar tuck to close position: put fingertips in between shoulder blades as the follower rotates.
 - Right side pass (underarm turn)
-- Right side pass to close position: put fingertips in between shoulder blades as she
-    rotates
-- Right side pass with male turn: drop hand on 4) and turn left on the 5&6
+- Right side pass to close position: put fingertips in between shoulder blades as the follower rotates.
+- Right side pass with leader turn: drop hand on 4 and turn left on the 5&6
 - Closed position to passing tuck turn
 - Close position to the left side pass
 - Basket whip
