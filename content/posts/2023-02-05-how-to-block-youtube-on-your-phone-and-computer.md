@@ -59,5 +59,11 @@ work on Chrome, Brave, Firefox, and their mobile versions.
 After installing [Unhook], the option to "Hide shorts" needs to be enabled
 manually.
 
+## Disable scroll on YouTube shorts to escape the algorithm
+
+You can download the [Stop Scrolling on YouTube Shorts] extension.
+
 [UnTrap for YouTube]: https://chromewebstore.google.com/detail/unhook-remove-youtube-rec/khncfooichmfjbepaaaebmommgaepoid
 [Unhook]: https://chromewebstore.google.com/detail/untrap-for-youtube/enboaomnljigfhfjfoalacienlhjlfil
+[Stop Scrolling on YouTube Shorts]: https://chromewebstore.google.com/detail/stop-scrolling-on-youtube/blifjfhmkcoakdbfapnokhhffamigiog
+
