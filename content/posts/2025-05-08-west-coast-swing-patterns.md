@@ -35,13 +35,14 @@ I have learned or reviewed the following steps there:
 ## West Coast Swing elements
 
 There are many elements in West Coast Swing dancing:
+
 - Musicality: are the dancers synchronized to the music?
 - Rock-and-go: are the dancers able to combine patterns without doing an anchor?
 - Repetition: Are the dancers able to take a basic pattern, split it into
-increments, and repeat those increments?
+  increments, and repeat those increments?
 - Tension and compression: Is the leader and the follower connected? Are they
-reacting to each other or dancing independently? Is the leader prepping
-correctly?
+  reacting to each other or dancing independently? Is the leader prepping
+  correctly?
 
 ## General dance knowledge
 
@@ -52,37 +53,41 @@ correctly?
 ## General West Coast Swing knowledge
 
 - There are 5 pattern types:
-    - side passes (6 beats)
-    - sugar pushes (6 beats)
-    - side pass with a roll (6 beats)
-    - wrap in and wrap outs (6 beats)
-    - and whips (8 beats)
+
+  - side passes (6 beats)
+  - sugar pushes (6 beats)
+  - side pass with a roll (6 beats)
+  - wrap in and wrap outs (6 beats)
+  - and whips (8 beats)
 
 - A prep does not happen on step two, it happens between step 1 and 2, when the
-follower's left foot is floating and pulling on the arm would cause a rotation
-on the follower's right foot. In other words, it is 1-prep-2-3&4 as opposed to
-1-prep-3&4.
+  follower's left foot is floating and pulling on the arm would cause a rotation
+  on the follower's right foot. In other words, it is 1-prep-2-3&4 as opposed to
+  1-prep-3&4.
 
 - Side passes are named from the leader's perspective. For example, in a left
-pass, the follower passes by the leader's left side.
+  pass, the follower passes by the leader's left side.
 
 - The forward and backward directions are named from the follower's perspective.
-When a follower and leader move forward, it means the follower is moving
-forwards while the leader is moving backward.
+  When a follower and leader move forward, it means the follower is moving
+  forwards while the leader is moving backward.
 
 ## Musicality
 
-- Music is commonly written in the 4/4 time signature and commonly structured in sets of 8 beats
+- Music is commonly written in the 4/4 time signature and commonly structured in
+  sets of 8 beats
 - A major phrase is 32 beats
 - A minor phrase is 16 beats (usually) or 8 beats (rarely)
-- All ballroom dances except Waltz are written in 4/4 time and can be danced using 8 beat patterns:
-    - Bachata: 4- or 8-beat patterns
-    - Chacha: 4- or 8-beat patterns
-    - Country Polka: 4- or 8-beat patterns
-    - Country Two Step: 4- or 8-beat patterns
-    - Salsa: 8-beat patterns
-    - West Coast Swing: primarily 6- and 8-beat patterns, with 10- and 12-beat patterns requiring a rock-and-go
-    - Waltz is written in 3/4 time signature and has 6-beat patterns
+- All ballroom dances except Waltz are written in 4/4 time and can be danced
+  using 8 beat patterns:
+  - Bachata: 4- or 8-beat patterns
+  - Chacha: 4- or 8-beat patterns
+  - Country Polka: 4- or 8-beat patterns
+  - Country Two Step: 4- or 8-beat patterns
+  - Salsa: 8-beat patterns
+  - West Coast Swing: primarily 6- and 8-beat patterns, with 10- and 12-beat
+    patterns requiring a rock-and-go
+  - Waltz is written in 3/4 time signature and has 6-beat patterns
 
 ## Rhythm
 
@@ -90,13 +95,14 @@ Not really WCS related, but ...
 
 I have been told contradictory information about Rumba and Waltz:
 
-- Rumba and Waltz have a box step, but the Rumba rhythm is slow, quick, quick, while the Waltz rhythm is even because all steps are the same speed
+- Rumba and Waltz have a box step, but the Rumba rhythm is slow, quick, quick,
+  while the Waltz rhythm is even because all steps are the same speed
 - Rumba and Waltz have the same rhythm: slow, quick, quick
 
 ## Rock-and-go (RAG)
 
-A rock-and-go (RAG) combines the last two steps of a pattern with the first two steps
-of the next pattern.
+A rock-and-go (RAG) combines the last two steps of a pattern with the first two
+steps of the next pattern.
 
 A RAG reduces the beat count by 2, e.g:
 
@@ -109,11 +115,11 @@ step. The RAG must happen quickly so the anchor step --- which usually happens
 in place --- turns into triple step that moves the follower forward:
 
 - In a basic 6 count pattern, the RAG replaces steps 5&6 and turns into the
-count 1 2 3&4 5&2 or  1 2 3&4 rock-and-go. The RAG must happen quickly so the
-follower does not settle on steps &6, but instead moves forward.
+  count 1 2 3&4 5&2 or 1 2 3&4 rock-and-go. The RAG must happen quickly so the
+  follower does not settle on steps &6, but instead moves forward.
 - In a basic 8 count pattern, the RAG replaces steps 7&8 and turns into the
-count 1 2 3&4 5 6 7&2 or  1 2 3&4 5 6 rock-and-go. The RAG must happen quickly
-so the follower does not settle on steps &8, but instead moves forward.
+  count 1 2 3&4 5 6 7&2 or 1 2 3&4 5 6 rock-and-go. The RAG must happen quickly
+  so the follower does not settle on steps &8, but instead moves forward.
 
 ## Handhold configurations
 
@@ -139,8 +145,8 @@ Examples:
 - A double handed sugar tuck into a hammerlock.
 - A double handed sugar push inside turn into a sweetheart.
 - A crossed-up sugar push inside turn into a cross-down handhold.[^1]
-- A crossed-down sugar push outside turn (sugar tuck) into a
-cross-up handhold.[^1]
+- A crossed-down sugar push outside turn (sugar tuck) into a cross-up
+  handhold.[^1]
 - A double handed sugar tuck with a left hand release into a goofy handhold.[^1]
 
 [^1]: This is a hypothetical move. I have not actually tried it. :smile_cat:
@@ -150,25 +156,37 @@ cross-up handhold.[^1]
 Stance configurations define how the leader and the follower stand relative to
 each other and what handhold configuration they are in.
 
-closed position
-: The leader's right hand is on the follower's back (on the left shoulder blade), and the follower's left arm rests on the leader's right arm. The leader stands face-to-face to the follower, sort of like the characters ||.
+Closed position
 
-starter position
+: The leader's right hand is on the follower's back (on the left shoulder
+blade), and the follower's left arm rests on the leader's right arm. The leader
+stands face-to-face to the follower, sort of like the characters ||.
+
+Starter position
+
 : The handwork is identical to the closed position, but the leader stands
-perpendicularly to the follower's left side, sort of like the characters _|.
+perpendicularly to the follower's left side, sort of like the characters \_|.
 
-open position
-: The leader's left hand ring finger and middle finger (pointing in) are held by the follower's right hand (pointing down) at waist level, sort of like the characters |¯|.
+Open position
 
-hammerlock position
-: The leader stands slightly to the left of the follower, maintaining
-a double handhold where the leader's hands point down and the follower's left
-hand is behind the back pointing outside while the right hand is pointing down.
+: The leader's left hand ring finger and middle finger (pointing in) are held by
+the follower's right hand (pointing down) at waist level, sort of like the
+characters |¯|.
 
-back-to-front position
-: The follower and the leader face in the same direction while the follower stands in front of the leader while holding the leader's hand in a regular handhold at waist-level.
+Hammerlock position
 
-leader left-shoulder lock position
+: The leader stands slightly to the left of the follower, maintaining a double
+handhold where the leader's hands point down and the follower's left hand is
+behind the back pointing outside while the right hand is pointing down.
+
+Back-to-front position
+
+: The follower and the leader face in the same direction while the follower
+stands in front of the leader while holding the leader's hand in a regular
+handhold at waist-level.
+
+Leader left-shoulder lock position
+
 : A closed position variation. The leader stands face to face with the follower,
 but the leader is offset about one foot to the left of the follower because the
 leader holds the follower's right hand with the left hand from a shoulder lock
@@ -178,7 +196,8 @@ reached by the leader by starting from an open position and performing a right
 side pass inside turn with a leader clockwise turn without releasing the
 follower's hand.
 
-leader right-shoulder lock position
+Leader right-shoulder lock position
+
 : A closed position variation. The leader stands face to face with the follower,
 but the leader is offset about one foot to the right of the follower because the
 leader holds the follower's left hand with the right hand from a shoulder lock
@@ -190,20 +209,24 @@ shoulder in order to lead a whip or some other pattern. [^1]
 A prep is used to rotate the follower clockwise or counter-clockwise.
 
 J-hook
+
 : Used to rotate the follower clockwise 180 degrees into a starter position
 during a whip.
 
 Piston
+
 : Used to rotate the follower clockwise 180 degrees into a back-to-front
 position during a single-arm turn-in. In a regular handhold, it consists of
 pulling the follower's arm on 1 and pushing it on 2.
 
 Left
+
 : Used for the left pass inside turn, right pass inside spin, handshake reverse
 whip, and free spin. Forward on 1, prep slightly to the left between 1 and 2,
-    and rotate counter-clockwise on 3.
+and rotate counter-clockwise on 3.
 
 Right
+
 : Used for the right pass outside spin. Forward on 1, prep slightly to the right
 between 1 and 2, and rotate clockwise on 3.
 
@@ -223,8 +246,7 @@ could be translated into \\(4\\) basic patterns and \\(1\\) whip.
 
 {{< katex >}}
 
-\$\$
-\begin{aligned}
+\$\$ \begin{aligned} \\\
 32&=6+6+6+6+8 \\\
 &=6+8+8+10 \\\
 &=8+8+8+8 \\\
@@ -273,8 +295,7 @@ could be translated into \\(4\\) basic patterns and \\(1\\) whip.
 4&=? && \text{Not including 4-beat starter steps} \\\
 \\\
 2&=? && \text{Not including styling variations} \\\
-\end{aligned}
-\$\$
+\end{aligned} \$\$
 
 I am not sure whether 4-beat or 2-beat patterns exist in West Coast Swing. There
 are starter steps that are 4-beats long, but they are only used to start the
@@ -286,10 +307,10 @@ Some ways to lengthen a pattern by 2 beats are:
 - Replace the 2-beat anchor step with a 4-beat, slow, and smooth ronde
 - Replace the 2-beat anchor step with 4 small steps, 1-beat each
 - Split the 6-beat or the 8-beat pattern into 2-beat increments, and repeat any
-2-beat increment. For example, a 6-beat pattern can be split into 2-beat
-increment like walk-walk triple-step triple-step, and then lengthened by 2-beats
-by adding another walk-walk at the beginning or another triple-step any time
-after the initial walk-walk. It is a subtle form of copy-and-paste.
+  2-beat increment. For example, a 6-beat pattern can be split into 2-beat
+  increment like walk-walk triple-step triple-step, and then lengthened by
+  2-beats by adding another walk-walk at the beginning or another triple-step
+  any time after the initial walk-walk. It is a subtle form of copy-and-paste.
 
 [Bay Area Whip Dance Club]: https://www.bawdc.org/
 [Chuck Anders]: https://www.bawdc.org/profile/chuck-anders/
