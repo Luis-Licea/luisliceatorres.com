@@ -149,8 +149,6 @@ Examples:
   handhold.[^1]
 - A double handed sugar tuck with a left hand release into a goofy handhold.[^1]
 
-[^1]: This is a hypothetical move. I have not actually tried it. :smile_cat:
-
 ## Stance configurations
 
 Stance configurations define how the leader and the follower stand relative to
@@ -241,8 +239,8 @@ your patterns to add up to 32. If started late by two steps, then you sequence
 must last 30 beats, etc.
 
 The equations below split up the total number of beats into chunks that can be
-translated into specific patterns. For example, the equation \\(32=6+6+6+8\\)
-could be translated into \\(4\\) basic patterns and \\(1\\) whip.
+translated into specific patterns. For example, the equation \\(32=6+6+6+6+8\\)
+could be translated into \\(4\\) basic patterns and \\(1\\) whip.[^2]
 
 {{< katex >}}
 
@@ -281,7 +279,7 @@ could be translated into \\(4\\) basic patterns and \\(1\\) whip.
 16&=8+8 \\\
 &=10+6 \\\
 \\\
-14&=? \\\
+14&=8+6 \\\
 \\\
 12&=6+6 \\\
 &=12 && \text{When doing a 6+RAG+8 pattern} \\\
@@ -314,3 +312,6 @@ Some ways to lengthen a pattern by 2 beats are:
 
 [Bay Area Whip Dance Club]: https://www.bawdc.org/
 [Chuck Anders]: https://www.bawdc.org/profile/chuck-anders/
+
+[^1]: This is a hypothetical move. I have not actually tried it. :smile_cat:
+[^2]: Thanks Daniela for the corrections and suggestions!
