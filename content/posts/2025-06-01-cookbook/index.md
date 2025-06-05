@@ -38,14 +38,14 @@ This method is so lazy. Can it even be called cooking? :joy_cat:
 
 Ingredients:
 
-- 400g beans
+- 400g pinto beans
 - 1,200g water
 - 12g sea salt
 
-Measure the beans, check them for stones, wash them to remove dirt, then add
-them in pressure cooker. Add the water and the salt. Set the pressure cooker
-time to 40 minutes at high pressure. Different beans have different hardness, so
-less time may be needed so they do not turn out mushy.
+Measure the beans, check them for stones, wash them to remove dirt, then put
+them into a pressure cooker. Add the water and the salt. Set the pressure cooker
+timer to 40 minutes at high pressure. Different beans have different hardnesses
+so they require different cook times.
 
 ## Split Pea soup
 
