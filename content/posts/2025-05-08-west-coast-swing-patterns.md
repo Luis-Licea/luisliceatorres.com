@@ -11,18 +11,74 @@ Classes are divided in levels and instructors rotate so they can teach different
 levels. So far our instructor for level 1 classes has been [Chuck Anders]. He
 knows how to dance Salsa, Bachata, Tango, Polka, Waltz, Rumba, Two Step, West
 Coast Swing, and East Coast Swing. If I remember correctly, he said he began
-dancing when he was about 14 years old. Luckily Chuck was also my instructor for
+was about 14 years old. Luckily Chuck was also my instructor for level 2. I am
 Level 2.
 
 I have learned or reviewed the following steps there:
 
-- Sugar push
+<details>
+<summary>Sugar push (AKA Push break)</summary>
+
+- positions:
+  - closed position into closed position
+  - open position into open position
+  - open position into goofy position
+  - goofy position into goofy position
+  - goofy position into open position
+  - parallel position into parallel position
+  - parallel position into open position
+  - parallel position into goofy position
+- awkward positions:
+  - starter position to starter position: a starter position should be used to
+    transition into another position
+  - left hammerlock position: very small steps would be required
+  - right hammerlock position: very small steps would be required
+- impossible positions:
+  - back-to-front position: getting into this position requires a turn
+  - left-shoulder lock position: the hand behind the back cannot be used to push
+    the follower back
+  - right-shoulder lock position: the hand behind the back cannot be used to
+    push
+- rythm-beat-counts:
+  - 1 2 3&4 5&6
+- notes: The hand catch happens in steps 1 and 2. Compression happens on 3. The
+  push happens on 4. The anchor happens on 5&6.
+
+</details>
+
+<details>
+<summary>Sugar push with outside turn (AKA Push tuck)</summary>
+
+- positions:
+  - open position into open position
+  - goofy position into goofy position[^1]
+  - parallel position into open position[^1]
+  - parallel position into goofy position[^1]
+- awkward positions:
+  - closed position into any position
+  - starter position into any position
+- impossible positions:
+  - parallel position into parallel position
+- rythm-beat-counts:
+  - 1 2 3&4 5&6: Step 1 and 2 are forward. Steps 3&4 are a triple step
+    backwards. Steps 5&6 are an anchor step.
+  - 1 2 3 4 5&6: Step 1 is forward. Step 2 is forward and to the right. Step 3
+    is split-weight between both legs, with the left feet pointing to the floor.
+    Step 4 is backwards. Steps 5&6 are an anchor step.
+- notes: The hand raise happens in steps 1 and 2. Compression happens on 3. The
+  push happens on 4. The turn happens between 4 and 5. The anchor happens on
+  5&6.
+
+</details>
+
 - Left side pass
 - Sugar tuck
 - Reverse sugar tuck
-- Reverse sugar tuck to close position: put fingertips in between shoulder blades as the follower rotates.
+- Reverse sugar tuck to close position: put fingertips in between shoulder
+  blades as the follower rotates.
 - Right side pass (underarm turn)
-- Right side pass to close position: put fingertips in between shoulder blades as the follower rotates.
+- Right side pass to close position: put fingertips in between shoulder blades
+  as the follower rotates.
 - Right side pass with leader turn: drop hand on 4 and turn left on the 5&6
 - Closed position to passing tuck turn
 - Close position to the left side pass
