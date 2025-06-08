@@ -15,7 +15,7 @@ Just show up and learn to dance!
 | ---- | ---------- | ------------------------------------------------- |
 | 7PM  | Line dance | 2-Step, Polka, West Coast Swing, East Coast Swing |
 
-## [Buck Wild] | \$5
+## [Buck Wild] | \$5/day
 
 The entrance fee is \$10 (18+) or \$5 (21+) in cash from 6PM to 8PM! The
 entrance is free after 8PM if you are over 21.
@@ -27,7 +27,7 @@ entrance is free after 8PM if you are over 21.
 | 5:00PM |                                 | Nightclub (only on 4th week of the month)                                                                         |
 | 7:00PM |                                 | Salsa, Bachata, Waltz, Rumba, Foxtrot, Chacha, West Coast Swing, East Coast Swing (only on 4th week of the month) |
 
-## [Bay Area Whip Dance Club] | \$100
+## [Bay Area Whip Dance Club] | \$100/year
 
 The yearly membership is $100. That is very cheap! The classes take place inside
 the [Walter Hall Banquet Hall].
@@ -36,7 +36,24 @@ the [Walter Hall Banquet Hall].
 | ------ | ---------------- |
 | 7:30PM | West Coast Swing |
 
-## [Salsa Eddy] | \$20--\$100
+## [The Palladium] | \$20/day
+
+On Fridays, Palladium teaches Salsa and Bachata on different rooms. The salsa
+classes are always beginner classes and do not have enough people for couple
+dancing. The Bachata classes are packed and have enough people for couple
+dances.
+
+{{< alert >}} **Warning!** Drop-ins are welcome on Fridays and weekends! All the
+other days require you to sign up! {{< /alert >}}
+
+| Time   | Monday                                  | Tuesday                       | Wednesday     | Thursday                                                    | Friday             | Saturday                                           |
+| ------ | --------------------------------------- | ----------------------------- | ------------- | ----------------------------------------------------------- | ------------------ | -------------------------------------------------- |
+| 7:00PM | Salsa on 1                              |                               |               | Traditional salsa 2, afro-fusion, social-dancing techniques |                    |                                                    |
+| 8:00PM | Salsa on 2, lady styling, body movement | Bachata, lady styling, shines | Salsa 1.5 & 3 | Traditional Bachata 2, spin techniques                      |                    |                                                    |
+| 9:00PM | Bachata, lady styling, mambo            | Bachata level 2               | Salsa 2 & 4   | Mambo shines & partner work                                 |                    |                                                    |
+| 9:30PM |                                         |                               |               |                                                             | Salsa 1, Bachata 1 | Salsa & Bachata social (2nd and 4th week of month) |
+
+## [Salsa Eddy] | \$20/day
 
 The class price depends on how long the class is, and whether you are a walk-in
 or you have an appointment. Either way, the price is not bad, and Eddy is such a
@@ -55,7 +72,7 @@ you take Salsa on 2.
 | 9:00PM | (social dancing) | (social dancing) | (social dancing) |                  |
 | 9:30PM |                  |                  |                  | (social dancing) |
 
-## [Dance Vision Studio] | 💰
+## [Dance Vision Studio] | 💰/class
 
 For me, each private lesson was about \$120. However, the membership allows you
 to attend group classes for free. If you take advantage of every single free
@@ -70,7 +87,7 @@ regularly throughout the week.
 I would recommend these guys if you have an important dance coming up, like a
 wedding dance or a competitive dance.
 
-## [Fred Astaire] | 💰💰💰💰💰
+## [Fred Astaire] | 💰💰💰💰💰/month
 
 The place looked like a very elegant establishment, suggesting the private
 lessons would be more expensive than in [Dance Vision Studio]. If you take
@@ -92,4 +109,5 @@ wedding dance or a competitive dance.
 [Fred Astaire]: https://ekkart.com/
 [Rowdys]: https://rowdysdancehall.com/home/webster/
 [Salsa Eddy]: https://www.salsaeddy.com/
+[The Palladium]: https://www.thepalladiumhouston.com/
 [Walter Hall Banquet Hall]: https://maps.app.goo.gl/dNKeYf1f2xzajpEN7
