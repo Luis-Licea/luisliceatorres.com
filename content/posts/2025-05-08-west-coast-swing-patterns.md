@@ -6,13 +6,13 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-I have been going to the [Bay Area Whip Dance Club] for a couple of weeks.
-Classes are divided in levels and instructors rotate so they can teach different
-levels. So far our instructor for level 1 classes has been [Chuck Anders]. He
-knows how to dance Salsa, Bachata, Tango, Polka, Waltz, Rumba, Two Step, West
-Coast Swing, and East Coast Swing. If I remember correctly, he said he began
+I have been going to the [Bay Area Whip Dance Club] for a few months. Classes
+are divided in levels and instructors rotate so they can teach different levels.
+So far our instructor for level 1 classes has been [Chuck Anders]. He knows how
+to dance Salsa, Bachata, Tango, Polka, Waltz, Rumba, Two Step, West Coast Swing,
+and East Coast Swing. If I remember correctly, he said he began dancing when he
 was about 14 years old. Luckily Chuck was also my instructor for level 2. I am
-Level 2.
+repeating level 2. My current instructor is Howard.
 
 I have learned or reviewed the following steps there:
 
@@ -227,11 +227,19 @@ Open position
 the follower's right hand (pointing down) at waist level, sort of like the
 characters |¯|.
 
-Hammerlock position
+Goofy position
 
-: The leader stands slightly to the left of the follower, maintaining a double
-handhold where the leader's hands point down and the follower's left hand is
-behind the back pointing outside while the right hand is pointing down.
+: The leader's right hand ring finger and middle finger (pointing in) are held
+by the follower's left hand (pointing down) at waist level, sort of like the
+characters |\_|.
+
+Parallel position:
+
+: A specific double handhold. The leader's left hand ring finger and middle
+finger (pointing in) are held by the follower's right hand (pointing down) at
+waist level, and the leader's right hand ring and middle finger (pointing in)
+are held by the follower's left hand (pointing down) at waist level sort of like
+the characters |=|.
 
 Back-to-front position
 
@@ -239,24 +247,37 @@ Back-to-front position
 stands in front of the leader while holding the leader's hand in a regular
 handhold at waist-level.
 
-Leader left-shoulder lock position
+Left hammerlock position
 
-: A closed position variation. The leader stands face to face with the follower,
-but the leader is offset about one foot to the left of the follower because the
-leader holds the follower's right hand with the left hand from a shoulder lock
-position. The leader places the back of the right hand on the follower's right
-shoulder in order to lead a whip or some other pattern. This position can be
-reached by the leader by starting from an open position and performing a right
-side pass inside turn with a leader clockwise turn without releasing the
-follower's hand.
+: The leader stands slightly to the left of the follower, maintaining a double
+handhold where the leader's hands point down and the follower's left hand is
+behind the back pointing outside while the right hand is pointing down.
 
-Leader right-shoulder lock position
+Right hammerlock position
 
-: A closed position variation. The leader stands face to face with the follower,
-but the leader is offset about one foot to the right of the follower because the
-leader holds the follower's left hand with the right hand from a shoulder lock
-position. The leader places the back of the left hand on the follower's left
-shoulder in order to lead a whip or some other pattern. [^1]
+: The leader stands slightly to the right of the follower, maintaining a double
+handhold where the leader's hands point down and the follower's right hand is
+behind the back pointing outside while the left hand is pointing down.
+
+Left-shoulder lock position
+
+: A leader hammerlock. A closed position variation. The leader stands face to
+face with the follower, but the leader is offset about one foot to the left of
+the follower because the leader holds the follower's right hand with the left
+hand from a shoulder lock position. The leader places the back of the right hand
+on the follower's right shoulder in order to lead a whip or some other pattern.
+This position can be reached by the leader by starting from an open position and
+performing a right side pass inside turn with a leader clockwise turn without
+releasing the follower's hand.
+
+Right-shoulder lock position
+
+: A leader hammerlock. A closed position variation. The leader stands face to
+face with the follower, but the leader is offset about one foot to the right of
+the follower because the leader holds the follower's left hand with the right
+hand from a shoulder lock position. The leader places the back of the left hand
+on the follower's left shoulder in order to lead a whip or some other pattern.
+[^1]
 
 ## Preparation variations
 
