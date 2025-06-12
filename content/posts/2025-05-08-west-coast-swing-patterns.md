@@ -145,12 +145,12 @@ From Bob Wilder:
   good tension and compression.
 
   For example, if the leader pulls and slowly increases the force from 1lb to
-  6lb, then the follower should slowly increase the force with which the pulls
+  6lb, then the follower should slowly increase the force with which she pulls
   back to cancel out that force. This causes tension. If the leader pushes and
   slowly increases the force from 1lb to 6lb, then the follower should slowly
   increase the force with which she pushes back to cancel out that force. This
   causes compression. After about 6lb of force is reached, the follower has a
-  clear indication to move into the direction she is being pulled or pushed into
+  clear indication to move into the direction she is being pulled or pushed
   into.
 
 - A good frame consists of having your right hand on the follower's left
@@ -290,8 +290,8 @@ Reached via:
 
 ### Horn position
 
-Same as open position, but the leader fingers point down. Looks like the sign of
-horns.
+The same as the open position, but the leader fingers point down. The hand looks
+like the sign of horns.
 
 Reached via:
 
@@ -299,33 +299,33 @@ Reached via:
 
 ### Spiderman position
 
-Same as open position, but the leader fingers point up. Looks like spiderman
-shooting a spider web.
+The same as the open position, but the leader fingers point up. The hand looks
+like spiderman shooting a spider web.
 
 ### Weird position
 
-Same as open position, but the leader fingers point up.
+The same as the open position, but the leader fingers point up.
 
 ### Goofy position
 
-Mirror image of open position. The leader's right hand ring finger and middle
-finger (pointing to the left) are held by the follower's left hand (pointing
-down) at waist level, sort of like the characters |\_|.
+A mirror image of the open position. The leader's right hand ring finger and
+middle finger (pointing to the left) are held by the follower's left hand
+(pointing down) at waist level, sort of like the characters |\_|.
 
 ### Goofy horn position
 
-Mirror image of horn position. Same as a goofy position, but the leader fingers
-point down.
+A mirror image of the horn position. It is the same as the goofy position, but
+the leader fingers point down.
 
 ### Goofy spiderman position
 
-Mirror image of spiderman position. Same as a goofy position, but the leader
-fingers point up.
+A mirror image of the spiderman position. It is the same as the goofy position,
+but the leader fingers point up.
 
 ### Goofy weird position
 
-Mirror image of weird position. Same as a goofy position, but the leader fingers
-point to the right.
+A mirror image of the weird position. It is the same as the goofy position, but
+the leader fingers point to the right.
 
 ### Parallel position
 
