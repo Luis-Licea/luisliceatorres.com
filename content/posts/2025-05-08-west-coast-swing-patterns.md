@@ -35,7 +35,7 @@ I have learned or reviewed the following steps there:
   - right hammerlock position: very small steps would be required
 - impossible positions:
   - back-to-front position: getting into this position requires a turn
-  - left-shoulder lock position: the hand behind the back cannot be used to push
+  - left shoulder-lock position: the hand behind the back cannot be used to push
     the follower back
   - right-shoulder lock position: the hand behind the back cannot be used to
     push
@@ -261,74 +261,124 @@ Examples:
 Stance configurations define how the leader and the follower stand relative to
 each other and what handhold configuration they are in.
 
-Closed position
+### Closed position
 
-: The leader's right hand is on the follower's back (on the left shoulder
-blade), and the follower's left arm rests on the leader's right arm. The leader
-stands face-to-face to the follower, sort of like the characters ||.
+The leader's right hand is on the follower's back (on the left shoulder blade),
+and the follower's left arm rests on the leader's right arm. The leader stands
+face-to-face to the follower, sort of like the characters ||.
 
-Starter position
+Reached via:
 
-: The handwork is identical to the closed position, but the leader stands
+- Right side pass with inside turn from open|horn position
+- Sugar push with inside turn from open position
+- Left side pass with inside turn from goofy position
+
+### Starter position
+
+The handwork is identical to the closed position, but the leader stands
 perpendicularly to the follower's left side, sort of like the characters \_|.
 
-Open position
+### Open position
 
-: The leader's left hand ring finger and middle finger (pointing in) are held by
-the follower's right hand (pointing down) at waist level, sort of like the
-characters |¯|.
+The leader's left hand ring finger and middle finger (pointing to the right) are
+held by the follower's right hand (pointing down) at waist level, sort of like
+the characters |¯|.
 
-Goofy position
+Reached via:
 
-: The leader's right hand ring finger and middle finger (pointing in) are held
-by the follower's left hand (pointing down) at waist level, sort of like the
-characters |\_|.
+- Right side pass from horn position
 
-Parallel position:
+### Horn position
 
-: A specific double handhold. The leader's left hand ring finger and middle
-finger (pointing in) are held by the follower's right hand (pointing down) at
-waist level, and the leader's right hand ring and middle finger (pointing in)
-are held by the follower's left hand (pointing down) at waist level sort of like
-the characters |=|.
+Same as open position, but the leader fingers point down. Looks like the sign of
+horns.
 
-Back-to-front position
+Reached via:
 
-: The follower and the leader face in the same direction while the follower
-stands in front of the leader while holding the leader's hand in a regular
-handhold at waist-level.
+- Sugar tuck from open position
 
-Left hammerlock position
+### Spiderman position
 
-: The leader stands slightly to the left of the follower, maintaining a double
+Same as open position, but the leader fingers point up. Looks like spiderman
+shooting a spider web.
+
+### Weird position
+
+Same as open position, but the leader fingers point up.
+
+### Goofy position
+
+Mirror image of open position. The leader's right hand ring finger and middle
+finger (pointing to the left) are held by the follower's left hand (pointing
+down) at waist level, sort of like the characters |\_|.
+
+### Goofy horn position
+
+Mirror image of horn position. Same as a goofy position, but the leader fingers
+point down.
+
+### Goofy spiderman position
+
+Mirror image of spiderman position. Same as a goofy position, but the leader
+fingers point up.
+
+### Goofy weird position
+
+Mirror image of weird position. Same as a goofy position, but the leader fingers
+point to the right.
+
+### Parallel position
+
+A specific double handhold. The leader's left hand ring finger and middle finger
+(pointing to the right) are held by the follower's right hand (pointing down) at
+waist level, and the leader's right hand ring and middle finger (pointing to the
+left) are held by the follower's left hand (pointing down) at waist level sort
+of like the characters |=|.
+
+### Back-to-front position
+
+The follower and the leader face in the same direction while the follower stands
+in front of the leader while holding the leader's hand in a regular handhold at
+waist-level.
+
+Reached via:
+
+- Single arm turn-in from open position
+
+### Left hammerlock position
+
+The leader stands slightly to the left of the follower, maintaining a double
 handhold where the leader's hands point down and the follower's left hand is
 behind the back pointing outside while the right hand is pointing down.
 
-Right hammerlock position
+Reached via:
 
-: The leader stands slightly to the right of the follower, maintaining a double
+- Double arm turn-in from open position
+
+### Right hammerlock position
+
+The leader stands slightly to the right of the follower, maintaining a double
 handhold where the leader's hands point down and the follower's right hand is
 behind the back pointing outside while the left hand is pointing down.
 
-Left-shoulder lock position
+### Left shoulder-lock position
 
-: A leader hammerlock. A closed position variation. The leader stands face to
-face with the follower, but the leader is offset about one foot to the left of
-the follower because the leader holds the follower's right hand with the left
-hand from a shoulder lock position. The leader places the back of the right hand
-on the follower's right shoulder in order to lead a whip or some other pattern.
+A leader hammerlock. A closed position variation. The leader stands face to face
+with the follower, but the leader is offset about one foot to the left of the
+follower because the leader holds the follower's right hand with the left hand
+from a shoulder lock position. The leader places the back of the right hand on
+the follower's right shoulder in order to lead a whip or some other pattern.
 This position can be reached by the leader by starting from an open position and
 performing a right side pass inside turn with a leader clockwise turn without
 releasing the follower's hand.
 
-Right-shoulder lock position
+### Right shoulder-lock position
 
-: A leader hammerlock. A closed position variation. The leader stands face to
-face with the follower, but the leader is offset about one foot to the right of
-the follower because the leader holds the follower's left hand with the right
-hand from a shoulder lock position. The leader places the back of the left hand
-on the follower's left shoulder in order to lead a whip or some other pattern.
-[^1]
+A leader hammerlock. A closed position variation. The leader stands face to face
+with the follower, but the leader is offset about one foot to the right of the
+follower because the leader holds the follower's left hand with the right hand
+from a shoulder lock position. The leader places the back of the left hand on
+the follower's left shoulder in order to lead a whip or some other pattern. [^1]
 
 ## Preparation variations
 
