@@ -106,6 +106,62 @@ There are many elements in West Coast Swing dancing:
 - An inside turn is a left, counterclockwise turn
 - An outside turn is a right, clockwise turn
 
+## Personal advice
+
+From Chuck Anders:
+
+- Do not prepare twice because it confused the follower.
+- Move up, down, left and right to use all the slot. It makes the dance look
+  good.
+
+From Rick Brunson:
+
+- After finishing a pattern on step 6 or 8, do not rush immediately into step 1
+  of the next pattern. There is a whole beat between step 8 and step 1 of the
+  next pattern.
+- When leading a whip, step back on 1 and pull straight back. Do not begin the
+  J-hook prematurely.
+- Tension should reach a maximum at the beginning of a pattern, then decrease,
+  and then increase back again at the end of the pattern.
+
+From Ray Trusty:
+
+- A prep does not happen on step two, it happens between step 1 and 2, when the
+  follower's left foot is floating and pulling on the arm would cause a rotation
+  on the follower's right foot. In other words, it is 1-prep-2-3&4 as opposed to
+  1-prep-3&4.
+
+From Bob Wilder:
+
+- Move your head and shoulders to indicate where you want the follower to go.
+  For example, look over your left shoulder when doing a left-side pass and look
+  over your right shoulder when doing a right side pass.
+- When leading a whip, on step 1 pull, on step 2 grip the follower's hand and
+  post it so it does not move. Let the follower walk into the left hand so the
+  momentum causes a clockwise rotation.
+- During a sugar tuck, on step 4 keep your left elbow tucked in and relaxed, not
+  floating. Imagine you are trying to hold a sheet of paper with your armpit.
+- The follower should exert equal and opposite force as the leader to achieve
+  good tension and compression.
+
+  For example, if the leader pulls and slowly increases the force from 1lb to
+  6lb, then the follower should slowly increase the force with which the pulls
+  back to cancel out that force. This causes tension. If the leader pushes and
+  slowly increases the force from 1lb to 6lb, then the follower should slowly
+  increase the force with which she pushes back to cancel out that force. This
+  causes compression. After about 6lb of force is reached, the follower has a
+  clear indication to move into the direction she is being pulled or pushed into
+  into.
+
+- A good frame consists of having your right hand on the follower's left
+  shoulder blade and applying pressure, but an excellent frame requires the
+  follower to actively push with her right hand into your left hand to provide
+  some resistance. This allows the leader to use his left hand to move the
+  follower to the back or to the right, and the right hand to move the follower
+  to the front or to the left. This requires the follower to be pressed firmly
+  between the left and right hands, which cannot be done without the follower's
+  help.
+
 ## General West Coast Swing knowledge
 
 - There are 5 pattern types:
@@ -115,11 +171,6 @@ There are many elements in West Coast Swing dancing:
   - side pass with a roll (6 beats)
   - wrap in and wrap outs (6 beats)
   - and whips (8 beats)
-
-- A prep does not happen on step two, it happens between step 1 and 2, when the
-  follower's left foot is floating and pulling on the arm would cause a rotation
-  on the follower's right foot. In other words, it is 1-prep-2-3&4 as opposed to
-  1-prep-3&4.
 
 - Side passes are named from the leader's perspective. For example, in a left
   pass, the follower passes by the leader's left side.
