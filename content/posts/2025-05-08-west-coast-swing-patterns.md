@@ -160,26 +160,26 @@ in place --- turns into triple step that moves the follower forward:
 
 A prep is used to rotate the follower clockwise or counter-clockwise.
 
-J-hook
+### J-hook
 
-: Used to rotate the follower clockwise 180 degrees into a starter position
-during a whip.
+Used to rotate the follower clockwise 180 degrees into a starter position during
+a whip.
 
-Piston
+### Piston
 
-: Used to rotate the follower clockwise 180 degrees into a back-to-front
-position during a single-arm turn-in. In a regular handhold, it consists of
-pulling the follower's arm on 1 and pushing it on 2.
+Used to rotate the follower clockwise 180 degrees into a back-to-front position
+during a single-arm turn-in. In a regular handhold, it consists of pulling the
+follower's arm on 1 and pushing it on 2.
 
-Left
+### Left
 
-: Used for the left pass inside turn, right pass inside spin, handshake reverse
+Used for the left pass inside turn, right pass inside spin, handshake reverse
 whip, and free spin. Forward on 1, prep slightly to the left between 1 and 2,
 and rotate counter-clockwise on 3.
 
-Right
+### Right
 
-: Used for the right pass outside spin. Forward on 1, prep slightly to the right
+Used for the right pass outside spin. Forward on 1, prep slightly to the right
 between 1 and 2, and rotate clockwise on 3.
 
 ## Handhold configurations
@@ -234,52 +234,87 @@ perpendicularly to the follower's left side, sort of like the characters \_|.
 
 ### Open
 
-The leader's left hand ring finger and middle finger (pointing to the right) are
-held by the follower's right hand (pointing down) at waist level, sort of like
-the characters |¯|.
+The leader's left-hand ring and middle fingers (pointing to the right) are held
+by the follower's right hand (pointing down) at waist level, sort of like the
+characters |¯|.
 
 Reached via:
 
 - Right side pass from horn position
 
-### Horn
+#### Horn
 
-The same as the [open] position, but the leader fingers point down. The hand
-looks like the sign of horns.
+The leader's ring and middle fingers point down. The hand looks like the sign of
+horns.
 
 Reached via:
 
 - Sugar tuck from open position
 
-### Spiderman
+#### Spiderman
 
-The same as the [open] position, but the leader fingers point up. The hand looks
-like spiderman shooting a spider web.
+The leader's ring and middle fingers point up. The hand looks like spiderman
+shooting a spider web.
 
-### Weird
+#### Weird
 
-The same as the [open] position, but the leader fingers point up.
+The leader's left-hand ring and middle fingers point to the left.
 
 ### Goofy
 
-A mirror image of the [open] position. The leader's right hand ring finger and
-middle finger (pointing to the left) are held by the follower's left hand
+This is mirror image of the [open] position. The leader's right-hand ring finger
+and middle fingers (pointing to the left) are held by the follower's left hand
 (pointing down) at waist level, sort of like the characters |\_|.
 
-### Goofy horn
+#### Goofy horn
 
-A mirror image of the [horn] position. It is the same as the goofy position, but
-the leader fingers point down.
+This is a mirror image of the [horn] position.
 
-### Goofy spiderman
+#### Goofy spiderman
 
-A mirror image of the [spiderman] position. It is the same as the goofy
-position, but the leader fingers point up.
+This is a mirror image of the [spiderman] position.
 
-### Goofy weird
+#### Goofy weird
 
-A mirror image of the [weird] position. It is the same as the goofy position,
-but the leader fingers point to the right.
+This is a mirror image of the [weird] position.
+
+### Handshake
+
+This is the same as the [open] position, but it requires a right-to-right hand
+connection instead of a left-to-right hand connection, sort of like the
+characters |/|.
+
+#### Handshake horn
+
+This is the same as the [handshake] position with the [horn] handhold.
+
+#### Handshake spiderman
+
+This is the same as the [handshake] position with the [spiderman] handhold.
+
+#### Handshake weird
+
+This is the same as the [handshake] position with the [weird] handhold.
+
+### Scout
+
+This is short for "scout handshake".
+
+This is a mirror image of the [handshake] position because it requires a
+left-to-left hand connection instead of a right-to-right hand connection, sort
+of like the characters |\\|.
+
+#### Scout horn
+
+This is the same as the [handshake] position with the [horn] handhold.
+
+#### Scout spiderman
+
+This is the same as the [handshake] position with the [spiderman] handhold.
+
+#### Scout weird
+
+This is the same as the [handshake] position with the [weird] handhold.
 
 ### Parallel
 
@@ -421,7 +456,23 @@ Some ways to lengthen a pattern by 2 beats are:
 
 ### Sugar push
 
+#### Syncopated sugar tuck
+
+For the leader's footwork, there is no 3&4, it is only 3 and 4. Step 1 is back,
+step 2 is back and to the right. Step 3 is a tap step such that the leg points
+to the floor and slightly to the left, but your weight is still on your right
+leg from step 2. On step 4, you shift weight onto your left leg that was
+pointing to the floor. Steps 5&6 are an anchor step.
+
 ### Side passes
+
+#### Spinning right side pass
+
+This is a right-side pass with 2.5 turns instead of 1.5 turns. For step 1 give a
+prep toward her right ear and immediately begin spinning her counter-clockwise
+for 2.5 turns. If you give two preps instead of 1, then the turning will begin
+on step 3, and by that time it will be too late. The spinning must begin on step
+2 or right before step 3.
 
 ### Side passes with rolls
 
@@ -440,16 +491,64 @@ It is similar to a [free spin]. It requires a [goofy] handhold.
 
 ### Whips
 
+#### Basket whip
+
+Steps 1 thru 4 are same as a right-side pass, but the handwork is different. For
+handwork, make an L, such that the left arm points up and the right hand points
+to left elbow. It is easier to start this pattern from a [parallel] handhold.
+
+#### Basket whip with an outside turn
+
+It looks like a basket whip with a tuck turn exit. It is the same as a [basket
+whip] up to step 4. On step 5 raise the left hand (like in a tuck turn) and
+release the right hand, turning the follower from steps 6 thru 8.
+
+#### Basket whip and an spinning anchor
+
+It looks like a basket whip with an accelerated tuck turn exit. It is the same
+as a [basket whip] up to step 4. On step 5 raise the left hand on and release
+the right hand, turning the follower from step 6 thru 8 with plenty of energy so
+she can do a double spin. Make sure to draw a halo around her head twice.
+
 #### Carwash whip
 
-It requires a goofy handhold or a double handhold into a goofy handhold by
-step 4. Same as whip up to step 4, on 5 don't do a hook step, do a cross step
-forward. Then turn counter-clockwise on 6 and do an anchor step 7&8. I think in
-step 5 you switch hands (from left to right) and bring your right hand to your
-lower back, signaling her to go back. On step 5 you can give a strong indication
-for the follower to turn clockwise by putting her left hand on your right hip.
-Her left hand will collide with your right hip as she steps backwards and your
-hip will push her arm clockwise.
+It requires a [goofy] hold or a [parallel] hold. Be in a [goofy] hold by step 4.
+Same as whip up to step 4, on 5 don't do a hook step, do a cross step forward.
+Then turn counter-clockwise on 6 and do an anchor step 7&8. I think in step 5
+you switch hands (from left to right) and bring your right hand to your lower
+back, signaling her to go back. On step 5 you can give a strong indication for
+the follower to turn clockwise by putting her left hand on your right hip. Her
+left hand will collide with your right hip as she steps backwards and your hip
+will push her arm clockwise.
+
+#### Decapitate whip
+
+A variation of a reverse whip. It requires a [handshake] hold. Do a [J-hook],
+but on step 3 don't release her right hand, go over her head. On step 4, hold or
+"cup" her left triceps with your left hand. Use your right hand to turn her back
+into the right position.
+
+#### Hustle whip
+
+The footwork is the same as in a whip. For the handwork, a [parallel] handhold
+is necessary. Open the arms on 1,2 and close them by 3&. Open the hands on 4,5,
+and close them by 6. Post on 6 for the anchor step.
+
+You may do a [carwash whip] exit.
+
+#### Reverse whip
+
+From an [open] hold, for steps 1 thru 4, do a right-side pass into [closed]
+position. You must not let the follower step back on step 4. You have to pull
+her so she steps forward, otherwise she will already be anchored on her right
+foot. In other words, on step 4, she must be stepping forward with her right
+foot (in between your feet). If she is stepping backward, you are too late (put
+fingers in between shoulder blades as she passes). For steps 5 thru 8, continue
+the whip as normal.
+
+From a [handshake] hold, for steps 1,2 do a reversed [J-hook] away from your
+right hip. On 3, toss her right hand away from your right hip. Use your right
+hand to hold her shoulder blade.
 
 #### Pass-through whip
 
@@ -462,29 +561,42 @@ your right foot next to your left foot. Step 6 requires your left foot to step
 back so you go into the slot. Steps 7&8 you are also stepping backward into the
 slot. Then hold your partner's hand with your left hand.
 
+[^1]: This is a hypothetical move. I have not actually tried it. :smile_cat:
+[^2]: Thanks Daniela for the corrections and suggestions!
+
 [Bay Area Whip Dance Club]: https://www.bawdc.org/
 [Chuck Anders]: https://www.bawdc.org/profile/chuck-anders/
 [Mastering All Turns in West Coast Swing]:
   https://www.westcoastswingonline.com/spin-in-all-four-directions/
 
-[^1]: This is a hypothetical move. I have not actually tried it. :smile_cat:
-[^2]: Thanks Daniela for the corrections and suggestions!
+<!---->
 
-[Back-to-front]: #back-to-front
-[Goofy horn]: #goofy-horn
-[Goofy spiderman]: #goofy-spiderman
-[Goofy weird]: #goofy-weird
-[Goofy]: #goofy
-[Horn]: #horn
-[Left hammerlock]: #left-hammerlock
-[Left shoulder-lock]: #left-shoulder-lock
-[Open]: #open
-[Parallel]: #parallel
-[Right hammerlock]: #right-hammerlock
-[Right shoulder-lock]: #right-shoulder-lock
-[Spiderman]: #spiderman
-[Starter]: #starter
-[Weird]: #weird
+[J-hook]: #j-hook
+
+<!---->
+
+[back-to-front]: #back-to-front
+[closed]: #closed
+[goofy horn]: #goofy-horn
+[goofy spiderman]: #goofy-spiderman
+[goofy weird]: #goofy-weird
+[goofy]: #goofy
+[handshake]: #handshake
+[horn]: #horn
+[left hammerlock]: #left-hammerlock
+[left shoulder-lock]: #left-shoulder-lock
+[open]: #open
+[scout]: #open
+[parallel]: #parallel
+[right hammerlock]: #right-hammerlock
+[right shoulder-lock]: #right-shoulder-lock
+[spiderman]: #spiderman
+[starter]: #starter
+[weird]: #weird
+
+<!---->
+
 [carwash whip]: #carwash-whip
 [free spin]: #free-spin
 [pass-through whip]: #pass-through-whip
+[basket whip]: #basket-whip
