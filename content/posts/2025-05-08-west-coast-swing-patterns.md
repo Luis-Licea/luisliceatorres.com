@@ -16,78 +16,6 @@ repeating level 2. My current instructor is Howard.
 
 I have learned or reviewed the following steps there:
 
-<details>
-<summary>Sugar push (AKA Push break)</summary>
-
-- positions:
-  - closed position into closed position
-  - open position into open position
-  - open position into goofy position
-  - goofy position into goofy position
-  - goofy position into open position
-  - parallel position into parallel position
-  - parallel position into open position
-  - parallel position into goofy position
-- awkward positions:
-  - starter position to starter position: a starter position should be used to
-    transition into another position
-  - left hammerlock position: very small steps would be required
-  - right hammerlock position: very small steps would be required
-- impossible positions:
-  - back-to-front position: getting into this position requires a turn
-  - left shoulder-lock position: the hand behind the back cannot be used to push
-    the follower back
-  - right-shoulder lock position: the hand behind the back cannot be used to
-    push
-- rythm-beat-counts:
-  - 1 2 3&4 5&6
-- notes: The hand catch happens in steps 1 and 2. Compression happens on 3. The
-  push happens on 4. The anchor happens on 5&6.
-
-</details>
-
-<details>
-<summary>Sugar push with outside turn (AKA Push tuck)</summary>
-
-- positions:
-  - open position into open position
-  - goofy position into goofy position[^1]
-  - parallel position into open position[^1]
-  - parallel position into goofy position[^1]
-- awkward positions:
-  - closed position into any position
-  - starter position into any position
-- impossible positions:
-  - parallel position into parallel position
-- rythm-beat-counts:
-  - 1 2 3&4 5&6: Step 1 and 2 are forward. Steps 3&4 are a triple step
-    backwards. Steps 5&6 are an anchor step.
-  - 1 2 3 4 5&6: Step 1 is forward. Step 2 is forward and to the right. Step 3
-    is split-weight between both legs, with the left feet pointing to the floor.
-    Step 4 is backwards. Steps 5&6 are an anchor step.
-- notes: The hand raise happens in steps 1 and 2. Compression happens on 3. The
-  push happens on 4. The turn happens between 4 and 5. The anchor happens on
-  5&6.
-
-</details>
-
-- Left side pass
-- Sugar tuck
-- Reverse sugar tuck
-- Reverse sugar tuck to close position: put fingertips in between shoulder
-  blades as the follower rotates.
-- Right side pass (underarm turn)
-- Right side pass to close position: put fingertips in between shoulder blades
-  as the follower rotates.
-- Right side pass with leader turn: drop hand on 4 and turn left on the 5&6
-- Closed position to passing tuck turn
-- Close position to the left side pass
-- Basket whip
-- Whip
-- Inside turn AKA left side pass with an inside roll (left side pass variation)
-- Passing tuck turn (left side pass variation)
-- Free spin
-
 ## West Coast Swing elements
 
 There are many elements in West Coast Swing dancing:
@@ -168,9 +96,9 @@ From Bob Wilder:
 
   - side passes (6 beats)
   - sugar pushes (6 beats)
-  - side pass with a roll (6 beats)
-  - wrap in and wrap outs (6 beats)
-  - and whips (8 beats)
+  - side passes with rolls (6 beats)
+  - wrap-in-wrap-outs (6 beats)
+  - whips (8 beats)
 
 - Side passes are named from the leader's perspective. For example, in a left
   pass, the follower passes by the leader's left side.
@@ -228,6 +156,32 @@ in place --- turns into triple step that moves the follower forward:
   count 1 2 3&4 5 6 7&2 or 1 2 3&4 5 6 rock-and-go. The RAG must happen quickly
   so the follower does not settle on steps &8, but instead moves forward.
 
+## Preparation variations
+
+A prep is used to rotate the follower clockwise or counter-clockwise.
+
+J-hook
+
+: Used to rotate the follower clockwise 180 degrees into a starter position
+during a whip.
+
+Piston
+
+: Used to rotate the follower clockwise 180 degrees into a back-to-front
+position during a single-arm turn-in. In a regular handhold, it consists of
+pulling the follower's arm on 1 and pushing it on 2.
+
+Left
+
+: Used for the left pass inside turn, right pass inside spin, handshake reverse
+whip, and free spin. Forward on 1, prep slightly to the left between 1 and 2,
+and rotate counter-clockwise on 3.
+
+Right
+
+: Used for the right pass outside spin. Forward on 1, prep slightly to the right
+between 1 and 2, and rotate clockwise on 3.
+
 ## Handhold configurations
 
 The palm of the hand can point in four general directions:
@@ -261,7 +215,7 @@ Examples:
 Stance configurations define how the leader and the follower stand relative to
 each other and what handhold configuration they are in.
 
-### Closed position
+### Closed
 
 The leader's right hand is on the follower's back (on the left shoulder blade),
 and the follower's left arm rests on the leader's right arm. The leader stands
@@ -273,12 +227,12 @@ Reached via:
 - Sugar push with inside turn from open position
 - Left side pass with inside turn from goofy position
 
-### Starter position
+### Starter
 
-The handwork is identical to the closed position, but the leader stands
+The handwork is identical to the [closed] position, but the leader stands
 perpendicularly to the follower's left side, sort of like the characters \_|.
 
-### Open position
+### Open
 
 The leader's left hand ring finger and middle finger (pointing to the right) are
 held by the follower's right hand (pointing down) at waist level, sort of like
@@ -288,46 +242,46 @@ Reached via:
 
 - Right side pass from horn position
 
-### Horn position
+### Horn
 
-The same as the open position, but the leader fingers point down. The hand looks
-like the sign of horns.
+The same as the [open] position, but the leader fingers point down. The hand
+looks like the sign of horns.
 
 Reached via:
 
 - Sugar tuck from open position
 
-### Spiderman position
+### Spiderman
 
-The same as the open position, but the leader fingers point up. The hand looks
+The same as the [open] position, but the leader fingers point up. The hand looks
 like spiderman shooting a spider web.
 
-### Weird position
+### Weird
 
-The same as the open position, but the leader fingers point up.
+The same as the [open] position, but the leader fingers point up.
 
-### Goofy position
+### Goofy
 
-A mirror image of the open position. The leader's right hand ring finger and
+A mirror image of the [open] position. The leader's right hand ring finger and
 middle finger (pointing to the left) are held by the follower's left hand
 (pointing down) at waist level, sort of like the characters |\_|.
 
-### Goofy horn position
+### Goofy horn
 
-A mirror image of the horn position. It is the same as the goofy position, but
+A mirror image of the [horn] position. It is the same as the goofy position, but
 the leader fingers point down.
 
-### Goofy spiderman position
+### Goofy spiderman
 
-A mirror image of the spiderman position. It is the same as the goofy position,
-but the leader fingers point up.
+A mirror image of the [spiderman] position. It is the same as the goofy
+position, but the leader fingers point up.
 
-### Goofy weird position
+### Goofy weird
 
-A mirror image of the weird position. It is the same as the goofy position, but
-the leader fingers point to the right.
+A mirror image of the [weird] position. It is the same as the goofy position,
+but the leader fingers point to the right.
 
-### Parallel position
+### Parallel
 
 A specific double handhold. The leader's left hand ring finger and middle finger
 (pointing to the right) are held by the follower's right hand (pointing down) at
@@ -335,7 +289,7 @@ waist level, and the leader's right hand ring and middle finger (pointing to the
 left) are held by the follower's left hand (pointing down) at waist level sort
 of like the characters |=|.
 
-### Back-to-front position
+### Back-to-front
 
 The follower and the leader face in the same direction while the follower stands
 in front of the leader while holding the leader's hand in a regular handhold at
@@ -345,7 +299,7 @@ Reached via:
 
 - Single arm turn-in from open position
 
-### Left hammerlock position
+### Left hammerlock
 
 The leader stands slightly to the left of the follower, maintaining a double
 handhold where the leader's hands point down and the follower's left hand is
@@ -355,56 +309,31 @@ Reached via:
 
 - Double arm turn-in from open position
 
-### Right hammerlock position
+### Right hammerlock
 
 The leader stands slightly to the right of the follower, maintaining a double
 handhold where the leader's hands point down and the follower's right hand is
 behind the back pointing outside while the left hand is pointing down.
 
-### Left shoulder-lock position
+### Left shoulder-lock
 
-A leader hammerlock. A closed position variation. The leader stands face to face
-with the follower, but the leader is offset about one foot to the left of the
-follower because the leader holds the follower's right hand with the left hand
-from a shoulder lock position. The leader places the back of the right hand on
-the follower's right shoulder in order to lead a whip or some other pattern.
-This position can be reached by the leader by starting from an open position and
-performing a right side pass inside turn with a leader clockwise turn without
-releasing the follower's hand.
+A leader [left hammerlock]. A [closed] position variation. The leader stands
+face to face with the follower, but the leader is offset about one foot to the
+left of the follower because the leader holds the follower's right hand with the
+left hand from a shoulder lock position. The leader places the back of the right
+hand on the follower's right shoulder in order to lead a whip or some other
+pattern. This position can be reached by the leader by starting from an open
+position and performing a right side pass inside turn with a leader clockwise
+turn without releasing the follower's hand.
 
-### Right shoulder-lock position
+### Right shoulder-lock
 
-A leader hammerlock. A closed position variation. The leader stands face to face
-with the follower, but the leader is offset about one foot to the right of the
-follower because the leader holds the follower's left hand with the right hand
-from a shoulder lock position. The leader places the back of the left hand on
-the follower's left shoulder in order to lead a whip or some other pattern. [^1]
-
-## Preparation variations
-
-A prep is used to rotate the follower clockwise or counter-clockwise.
-
-J-hook
-
-: Used to rotate the follower clockwise 180 degrees into a starter position
-during a whip.
-
-Piston
-
-: Used to rotate the follower clockwise 180 degrees into a back-to-front
-position during a single-arm turn-in. In a regular handhold, it consists of
-pulling the follower's arm on 1 and pushing it on 2.
-
-Left
-
-: Used for the left pass inside turn, right pass inside spin, handshake reverse
-whip, and free spin. Forward on 1, prep slightly to the left between 1 and 2,
-and rotate counter-clockwise on 3.
-
-Right
-
-: Used for the right pass outside spin. Forward on 1, prep slightly to the right
-between 1 and 2, and rotate clockwise on 3.
+A leader [right hammerlock]. A [closed] position variation. The leader stands
+face to face with the follower, but the leader is offset about one foot to the
+right of the follower because the leader holds the follower's left hand with the
+right hand from a shoulder lock position. The leader places the back of the left
+hand on the follower's left shoulder in order to lead a whip or some other
+pattern. [^1]
 
 ## Pattern count combinations
 
@@ -488,8 +417,74 @@ Some ways to lengthen a pattern by 2 beats are:
   2-beats by adding another walk-walk at the beginning or another triple-step
   any time after the initial walk-walk. It is a subtle form of copy-and-paste.
 
+## Patterns
+
+### Sugar push
+
+### Side passes
+
+### Side passes with rolls
+
+#### Free spin
+
+It requires a goofy handhold. The footwork is the same as in a left-side pass.
+On step 2 prep to the left and on step 3 throw the hand to the right so the
+follower turns counter-clockwise. On 4 step into the slot and catch the
+follower's hand. On 5&6 do an anchor step.
+
+### Wrap-in-wrap-outs
+
+#### Roll-in-roll-out
+
+It is similar to a [free spin]. It requires a [goofy] handhold.
+
+### Whips
+
+#### Carwash whip
+
+It requires a goofy handhold or a double handhold into a goofy handhold by
+step 4. Same as whip up to step 4, on 5 don't do a hook step, do a cross step
+forward. Then turn counter-clockwise on 6 and do an anchor step 7&8. I think in
+step 5 you switch hands (from left to right) and bring your right hand to your
+lower back, signaling her to go back. On step 5 you can give a strong indication
+for the follower to turn clockwise by putting her left hand on your right hip.
+Her left hand will collide with your right hip as she steps backwards and your
+hip will push her arm clockwise.
+
+#### Pass-through whip
+
+It is similar to a [carwash whip]. It requires a goofy handhold. (do a sugar
+push and release left hand. You must use the right hand, like in a free spin):
+in steps 1 and 2 raise your hand over her head, in steps 3 and 4 bring your
+right hand to your lower back while giving your partner a tug. Step 4 is a
+regular whip step, but 5 isn't. Step 5 does not have any rotation. Simply place
+your right foot next to your left foot. Step 6 requires your left foot to step
+back so you go into the slot. Steps 7&8 you are also stepping backward into the
+slot. Then hold your partner's hand with your left hand.
+
 [Bay Area Whip Dance Club]: https://www.bawdc.org/
 [Chuck Anders]: https://www.bawdc.org/profile/chuck-anders/
+[Mastering All Turns in West Coast Swing]:
+  https://www.westcoastswingonline.com/spin-in-all-four-directions/
 
 [^1]: This is a hypothetical move. I have not actually tried it. :smile_cat:
 [^2]: Thanks Daniela for the corrections and suggestions!
+
+[Back-to-front]: #back-to-front
+[Goofy horn]: #goofy-horn
+[Goofy spiderman]: #goofy-spiderman
+[Goofy weird]: #goofy-weird
+[Goofy]: #goofy
+[Horn]: #horn
+[Left hammerlock]: #left-hammerlock
+[Left shoulder-lock]: #left-shoulder-lock
+[Open]: #open
+[Parallel]: #parallel
+[Right hammerlock]: #right-hammerlock
+[Right shoulder-lock]: #right-shoulder-lock
+[Spiderman]: #spiderman
+[Starter]: #starter
+[Weird]: #weird
+[carwash whip]: #carwash-whip
+[free spin]: #free-spin
+[pass-through whip]: #pass-through-whip
