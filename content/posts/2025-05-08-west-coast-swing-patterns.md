@@ -162,25 +162,30 @@ A prep is used to rotate the follower clockwise or counter-clockwise.
 
 ### J-hook
 
-Used to rotate the follower clockwise 180 degrees into a starter position during
-a whip.
+Use it to rotate the follower clockwise 180 degrees into a [starter] position
+during a whip.
+
+### L-hook
+
+Use it from a [handshake] hold to rotate the follower counter-clockwise 180
+degrees into a [closed] position during a whip.
 
 ### Piston
 
-Used to rotate the follower clockwise 180 degrees into a back-to-front position
-during a single-arm turn-in. In a regular handhold, it consists of pulling the
-follower's arm on 1 and pushing it on 2.
+Use it from an [open] hold to to rotate the follower clockwise 180 degrees into
+a [back-to-front] position during a [single-arm turn-in]. It consists of pulling
+the follower's arm on 1 and pushing it on 2.
 
 ### Left
 
-Used for the left pass inside turn, right pass inside spin, handshake reverse
-whip, and free spin. Forward on 1, prep slightly to the left between 1 and 2,
-and rotate counter-clockwise on 3.
+Use it from a left-pass inside turn, right-pass inside spin, handshake reverse
+whip, or free spin. Forward on 1, prep slightly to the left between 1 and 2, and
+rotate counter-clockwise on 3.
 
 ### Right
 
-Used for the right pass outside spin. Forward on 1, prep slightly to the right
-between 1 and 2, and rotate clockwise on 3.
+Used it from the right-pass outside spin. Forward on 1, prep slightly to the
+right between 1 and 2, and rotate clockwise on 3.
 
 ## Handhold configurations
 
@@ -464,6 +469,22 @@ to the floor and slightly to the left, but your weight is still on your right
 leg from step 2. On step 4, you shift weight onto your left leg that was
 pointing to the floor. Steps 5&6 are an anchor step.
 
+#### Single-arm turn-in
+
+The footwork is the same as in a sugar push for the leader. Use it from an
+[open] hold. Steps 1 and 2 are for executing a [piston] so the follower will
+turn 180 degrees into [back-to-front] position. On 3& raise your left arm over
+her head. On 4 gently push her back in between her shoulder blades so she knows
+to walk under the arm. Steps 5&6 are an anchor step.
+
+#### Two-arm turn-in
+
+Same as [single-arm turn-in], but use both hands to do a [left hammerlock].
+
+### Hairbrush
+
+Also known as a head-wrap. It requires a [handshake] or [scout] hold.
+
 ### Side passes
 
 #### Spinning right side pass
@@ -572,6 +593,10 @@ slot. Then hold your partner's hand with your left hand.
 <!---->
 
 [J-hook]: #j-hook
+[L-hook]: #l-hook
+[piston]: #piston
+[left]: #left
+[right]: #right
 
 <!---->
 
@@ -596,6 +621,8 @@ slot. Then hold your partner's hand with your left hand.
 
 <!---->
 
+[single-arm turn-in]: #single-arm-turn-in
+[two-arm turn-in]: #two-arm-turn-in
 [carwash whip]: #carwash-whip
 [free spin]: #free-spin
 [pass-through whip]: #pass-through-whip
