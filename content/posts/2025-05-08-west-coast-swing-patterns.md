@@ -63,7 +63,7 @@ From Bob Wilder:
 
 - Move your head and shoulders to indicate where you want the follower to go.
   For example, look over your left shoulder when doing a left-side pass and look
-  over your right shoulder when doing a right side pass.
+  over your right shoulder when doing a right-side pass.
 - When leading a whip, on step 1 pull, on step 2 grip the follower's hand and
   post it so it does not move. Let the follower walk into the left hand so the
   momentum causes a clockwise rotation.
@@ -94,10 +94,9 @@ From Bob Wilder:
 
 - There are 5 pattern types:
 
-  - side passes (6 beats)
+  - four count triple pairs (4 beats)
+  - side passes (6 beats): result in 0.5 turns
   - sugar pushes (6 beats)
-  - side passes with rolls (6 beats)
-  - wrap-in-wrap-outs (6 beats)
   - whips (8 beats)
 
 - Side passes are named from the leader's perspective. For example, in a left
@@ -228,7 +227,7 @@ face-to-face to the follower, sort of like the characters ||.
 
 Reached via:
 
-- Right side pass with inside turn from open|horn position
+- Right-side pass with inside turn from open|horn position
 - Sugar push with inside turn from open position
 - Left side pass with inside turn from goofy position
 
@@ -245,7 +244,7 @@ characters |¯|.
 
 Reached via:
 
-- Right side pass from horn position
+- Right-side pass from horn position
 
 #### Horn
 
@@ -363,7 +362,7 @@ left of the follower because the leader holds the follower's right hand with the
 left hand from a shoulder lock position. The leader places the back of the right
 hand on the follower's right shoulder in order to lead a whip or some other
 pattern. This position can be reached by the leader by starting from an open
-position and performing a right side pass inside turn with a leader clockwise
+position and performing a right-side pass inside turn with a leader clockwise
 turn without releasing the follower's hand.
 
 ### Right shoulder-lock
@@ -461,13 +460,20 @@ Some ways to lengthen a pattern by 2 beats are:
 
 ### Sugar push
 
-#### Syncopated sugar tuck
+#### No-triple sugar tuck
+
+This is a sugar tuck but the 3&4 becomes a 3 and 4 step-tap because the & goes
+away.
 
 For the leader's footwork, there is no 3&4, it is only 3 and 4. Step 1 is back,
 step 2 is back and to the right. Step 3 is a tap step such that the leg points
 to the floor and slightly to the left, but your weight is still on your right
 leg from step 2. On step 4, you shift weight onto your left leg that was
 pointing to the floor. Steps 5&6 are an anchor step.
+
+Follower's also have the option to perform the no-triple sugar tuck by picking
+up one of their legs and using its momentum to propel themselves through the
+turn.
 
 #### Single-arm turn-in
 
@@ -481,13 +487,48 @@ to walk under the arm. Steps 5&6 are an anchor step.
 
 Same as [single-arm turn-in], but use both hands to do a [left hammerlock].
 
-### Hairbrush
+#### Hairbrush
 
 Also known as a head-wrap. It requires a [handshake] or [scout] hold.
 
+#### Sugar tuck chase
+
+Same as a sugar tuck up to but not including step 4. Step 4 should be big and
+steps 5&6 should be big steps backward as the tuck turn happens. Usually, the
+follower does a turn, but this time the follower will do a 1.5 turn so the
+follower is facing backward. The leader should be on the follower's left side,
+with the chest pointing to the followers left shoulder, in a [starter] position.
+The [starter] position can be followed by a passing tuck!
+
+#### Sugar tuck with spin
+
+Same as a tuck turn, but on step 4 the left hand applies more force so the
+follower can do a double spin. Make sure to draw a halo around the follower's
+head twice.
+
 ### Side passes
 
-#### Spinning right side pass
+#### Right-side underarm pass
+
+The footwork for the leader is the same as in a right-side pass, but you hold
+the follower's left hand with your right hand instead of holding the follower's
+right hand with your left hand. The handwork is the same as in a passing tuck.
+
+#### Right-side outside chain turn
+
+The footwork is the same as a right-side pass. The handwork is different. On
+step 1 do a prep to your right, and don't do a prep for step 2, instead, go
+directly into a [J-hook] (rotating clockwise) over her head. You have to be
+fast. It takes 2.5 chain turns.
+
+#### Right-side pass into closed position
+
+Use it from an [open] hold. Do a right-side inside pass and while the follower
+turns and gives her back (2), drag your hand from her back to her shoulder
+(3&4), down her arm. You should have a [parallel] handhold when doing the anchor
+step (&6).
+
+#### Right-side inside chain turn
 
 This is a right-side pass with 2.5 turns instead of 1.5 turns. For step 1 give a
 prep toward her right ear and immediately begin spinning her counter-clockwise
@@ -495,7 +536,14 @@ for 2.5 turns. If you give two preps instead of 1, then the turning will begin
 on step 3, and by that time it will be too late. The spinning must begin on step
 2 or right before step 3.
 
-### Side passes with rolls
+There are two preps on steps 1, 2 and they are the same as in the inside turn.
+
+#### Right-side outside leader turn
+
+Use it form an [open] hold. Same as a right-side pass up step 4. On the 5&6, the
+leader turns clockwise 1 time to the left of the slot into a [left
+shoulder-lock]. The back part of the hand should be firmly placed on the
+follower's right shoulder for leading the following step.
 
 #### Free spin
 
@@ -503,8 +551,6 @@ It requires a goofy handhold. The footwork is the same as in a left-side pass.
 On step 2 prep to the left and on step 3 throw the hand to the right so the
 follower turns counter-clockwise. On 4 step into the slot and catch the
 follower's hand. On 5&6 do an anchor step.
-
-### Wrap-in-wrap-outs
 
 #### Roll-in-roll-out
 
