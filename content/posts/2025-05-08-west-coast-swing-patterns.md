@@ -698,6 +698,24 @@ your right foot next to your left foot. Step 6 requires your left foot to step
 back so you go into the slot. Steps 7&8 you are also stepping backward into the
 slot. Then hold your partner's hand with your left hand.
 
+#### Behind-the-back whip
+
+Use it from an [open] position. On step 1 step back and to the left such that
+left foot points 90 degrees counter-clockwise. On step 2 close your feet so your
+whole body is pointing 90 degrees counter-clockwise. Also, on step 2 grab the
+follower's right hand with your right hand and immediately offer your left arm
+at either waist level pointing at 8 o'clock or at neck level pointing at 2
+o'clock. The 3&4 are not progressive, or they can be progressive but stepping
+backwards. Steps 5, 6, 7&8 are normal.
+[Watch video.](https://m.youtube.com/watch?v=ZpEKKNSNg50&pp=ygUVd2VpcmQgd2hpcCB3ZXN0IGNvYXN0)
+
+#### Apache whip
+
+Not to be confused with the [behind-the-back whip]. Same on 1 and 2, but on 3
+and 4 you put the follower's right hand behind her lower back and grab her right
+hand with your right hand into a goofy handshake.
+[Watch video.](https://m.youtube.com/watch?v=fVUUG6ny4vI&pp=ygUbd2VzdCBjb2FzdCBzd2luZyB3ZWlyZCB3aGlw)
+
 [^1]: This is a hypothetical move. I have not actually tried it. :smile_cat:
 [^2]: Thanks Daniela for the corrections and suggestions!
 
@@ -737,10 +755,11 @@ slot. Then hold your partner's hand with your left hand.
 
 <!---->
 
-[single-arm turn-in]: #single-arm-turn-in
-[two-arm turn-in]: #two-arm-turn-in
+[basket whip]: #basket-whip
+[behind-the-back whip]: #behind-the-back-whip
 [carwash whip]: #carwash-whip
 [free spin]: #free-spin
-[pass-through whip]: #pass-through-whip
-[basket whip]: #basket-whip
 [left-side underarm pass]: #left-side-underarm-pass
+[pass-through whip]: #pass-through-whip
+[single-arm turn-in]: #single-arm-turn-in
+[two-arm turn-in]: #two-arm-turn-in
