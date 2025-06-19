@@ -626,6 +626,13 @@ follower's hand. On 5&6 do an anchor step.
 
 It is similar to a [free spin]. It requires a [goofy] handhold.
 
+#### Left-side goofy inside chain turn into closed position
+
+Prep 1 is on line with the follower's shoulder. Prep 2 is on line with the
+follower's face. Step 3&4 is over and behind the followers head such that the
+follower's hand gets released on step 4 so your right hand can slide down the
+follower's head. On step 4 step back into the slot into closed position.
+
 ### Whips
 
 #### Basket whip
