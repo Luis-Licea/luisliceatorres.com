@@ -460,6 +460,47 @@ Some ways to lengthen a pattern by 2 beats are:
 
 ### Sugar push
 
+On 1, step back with left foot, on 2, step back with right foot, on 3&4 do a
+rock step, and on 5&6 do an anchor step.
+
+#### Sugar push outside pivot turn
+
+Also known as a Sugar Tuck.
+
+On 1 step back, on 2 raise your left hand to the follower's ear level such that
+the hands are palm-to-palm. The leader's hand can be pointing straight up at 12
+o'clock or angled, pointing at 10 o'clock. The left arm should be kept close to
+the body before and after the turn, as if holding a piece of paper under the
+armpit, even during the turn. On 3&4 do the rock step while slightly pressing
+into the followers raised hand. The follower should press your hand back with
+the same amount of force to achieve compression. The turn should begin
+immediately on 4 after the compression was created on 3& and movement backwards
+has begun. The turn should be completed in one beat so there is time for the
+follower to anchor on the 5&6.
+
+#### Sugar push inside pivot turn
+
+Use it from an [open] position. On step 2 raise your left hand and make it
+perpendicular to the floor. The hands connection should be palm-to-palm and the
+leader's left hand should be pointing at 2 o'clock to indicate the direction of
+the pivot turn. On 3&4 generate compression on the 3& and begin the turn on 4 as
+you step backwards.
+
+#### Sugar push goofy inside pivot turn
+
+Use it from a [goofy] hold. On step 2 raise your right hand to her face level at
+shoulder width with your hand pointing at 2 o'clock. On step 3&4 do compression
+on 3& and begin the turn on 4 as you step backwards.
+
+#### Sugar push inside pivot turn into closed position
+
+The same as a [sugar push inside pivot turn] but during step 4, during the turn,
+place your right-hand fingers in between the follower shoulder blades. As the
+follower rotates, the right hand will be flat against the shoulder blade,
+achieving a closed position. Steps 4 5&6 may need to be bigger than usual to
+close the gap between you and the follower, otherwise there will be a lot of
+space between you both, as if you were in an open position.
+
 #### No-triple sugar tuck
 
 This is a sugar tuck but the 3&4 becomes a 3 and 4 step-tap because the & goes
@@ -545,17 +586,27 @@ leader turns clockwise 1 time to the left of the slot into a [left
 shoulder-lock]. The back part of the hand should be firmly placed on the
 follower's right shoulder for leading the following step.
 
+#### Short right-side inside turn pass
+
+Also known as a short right-side pass.
+
+It is like an L in Tetris, whereas a regular right-side pass is the straight
+piece in Tetris. Step 1 is back-leftwards, and step two is a cross step. The
+movement leftwards happens on number 4. In other words, rather than stepping
+into the slot on step 4, you are stepping past the slot. The anchor step can be
+a cross or a hook.
+
 ### Left-side passes
-
-#### Left-side underarm pass
-
-Also known as passing tuck.
 
 For the footwork, on 1 step backwards and to the right 45 degrees
 counter-clockwise, on step 2 step step backwards and to the right 45 degrees
 counter-clockwise. On step 3&4 step back and then front with the left leg, such
 that step 4 goes back into the slot at a 45 degree angle. On steps 5&6 do an
 anchor step, such that another 45 degrees are added on step 5.
+
+#### Left-side underarm pass
+
+Also known as passing tuck.
 
 For the handwork, start in [open] position. Raise your left hand above her head
 by step 2 such that her right hand is in front and above her face with about 1
