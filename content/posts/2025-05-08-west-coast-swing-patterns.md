@@ -520,13 +520,16 @@ turn.
 
 The footwork is the same as in a sugar push for the leader. Use it from an
 [open] hold. Steps 1 and 2 are for executing a [piston] so the follower will
-turn 180 degrees into [back-to-front] position. On 3& raise your left arm over
-her head. On 4 gently push her back in between her shoulder blades so she knows
-to walk under the arm. Steps 5&6 are an anchor step.
+turn 180 degrees into [back-to-front] position by the end of step 2. On 3& raise
+your left arm over her head. On 4 gently push her back in between her shoulder
+blades so she knows to walk under the arm. Steps 5&6 are an anchor step.
 
-#### Two-arm turn-in
+#### Double-arm turn-in
 
-Same as [single-arm turn-in], but use both hands to do a [left hammerlock].
+Same as [single-arm turn-in], but use both hands to do a [left hammerlock]. It
+is technically possible to achieve the same by doing a sugar tuck while holding
+the follower's left hand, but the correct way is to do a pump prep, which
+happens at waist level.
 
 #### Hairbrush
 
@@ -588,7 +591,7 @@ leader turns clockwise 1 time to the left of the slot into a [left
 shoulder-lock]. The back part of the hand should be firmly placed on the
 follower's right shoulder for leading the following step.
 
-#### Short right-side inside turn pass
+#### Short right-side inside turn
 
 Also known as a short right-side pass.
 
