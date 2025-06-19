@@ -530,7 +530,9 @@ Same as [single-arm turn-in], but use both hands to do a [left hammerlock].
 
 #### Hairbrush
 
-Also known as a head-wrap. It requires a [handshake] or [scout] hold.
+Also known as a head-wrap. It requires a [handshake] or [scout] hold. The
+hairbrush can be performed by brining the hand behind the leader's or the
+follower's head. It is interchangeable.
 
 #### Sugar tuck chase
 
