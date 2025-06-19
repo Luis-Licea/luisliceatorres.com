@@ -506,13 +506,13 @@ Same as a tuck turn, but on step 4 the left hand applies more force so the
 follower can do a double spin. Make sure to draw a halo around the follower's
 head twice.
 
-### Side passes
+### Right-side passes
 
 #### Right-side underarm pass
 
-The footwork for the leader is the same as in a right-side pass, but you hold
-the follower's left hand with your right hand instead of holding the follower's
-right hand with your left hand. The handwork is the same as in a passing tuck.
+The footwork for the leader is the same as in a right-side pass, but from a
+[goofy] position. The handwork is the mirrored equivalent from a [left-side
+underarm pass].
 
 #### Right-side outside chain turn
 
@@ -544,6 +544,25 @@ Use it form an [open] hold. Same as a right-side pass up step 4. On the 5&6, the
 leader turns clockwise 1 time to the left of the slot into a [left
 shoulder-lock]. The back part of the hand should be firmly placed on the
 follower's right shoulder for leading the following step.
+
+### Left-side passes
+
+#### Left-side underarm pass
+
+Also known as passing tuck.
+
+For the footwork, on 1 step backwards and to the right 45 degrees
+counter-clockwise, on step 2 step step backwards and to the right 45 degrees
+counter-clockwise. On step 3&4 step back and then front with the left leg, such
+that step 4 goes back into the slot at a 45 degree angle. On steps 5&6 do an
+anchor step, such that another 45 degrees are added on step 5.
+
+For the handwork, start in [open] position. Raise your left hand above her head
+by step 2 such that her right hand is in front and above her face with about 1
+feet of distance. On the 3&4 there should be some compression buildup so the
+highest compression happens on step 4 whenever you step into the slot and the
+follower begins the turn. By step 6 the hands should go back down to about
+waist-level.
 
 #### Free spin
 
@@ -673,3 +692,4 @@ slot. Then hold your partner's hand with your left hand.
 [free spin]: #free-spin
 [pass-through whip]: #pass-through-whip
 [basket whip]: #basket-whip
+[left-side underarm pass]: #left-side-underarm-pass
