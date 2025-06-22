@@ -155,6 +155,26 @@ in place --- turns into triple step that moves the follower forward:
   count 1 2 3&4 5 6 7&2 or 1 2 3&4 5 6 rock-and-go. The RAG must happen quickly
   so the follower does not settle on steps &8, but instead moves forward.
 
+## Turn variations
+
+### Pass
+
+A traveling turn that uses normal, cross, or hook steps.
+
+### Pirouette
+
+A stationary spin on one leg.
+
+### Pivot turn
+
+A stationary turn in which the weight changes from one foot to the other,
+usually for a half-turn.
+
+### Chain turn
+
+A traveling turn in which the weight changes from one foot to the other, usually
+for a half-turn.
+
 ## Preparation variations
 
 A prep is used to rotate the follower clockwise or counter-clockwise.
