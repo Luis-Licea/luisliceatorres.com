@@ -574,11 +574,15 @@ head twice.
 
 ### Right-side passes
 
-#### Right-side underarm pass
+Also known as a fake whip.
+
+#### Right-side inside pass
+
+Also known as a right-side underarm pass.
 
 The footwork for the leader is the same as in a right-side pass, but from a
 [goofy] position. The handwork is the mirrored equivalent from a [left-side
-underarm pass].
+outside pass].
 
 #### Right-side outside chain turn
 
@@ -587,12 +591,24 @@ step 1 do a prep to your right, and don't do a prep for step 2, instead, go
 directly into a [J-hook] (rotating clockwise) over her head. You have to be
 fast. It takes 2.5 chain turns.
 
+#### Right-side inside pass into parallel position
+
+Use it from an [open] hold. The footwork and most of the handwork is the same as
+in a [right-side inside pass]. The follower will turn and her back should be
+visible by the end of step 2. Immediately when the follower's back is visible,
+drag your hand from her back to her shoulder (3&4), down her arm (5). You should
+have a [parallel] handhold when finishing the anchor step (5&6).
+
 #### Right-side pass into closed position
 
-Use it from an [open] hold. Do a right-side inside pass and while the follower
-turns and gives her back (2), drag your hand from her back to her shoulder
-(3&4), down her arm. You should have a [parallel] handhold when doing the anchor
-step (&6).
+Use it from an [open] hold. The footwork and most of the handwork is the same as
+in a [right-side inside pass]. The follower will turn and her back should be
+visible by the end of step 2. Immediately when the follower's back is visible,
+place your right-hand fingers in between her shoulder blades. As the follower
+rotates, the right hand will be flat against the shoulder blade, achieving a
+[closed] position. In steps 3&4, make step 4 bigger. Also make 5&6 bigger than
+usual to close the gap between you and the follower, otherwise there will be a
+lot of space between you both, as if you were in an [open] position.
 
 #### Right-side inside chain turn
 
@@ -629,7 +645,7 @@ counter-clockwise. On step 3&4 step back and then front with the left leg, such
 that step 4 goes back into the slot at a 45 degree angle. On steps 5&6 do an
 anchor step, such that another 45 degrees are added on step 5.
 
-#### Left-side underarm pass
+#### Left-side outside pass
 
 Also known as passing tuck.
 
@@ -791,7 +807,8 @@ hand with your right hand into a goofy handshake.
 [behind-the-back whip]: #behind-the-back-whip
 [carwash whip]: #carwash-whip
 [free spin]: #free-spin
-[left-side underarm pass]: #left-side-underarm-pass
+[left-side outside pass]: #left-side-outside-pass
 [pass-through whip]: #pass-through-whip
+[right-side inside pass]: #right-side-inside-pass
 [single-arm turn-in]: #single-arm-turn-in
 [two-arm turn-in]: #two-arm-turn-in
