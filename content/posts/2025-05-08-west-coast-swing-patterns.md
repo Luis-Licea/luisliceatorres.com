@@ -598,8 +598,8 @@ fast. It takes 2.5 chain turns.
 Use it from an [open] hold. The footwork and most of the handwork is the same as
 in a [right-side inside pass]. The follower will turn and her back should be
 visible by the end of step 2. Immediately when the follower's back is visible,
-drag your hand from her back to her shoulder (3&4), down her arm (5). You should
-have a [parallel] handhold when finishing the anchor step (5&6).
+slide your hand from her back to her shoulder (3&4), and down the arm (5). You
+should have a [parallel] handhold when finishing the anchor step (5&6).
 
 #### Right-side pass into closed position
 
@@ -732,6 +732,12 @@ clock. Your left hand should be aligned to her nose. On 6, as she is passing by,
 draw an counter-clockwise halo around her head and release your right-hand grip.
 Then do an anchor position in [open] position.
 
+#### Hustle whip inside turn into parallel position
+
+Same as a [hustle whip inside turn into open position] up to step 6. On step 6,
+immediately when the follower's back becomes visible, slide your fingers across
+her back, shoulder, and arm into a [parallel] hold.
+
 #### Hustle whip outside turn
 
 The footwork is the same as a [hustle whip], and the handwork is the same up to
@@ -828,6 +834,8 @@ hand with your right hand into a goofy handshake.
 [behind-the-back whip]: #behind-the-back-whip
 [carwash whip]: #carwash-whip
 [free spin]: #free-spin
+[hustle whip inside turn into open position]:
+  #hustle-whip-inside-turn-into-open-position
 [hustle whip]: #hustle-whip
 [left-side outside pass]: #left-side-outside-pass
 [pass-through whip]: #pass-through-whip
