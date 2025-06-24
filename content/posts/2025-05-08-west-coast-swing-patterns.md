@@ -690,7 +690,7 @@ It looks like a basket whip with a tuck turn exit. It is the same as a [basket
 whip] up to step 4. On step 5 raise the left hand (like in a tuck turn) and
 release the right hand, turning the follower from steps 6 thru 8.
 
-#### Basket whip and an spinning anchor
+#### Basket whip with an spinning anchor
 
 It looks like a basket whip with an accelerated tuck turn exit. It is the same
 as a [basket whip] up to step 4. On step 5 raise the left hand on and release
