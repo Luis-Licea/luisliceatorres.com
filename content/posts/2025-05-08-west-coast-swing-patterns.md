@@ -163,7 +163,7 @@ in place --- turns into triple step that moves the follower forward:
 
 ## Turn variations
 
-### Pass
+### Pass turn
 
 A traveling turn that uses normal, cross, or hook steps.
 
@@ -401,6 +401,26 @@ right of the follower because the leader holds the follower's left hand with the
 right hand from a shoulder lock position. The leader places the back of the left
 hand on the follower's left shoulder in order to lead a whip or some other
 pattern. [^1]
+
+### Left waiter
+
+An [open] position in which the leader has the palm of his left hand over his
+left shoulder (like a waiter carrying a big plate of food). In this case, the
+hand is as close to the shoulder and to the neck as comfortably possible. This
+hold usually involves the leader and the follower to be facing in the same
+direction, sort of like >¯>, where the follower stands behind the leader as the
+leader holds the follower's hand at the shoulder. Usually the next step is to
+leave the follower's hand at the shoulder.
+
+### Right waiter
+
+An [open] position in which the leader has the palm of his right hand over his
+right shoulder (like a waiter carrying a big plate of food). In this case, the
+hand is as close to the shoulder and to the neck as comfortably possible. This
+hold usually involves the leader and the follower to be facing in the same
+direction, sort of like >\_>, where the follower stands behind the leader as the
+leader holds the follower's hand at the shoulder. Usually the next step is to
+leave the follower's hand at the shoulder.
 
 ## Pattern count combinations
 
