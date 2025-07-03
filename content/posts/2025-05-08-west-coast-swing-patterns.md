@@ -36,6 +36,8 @@ There are many elements in West Coast Swing dancing:
 
 ## Personal advice
 
+This advice is not verbatim. It is paraphrased in the manner I understood it.
+
 From Chuck Anders:
 
 - Do not prepare twice because it confused the follower.
@@ -58,6 +60,10 @@ From Ray Trusty:
   follower's left foot is floating and pulling on the arm would cause a rotation
   on the follower's right foot. In other words, it is 1-prep-2-3&4 as opposed to
   1-prep-3&4.
+- Do not open up you arms when doing a sugar push. Imagine you are holding a
+  piece of paper under each armpit and you do not want the pieces to fall. Only
+  open up your arms is when doing a hustle whip to close the space between you
+  and the follower.
 
 From Bob Wilder:
 
@@ -852,4 +858,5 @@ hand with your right hand into a goofy handshake.
 [pass-through whip]: #pass-through-whip
 [right-side inside pass]: #right-side-inside-pass
 [single-arm turn-in]: #single-arm-turn-in
+[trusty left-side-pass]: #trusty-left-side-pass
 [two-arm turn-in]: #two-arm-turn-in
