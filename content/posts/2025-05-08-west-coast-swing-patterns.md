@@ -740,7 +740,7 @@ and close them by 6. Post on 6 for the anchor step.
 
 You may do a [carwash whip] exit.
 
-#### Hustle whip inside turn into open position
+#### Hustle whip inside pass turn into open position
 
 The footwork is the same as a [hustle whip], and the handwork is the same up to
 step 4. On step 4, apply tension to lead the follower forwards while raising
@@ -749,13 +749,13 @@ clock. Your left hand should be aligned to her nose. On 6, as she is passing by,
 draw an counter-clockwise halo around her head and release your right-hand grip.
 Then do an anchor position in [open] position.
 
-#### Hustle whip inside turn into parallel position
+#### Hustle whip inside pass turn into parallel position
 
-Same as a [hustle whip inside turn into open position] up to step 6. On step 6,
-immediately when the follower's back becomes visible, slide your fingers across
-her back, shoulder, and arm into a [parallel] hold.
+Same as a [hustle whip inside pass turn into open position] up to step 6. On
+step 6, immediately when the follower's back becomes visible, slide your fingers
+across her back, shoulder, and arm into a [parallel] hold.
 
-#### Hustle whip outside turn
+#### Hustle whip outside pivot turn
 
 The footwork is the same as a [hustle whip], and the handwork is the same up to
 step 4. On step 4, apply tension to lead the follower forwards while raising
@@ -851,8 +851,8 @@ hand with your right hand into a goofy handshake.
 [behind-the-back whip]: #behind-the-back-whip
 [carwash whip]: #carwash-whip
 [free spin]: #free-spin
-[hustle whip inside turn into open position]:
-  #hustle-whip-inside-turn-into-open-position
+[hustle whip inside pass turn into open position]:
+  #hustle-whip-inside-pass-turn-into-open-position
 [hustle whip]: #hustle-whip
 [left-side outside pass]: #left-side-outside-pass
 [pass-through whip]: #pass-through-whip
