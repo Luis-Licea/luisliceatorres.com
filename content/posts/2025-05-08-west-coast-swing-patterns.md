@@ -64,6 +64,9 @@ From Ray Trusty:
   piece of paper under each armpit and you do not want the pieces to fall. Only
   open up your arms is when doing a hustle whip to close the space between you
   and the follower.
+- Even if you are doing the steps correctly, you must actively lead the follower
+  and move the slot. Otherwise she looks good dancing around you while you look
+  like a pole standing in the middle.
 
 From Bob Wilder:
 
