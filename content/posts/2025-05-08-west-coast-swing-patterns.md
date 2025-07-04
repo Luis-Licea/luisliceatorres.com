@@ -407,23 +407,49 @@ pattern. [^1]
 
 ### Left waiter
 
-An [open] position in which the leader has the palm of his left hand over his
-left shoulder (like a waiter carrying a big plate of food). In this case, the
-hand is as close to the shoulder and to the neck as comfortably possible. This
-hold usually involves the leader and the follower to be facing in the same
-direction, sort of like >¯>, where the follower stands behind the leader as the
-leader holds the follower's hand at the shoulder. Usually the next step is to
-leave the follower's hand at the shoulder.
+An [open] position in which the leader has the palm of his left hand
+horizontally positioned over his left shoulder (like a waiter carrying a big
+plate of food). In this case, the hand is as close to the shoulder and to the
+neck as comfortably possible. This hold requires the leader and the follower to
+be facing in the same direction, sort of like >¯>, where the follower stands
+behind the leader as the leader holds the follower's hand at the shoulder.
+Usually the next step is to leave the follower's hand at the shoulder.
 
 ### Right waiter
 
-An [open] position in which the leader has the palm of his right hand over his
-right shoulder (like a waiter carrying a big plate of food). In this case, the
-hand is as close to the shoulder and to the neck as comfortably possible. This
-hold usually involves the leader and the follower to be facing in the same
-direction, sort of like >\_>, where the follower stands behind the leader as the
-leader holds the follower's hand at the shoulder. Usually the next step is to
-leave the follower's hand at the shoulder.
+An [open] position in which the leader has the palm of his right hand
+horizontally position over his right shoulder (like a waiter carrying a big
+plate of food). In this case, the hand is as close to the shoulder and to the
+neck as comfortably possible. This hold requires the leader and the follower to
+be facing in the same direction, sort of like >\_>, where the follower stands
+behind the leader as the leader holds the follower's hand at the shoulder.
+Usually the next step is to leave the follower's hand at the shoulder.
+
+### Left shoulder
+
+An [open] position in which the leader has the back of his right hand touching
+his left shoulder. In this case, the hand should rest over the shoulder close to
+the neck, with the palm of the hand visible and pointing up and to the left.
+This position is reached by bringing your right hand over your head onto your
+left shoulder, like tracing the character ⋂ over your head (an upside down U)
+while rotating 180 degrees clockwise (this can be done in two steps, like in a
+salsa left turn steps 3 and 4). At the end of the turn, the leader and the
+follower will be facing in the same direction, sort of like >¯>, where the
+follower stands behind the leader as the leader holds the follower's hand at the
+shoulder. Usually the next step is to leave the follower's hand at the shoulder.
+
+### Right shoulder
+
+An [open] position in which the leader has the back of his left hand touching
+his right shoulder. In this case, the hand should rest over the shoulder close
+to the neck, with the palm of the hand visible and pointing up and to the right.
+This position is reached by bringing your left hand over your head onto your
+right shoulder, like tracing the character ⋂ over your head (an upside down U)
+while rotating 180 degrees clockwise (this can be done in two steps, like in a
+salsa right turn steps 2 and 3). At the end of the turn, the leader and the
+follower will be facing in the same direction, sort of like >\_>, where the
+follower stands behind the leader as the leader holds the follower's hand at the
+shoulder. Usually the next step is to leave the follower's hand at the shoulder.
 
 ## Pattern count combinations
 
