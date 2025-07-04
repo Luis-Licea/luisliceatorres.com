@@ -12,9 +12,12 @@ So far our instructor for level 1 classes has been [Chuck Anders]. He knows how
 to dance Salsa, Bachata, Tango, Polka, Waltz, Rumba, Two Step, West Coast Swing,
 and East Coast Swing. If I remember correctly, he said he began dancing when he
 was about 14 years old. Luckily Chuck was also my instructor for level 2. I am
-repeating level 2. My current instructor is Howard.
+repeating level 2. My current instructor is Ray.
 
-I have learned or reviewed the following steps there:
+<!-- Level 1 2025-04-01: Chuck -->
+<!-- Level 2 2025-05-06: Chuck -->
+<!-- Level 2 2025-06-03: Howard -->
+<!-- Level 2 2025-07-01: Ray -->
 
 ## West Coast Swing elements
 
@@ -814,6 +817,19 @@ she is passing by, draw a clockwise halo over her head without releasing your
 right-hand grip. This should put you into a [left hammerlock] position with both
 hands in a [weird] position.
 
+#### Hustle whip leader inside pivot turn into handshake position
+
+A pattern that Howard Rodriguez taught me.
+
+The footwork and handwork are the same as a regular [hustle whip] up to step 4.
+On 5 and 6 go into a [right shoulder] position by brining your left hand to your
+right shoulder while still holding onto her right hand and while doing 0.5 turns
+clockwise (steps 2 and 3 in a salsa right turn). On 5&6 do another 0.5 turns
+(steps 2 and 3 and another 2 in a salsa right turn) as her right hand slides
+down your right shoulder and hand into a [handshake] position.
+
+A good pattern to do after this one is a [trusty left-side-pass].
+
 #### Reverse whip
 
 From an [open] hold, for steps 1 thru 4, do a right-side pass into [closed]
@@ -885,11 +901,13 @@ hand with your right hand into a goofy handshake.
 [horn]: #horn
 [left hammerlock]: #left-hammerlock
 [left shoulder-lock]: #left-shoulder-lock
+[left shoulder]: #left-shoulder
 [open]: #open
-[scout]: #open
 [parallel]: #parallel
 [right hammerlock]: #right-hammerlock
 [right shoulder-lock]: #right-shoulder-lock
+[right shoulder]: #right-shoulder
+[scout]: #scout
 [spiderman]: #spiderman
 [starter]: #starter
 [weird]: #weird
