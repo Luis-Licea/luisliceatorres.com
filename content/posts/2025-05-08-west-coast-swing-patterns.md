@@ -121,9 +121,33 @@ From Bob Wilder:
 ## Musicality
 
 - Music is commonly written in the 4/4 time signature and commonly structured in
-  sets of 8 beats
-- A major phrase is 32 beats
-- A minor phrase is 16 beats (usually) or 8 beats (rarely)
+  sets of 8 beats.
+- The 4/4 time signature means 4 quarter notes per bar. How long is a quarter
+  note? In this case it is one beat long, but that is not the case for other
+  time signatures. The length of the beat is defined by the beats per minute
+  (BPM) in a song.
+
+  For example, if a song is fast and has 120 beats per minute, then there are
+  two beats per minute. In other words, counting 8 beats will take 4 seconds.
+
+- You can approximate the beats per minute in a song by counting 8 beats and
+  seeing how many seconds it takes. If you started counting when the music
+  player was at 2min 15 sec and you finished counting when it was at 2min 20
+  sec, then 8 beats take 5 seconds.
+
+  If it takes 5 seconds to count 8 beats, then you are listening to a mid-tempo
+  song with \\(((8 beats / 5 seconds) \* 60 seconds / 1 minute) = 96\\) beats
+  per minute.
+
+  If it takes 3 seconds to count 8 beats, then you are listing to a really fast,
+  non-danceable song of \\(((8 beats / 3 seconds) \* 60 seconds / 1 minute) =
+  160\\) beats per minute.
+
+- West Coast Swing competitions usually feature songs around 100 beats per
+  minute, so that means songs between 80 to 120 beats per minute are good for
+  social dancing.
+- A major phrase is 32 beats. A minor phrase is 16 beats (usually) or 8 beats
+  (rarely). Songs are usually structured in sets of minor and major phrases.
 - All ballroom dances except Waltz are written in 4/4 time and can be danced
   using 8 beat patterns:
   - Bachata: 4- or 8-beat patterns
@@ -134,6 +158,54 @@ From Bob Wilder:
   - West Coast Swing: primarily 6- and 8-beat patterns, with 10- and 12-beat
     patterns requiring a rock-and-go
   - Waltz is written in 3/4 time signature and has 6-beat patterns
+
+## Musicality exercises
+
+Musicality is hard. I suspect it will take anywhere from 3 months to 2 years to
+learn.
+
+1. Count straight 8s up to 12 times. Repeat this exercise at least 3 times
+   without mistakes.
+2. Count straight 8s up to 12 times in sync with music. Repeat this exercise at
+   least 3 times without mistakes.
+3. Count straight 8s up to 12 times while doing whips. You may get unbearably
+   dizzy. Repeat this exercise at least 3 times without mistakes.
+4. Same as 3, but doing sugar pushes only.
+5. Same as 3, but doing left-side passes only.
+6. Same as 3, but doing right-side passes only.
+7. Same as 3, but doing a sequence of 4 6-beat patterns and 1 8-beat pattern to
+   add up to 32 beats.
+8. Count straight 8s in sync with music for an entire song. Reset the count
+   after each major phrase change. Repeat this exercise 3 times.
+9. Same as 8, but doing whips only.
+10. Same as 8, but doing sugar pushes only.
+11. Same as 8, but doing left-side passes only.
+12. Same as 8, but doing right-side passes only.
+13. Same as 8, but doing a sequence of 4 6-beat patterns and 1 8-beat pattern.
+14. To develop your phrase change intuition, jump to random points in a song and
+    count the beats leading up to a major phrase change at least one third of
+    the time.
+15. Same as 14, but while dancing any 6- and 8-beat patterns required to hit the
+    phrase change.
+16. Listen to a song and pay attention to the chord progression. Detect the
+    major phase change before it happens without doing any counting.
+17. Now do 14, 15, and 16 all simultaneously. If you can manage to do this, you
+    are a musicality professional.
+
+These exercises miss a few things, like how to gracefully get on beat if dancing
+off-beat by 1, 2, 3, 4, 5, 6, or 7 beats.
+
+You don't have to hit all the phrase changes in the song. Aim for 1, then 2,
+then 3, then all of them for a specific song you are familiar with.
+
+Rules: once the song starts and you make your first move, you cannot bail out
+and stop dancing. Doesn't matter how fast, how slow, how tired, how sloppy, how
+confused you may be.
+
+Note: I count beats in sets of 8 so I can do quick math on the total number of
+beats I have danced. The way I count beats in a song is as follows:
+
+1 2 3 4 5 6 7 **1** 1 2 3 4 5 6 7 **2** 1 2 3 4 5 6 7 **3** 1 2 3 4 5 6 7 **..**
 
 ## Rhythm
 
@@ -538,7 +610,7 @@ Some ways to lengthen a pattern by 2 beats are:
 
 ## Patterns
 
-### Sugar push
+### Sugar pushes
 
 On 1, step back with left foot, on 2, step back with right foot, on 3&4 do a
 rock step, and on 5&6 do an anchor step.
