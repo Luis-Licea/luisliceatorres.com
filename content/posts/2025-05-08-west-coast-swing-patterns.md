@@ -111,7 +111,7 @@ From Bob Wilder:
   - sugar pushes (6 beats)
   - whips (8 beats)
   - dips
-  - aerials
+  - lifts
 
 - Side passes are named from the leader's perspective. For example, in a left
   pass, the follower passes by the leader's left side.
@@ -920,13 +920,17 @@ hand to hold her shoulder blade.
 
 #### Pass-through whip
 
-It is similar to a [carwash whip]. It requires a [goofy] handhold.
-In steps 1 and 2 raise your right hand over her head, in steps 3 and 4 bring your
-right hand to your lower back as to create tension and cause the follower to do a clockwise turn. If you place your right hand on your right hip as opposed to your lower back, then the follower will have no option but to rotate clockwise because your hip will push against her hand and prevent her from turning counter-clocwise. Step 4 is a
-regular whip step, but 5 isn't. Step 5 does not have any rotation. Simply place
-your right foot next to your left foot. Step 6 requires your left foot to step
-back so you go into the slot. In steps 7&8 you are also stepping backward into the
-slot and offering your hand. At the end you should be in [open] position.
+It is similar to a [carwash whip]. It requires a [goofy] handhold. In steps 1
+and 2 raise your right hand over her head, in steps 3 and 4 bring your right
+hand to your lower back as to create tension and cause the follower to do a
+clockwise turn. If you place your right hand on your right hip as opposed to
+your lower back, then the follower will have no option but to rotate clockwise
+because your hip will push against her hand and prevent her from turning
+counter-clockwise. Step 4 is a regular whip step, but 5 isn't. Step 5 does not
+have any rotation. Simply place your right foot next to your left foot. Step 6
+requires your left foot to step back so you go into the slot. In steps 7&8 you
+are also stepping backward into the slot and offering your hand. At the end you
+should be in [open] position.
 
 #### Behind-the-back whip
 
@@ -950,20 +954,74 @@ hand with your right hand into a [scout weird] handshake.
 
 #### Piston into dip
 
-On 1 and 2 do a [piston] like in a [single-arm turn-in]. The step 2 is backwards with the right leg
-and the right leg should be ready to support your full weight and her weight, so position it in a stable position. On 3 and 4 put
-your arms under her arms such that your forearms (palmaris longi) are placed
-flat under and across the middle of her triceps long heads. Always keep your arms as parallel as possible and perpendicular to your body, and do not put your forearms under her armpits as not to
-invade her personal space. On 3, bend your right knee to initiate the dip. 
-The knee on your left leg should not be bent; it should be locked. On 4 hold the dip. On 5 and 6
-stand back up and lead the follower on a 180 deg clockwise turn into open
-position. On 7&8 do an anchor step.
+On 1 and 2 do a [piston] like in a [single-arm turn-in]. The step 2 is backwards
+with the right leg and the right leg should be ready to support your full weight
+and her weight, so position it in a stable position. On 3 and 4 put your arms
+under her arms such that your forearms (palmaris longi) are placed flat under
+and across the middle of her triceps long heads. Always keep your arms as
+parallel as possible and perpendicular to your body, and do not put your
+forearms under her armpits as not to invade her personal space. On 3, bend your
+right knee to initiate the dip. The knee on your left leg should not be bent; it
+should be locked. On 4 hold the dip. On 5 and 6 stand back up and lead the
+follower on a 180 deg clockwise turn into open position. On 7&8 do an anchor
+step.
 
-### Aerials
+### Lifts
 
-These patterns require leaving the floor while being supported or being thrown into an airborne state.
+These patterns require leaving the floor while being supported or being thrown
+into an airborne state.
 
 I have yet to learn one of these patterns.
+
+### Anchor wheel
+
+The anchor wheel describes the anchor step variations that can be applied to
+anchor steps in sugar pushes, left-side passes, right-side passes, and whips.
+
+#### Front-check
+
+Instead of stepping in place for the & step, step on front of your left foot
+with with your right foot.
+
+#### Back-check
+
+Instead of stepping in place for the & step, step behind your left foot with
+with your right foot.
+
+#### Side-check
+
+Instead of stepping in place for the & step, step to the right, outside the
+slot, with your right foot.
+
+#### Counter-clockwise ronde
+
+Instead of doing the anchor step for a duration of 2 beats, slide your right
+foot from 6, to 3, to 12 o'clock in a round motion and go back to 6 o'clock.
+
+#### Slow counter-clockwise ronde
+
+Mechanically the same as a counter-clockwise ronde, but with a duration of 4
+beats instead of 2.
+
+#### Clockwise ronde
+
+Instead of doing the anchor step for a duration of 2 beats, slide your right
+foot from 12, to 3, to 6 o'clock in a round motion.
+
+#### Slow clockwise ronde
+
+Mechanically the same as a clockwise ronde, but with a duration of 4 beats
+instead of 2.
+
+#### Clockwise taps
+
+Instead of doing the anchor step for a duration of 2 beats, do 4 taps for a
+duration of 4 beats. The taps will be at 12, 2, 4, and 6 o'clock.
+
+#### Counter-clockwise taps
+
+Instead of doing the anchor step for a duration of 2 beats, do 4 taps for a
+duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 
 [^1]: This is a hypothetical move. I have not actually tried it. :smile_cat:
 [^2]: Thanks Daniela for the corrections and suggestions!
