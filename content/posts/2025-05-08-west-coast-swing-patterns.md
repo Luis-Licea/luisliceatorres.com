@@ -918,14 +918,13 @@ hand to hold her shoulder blade.
 
 #### Pass-through whip
 
-It is similar to a [carwash whip]. It requires a goofy handhold. (do a sugar
-push and release left hand. You must use the right hand, like in a free spin):
-in steps 1 and 2 raise your hand over her head, in steps 3 and 4 bring your
-right hand to your lower back while giving your partner a tug. Step 4 is a
+It is similar to a [carwash whip]. It requires a [goofy] handhold.
+In steps 1 and 2 raise your right hand over her head, in steps 3 and 4 bring your
+right hand to your lower back as to create tension and cause the follower to do a clockwise turn. If you place your right hand on your right hip as opposed to your lower back, then the follower will have no option but to rotate clockwise because your hip will push against her hand and prevent her from turning counter-clocwise. Step 4 is a
 regular whip step, but 5 isn't. Step 5 does not have any rotation. Simply place
 your right foot next to your left foot. Step 6 requires your left foot to step
-back so you go into the slot. Steps 7&8 you are also stepping backward into the
-slot. Then hold your partner's hand with your left hand.
+back so you go into the slot. In steps 7&8 you are also stepping backward into the
+slot and offering your hand. At the end you should be in [open] position.
 
 #### Behind-the-back whip
 
