@@ -104,12 +104,14 @@ From Bob Wilder:
 
 ## General West Coast Swing knowledge
 
-- There are 5 pattern types:
+- There are 6 pattern types:
 
   - four count triple pairs (4 beats)
   - side passes (6 beats): result in 0.5 turns
   - sugar pushes (6 beats)
   - whips (8 beats)
+  - dips
+  - aerials
 
 - Side passes are named from the leader's perspective. For example, in a left
   pass, the follower passes by the leader's left side.
@@ -943,6 +945,25 @@ Not to be confused with the [behind-the-back whip]. Same on 1 and 2, but on 3
 and 4 you put the follower's right hand behind her lower back and grab her right
 hand with your right hand into a [scout weird] handshake.
 [Watch video.](https://m.youtube.com/watch?v=fVUUG6ny4vI&pp=ygUbd2VzdCBjb2FzdCBzd2luZyB3ZWlyZCB3aGlw)
+
+### Dips
+
+#### Piston into dip
+
+On 1 and 2 do a [piston] like in a [single-arm turn-in]. The step 2 is backwards with the right leg
+and the right leg should be ready to support your full weight and her weight, so position it in a stable position. On 3 and 4 put
+your arms under her arms such that your forearms (palmaris longi) are placed
+flat under and across the middle of her triceps long heads. Always keep your arms as parallel as possible and perpendicular to your body, and do not put your forearms under her armpits as not to
+invade her personal space. On 3, bend your right knee to initiate the dip. 
+The knee on your left leg should not be bent; it should be locked. On 4 hold the dip. On 5 and 6
+stand back up and lead the follower on a 180 deg clockwise turn into open
+position. On 7&8 do an anchor step.
+
+### Aerials
+
+These patterns require leaving the floor while being supported or being thrown into an airborne state.
+
+I have yet to learn one of these patterns.
 
 [^1]: This is a hypothetical move. I have not actually tried it. :smile_cat:
 [^2]: Thanks Daniela for the corrections and suggestions!
