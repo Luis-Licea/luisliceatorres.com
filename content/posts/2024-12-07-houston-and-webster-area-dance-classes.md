@@ -22,6 +22,7 @@ entrance is free after 8PM if you are over 21.
 
 | Time   | Friday                          | Saturday                                                                                                          |
 | ------ | ------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| 5:15PM |                                 | Country Waltz (only on 2st and 4th weeks of the month)                                                            |
 | 6:45PM | West Coast Swing                |                                                                                                                   |
 | 7:15PM | 2-Step, Polka, East Coast Swing | Line dance (only on 1st, 3rd, and 5th weeks of the month)                                                         |
 | 5:00PM |                                 | Nightclub (only on 4th week of the month)                                                                         |
@@ -39,6 +40,19 @@ are:
 - Wednesdays (about 20 people)
 - Sundays (about 5 people)
 
+## [The Hangar]
+
+I have never been here, but it seems like the best place to learn 2-step.
+
+| Time  | Tuesday | Wednesday     | Thursday            |
+| ----- | ------- | ------------- | ------------------- |
+| \*    | 2-Step  | 2-Step, Waltz | Cha-Cha, West Coast |
+| Swing |
+
+\* Check schedule for exact times. The schedule is listed in the
+[texasdancecountry.com] website. Note that the site does not have HTTPS, so it
+seems sketchy.
+
 ## [Bay Area Whip Dance Club] | \$100/year
 
 The yearly membership is $100. That is very cheap! The classes take place inside
@@ -46,7 +60,7 @@ the [Walter Hall Banquet Hall].
 
 | Time   | Tuesday          |
 | ------ | ---------------- |
-| 7:30PM | West Coast Swing |
+| 7:15PM | West Coast Swing |
 
 ## [The Palladium] | \$20/day
 
@@ -86,6 +100,9 @@ you take Salsa on 2.
 
 ## [Dance Vision Studio] | 💰/class
 
+Every 4th Sunday there is a \$10 West Coast Swing workshop with world-renowned
+people.
+
 For me, each private lesson was about \$120. However, the membership allows you
 to attend group classes for free. If you take advantage of every single free
 group class and you schedule your private lessons two weeks apart, the average
@@ -122,5 +139,7 @@ wedding dance or a competitive dance.
 [Rowdys]: https://rowdysdancehall.com/home/webster/
 [Salsa Eddy]: https://www.salsaeddy.com/
 [The Chute]: https://thechutebaytown.com/
+[The Hangar]: https://maps.app.goo.gl/WuJ6ZYWS9DxhtgpBA
 [The Palladium]: https://www.thepalladiumhouston.com/
 [Walter Hall Banquet Hall]: https://maps.app.goo.gl/dNKeYf1f2xzajpEN7
+[texasdancecountry.com]: https://texasdancecountry.com/schedule.html
