@@ -27,6 +27,18 @@ entrance is free after 8PM if you are over 21.
 | 5:00PM |                                 | Nightclub (only on 4th week of the month)                                                                         |
 | 7:00PM |                                 | Salsa, Bachata, Waltz, Rumba, Foxtrot, Chacha, West Coast Swing, East Coast Swing (only on 4th week of the month) |
 
+## [The Chute] | \$10/day
+
+No classes are given here, but it is a decent place for line dancing and social
+dancing two-step, cumbia, norteño, and occasionally bachata.
+
+The best days to go, from best to worst, based on how full the place will be,
+are:
+
+- Thursdays (about 80 people)
+- Wednesdays (about 20 people)
+- Sundays (about 5 people)
+
 ## [Bay Area Whip Dance Club] | \$100/year
 
 The yearly membership is $100. That is very cheap! The classes take place inside
@@ -109,5 +121,6 @@ wedding dance or a competitive dance.
 [Fred Astaire]: https://ekkart.com/
 [Rowdys]: https://rowdysdancehall.com/home/webster/
 [Salsa Eddy]: https://www.salsaeddy.com/
+[The Chute]: https://thechutebaytown.com/
 [The Palladium]: https://www.thepalladiumhouston.com/
 [Walter Hall Banquet Hall]: https://maps.app.goo.gl/dNKeYf1f2xzajpEN7
