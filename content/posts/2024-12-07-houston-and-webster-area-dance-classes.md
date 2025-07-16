@@ -23,10 +23,10 @@ entrance is free after 8PM if you are over 21.
 | Time   | Friday                          | Saturday                                                                                                          |
 | ------ | ------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | 5:15PM |                                 | Country Waltz (only on 2st and 4th weeks of the month)                                                            |
-| 6:45PM | West Coast Swing                |                                                                                                                   |
-| 7:15PM | 2-Step, Polka, East Coast Swing | Line dance (only on 1st, 3rd, and 5th weeks of the month)                                                         |
 | 5:00PM |                                 | Nightclub (only on 4th week of the month)                                                                         |
+| 6:45PM | West Coast Swing                |                                                                                                                   |
 | 7:00PM |                                 | Salsa, Bachata, Waltz, Rumba, Foxtrot, Chacha, West Coast Swing, East Coast Swing (only on 4th week of the month) |
+| 7:15PM | 2-Step, Polka, East Coast Swing | Line dance (only on 1st, 3rd, and 5th weeks of the month)                                                         |
 
 ## [The Chute] | \$10/day
 
@@ -61,6 +61,16 @@ the [Walter Hall Banquet Hall].
 | Time   | Tuesday          |
 | ------ | ---------------- |
 | 7:15PM | West Coast Swing |
+
+## [Zach and Rachel] \$25/class
+
+Zach and Rachel teach group classes in the [InZtyle Fitness] studio. Check their
+website for details.
+
+| Time   | Thursday                                                   |
+| ------ | ---------------------------------------------------------- |
+| 6:45PM | West Coast Swing Beginner Foundations or Continuing Basics |
+| 7:30PM | West Coast Swing International Rally Choreography          |
 
 ## [Gilruth Center] | \$12/class
 
@@ -149,10 +159,12 @@ wedding dance or a competitive dance.
 [Fred Astaire]: https://ekkart.com/
 [Gilruth Center]:
   https://anc.apm.activecommunities.com/starport/activity/search?activity_select_param=2&viewMode=list
+[InZtyle Fitness]: https://maps.app.goo.gl/WMeyU4LJmZn1gJHV9
 [Rowdys]: https://rowdysdancehall.com/home/webster/
 [Salsa Eddy]: https://www.salsaeddy.com/
 [The Chute]: https://thechutebaytown.com/
 [The Hangar]: https://maps.app.goo.gl/WuJ6ZYWS9DxhtgpBA
 [The Palladium]: https://www.thepalladiumhouston.com/
 [Walter Hall Banquet Hall]: https://maps.app.goo.gl/dNKeYf1f2xzajpEN7
+[Zach and Rachel]: https://www.zachandracheldance.com/group-classes
 [texasdancecountry.com]: https://texasdancecountry.com/schedule.html
