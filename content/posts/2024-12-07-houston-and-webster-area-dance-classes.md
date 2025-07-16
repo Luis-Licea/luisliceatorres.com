@@ -62,6 +62,17 @@ the [Walter Hall Banquet Hall].
 | ------ | ---------------- |
 | 7:15PM | West Coast Swing |
 
+## [Gilruth Center] | \$12/class
+
+The Gilruth center offers salsa classes and 2-step classes. You must sign-up
+online or at the front desk. No walk-ins allowed.
+
+| Time   | Monday            | Friday             |
+| ------ | ----------------- | ------------------ |
+| 5:30PM |                   | Salsa Beginner     |
+| 6:30PM | 2-Step Beginner 1 | Salsa Intermediate |
+| 7:30PM | 2-Step Beginner 2 | Salsa Advanced     |
+
 ## [The Palladium] | \$20/day
 
 On Fridays, Palladium teaches Salsa and Bachata on different rooms. The salsa
@@ -136,6 +147,8 @@ wedding dance or a competitive dance.
 [Buck Wild]: https://www.buckwildcountrydanceclub.com/
 [Dance Vision Studio]: https://dancevisiontexas.com/dance-vision-clear-lake/
 [Fred Astaire]: https://ekkart.com/
+[Gilruth Center]:
+  https://anc.apm.activecommunities.com/starport/activity/search?activity_select_param=2&viewMode=list
 [Rowdys]: https://rowdysdancehall.com/home/webster/
 [Salsa Eddy]: https://www.salsaeddy.com/
 [The Chute]: https://thechutebaytown.com/
