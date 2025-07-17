@@ -44,14 +44,13 @@ are:
 
 I have never been here, but it seems like the best place to learn 2-step.
 
-| Time  | Tuesday | Wednesday     | Thursday            |
-| ----- | ------- | ------------- | ------------------- |
-| \*    | 2-Step  | 2-Step, Waltz | Cha-Cha, West Coast |
-| Swing |
+| Time        | Tuesday | Wednesday     | Thursday                  |
+| ----------- | ------- | ------------- | ------------------------- |
+| **Not Set** | 2-Step  | 2-Step, Waltz | Cha-Cha, West Coast Swing |
 
-\* Check schedule for exact times. The schedule is listed in the
+Check the schedule for exact class times. The schedule is listed in the
 [texasdancecountry.com] website. Note that the site does not have HTTPS, so it
-seems sketchy.
+is sketchy.
 
 ## [Bay Area Whip Dance Club] | \$100/year
 
@@ -62,7 +61,7 @@ the [Walter Hall Banquet Hall].
 | ------ | ---------------- |
 | 7:15PM | West Coast Swing |
 
-## [Zach and Rachel] \$25/class
+## [Zach and Rachel] | \$25/class
 
 Zach and Rachel teach group classes in the [InZtyle Fitness] studio. Check their
 website for details.
@@ -71,6 +70,19 @@ website for details.
 | ------ | ---------------------------------------------------------- |
 | 6:45PM | West Coast Swing Beginner Foundations or Continuing Basics |
 | 7:30PM | West Coast Swing International Rally Choreography          |
+
+## [High Horse Saloon] | \$20/day
+
+No classes are given here, but it is great place for line-dancing or dancing to
+country music. If you want to dance, you have to bring a partner, though, as
+most people who go there are couples. You can even dance to live country music!
+Sundays are good days to go.
+
+| Time    | Wednesday            | Thursday             | Friday               | Sunday               |
+| ------- | -------------------- | -------------------- | -------------------- | -------------------- |
+| 7:00PM  | 2-Step, Polka, Waltz | 2-Step, Polka, Waltz | 2-Step, Polka, Waltz | 2-Step, Polka, Waltz |
+| 10:00PM | No concert           | Concert (usually)    | Concert (usually)    | Concert (usually)    |
+| 11:00PM | Line dancing         | Line dancing         | Line dancing         | Line dancing         |
 
 ## [Gilruth Center] | \$12/class
 
@@ -153,6 +165,7 @@ get charged much less.
 I would recommend these guys if have a very important dance coming up, like a
 wedding dance or a competitive dance.
 
+[High Horse Saloon]: https://www.highhorsesaloontxc.com/
 [Bay Area Whip Dance Club]: https://www.bawdc.org/
 [Buck Wild]: https://www.buckwildcountrydanceclub.com/
 [Dance Vision Studio]: https://dancevisiontexas.com/dance-vision-clear-lake/
