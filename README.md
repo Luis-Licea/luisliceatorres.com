@@ -11,3 +11,10 @@ nix-shell
 # Serve the website.
 hugo serve
 ```
+
+## To create new posts
+
+```sh
+hugo new content/posts/<date>-<post-name>.md
+```
+
