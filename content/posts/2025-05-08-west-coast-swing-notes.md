@@ -1,7 +1,8 @@
 ---
-title: West Coast Swing Patterns
+title: West Coast Swing Notes
 showTableOfContents: true
-date: 2025-05-08
+# created: 2025-05-08
+date: 2025-07-28
 categories: Dance
 tags: West Coast Swing
 ---

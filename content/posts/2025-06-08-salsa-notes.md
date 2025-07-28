@@ -1,5 +1,5 @@
 ---
-title: "Salsa Patterns"
+title: Salsa Notes
 showTableOfContents: true
 date: 2025-06-08T01:20:19-05:00
 categories: Dance
