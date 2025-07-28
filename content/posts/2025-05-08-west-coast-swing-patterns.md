@@ -14,10 +14,11 @@ and East Coast Swing. If I remember correctly, he said he began dancing when he
 was about 14 years old. Luckily Chuck was also my instructor for level 2. I am
 repeating level 2. My current instructor is Ray.
 
-<!-- Level 1 2025-04-01: Chuck -->
-<!-- Level 2 2025-05-06: Chuck -->
-<!-- Level 2 2025-06-03: Howard -->
-<!-- Level 2 2025-07-01: Ray -->
+   <!-- Level 1 2025-01-31: Started classes -->
+   <!-- Level 1 2025-04-01: Chuck -->
+   <!-- Level 2 2025-05-06: Chuck -->
+   <!-- Level 2 2025-06-03: Howard -->
+   <!-- Level 2 2025-07-01: Ray -->
 
 ## West Coast Swing elements
 
@@ -33,7 +34,6 @@ There are many elements in West Coast Swing dancing:
 
 ## General dance knowledge
 
-- Aim to have fun, stay safe, and dance every song
 - An inside turn is a left, counterclockwise turn
 - An outside turn is a right, clockwise turn
 
@@ -43,6 +43,8 @@ This advice is not verbatim. It is paraphrased in the manner I understood it.
 
 From Chuck Anders:
 
+- Aim to have fun, stay safe, and dance every song.
+- The most important thing that you can bring to a dance is a smile.
 - Do not prepare twice because it confused the follower.
 - Move up, down, left and right to use all the slot. It makes the dance look
   good.
@@ -977,6 +979,9 @@ I have yet to learn one of these patterns.
 
 The anchor wheel describes the anchor step variations that can be applied to
 anchor steps in sugar pushes, left-side passes, right-side passes, and whips.
+
+The easiest way to practice the anchor wheel is to add an anchor variation after
+every single sugar push, left-side pass, right-side pass, and whip.
 
 #### Front-check
 
