@@ -399,15 +399,15 @@ This is the same as the [open] position, but it requires a right-to-right hand
 connection instead of a left-to-right hand connection, sort of like the
 characters |/|.
 
-#### Handshake horn
+#### Horn Handshake
 
 This is the same as the [handshake] position with the [horn] handhold.
 
-#### Handshake spiderman
+#### Spiderman Handshake
 
 This is the same as the [handshake] position with the [spiderman] handhold.
 
-#### Handshake weird
+#### Weird Handshake
 
 This is the same as the [handshake] position with the [weird] handhold.
 
@@ -419,15 +419,15 @@ This is a mirror image of the [handshake] position because it requires a
 left-to-left hand connection instead of a right-to-right hand connection, sort
 of like the characters |\\|.
 
-#### Scout horn
+#### Horn Scout
 
 This is the same as the [handshake] position with the [horn] handhold.
 
-#### Scout spiderman
+#### Spiderman Scout
 
 This is the same as the [handshake] position with the [spiderman] handhold.
 
-#### Scout weird
+#### Weird Scout
 
 This is the same as the [handshake] position with the [weird] handhold.
 
@@ -950,7 +950,7 @@ backwards. Steps 5, 6, 7&8 are normal.
 
 Not to be confused with the [behind-the-back whip]. Same on 1 and 2, but on 3
 and 4 you put the follower's right hand behind her lower back and grab her right
-hand with your right hand into a [scout weird] handshake.
+hand with your right hand into a [weird scout] handshake.
 [Watch video.](https://m.youtube.com/watch?v=fVUUG6ny4vI&pp=ygUbd2VzdCBjb2FzdCBzd2luZyB3ZWlyZCB3aGlw)
 
 ### Dips
@@ -1064,7 +1064,7 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [right shoulder-lock]: #right-shoulder-lock
 [right shoulder]: #right-shoulder
 [scout]: #scout
-[scout weird]: #scout-weird
+[weird scout]: #weird-scout
 [spiderman]: #spiderman
 [starter]: #starter
 [weird]: #weird
