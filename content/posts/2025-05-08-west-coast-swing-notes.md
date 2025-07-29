@@ -362,7 +362,7 @@ horns.
 
 Reached via:
 
-- Sugar tuck from open position
+- Sugar tuck from [open] position
 
 #### Spiderman
 
@@ -399,6 +399,10 @@ This is the same as the [open] position, but it requires a right-to-right hand
 connection instead of a left-to-right hand connection, sort of like the
 characters |/|.
 
+Reached via:
+
+- [right-side inside pass turn with raised arm into handshake position]
+
 #### Horn Handshake
 
 This is the same as the [handshake] position with the [horn] handhold.
@@ -410,6 +414,11 @@ This is the same as the [handshake] position with the [spiderman] handhold.
 #### Weird Handshake
 
 This is the same as the [handshake] position with the [weird] handhold.
+
+Reached via:
+
+- [apache whip]
+- [Chuck turn into weird handshake]
 
 ### Scout
 
@@ -709,11 +718,24 @@ Same as a tuck turn, but on step 4 the left hand applies more force so the
 follower can do a double spin. Make sure to draw a halo around the follower's
 head twice.
 
+#### Chuck turn into weird handshake
+
+A pattern that _Chuck_ Anders taught me.
+
+Start in an [open] position. The footwork is the same as a [sugar push outside
+pivot turn] up but not including step 4. On step 4, rather than stepping forward
+into the slot at 12 o'clock, step forward and to the right slightly outside of
+the slot at 3 o'clock. On 5&6 do 0.5 turns clockwise so you will face 9 o'clock
+by the end of the pattern. The handwork is the same up to step 4. On 5&6 bring
+both of your hands to your lower back to swap the follower's right hand from
+your left hand to your right hand. The swap should happen around 5&. By 6 you
+should be in a [weird handshake].
+
 ### Right-side passes
 
 Also known as a fake whip.
 
-#### Right-side inside pass
+#### Right-side inside pass turn
 
 Also known as a right-side underarm pass.
 
@@ -773,6 +795,29 @@ piece in Tetris. Step 1 is back-leftwards, and step two is a cross step. The
 movement leftwards happens on number 4. In other words, rather than stepping
 into the slot on step 4, you are stepping past the slot. The anchor step can be
 a cross or a hook.
+
+#### Right-side inside pass turn with raised arm into handshake position
+
+Starting in an [open] position, step 1 is back, step 2 is band and to the left
+to face 3 o'clock. Do 3& in place and on 4 step into slot with your left foot
+pointing at 12 o'clock. On 5&6 do 1.25 a counter-clockwise pivot turn. Handwork
+1 is straight back, 2 is looking at the watch. Handwork 3&4 is going over the
+follower's head with the left hand, as if drawing an upside-down U over the
+follower. The left-hand should finish at the follower right-shoulder level. On 4
+open your left hand to release the follower's hand and raise your right arm
+straight up as you walk into the slot. The follower's arm should be pressed
+against your right rib by 5, right under the lifted right arm. On 5&6 lower your
+right arm smoothly as if surfing on a wave so you will end in a [handshake]
+position.
+
+#### Right-side inside pass turn going under arm into open position
+
+This is a variation of the [right-side inside pass turn with raised arm into
+handshake position]. The only difference is the handwork on the 4, 5&6. Do not
+raise your right arm on 4 5&6. Keep it at waist level. Instead, raise your left
+hand while holding the follower's right arm so you can perform the 1.25
+counter-clockwise under the follower's arm. You will end up in [open] position
+because you never leg go of the follower's right arm.
 
 ### Left-side passes
 
@@ -950,7 +995,7 @@ backwards. Steps 5, 6, 7&8 are normal.
 
 Not to be confused with the [behind-the-back whip]. Same on 1 and 2, but on 3
 and 4 you put the follower's right hand behind her lower back and grab her right
-hand with your right hand into a [weird scout] handshake.
+hand with your right hand into a [weird handshake].
 [Watch video.](https://m.youtube.com/watch?v=fVUUG6ny4vI&pp=ygUbd2VzdCBjb2FzdCBzd2luZyB3ZWlyZCB3aGlw)
 
 ### Dips
@@ -1064,16 +1109,19 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [right shoulder-lock]: #right-shoulder-lock
 [right shoulder]: #right-shoulder
 [scout]: #scout
-[weird scout]: #weird-scout
 [spiderman]: #spiderman
 [starter]: #starter
+[weird handshake]: #weird-handshake
+[weird scout]: #weird-scout
 [weird]: #weird
 
 <!---->
 
+[apache whip]: #apache-whip
 [basket whip]: #basket-whip
 [behind-the-back whip]: #behind-the-back-whip
 [carwash whip]: #carwash-whip
+[Chuck turn into weird handshake]: #chuck-turn-into-weird-handshake
 [free spin]: #free-spin
 [hustle whip inside pass turn into open position]:
   #hustle-whip-inside-pass-turn-into-open-position
@@ -1081,6 +1129,9 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [left-side outside pass]: #left-side-outside-pass
 [pass-through whip]: #pass-through-whip
 [right-side inside pass]: #right-side-inside-pass
+[right-side inside pass turn with raised arm into handshake position]:
+  #right-side-inside-pass-turn-with-raised-arm-into-handshake-position
 [single-arm turn-in]: #single-arm-turn-in
+[sugar push outside pivot turn]: #sugar-push-outside-pivot-turn
 [trusty left-side-pass]: #trusty-left-side-pass
 [two-arm turn-in]: #two-arm-turn-in
