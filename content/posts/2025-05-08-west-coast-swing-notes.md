@@ -452,6 +452,10 @@ waist level, and the leader's right hand ring and middle finger (pointing to the
 left) are held by the follower's left hand (pointing down) at waist level sort
 of like the characters |=|.
 
+Reached via:
+
+- [contemporary Hustle whip]
+
 ### Back-to-front
 
 The follower and the leader face in the same direction while the follower stands
@@ -460,7 +464,7 @@ waist-level.
 
 Reached via:
 
-- Single arm turn-in from open position
+- [single-arm turn-in]
 
 ### Left hammerlock
 
@@ -470,7 +474,8 @@ behind the back pointing outside while the right hand is pointing down.
 
 Reached via:
 
-- Double arm turn-in from open position
+- [double-arm turn-in]
+- [Hustle whip outside pivot turn]
 
 ### Right hammerlock
 
@@ -692,14 +697,15 @@ The footwork is the same as in a sugar push for the leader. Use it from an
 [open] hold. Steps 1 and 2 are for executing a [piston] so the follower will
 turn 180 degrees into [back-to-front] position by the end of step 2. On 3& raise
 your left arm over her head. On 4 gently push her back in between her shoulder
-blades so she knows to walk under the arm. Steps 5&6 are an anchor step.
+blades so she knows to walk under the arm. Steps 5&6 are an anchor step. You
+should end in a [back-to-front] position.
 
 #### Double-arm turn-in
 
 Same as [single-arm turn-in], but use both hands to do a [left hammerlock]. It
 is technically possible to achieve the same by doing a sugar tuck while holding
 the follower's left hand, but the correct way is to do a pump prep, which
-happens at waist level.
+happens at waist level. You should end in a [left hammerlock] position.
 
 #### Hairbrush
 
@@ -921,6 +927,25 @@ the follower to turn clockwise by putting her left hand on your right hip. Her
 left hand will collide with your right hip as she steps backwards and your hip
 will push her arm clockwise.
 
+#### Contemporary Hustle whip
+
+A pattern that _Zach_ taught me.
+
+The contemporary Hustle whip is different from the regular Hustle whip because
+you do not "open the newspaper" on the 1-and-2 or 5-and-6. If the follower is
+not ready, opening the newspaper can hurt the follower (that is what Amber told
+me). The contemporary Hustle whip is also different because it does not require
+a parallel handhold at the start.
+
+It starts from an [open] position and all the footwork is the same as in a
+regular whip, but the handwork is different. Handwork 1 and 2 is the same as a
+whip for the left hand because it is [J-hook], but the right hand is offered at
+waist level with the palm up on 1. On 2, your body and your right hand should be
+pointing at 3 o'clock. By 2, you should have the follower's left hand on your
+right hand. On 5 move your right hand in front of your right hip. On 6 move your
+left hand so it is parallel with the right hand. Anchor on the 7&8. You should
+end in a [parallel] position.
+
 #### Decapitate whip
 
 A variation of a reverse whip. It requires a [handshake] hold. Do a [J-hook],
@@ -956,8 +981,9 @@ across her back, shoulder, and arm into a [parallel] hold.
 The footwork is the same as a [hustle whip], and the handwork is the same up to
 step 4. On step 4, apply tension to lead the follower forwards while raising
 your left hand. On 5, raise your left hand as though you were asking a question.
-Your left hand should be at her right-ear level and at shoulder-width. On 6, as
-she is passing by, draw a clockwise halo over her head without releasing your
+On 5, lower your right hand so the follower is able to turn clockwise. Your left
+hand should be at her right-ear level and at shoulder-width. On 6, as she is
+passing by, draw a clockwise halo over her head without releasing your
 right-hand grip. This should put you into a [left hammerlock] position with both
 hands in a [weird] position.
 
@@ -1144,11 +1170,14 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [basket whip]: #basket-whip
 [behind-the-back whip]: #behind-the-back-whip
 [carwash whip]: #carwash-whip
+[contemporary Hustle whip]: #contemporary-hustle-whip
 [Chuck turn into weird handshake]: #chuck-turn-into-weird-handshake
+[double-arm turn-in]: #double-arm-turn-in
 [free spin]: #free-spin
 [hustle whip inside pass turn into open position]:
   #hustle-whip-inside-pass-turn-into-open-position
 [hustle whip]: #hustle-whip
+[Hustle whip outside pivot turn]: #hustle-whip-outside-pivot-turn
 [left-side outside pass]: #left-side-outside-pass
 [pass-through whip]: #pass-through-whip
 [right-side inside pass]: #right-side-inside-pass
