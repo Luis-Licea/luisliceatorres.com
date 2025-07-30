@@ -411,6 +411,10 @@ This is the same as the [handshake] position with the [horn] handhold.
 
 This is the same as the [handshake] position with the [spiderman] handhold.
 
+Reached via:
+
+- [sugar push right shoulder slide]
+
 #### Weird Handshake
 
 This is the same as the [handshake] position with the [weird] handhold.
@@ -730,6 +734,24 @@ by the end of the pattern. The handwork is the same up to step 4. On 5&6 bring
 both of your hands to your lower back to swap the follower's right hand from
 your left hand to your right hand. The swap should happen around 5&. By 6 you
 should be in a [weird handshake].
+
+#### Sugar push right shoulder slide
+
+Start in an [open] position. The footwork is the same as in a sugar push. The
+only difference is the handwork and the middle-body work. The handwork on 1 and
+2 is bringing your left hand over your head and then to your right shoulder, as
+if drawing the letter ˥ (an upside-down and mirrored letter L) . In specific,
+your left hand should be about 1 inch above your head and the palm of your left
+hand should be horizontal and your fingers should point at 9 o'clock whenever
+the hand is over your head. . At the end of 2, the back your left hand should be
+pressed against the right side of your neck, so release the follower's right
+hand because it has been positioned in your right shoulder. Depending on the
+follower's arm-reach and your height, you will need to bend your back on 1 and 2
+so that the follower is able to have the right hand go over your head and reach
+the right shoulder. On 3&4 keep your left hand at the right shoulder while
+offering your right hand by placing it under-and-in-front of your left elbow.
+The follower's hand should slide down your left arm onto your right hand by the
+end of 4. You should be in an [spiderman handshake] by the end of 5&6.
 
 ### Right-side passes
 
@@ -1110,6 +1132,7 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [right shoulder]: #right-shoulder
 [scout]: #scout
 [spiderman]: #spiderman
+[spiderman handshake]: #spiderman-handshake
 [starter]: #starter
 [weird handshake]: #weird-handshake
 [weird scout]: #weird-scout
@@ -1133,5 +1156,6 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
   #right-side-inside-pass-turn-with-raised-arm-into-handshake-position
 [single-arm turn-in]: #single-arm-turn-in
 [sugar push outside pivot turn]: #sugar-push-outside-pivot-turn
+[sugar push right shoulder slide]: #sugar-push-right-shoulder-slide
 [trusty left-side-pass]: #trusty-left-side-pass
 [two-arm turn-in]: #two-arm-turn-in
