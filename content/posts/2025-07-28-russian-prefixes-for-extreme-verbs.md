@@ -1,6 +1,8 @@
 ---
 title: Russian Prefixes for Extreme Verbs
 date: 2025-07-28T20:11:39-05:00
+categories: Linguistics
+tags: Russian
 ---
 
 Russian attaches the раз-, рас-, and за- prefixes to verbs to indicate that

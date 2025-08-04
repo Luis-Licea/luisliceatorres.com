@@ -437,6 +437,10 @@ This is a mirror image of the [handshake] position because it requires a
 left-to-left hand connection instead of a right-to-right hand connection, sort
 of like the characters |\\|.
 
+Reached via:
+
+- [behind-the-back whip]
+
 #### Horn Scout
 
 This is the same as the [handshake] position with the [horn] handhold.
@@ -481,7 +485,7 @@ behind the back pointing outside while the right hand is pointing down.
 Reached via:
 
 - [double-arm turn-in]
-- [Hustle whip outside pivot turn]
+- [hustle whip outside pivot turn]
 
 ### Right hammerlock
 
@@ -681,13 +685,6 @@ should be pointing at 2 o'clock to indicate the direction of the pivot turn. On
 3&4 generate compression on the 3& and begin the turn on 4 as you step
 backwards. End in an [open] position.
 
-#### Sugar push inside pivot turn into closed position
-
-The footwork is the same as a [sugar push inside pivot turn], and the handwork
-is the same up to step 3&. For the handwork, on 3& you should see the follower's
-back, so place your right hand onto the followers left shoulder blade to achieve
-a [closed] position as the turn finishes and you step forward on 4.
-
 #### Sugar push goofy inside pivot turn
 
 Use it from a [goofy] hold. On step 2 raise your right hand to her face level at
@@ -696,12 +693,17 @@ on 3& and begin the turn on 4 as you step backwards.
 
 #### Sugar push inside pivot turn into closed position
 
-The same as a [sugar push inside pivot turn] but during step 4, during the turn,
-place your right-hand fingers in between the follower shoulder blades. As the
-follower rotates, the right hand will be flat against the shoulder blade,
-achieving a closed position. Steps 4 5&6 may need to be bigger than usual to
-close the gap between you and the follower, otherwise there will be a lot of
-space between you both, as if you were in an open position.
+The footwork is the same as a [sugar push inside pivot turn], and the handwork
+is the same up to step 3&. For the handwork, on 3& you should see the follower's
+back, so place your right hand onto the followers left shoulder blade to achieve
+a [closed] position as the turn finishes and you step forward on 4.
+
+Specifically, during the turn, place your right-hand fingers in between the
+follower shoulder blades. As the follower rotates, the right hand will be flat
+against the shoulder blade, achieving a closed position. Steps 4, 5&6 may need
+to be bigger than usual to close the gap between you and the follower, otherwise
+there will be a lot of space between you both, as if you were in an open
+position.
 
 #### No-triple sugar tuck
 
@@ -714,9 +716,15 @@ to the floor and slightly to the left, but your weight is still on your right
 leg from step 2. On step 4, you shift weight onto your left leg that was
 pointing to the floor. Steps 5&6 are an anchor step.
 
-Follower's also have the option to perform the no-triple sugar tuck by picking
-up one of their legs and using its momentum to propel themselves through the
-turn.
+The follower also has the option to avoid the triple step by simply stepping
+forward on 1 with the right foot into point A, forward on 2 with the left foot
+while having the right foot plant fully flexed and still positioned on point A.
+Compression will happen on 3& like usual, and the right foot will rotate
+clockwise around point A on 4 to perform the outside turn.
+
+Followers also have the advanced option to perform no-triple sugar tucks by
+kicking with the right leg on 2 and using the leg's momentums to propel oneself
+through the turn.
 
 #### Single-arm turn-in
 
@@ -854,6 +862,8 @@ Use it form an [open] hold. Same as a right-side pass up step 4. On the 5&6, the
 leader turns clockwise 1 time to the left of the slot into a [left
 shoulder-lock]. The back part of the hand should be firmly placed on the
 follower's right shoulder for leading the following step.
+
+This pattern can be followed by a [reverse whip].
 
 #### Short right-side inside turn
 
@@ -1115,7 +1125,8 @@ whole body is pointing 90 degrees counter-clockwise. Also, on step 2 grab the
 follower's right hand with your right hand and immediately offer your left arm
 at either waist level pointing at 8 o'clock or at neck level pointing at 2
 o'clock. The 3&4 are not progressive, or they can be progressive but stepping
-backwards. Steps 5, 6, 7&8 are normal.
+backwards. Steps 5, 6, 7&8 are normal, as in, 5 is forward at 12 o'clock and 6
+is to the left at 9 o'clock. You should end in a [scout] position.
 [Watch video.](https://m.youtube.com/watch?v=ZpEKKNSNg50&pp=ygUVd2VpcmQgd2hpcCB3ZXN0IGNvYXN0)
 
 #### Apache whip
@@ -1293,8 +1304,9 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [behind-the-back whip]: #behind-the-back-whip
 [car-wash whip]: #car-wash-whip
 [contemporary Hustle whip]: #contemporary-hustle-whip
-[pass-through whip]: #pass-through-whip
-[hustle whip]: #hustle-whip
-[Hustle whip outside pivot turn]: #hustle-whip-outside-pivot-turn
+[hustle whip outside pivot turn]: #hustle-whip-outside-pivot-turn
 [hustle whip inside pass turn into open position]:
   #hustle-whip-inside-pass-turn-into-open-position
+[hustle whip]: #hustle-whip
+[pass-through whip]: #pass-through-whip
+[reverse whip]: #reverse-whip
