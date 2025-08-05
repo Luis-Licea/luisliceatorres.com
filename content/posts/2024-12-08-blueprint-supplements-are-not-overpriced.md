@@ -1,8 +1,8 @@
 ---
 title: Blueprint essential capsule are not overpriced
-date: 2024-12-08
-tags: Nutrition
-keywords: Nutrition
+date: 2024-12-08T01:28:31-05:00
+categories: Health
+tags: Supplements
 ---
 
 Here is a price break-down of Blueprint essential capsules compared to the cumulative price of

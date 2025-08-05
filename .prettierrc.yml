@@ -3,8 +3,12 @@ printWidth: 80
 proseWrap: always
 singleQuote: false
 overrides:
-  - files:
-      - "*.md"
-    options:
-      tabWidth: 2
-
+    - files:
+          - "*.md"
+      options:
+          tabWidth: 2
+    - files:
+          - 2024-09-28-safe-vitamin-intake.md
+          - 2024-12-08-blueprint-supplements-are-not-overpriced.md
+      options:
+          proseWrap: preserve

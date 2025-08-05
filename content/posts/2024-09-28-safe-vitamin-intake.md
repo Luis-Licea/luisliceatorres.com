@@ -3,7 +3,7 @@ title: Safe Vitamin Intake
 date: 2024-09-28T09:20:23-05:00
 draft: true
 categories: Health
-tags: Vitamins
+tags: Supplements
 ---
 
 Table for minimum and maximum vitamin daily intake values for an adult.
