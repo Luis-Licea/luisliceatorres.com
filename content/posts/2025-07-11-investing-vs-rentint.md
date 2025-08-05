@@ -1,6 +1,8 @@
 ---
 title: Investing vs. Renting
 date: 2025-07-11T10:05:17-05:00
+categories: Finance
+tags: [Investing, Renting]
 ---
 
 If you have money sitting on the bank depreciating due to inflation, you may
