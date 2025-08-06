@@ -7,9 +7,9 @@
 # $ source bashrc
 
 # Serve the website.
-hserve() {
+serve() {
     # shellcheck disable=2155
     local root_path=$(git rev-parse --show-toplevel)
     cd "$root_path" || exit
-    hugo serve "$@"
+    hugo serve --buildDrafts "$@"
 }

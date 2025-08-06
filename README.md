@@ -9,7 +9,7 @@ This is a personal website for writing about things I am interested about.
 nix-shell
 
 # Serve the website.
-hugo serve
+serve # hugo serve --buildDrafts
 ```
 
 ## To create new posts
