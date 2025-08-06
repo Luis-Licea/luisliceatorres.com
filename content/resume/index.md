@@ -71,7 +71,7 @@ params:
 <h2>Skills</h2>
   <ul>
     <li><b>Programming Languages:</b> JavaScript, Python, Bash, C++, C, C#</li>
-    <li><b>Skills:</b> Git, Linux, MongoDB, Neovim, VSCode</li>
+    <li><b>Skills:</b> Linux, NixOS, Git, SQLite, MongoDB, Neovim, VSCode</li>
     <li><b>Spoken Languages:</b> English, Spanish</li>
   </ul>
 <h2>Education</h2>
@@ -134,8 +134,28 @@ params:
 <dl>
   <dt>
     <ul class="hfill bold">
-      <span>Software Test and Verification Engineer, Dream Chaser</span>
-      <span>November 2022&ndash;Present</span>
+      <span>Vehicle Insight and Control Developer, <a href="https://en.wikipedia.org/wiki/Lunar_Gateway">Gateway</a></span>
+      <span>July 2023&ndash;Present</span>
+    </ul>
+  </dt>
+  <dd>
+    <ul class="hfill">
+      <span>Odyssey Space Research</span>
+      <span>Houston, TX</span>
+    </ul>
+    <ul>
+      <li>Maintained a single page application using <a href="https://koajs.com/">koa</a> and <a href="https://lit.dev/">lit</a></li>
+      <li>Containerized C/C++ services using <a href="https://www.docker.com/">Docker</a></li>
+      <li>Developed a REST API using <a href="https://socket.io/">socket.io</a> and <a href="https://www.sqlite.org/">SQLite</a> to query a small database</li>
+      <li>Ported the <a href="https://www.sqlite.org/dbhash.html">dbhash</a> tool to JavaScript</li>
+      <li>Implemented database-update logic requiring the use of <a href="https://github.com/nasa/cFS">Core Flight System</a> commands and telemetry</li>
+      <li>Developed Linux integration scripts to automatically download, compile, and run software</li>
+    </ul>
+  </dd>
+  <dt>
+    <ul class="hfill bold">
+      <span>Software Test and Verification Engineer, <a href="https://en.wikipedia.org/wiki/Dream_Chaser">Dream Chaser</a></span>
+      <span>November 2022&ndash;July 2023</span>
     </ul>
   </dt>
   <dd>
