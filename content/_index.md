@@ -2,12 +2,28 @@
 date: 2021-06-21T04:07:57.636Z
 ---
 
-
 <link rel="stylesheet" href="./profile-picture.css">
 <img src="luis.jpg" alt="Luis David Licea Torres">
 
-I am a computer science graduate, and I am interested in software development.
+I am a software developer and I work in the aerospace industry doing system
+integration and JavaScript back-end development. At work, I
+am surrounded by C/C++ developers who hate JavaScript, which gives me a lot of
+job stability. :smile:
 
-I have worked as a research assistant by doing data processing and data analysis. I heavily used the numpy and pandas Python modules while doing this research. That being said, I also have former experience with Java, C#, and Swift, and all of my knowledge of C++ and Rust has been self-taught.
+In the past year, I worked on developing a single page application using
+[koa] and [lit], containerizing C/C++ services using [Docker], developing a REST
+API using [SQLite] to query a small database, and configuring Linux systems to
+run all this software.
 
-Although I am not a web developer, the cross-platform nature of web-technologies makes web-based applications too convenient to be overlooked. Therefore, I took the initiative to design a lean website so that people could reach me more easily, and so I could learn about web development.
+Before that, I maintained a website for visualizing simulation data that used
+[hdf5] and [numpy] in the back-end for processing large datasets. I also worked
+on speeding up [MongoDB] database queries.
+
+[Core Flight System]: https://github.com/nasa/cFS
+[Docker]: https://www.docker.com/
+[MongoDB]: https://www.mongodb.com/
+[hdf5]: https://docs.h5py.org/en/stable/
+[koa]: https://koajs.com/
+[lit]: https://lit.dev/
+[numpy]: https://numpy.org/
+[SQLite]: https://www.sqlite.org/
