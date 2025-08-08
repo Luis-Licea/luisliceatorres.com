@@ -937,10 +937,19 @@ waist-level.
 
 #### Free spin
 
-It requires a goofy handhold. The footwork is the same as in a left-side pass.
+Start from a [goofy] position. The footwork is the same as in a left-side pass.
 On step 2 prep to the left and on step 3 throw the hand to the right so the
 follower turns counter-clockwise. On 4 step into the slot and catch the
-follower's hand. On 5&6 do an anchor step.
+follower's hand. On 5&6 do an anchor step while extending your left hand to grab
+the follower's right hand. You should end in a [open] position.
+
+#### Free spin leader pivot turn
+
+Star from a [goofy] position. This pattern is identical to the [free spin] up to
+step 3&. On 3& the follower faces 9 o'clock. On 4 the leader steps across while
+rotating 0.5 turns clockwise to face 3 o'clock. On 5&6 rotate 0.25 turns
+clockwise to face 6 o'clock while extending your left arm to grab the follower's
+right arm and reach an [open] position.
 
 #### Roll-in-roll-out
 
