@@ -794,9 +794,12 @@ offering your right hand by placing it under-and-in-front of your left elbow.
 The follower's hand should slide down your left arm onto your right hand by the
 end of 4. You should be in an [spiderman handshake] by the end of 5&6.
 
-#### Sugar push outside pivot turn to weird goofy position
+#### Sugar push lead outside pivot turn to handshake
 
-Alternate name: Sugar push clockwise hand change
+Alternate names:
+
+- Sugar push clockwise hand change
+- Sugar push leader clockwise turn
 
 Start from an [open] position. This step is the same as a sugar push up to
 step 4. On steps 5&6, do the footwork of a salsa right turn (for steps 2, 3, and
@@ -807,7 +810,7 @@ of the right foot, and then the right foot at 12 o'clock moving forward. On step
 pointing away, ready to grab the incoming hand. On step 5, as the outside pivot
 turn finished, bring your left hand to your lower back while holding the
 followers hand, and then swap the follower's hand to your right hand. By the end
-of the &6 you should be in a [goofy weird] position. If you only do 0.75 turns
+of the &6 you should be in a [handshake] position. If you only do 0.75 turns
 instead of the full turn, you will not be face-to-face with the follower. You
 may use this as styling, but it will make the following pattern harder to do.
 
@@ -818,6 +821,23 @@ foot such that you face 3 o'clock. On 5 of the 5&6 rotate clockwise to face 12
 o'clock while swapping the follower's hand from your left hand to your right
 hand at butt-to-waist level behind your back. On the &6 of the 5&6 complete the
 turn.
+
+Alternative explanation:
+
+Start from an [open] position. The footwork and handwork are the same as in a
+[sugar push] up to 3&. The footwork on 4 is with your left foot stepping forward
+pointing at 2 o'clock. On 5&6 do a clockwise pivot turn while switching hands
+behind your back the hand-switch from your left hand to right hand should happen
+on 5 around the butt-to-waist level while you are facing 6 o'clock. At the end
+your body should point at 9 o'clock. You should end up in a [handshake]
+position.
+
+#### Sugar push lead inside pivot turn to scout position
+
+Start from an [open] or [goofy] position. The footwork and handwork are the same
+as in a [sugar push] up to 4. The footwork on 5&6 is the same as in a salsa left
+turn. During 5&6 switch the follower's left hand from your right hand onto your
+left hand. You should end in a [scout] position.
 
 ### Right-side passes
 
