@@ -1242,13 +1242,68 @@ into an airborne state.
 
 I have yet to learn one of these patterns.
 
-### Anchor wheel
+### Triple-step replacements
+
+Triple steps are the default footwork for steps 3&4 and 5&6 in 6-beat patterns
+and for steps 3&4 and 7&8 in 8-beat patterns.
+
+On March 2024, Houston, I took a workshop at the Novice Invitational dance event
+and learned about replacing triple steps with level changes. Months later,
+[Chuck Anders] introduced me to the concept of the anchor wheel, and how the
+anchor triple-step can be replaced with a side-, a front-, or a back-check.
 
 The anchor wheel describes the anchor step variations that can be applied to
 anchor steps in sugar pushes, left-side passes, right-side passes, and whips.
 
-The easiest way to practice the anchor wheel is to add an anchor variation after
-every single sugar push, left-side pass, right-side pass, and whip.
+Then, I took a styling class with [Zach and Rachel] and learned about replacing
+triple steps with tap steps, slides, and holding the beat (or eating the beat,
+jocosely speaking).
+
+In other words, it looks like any triple step can be replaced with any step
+variation that is 2 beat in length, and all anchor steps can additionally be
+elongated from 2 to 4 beats. Elongating the steps makes more sense in faster
+songs because elongating an anchor step to a slow song will feel unnatural.
+
+The number of triple-step replacements should be infinite, but this is an
+attempt to standardize some steps because as my dad says, "[one should]
+formalize [one's] thoughts".
+
+The easiest way to practice triple-step replacements is to add a triple-step or
+anchor variation in every single sugar push, left-side pass, right-side pass,
+and whip.
+
+#### Slide
+
+A slide is different from a ronde because a ronde does not require your to build
+momentum by lifting your free leg and standing on the ball of your other foot.
+Also, a ronde is a circular clockwise or counter-clockwise motion, whereas a
+slide is unidirectional.
+
+There are at least 10 general ways in which you can slide, with 5 ways for each
+foot.
+
+Starting with both feet together facing at 12 o-clock, you can jump on the ball
+of your right foot without becoming airborne so you can gain momentum as your
+left foot slides to 12, 10:30, 9, 7:30 or 6 o-clock.
+
+Likewise, starting with both feet together facing at 12 o-clock, you can jump on
+the ball of your left foot without becoming airborne so you can gain momentum as
+your left foot slides to 12, 1:30, 3, 4:30 or 6 o-clock.
+
+For styling, your body and foot can be perpendicular to the direction of travel.
+For example, if you step toward 12 with your left foot, then your body and left
+foot can point at 3 o'clock. If step toward 12 with your right foot, then your
+right foot and body can point at 9 o'clock. As another example, your body and
+feet can point at 10:30 if you are traveling to either 7:30 or 1:30 o'clock
+because 10:30 is perpendicular to the direction of travel.
+
+#### Level up
+
+Stand on the balls of your feet to increase your stature by about 2 inches.
+
+#### Level down
+
+Bend your knees slightly to decrease your stature by about 2 inches.
 
 #### Front-check
 
@@ -1306,6 +1361,7 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [Chuck Anders]: https://www.bawdc.org/profile/chuck-anders/
 [Mastering All Turns in West Coast Swing]:
   https://www.westcoastswingonline.com/spin-in-all-four-directions/
+[Zach and Rachel]: https://mysite.vagaro.com/zachandracheldance
 
 <!-- Preparation variations -->
 
