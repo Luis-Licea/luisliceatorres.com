@@ -47,7 +47,7 @@ for (const [exerciseName, exerciseDates] of Object.entries(exercises2)) {
 const plot = Plot.plot({
     color: { scheme: "Warm", legend: true },
     x: {grid: true, line: true, insetRight: 80},
-    y: {grid: true, domain: [0, 300]},
+    y: {grid: true, domain: [0, 350]},
     marks: [
         Plot.line(data, {x: "date", y: "lb", stroke: "exercise", marker: true, tip: true}),
         Plot.text(data, Plot.selectLast({x: "date", y: "lb", text: "exercise", z: "exercise", textAnchor: "start", dx: 18, fontWeight: "bold"})),

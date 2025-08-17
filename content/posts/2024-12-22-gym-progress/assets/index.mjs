@@ -1,4 +1,4 @@
-#!/usr/bin/env deno run --allow-write
+#!/usr/bin/env -S deno run --allow-write
 
 import { findMax, objectToExerciseSet, sessionsToTable } from "./generateExerciseTables.mjs";
 import exerciseWithWeights from "./exerciseWithWeights.json" assert { type: "json" };
