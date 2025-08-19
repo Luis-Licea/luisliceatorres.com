@@ -10,7 +10,7 @@ similar supplements in Amazon.
 
 For the price breakdown, the price-per-pill is calculated.
 
-Note, the products with the cheapest price-per-pill we chosen. A note was
+Note, the products with the cheapest price-per-pill were chosen. A note was
 written for products that had different dosages.
 
 ## Essential capsules | Price: \$49 | Price per pill: \$1.63

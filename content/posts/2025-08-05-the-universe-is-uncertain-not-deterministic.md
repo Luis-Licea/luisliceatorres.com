@@ -23,8 +23,8 @@ resources to simulate the entire universe could be called God-like.
 
 The universe cannot be simulated in its entirety due to lack of computational
 resources, due to lack of deterministic equations, and due to not knowing all
-the variables needed to plug into the equations. For example, how can you
-simulate the moon rotating around the earth if you do not know the exact
+the variables needed to plug into these hypothetical equations. For example, how
+can you simulate the moon orbiting around the earth if you do not know the exact
 distance between the moon and the earth? The simulation can only approximate
 reality because the measurement can only approximate reality.
 
