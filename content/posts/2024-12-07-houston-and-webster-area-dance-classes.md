@@ -61,7 +61,7 @@ the [Walter Hall Banquet Hall].
 | ------ | ---------------- |
 | 7:15PM | West Coast Swing |
 
-## [Zach and Rachel] | \$25/class
+## [Zach and Rachel] | \$20/class
 
 Zach and Rachel teach group classes in the [InZtyle Fitness] studio. Check their
 website for details.
@@ -70,6 +70,17 @@ website for details.
 | ------ | ---------------------------------------------------------- |
 | 6:45PM | West Coast Swing Beginner Foundations or Continuing Basics |
 | 7:30PM | West Coast Swing International Rally Choreography          |
+
+## [D'Amico Dance] | \$30/day
+
+The \$30 cover charge includes a class and social dancing.
+
+On Wednesday's the classes take place in [Marcone's].
+
+| Time   | Wednesday                                  |
+| ------ | ------------------------------------------ |
+| 7:00PM | Beginner and Intermediate West Coast Swing |
+| 8:00PM | Social dancing                             |
 
 ## [High Horse Saloon] | \$20/day
 
@@ -169,6 +180,7 @@ wedding dance or a competitive dance.
 [Bay Area Whip Dance Club]: https://www.bawdc.org/
 [Buck Wild]: https://www.buckwildcountrydanceclub.com/
 [Dance Vision Studio]: https://dancevisiontexas.com/dance-vision-clear-lake/
+[D'Amico Dance]: https://www.damicodance.com/home
 [Fred Astaire]: https://ekkart.com/
 [Gilruth Center]:
   https://anc.apm.activecommunities.com/starport/activity/search?activity_select_param=2&viewMode=list
@@ -181,3 +193,4 @@ wedding dance or a competitive dance.
 [Walter Hall Banquet Hall]: https://maps.app.goo.gl/dNKeYf1f2xzajpEN7
 [Zach and Rachel]: https://www.zachandracheldance.com/group-classes
 [texasdancecountry.com]: https://texasdancecountry.com/schedule.html
+[Marcone's]: https://maps.app.goo.gl/WBaA9BUeK4M4jL6S7
