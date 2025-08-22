@@ -1219,6 +1219,44 @@ and 4 you put the follower's right hand behind her lower back and grab her right
 hand with your right hand into a [weird handshake].
 [Watch video.](https://m.youtube.com/watch?v=fVUUG6ny4vI&pp=ygUbd2VzdCBjb2FzdCBzd2luZyB3ZWlyZCB3aGlw)
 
+#### Continuous whip
+
+Do a regular whip, then on 3& you should be in a [starter] position with your
+left foot free to step across on 4. On 4 step across with your foot pointing at
+9 o'clock, not 12 o'clock, so on 5 you can use your right foot to propel
+yourself on a 0.5 clockwise turn so your body, face, and feet face 3 o'clock. It
+is very important to perform steps 4 and 5 as a single, fluid motion. Then keep
+stepping across, as if repeating steps 4 and 5, alternating between facing 9
+o'clock and 3 o'clock. Make sure that you are not making an orbiting motion. You
+should be stepping across the slot, and the follower should be moving up and
+down the slot, kind of like the + sign, as opposed to orbiting around the slot,
+like a circle O. As you are stepping across the slot, make sure there is tension
+on the 4 such that the tension directs the follower to move across the slot, not
+around the slot. Also, on 4 both will be very closed together whereas on 5 there
+should be a little bit of a stretch as the tension builds up before the next 4
+and 5. To finish the pattern, stop creating tension on step 5 while the follower
+is in closed position, and slowly release the follower's left shoulder blade
+into [open] position as you step across the slot on 6 so your body and feet can
+point either 12 o'clock or 6 o'clock depending on how many turns you did. Then
+7&8 are a regular anchor step. You should end in an [open] position.
+
+#### Continuous basket whip into starter position
+
+Start in an [open] position. This pattern is similar to a [continuous whip], but
+you enter [starter] position at the end of the first 5.
+
+Do a basket whip, then on 4 and 5 go into a [starter] position. The
+perpendicular angle is very important, then keep repeating 4 and 5 in one quick,
+smooth motion, like the 4 and 5 are one motion, not two steps, making sure to
+maintain this perpendicular shape at the end of each rotation on 5, and making
+sure the follower moves up and down the slot, not in a circular or orbiting
+fashion. On the last repeat of the 4 and 5, do not build tension on the 5,
+become gooey on 6 so the follower can settle, and should end in [starter]
+position.
+
+From there lead an inside turn (tuck turn, passing tuck), an outside turn into
+reverse whip, or a inside chain turn.
+
 ### Dips
 
 #### Piston into dip
@@ -1469,6 +1507,7 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [behind-the-back whip]: #behind-the-back-whip
 [car-wash whip]: #car-wash-whip
 [contemporary Hustle whip]: #contemporary-hustle-whip
+[continuous whip]: #continuous-whip
 [hustle whip outside pivot turn]: #hustle-whip-outside-pivot-turn
 [hustle whip inside pass turn into open position]:
   #hustle-whip-inside-pass-turn-into-open-position
