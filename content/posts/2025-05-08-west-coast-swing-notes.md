@@ -1254,8 +1254,10 @@ fashion. On the last repeat of the 4 and 5, do not build tension on the 5,
 become gooey on 6 so the follower can settle, and should end in [starter]
 position.
 
-From there lead an inside turn (tuck turn, passing tuck), an outside turn into
-reverse whip, or a inside chain turn.
+As a suggestion for the next pattern, do a left side inside chain turn. Most
+followers should be able to follow, and there is something about the angle that
+makes it feel good. Other options are a passing tuck, or an outside turn into
+weird handshake into a reverse whip.
 
 ### Dips
 
