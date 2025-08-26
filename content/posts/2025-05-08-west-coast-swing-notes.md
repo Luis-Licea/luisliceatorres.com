@@ -947,15 +947,14 @@ turning will begin on step 3, and by that time it will be too late. The spinning
 must begin on step 2 or right before step 3. You should end in a [open]
 position.
 
-#### Right-side outside leader turn
-
-Improve this name. Consider the weird 180 cross-legged turns that Rachel taught
-you instead of those triple-step turns.
+#### Right-side outside leader turn into left shoulder-lock
 
 Use it form an [open] hold. Same as a right-side pass up step 4. On the 5&6, the
 leader turns clockwise 1 time to the left of the slot into a [left
 shoulder-lock]. The back part of the hand should be firmly placed on the
 follower's right shoulder for leading the following step.
+
+Consider performing the 5&6 as an [cross-legged outside turn].
 
 This pattern can be followed by a [left shoulder-lock reverse whip].
 
@@ -1498,6 +1497,28 @@ knees on 5& and go back to normal on step 6 as you step on the slot.
 
 On a whip it would be 7&.
 
+#### Cross-legged outside turn
+
+A weird 180 degree cross-legged turn that Rachel taught me. Bend your left leg
+so there is a 70 degree angle in the posterior part of your left knee. Then
+cross your right leg behind your left leg such that your right knee touches the
+back of your left knee. Then turn around 180 degrees while pivoting on your legs
+such that your left knee touches the back of your right knee. You can reduce the
+amount you bend your knees by lowering the "cross-point" from your knees to your
+shins.
+
+#### Cross-legged inside turn
+
+Also known as a cross-legged inside turn.
+
+A weird 180 degree cross-legged turn that Rachel taught me. Bend your right leg
+so there is a 70 degree angle in the posterior part of your right knee. Then
+cross your left leg behind your right leg such that your left knee touches the
+back of your right knee. Then turn around 180 degrees while pivoting on your
+legs such that your right knee touches the back of your left knee. You can
+reduce the amount you bend your knees by lowering the "cross-point" from your
+knees to your shins.
+
 #### Front-check
 
 Also known as a cross-step.
@@ -1632,13 +1653,15 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 
 <!-- Right-side passes -->
 
+[right-side goofy inside pass turn]: #right-side-goofy-inside-pass-turn
 [right-side inside chain turn]: #right-side-inside-chain-turn
 [right-side inside pass turn]: #right-side-inside-pass-turn
-[right-side goofy inside pass turn]: #right-side-goofy-inside-pass-turn
 [right-side inside pass turn with raised right arm into handshake position]:
   #right-side-inside-pass-turn-with-raised-right-arm-into-handshake-position
 [right-side inside pass into parallel position]:
   #right-side-inside-pass-into-parallel-position
+[right-side outside leader turn into left shoulder-lock]:
+  #right-side-outside-leader-turn-into-left-shoulder-lock
 [right-side pass into closed position]: #right-side-pass-into-closed-position
 
 <!-- Whips -->
@@ -1662,5 +1685,7 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 
 <!-- Triple-step replacements -->
 
+[cross-legged outside turn]: #cross-legged-outside-turn
+[cross-legged inside turn]: #cross-legged-inside-turn
 [right side-check]: #right-side-check
 [left side-check]: #left-side-check
