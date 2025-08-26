@@ -355,6 +355,17 @@ Reached via:
 The handwork is identical to the [closed] position, but the leader stands
 perpendicularly to the follower's left side, sort of like the characters \_|.
 
+Reached via:
+
+- [continuous basket whip into starter position]
+
+Leads to:
+
+- [left-side outside pass]
+- [left-side starter outside turn into a weird handshake position] and
+  [handshake reverse whip]
+- [left-side starter inside chain turn into open position]
+
 ### Open
 
 The leader's left-hand ring and middle fingers (pointing to the right) are held
@@ -1622,6 +1633,8 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [car-wash whip]: #car-wash-whip
 [contemporary Hustle whip]: #contemporary-hustle-whip
 [continuous whip]: #continuous-whip
+[continuous basket whip into starter position]:
+  #continuous-basket-whip-into-starter-position
 [hustle whip outside pivot turn]: #hustle-whip-outside-pivot-turn
 [hustle whip inside pass turn into open position]:
   #hustle-whip-inside-pass-turn-into-open-position
