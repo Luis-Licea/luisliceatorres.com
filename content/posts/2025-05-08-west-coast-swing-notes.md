@@ -289,9 +289,9 @@ the follower's arm on 1 and pushing it on 2.
 
 ### Left
 
-Use it from a left-pass inside turn, right-pass inside spin, handshake reverse
-whip, or free spin. Forward on 1, prep slightly to the left between 1 and 2, and
-rotate counter-clockwise on 3.
+Use it from a [left-side inside chain turn], [right-side inside chain turn],
+[handshake reverse whip], or [free spin]. Backwards on 1, prep slightly to the
+left between 1 and 2, and rotate counter-clockwise on 3.
 
 ### Right
 
@@ -912,22 +912,25 @@ will be a lot of space between you both, as if you were in an [open] position.
 
 #### Right-side inside chain turn
 
-This is a right-side pass with 2.5 turns instead of 1.5 turns. For step 1 give a
-prep toward her right ear and immediately begin spinning her counter-clockwise
-for 2.5 turns. If you give two preps instead of 1, then the turning will begin
-on step 3, and by that time it will be too late. The spinning must begin on step
-2 or right before step 3.
-
-There are two preps on steps 1, 2 and they are the same as in the inside turn.
+Start from an [open] position. This is a right-side pass with chain 2.5 turns
+instead of 1.5 turns. On step 1 step back and diagonally backward. In between 1
+and 2 give a [left] prep toward her right ear and immediately begin spinning her
+counter-clockwise for 2.5 turns. If you give two preps instead of 1, then the
+turning will begin on step 3, and by that time it will be too late. The spinning
+must begin on step 2 or right before step 3. You should end in a [open]
+position.
 
 #### Right-side outside leader turn
+
+Improve this name. Consider the weird 180 cross-legged turns that Rachel taught
+you instead of those triple-step turns.
 
 Use it form an [open] hold. Same as a right-side pass up step 4. On the 5&6, the
 leader turns clockwise 1 time to the left of the slot into a [left
 shoulder-lock]. The back part of the hand should be firmly placed on the
 follower's right shoulder for leading the following step.
 
-This pattern can be followed by a [reverse whip].
+This pattern can be followed by a [left shoulder-lock reverse whip].
 
 #### Short right-side inside turn
 
@@ -1175,10 +1178,10 @@ end in a [parallel] position.
 
 #### Decapitate whip
 
-A variation of a reverse whip. It requires a [handshake] hold. Do a [J-hook],
-but on step 3 don't release her right hand, go over her head. On step 4, hold or
-"cup" her left triceps with your left hand. Use your right hand to turn her back
-into the right position.
+A variation of a [handshake reverse whip]. It requires a [handshake] hold. Do a
+[J-hook], but on step 3 don't release her right hand, go over her head. On step
+4, hold or "cup" her left triceps with your left hand. Use your right hand to
+turn her back into the right position.
 
 #### Hustle whip
 
@@ -1248,6 +1251,23 @@ propel the follower forward across the slot, not in an orbiting motion. Step 5
 is down the slot towards 12 o'clock, step 6 is across the slot towards 9
 o'clock, not diagonally, and steps 7&8 are an anchor step. You should end in a
 [open] position.
+
+#### Left shoulder-lock reverse whip
+
+Start in a [left shoulder-lock] position. Steps 1 and 2 are backwards diagonally
+such that you should face 3 o'clock by the end of step 2. On step 3& you enter
+[starter] position, and on steps 4 through 8 you lead a regular whip. You should
+end in [open] position.
+
+For the handwork, pull the follower toward 6 o'clock on 1 using your left arm.
+Then invert the curvature of your right wrist on the follower's shoulder between
+1 and 2 to indicate a 0.5 counter-clockwise turn to the follower. The follower
+should be facing 12 o'clock by the end of 2. Your right hand should not lose
+contact throughout the turn because the follower does not know how much to turn.
+Between 1.5 and the end of 2 you will nee to turn your hand while maintaining
+contact. Your right hand fingers will basically from 9 o'clock to 3 o'clock
+counter-clockwise before your palm can turn and be placed on the follower's left
+shoulder.
 
 #### Pass-through whip
 
@@ -1330,10 +1350,14 @@ fashion. On the last repeat of the 4 and 5, do not build tension on the 5,
 become gooey on 6 so the follower can settle, and should end in [starter]
 position.
 
-As a suggestion for the next pattern, do a left side inside chain turn. Most
-followers should be able to follow, and there is something about the angle that
-makes it feel good. Other options are a passing tuck, or an outside turn into
-weird handshake into a reverse whip.
+Next pattern suggestion:
+
+- Do a [left-side starter inside chain turn into open position] because most
+  followers should be able to follow, and there is something about the angle
+  that makes it feel good.
+- [left-side outside pass]
+- [left-side starter outside turn into a weird handshake position] and a
+  [handshake reverse whip]
 
 ### Dips
 
@@ -1572,6 +1596,8 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [left-side outside pass]: #left-side-outside-pass
 [left-side starter inside chain turn into open position]:
   #left-side-starter-inside-chain-turn-into-open-position
+[left-side starter outside turn into a weird handshake position]:
+  #left-side-starter-outside-turn-into-a-weird-handshake-position
 [free spin]: #free-spin
 [trusty left-side-pass]: #trusty-left-side-pass
 [weird handshake left-side pass inside pivot turn right picture hold]:
@@ -1579,6 +1605,7 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 
 <!-- Right-side passes -->
 
+[right-side inside chain turn]: #right-side-inside-chain-turn
 [right-side inside pass turn]: #right-side-inside-pass-turn
 [right-side goofy inside pass turn]: #right-side-goofy-inside-pass-turn
 [right-side inside pass turn with raised right arm into handshake position]:
@@ -1600,9 +1627,9 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
   #hustle-whip-inside-pass-turn-into-open-position
 [hustle whip]: #hustle-whip
 [pass-through whip]: #pass-through-whip
-[reverse whip]: #reverse-whip
 [right-side pass reverse whip]: #right-side-pass-reverse-whip
 [handshake reverse whip]: #handshake-reverse-whip
+[left shoulder-lock reverse whip]: #left-shoulder-lock-reverse-whip
 
 <!-- Triple-step replacements -->
 
