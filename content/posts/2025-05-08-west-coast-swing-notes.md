@@ -278,6 +278,9 @@ during a whip.
 Use it from a [handshake] hold to rotate the follower counter-clockwise 180
 degrees into a [closed] position during a whip.
 
+Make sure this hand preparation is done at waist level, not a chest level, so it
+is more comfortable for the follower.
+
 ### Piston
 
 Use it from an [open] hold to to rotate the follower clockwise 180 degrees into
@@ -400,7 +403,7 @@ This is a mirror image of the [horn] position.
 
 This is a mirror image of the [spiderman] position.
 
-#### Goofy weird
+#### Weird goofy
 
 This is a mirror image of the [weird] position.
 
@@ -1000,6 +1003,36 @@ almost in place because there is very little travel towards 6 o'clock. Step 4 is
 diagonal towards 7:30 o'clock. Steps 5&6 are an anchor step. You should end in
 an [open] position.
 
+#### Left-side starter outside turn into a weird handshake position
+
+This is a pattern that Ray Trusty taught me.
+
+Start in a [starter] position. Steps 1, 2, and 3& are done while facing 9
+o'clock. Step 1 is to 6 o'clock. Step 2 is to 6 o'clock, but you must cross your
+right leg behind your left leg. Step 3 in the 3& is a back towards 3 o'clock so
+that your left foot goes backwards more so than where the right foot is
+standing. It looks better than doing the 3& in place. Step & in the 3& is done
+almost in place because there is very little travel towards 6 o'clock. Step 4 is
+diagonal towards 7:30 o'clock. Your left foot may be able to finish pointing
+directly at 6 o'clock. Steps 5&6 are an anchor step. You should end in an [weird
+handshake] position.
+
+For the handwork, you should be able to do this pattern with your left hand in
+your pocket. On beats 1 and 2 your hand stays on the follower's left shoulder.
+On step 3&4 you do a push-and-pull to lead the follower into a 0.5 clockwise
+turn. For the pulling motion on 4, you may need to use your right-hand
+fingertips to leverage the follower's left shoulder blade groove. Without the
+grove, you will have nowhere to pull from. If you lead the 3&4 correctly, the
+follower will do a [right side-check] while turning 0.25 turns clockwise. The
+remaining 0.25 clockwise turn will be done by the follower on the anchor step.
+On 5&6, as the follower turns clockwise, slide your right hand across the
+follower's back while rotating it into a [weird handshake] position without
+losing connection with the follower at any point throughout the entire pattern.
+
+Next pattern suggestion:
+
+- [handshake reverse whip]
+
 #### Left-side outside pass
 
 Also known as passing tuck.
@@ -1195,7 +1228,7 @@ down your right shoulder and hand into a [handshake] position.
 
 A good pattern to do after this one is a [trusty left-side-pass].
 
-#### Reverse whip
+#### Right-side pass reverse whip
 
 From an [open] hold, for steps 1 thru 4, do a right-side pass into [closed]
 position. You must not let the follower step back on step 4. You have to pull
@@ -1205,9 +1238,16 @@ foot (in between your feet). If she is stepping backward, you are too late (put
 fingers in between shoulder blades as she passes). For steps 5 thru 8, continue
 the whip as normal.
 
-From a [handshake] hold, for steps 1,2 do a reversed [J-hook] away from your
-right hip. On 3, toss her right hand away from your right hip. Use your right
-hand to hold her shoulder blade.
+#### Handshake reverse whip
+
+Start in a [handshake] hold. Lead an [L-hook] between the 1 and 2. The follower
+should be facing 12 o'clock by the end of 2. On 3& take your sweet time making
+sure you get into a proper [starter] position and placing your right wrist under
+the follower's armpit such that there is no gap. On 4 step across the slot and
+propel the follower forward across the slot, not in an orbiting motion. Step 5
+is down the slot towards 12 o'clock, step 6 is across the slot towards 9
+o'clock, not diagonally, and steps 7&8 are an anchor step. You should end in a
+[open] position.
 
 #### Pass-through whip
 
@@ -1421,10 +1461,15 @@ Also known as a hook-step.
 Instead of stepping in place for the & step, step behind your left foot with
 with your right foot.
 
-#### Side-check
+#### Right side-check
 
 Instead of stepping in place for the & step, step to the right, outside the
 slot, with your right foot.
+
+#### Left side-check
+
+Instead of stepping in place for the & step, step to the left, outside the slot,
+with your left foot.
 
 #### Counter-clockwise ronde
 
@@ -1486,7 +1531,6 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [closed]: #closed
 [goofy horn]: #goofy-horn
 [goofy spiderman]: #goofy-spiderman
-[goofy weird]: #goofy-weird
 [goofy]: #goofy
 [handshake]: #handshake
 [horn]: #horn
@@ -1503,6 +1547,7 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [spiderman]: #spiderman
 [spiderman handshake]: #spiderman-handshake
 [starter]: #starter
+[weird goofy]: #weird-goofy
 [weird handshake]: #weird-handshake
 [weird scout]: #weird-scout
 [weird]: #weird
@@ -1556,3 +1601,10 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [hustle whip]: #hustle-whip
 [pass-through whip]: #pass-through-whip
 [reverse whip]: #reverse-whip
+[right-side pass reverse whip]: #right-side-pass-reverse-whip
+[handshake reverse whip]: #handshake-reverse-whip
+
+<!-- Triple-step replacements -->
+
+[right side-check]: #right-side-check
+[left side-check]: #left-side-check
