@@ -980,10 +980,25 @@ lead 1.5 chain turns. You should end in an [open] position.
 
 #### Left-side inside chain turn into closed position
 
-Start form an [open] position. The footwork and most of the handwork is the same
+Start from an [open] position. The footwork and most of the handwork is the same
 as a [left-side inside chain turn]. For the handwork, on 3& you should see the
 follower's back, so place your right hand onto the followers left shoulder blade
 to achieve a [closed] position as the turn finishes and you step forward on 4.
+
+#### Left-side starter inside chain turn into open position
+
+Whenever you are in a [closed] or [starter] position, your first two steps are
+half the length, so the [left] prep for the inside chain turn will happen on 2
+rather than between 1 and 2. [^3]
+
+Start in a [starter] position. Steps 1, 2, and 3& are done while facing 9
+o'clock. Step 1 is to 6 o'clock. Step 2 is to 6 o'clock, but you must cross your
+right leg behind your left leg. Step 3 in the 3& is a back towards 3 o'clock so
+that your left foot goes backwards more so than where the right foot is
+standing. It looks better than doing the 3& in place. Step & in the 3& is done
+almost in place because there is very little travel towards 6 o'clock. Step 4 is
+diagonal towards 7:30 o'clock. Steps 5&6 are an anchor step. You should end in
+an [open] position.
 
 #### Left-side outside pass
 
@@ -1017,6 +1032,8 @@ right arm and reach an [open] position.
 It is similar to a [free spin]. It requires a [goofy] handhold.
 
 #### Left-side goofy inside chain turn into closed position
+
+A pattern that [Bob Bowlby] and Joan Peeples taught me.
 
 Prep 1 is on line with the follower's shoulder. Prep 2 is on line with the
 follower's face. Step 3&4 is over and behind the followers head such that the
@@ -1441,12 +1458,14 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 
 [^1]: This is a hypothetical move. I have not actually tried it. :smile_cat:
 [^2]: Thanks Daniela for the corrections and suggestions!
+[^3]: This needs to be verified.
 
 [Bay Area Whip Dance Club]: https://www.bawdc.org/
 [Chuck Anders]: https://www.bawdc.org/profile/chuck-anders/
 [Mastering All Turns in West Coast Swing]:
   https://www.westcoastswingonline.com/spin-in-all-four-directions/
 [Zach and Rachel]: https://mysite.vagaro.com/zachandracheldance
+[Bob Bowlby]: https://www.youtube.com/watch?v=7RMxJcnNXws
 
 <!-- Preparation variations -->
 
@@ -1506,6 +1525,8 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
   #left-side-inside-chain-turn-into-closed-position
 [left-side inside chain turn]: #left-side-inside-chain-turn
 [left-side outside pass]: #left-side-outside-pass
+[left-side starter inside chain turn into open position]:
+  #left-side-starter-inside-chain-turn-into-open-position
 [free spin]: #free-spin
 [trusty left-side-pass]: #trusty-left-side-pass
 [weird handshake left-side pass inside pivot turn right picture hold]:
