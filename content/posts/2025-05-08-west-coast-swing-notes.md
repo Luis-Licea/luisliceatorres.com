@@ -676,6 +676,22 @@ Some ways to lengthen a pattern by 2 beats are:
 
 ## Patterns
 
+There are two types of pattern names: common names and descriptive names.
+
+Common names are short and not descriptive. Whenever you hear a common name, you
+either know the pattern or you do not. These are the official or well-known
+pattern names.
+
+Common pattern names include: left-side pass, sugar tuck, sugar push, free spin,
+roll-in-roll-out.
+
+Descriptive names are long and describe the movements in the pattern. Whenever
+you hear a descriptive name, you are able to imagine what the pattern may look
+like. These names are not well-known. I made them up.
+
+Descriptive names include: left-side pass with a follower inside chain turn,
+whip with a follower inside turn, left-side with a follower free chain turn.
+
 ### Sugar pushes
 
 On 1, step back with left foot, on 2, step back with right foot, on 3&4 do a
