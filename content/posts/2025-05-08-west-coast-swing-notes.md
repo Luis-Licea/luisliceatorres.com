@@ -366,6 +366,7 @@ perpendicularly to the follower's left side, sort of like the characters \_|.
 Reached via:
 
 - [continuous basket whip into starter position]
+- [right-side inside turn into starter position]
 
 Leads to:
 
@@ -1015,6 +1016,21 @@ raise your right arm on 4 5&6. Keep it at waist level. Instead, raise your left
 hand while holding the follower's right arm so you can perform the 1.25
 counter-clockwise turn under the follower's arm. You will end up in [open]
 position because you never let go of the follower's right arm.
+
+#### Right-side inside turn into starter position
+
+Start in an [open] position. Steps 1 through 3& are the same as in a [right-side
+inside turn]. Make sure step 3 is a back step, not a step in place. On step 4,
+do not step into the slot with your left foot. Instead, cross in front of your
+right leg with your left leg while moving toward the 6 o'clock direction. On
+steps 5&6 uncross your right leg while moving slightly in the 6 o'clock
+direction. Your steps will be smaller because you should already be in a
+[starter] position.
+
+On steps 3& you should be in a shadow position, meaning the follower's back
+should be in front of you, so place your right-hand fingertips in between the
+follower's shoulder blades. Make there is no gap between you right-hand wrist
+and the follower's armpit once you go into [starter] position.
 
 ### Left-side passes
 
@@ -1702,6 +1718,8 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [goofy right-side inside turn]: #goofy-right-side-inside-turn
 [right-side inside chain turn]: #right-side-inside-chain-turn
 [right-side inside turn]: #right-side-inside-turn
+[right-side inside turn into starter position]:
+  #right-side-inside-turn-into-starter-position
 [right-side inside turn lead inside turn into handshake position]:
   #right-side-inside-turn-lead-inside-turn-into-handshake-position
 [right-side inside pass into parallel position]:
