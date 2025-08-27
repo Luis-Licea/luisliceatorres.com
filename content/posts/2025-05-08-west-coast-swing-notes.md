@@ -289,9 +289,17 @@ the follower's arm on 1 and pushing it on 2.
 
 ### Left
 
-Use it from a [left-side inside chain turn], [right-side inside chain turn],
-[handshake reverse whip], or [free spin]. Backwards on 1, prep slightly to the
-left between 1 and 2, and rotate counter-clockwise on 3.
+Pull straight back on 1 while engaging your latissimus dorsi, not your forearm
+or bicep muscles. Prep slightly to the left between 1 and 2, and rotate your
+hand counter-clockwise in a circular motion on 3.
+
+Use it in a:
+
+- [left-side inside chain turn]
+- [right-side inside chain turn]
+- [handshake reverse whip]
+- [free spin]
+- [fold]
 
 ### Right
 
@@ -365,6 +373,7 @@ Leads to:
 - [left-side starter outside turn into a weird handshake position] and
   [handshake reverse whip]
 - [left-side starter inside chain turn into open position]
+- [fold]
 
 ### Open
 
@@ -1011,11 +1020,24 @@ position because you never let go of the follower's right arm.
 
 #### Left-side pass
 
-For the footwork, on 1 step backwards and to the right 45 degrees
-counter-clockwise, on step 2 step step backwards and to the right 45 degrees
-counter-clockwise. On step 3&4 step back and then front with the left leg, such
-that step 4 goes back into the slot at a 45 degree angle. On steps 5&6 do an
-anchor step, such that another 45 degrees are added on step 5.
+Start from an [open] position. For the footwork, on 1 step backwards and to the
+right 45 degrees counter-clockwise, on step 2 step step backwards and to the
+right 45 degrees counter-clockwise. On step 3&4 step back and then front with
+the left leg, such that step 4 goes back into the slot at a 45 degree angle. On
+steps 5&6 do an anchor step, such that another 45 degrees are added on step 5.
+
+#### Fold
+
+Start from an [open] position. The footwork can be the same as in a [left-side
+pass]. However, it looks better if on step 4 your body faces 9 o'clock because
+the follower is also facing 9 o'clock. Then do the 5&6 anchor step to face 6
+o'clock while the follower faces 12 o'clock. You should end in an [open]
+position.
+
+As for the handwork, on beats 1 thru 3 do a [left] hand prep at waist level. You
+may use you left-hand middle and ring fingers and a sign-of-horn for the handle
+on beats 3&4. You may also do a bracelet around the follower's wrist using your
+pinky and thumb as she rotates on 3&4.
 
 #### Left-side inside chain turn
 
@@ -1660,6 +1682,7 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 
 <!-- Left-side passes -->
 
+[fold]: #fold
 [left-side pass]: #left-side-pass
 [left-side inside chain turn into closed position]:
   #left-side-inside-chain-turn-into-closed-position
