@@ -1009,6 +1009,8 @@ position because you never let go of the follower's right arm.
 
 ### Left-side passes
 
+#### Left-side pass
+
 For the footwork, on 1 step backwards and to the right 45 degrees
 counter-clockwise, on step 2 step step backwards and to the right 45 degrees
 counter-clockwise. On step 3&4 step back and then front with the left leg, such
@@ -1560,6 +1562,10 @@ with your left foot.
 Instead of doing the anchor step for a duration of 2 beats, slide your right
 foot from 6, to 3, to 12 o'clock in a round motion and go back to 6 o'clock.
 
+Pattern suggestion:
+
+- On a [left-side pass], replace steps 5&6 with a ronde.
+
 #### Slow counter-clockwise ronde
 
 Mechanically the same as a counter-clockwise ronde, but with a duration of 4
@@ -1569,6 +1575,10 @@ beats instead of 2.
 
 Instead of doing the anchor step for a duration of 2 beats, slide your right
 foot from 12, to 3, to 6 o'clock in a round motion.
+
+Pattern suggestion:
+
+- On a [right-side inside turn], replace steps 5&6 with a ronde.
 
 #### Slow clockwise ronde
 
@@ -1650,6 +1660,7 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 
 <!-- Left-side passes -->
 
+[left-side pass]: #left-side-pass
 [left-side inside chain turn into closed position]:
   #left-side-inside-chain-turn-into-closed-position
 [left-side inside chain turn]: #left-side-inside-chain-turn
