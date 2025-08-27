@@ -246,7 +246,7 @@ in place --- turns into triple step that moves the follower forward:
 
 ## Turn variations
 
-### Pass turn
+### Turn
 
 A traveling turn that uses normal, cross, or hook steps.
 
@@ -404,7 +404,7 @@ and middle fingers (pointing to the left) are held by the follower's left hand
 
 Reached via:
 
-- [right-side goofy inside pass turn]
+- [goofy right-side inside turn]
 
 #### Goofy horn
 
@@ -426,7 +426,7 @@ characters |/|.
 
 Reached via:
 
-- [right-side inside pass turn with raised right arm into handshake position]
+- [right-side inside turn lead inside turn into handshake position]
 
 #### Horn Handshake
 
@@ -889,7 +889,7 @@ perpendicular to the follower, looking at 9 o'clock. You should end in
 
 Also known as a fake whip.
 
-#### Right-side inside pass turn
+#### Right-side inside turn
 
 Also known as a right-side pass.
 
@@ -903,7 +903,7 @@ follower. The left-hand should finish at the follower right-shoulder level. On
 5&6 lower your left hand to waist-level so you will end up in an [open]
 position.
 
-#### Right-side goofy inside pass turn
+#### Goofy right-side inside turn
 
 Also known as a right-side underarm pass.
 
@@ -921,21 +921,21 @@ her head. You have to be fast. It takes 2.5 chain turns.
 #### Right-side inside pass into parallel position
 
 Use it from an [open] hold. The footwork and most of the handwork is the same as
-in a [right-side inside pass turn]. The follower will turn and her back should
-be visible by the end of step 2. Immediately when the follower's back is
-visible, slide your hand from her back to her shoulder (3&4), and down the arm
-(5). You should have a [parallel] handhold when finishing the anchor step (5&6).
+in a [right-side inside turn]. The follower will turn and her back should be
+visible by the end of step 2. Immediately when the follower's back is visible,
+slide your hand from her back to her shoulder (3&4), and down the arm (5). You
+should have a [parallel] handhold when finishing the anchor step (5&6).
 
 #### Right-side pass into closed position
 
 Use it from an [open] hold. The footwork and most of the handwork is the same as
-in a [right-side inside pass turn]. The follower will turn and her back should
-be visible by the end of step 2. Immediately when the follower's back is
-visible, place your right-hand fingers in between her shoulder blades. As the
-follower rotates, the right hand will be flat against the shoulder blade,
-achieving a [closed] position. In steps 3&4, make step 4 bigger. Also make 5&6
-bigger than usual to close the gap between you and the follower, otherwise there
-will be a lot of space between you both, as if you were in an [open] position.
+in a [right-side inside turn]. The follower will turn and her back should be
+visible by the end of step 2. Immediately when the follower's back is visible,
+place your right-hand fingers in between her shoulder blades. As the follower
+rotates, the right hand will be flat against the shoulder blade, achieving a
+[closed] position. In steps 3&4, make step 4 bigger. Also make 5&6 bigger than
+usual to close the gap between you and the follower, otherwise there will be a
+lot of space between you both, as if you were in an [open] position.
 
 #### Right-side inside chain turn
 
@@ -962,7 +962,7 @@ This pattern can be followed by a [left shoulder-lock reverse whip].
 
 Also known as a short right-side pass.
 
-A variation of the [right-side inside pass turn].
+A variation of the [right-side inside turn].
 
 It is like an L in Tetris, whereas a regular right-side pass is the straight
 piece in Tetris. Step 1 is back-leftwards, and step two is a cross step. The
@@ -970,9 +970,9 @@ movement leftwards happens on number 4. In other words, rather than stepping
 into the slot on step 4, you are stepping past the slot. The anchor step can be
 a [front-check] or a [back-check].
 
-#### Right-side inside pass turn with raised right arm into handshake position
+#### Right-side inside turn lead inside turn into handshake position
 
-A variation of the [right-side inside pass turn].
+A variation of the [right-side inside turn].
 
 Starting in an [open] position, step 1 is back and to the left, step 2 is back
 and to the left to face 3 o'clock. Do 3& in place and on 4 step into slot with
@@ -986,14 +986,26 @@ pressed against your right rib by 5, right under the lifted right arm. On 5&6
 lower your right arm smoothly as if surfing on a wave so you will end in a
 [handshake] position.
 
-#### Right-side inside pass turn going under arm into open position
+You may opt to do feminine handwork on the 4 5&6. The handwork does not look
+like asking a question, not like you are riding a bull, not like you are a
+monkey, and not like you are in the 1920's. Your right arm must be pointed
+straight up, perpendicular to the floor, with your elbow locked straight. Your
+right bicep should be aligned with your right ear. If you are facing 12 o'clock
+relative to the floor, then your right hand fingers must be pointing at 3
+o'clock and the palm of your hand must be parallel to the floor. To lower your
+right arm, bend your elbow in the 12 o'clock direction while your right hand
+palm slides across the back of your head, neck, and right shoulder while your
+right hand fingers point more or less towards the ceiling, perpendicular to the
+floor.
 
-This is a variation of the [right-side inside pass turn with raised right arm
-into handshake position]. The only difference is the handwork on the 4, 5&6. Do
-not raise your right arm on 4 5&6. Keep it at waist level. Instead, raise your
-left hand while holding the follower's right arm so you can perform the 1.25
-counter-clockwise under the follower's arm. You will end up in [open] position
-because you never leg go of the follower's right arm.
+#### Right-side inside turn lead inside turn into open position
+
+This is a variation of the [right-side inside turn lead inside turn into
+handshake position]. The only difference is the handwork on the 4, 5&6. Do not
+raise your right arm on 4 5&6. Keep it at waist level. Instead, raise your left
+hand while holding the follower's right arm so you can perform the 1.25
+counter-clockwise turn under the follower's arm. You will end up in [open]
+position because you never let go of the follower's right arm.
 
 ### Left-side passes
 
@@ -1653,11 +1665,11 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 
 <!-- Right-side passes -->
 
-[right-side goofy inside pass turn]: #right-side-goofy-inside-pass-turn
+[goofy right-side inside turn]: #goofy-right-side-inside-turn
 [right-side inside chain turn]: #right-side-inside-chain-turn
-[right-side inside pass turn]: #right-side-inside-pass-turn
-[right-side inside pass turn with raised right arm into handshake position]:
-  #right-side-inside-pass-turn-with-raised-right-arm-into-handshake-position
+[right-side inside turn]: #right-side-inside-turn
+[right-side inside turn lead inside turn into handshake position]:
+  #right-side-inside-turn-lead-inside-turn-into-handshake-position
 [right-side inside pass into parallel position]:
   #right-side-inside-pass-into-parallel-position
 [right-side outside leader turn into left shoulder-lock]:
