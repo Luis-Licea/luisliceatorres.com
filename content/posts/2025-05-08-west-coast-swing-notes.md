@@ -718,24 +718,35 @@ the body before and after the turn, as if holding a piece of paper under the
 armpit, even during the turn. On 3&4 do the rock step while slightly pressing
 into the followers raised hand. The follower should press your hand back with
 the same amount of force to achieve compression. The turn should begin
-immediately on 4 after the compression was created on 3& and movement backwards
+immediately on 4 after the compression was created on 3& and movement forwards
 has begun. The turn should be completed in one beat so there is time for the
 follower to anchor on the 5&6.
 
 #### Sugar push inside pivot turn
 
-Use it from an [open] position. On step 2 raise your left hand and make it
+Start in an [open] position. On step 2 raise your left hand and make it
 perpendicular to the floor. Your hand must be aligned with the follower's left
 shoulder. The hand connection should be palm-to-palm and the leader's left hand
 should be pointing at 2 o'clock to indicate the direction of the pivot turn. On
-3&4 generate compression on the 3& and begin the turn on 4 as you step
-backwards. End in an [open] position.
+3&4 generate compression on the 3& and begin the turn on 4 as you step forwards.
+End in an [open] position.
 
-#### Sugar push goofy inside pivot turn
+#### Goofy sugar push inside pivot turn
 
-Use it from a [goofy] hold. On step 2 raise your right hand to her face level at
-shoulder width with your hand pointing at 2 o'clock. On step 3&4 do compression
-on 3& and begin the turn on 4 as you step backwards.
+Start in a [goofy] position. On step 2 raise your right hand to her face level
+and align your right hand with her left shoulder while your hand points at 2
+o'clock. On step 3&4 do compression on 3& and begin the counter-clockwise turn
+around her head on 4 as you step forwards. Anchor on 5&6. You should end in a
+[goofy] position.
+
+#### Goofy sugar push outside pivot turn
+
+Start in a [goofy] position. On step 2 raise your right hand to her face level
+and align your right hand a couple of inches above her forehead while your hand
+points at 10 o'clock. On step 3&4 do compression on 3& and begin the clockwise
+turn around her head on 4 as you step forwards. Anchor on 5&6. You should end in
+a [goofy] position.
+
 
 #### Sugar push inside pivot turn into closed position
 
@@ -1688,12 +1699,14 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 
 [Chuck turn into weird handshake]: #chuck-turn-into-weird-handshake
 [double-arm turn-in]: #double-arm-turn-in
+[goofy sugar push inside pivot turn]: #goofy-sugar-push-inside-pivot-turn
+[goofy sugar push outside pivot turn]: #goofy-sugar-push-outside-pivot-turn
 [single-arm turn-in]: #single-arm-turn-in
-[sugar push inside pivot turn]: sugar-push-inside-pivot-turn
+[sugar push inside pivot turn]: #sugar-push-inside-pivot-turn
 [sugar push outside pivot turn]: #sugar-push-outside-pivot-turn
 [sugar push right shoulder slide]: #sugar-push-right-shoulder-slide
 [sugar push inside pivot turn into closed position]:
-  ##sugar-push-inside-pivot-turn-into-closed-position
+  #sugar-push-inside-pivot-turn-into-closed-position
 [two-arm turn-in]: #two-arm-turn-in
 
 <!-- Left-side passes -->
