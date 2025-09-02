@@ -28,6 +28,17 @@ entrance is free after 8PM if you are over 21.
 | 7:00PM |                                 | Salsa, Bachata, Waltz, Rumba, Foxtrot, Chacha, West Coast Swing, East Coast Swing (only on 4th week of the month) |
 | 7:15PM | 2-Step, Polka, East Coast Swing | Line dance (only on 1st, 3rd, and 5th weeks of the month)                                                         |
 
+## [Houston Swing Dance Society] | \$20/class
+
+You can sign up for classes at https://hsds.punchpass.com/classes.
+
+| Time   | Sunday                                                           |
+| ------ | ---------------------------------------------------------------- |
+| 4:30PM | Level 2 Lindy Hop                                                |
+| 5:30PM | Level 1 Lindy Hop                                                |
+| 6:00PM | Social Dancing + Drop-in class (only on 5th Sunday of the month) |
+| 7:00PM | Social Dancing + Drop-in class                                   |
+
 ## [The Chute] | \$10/day
 
 No classes are given here, but it is a decent place for line dancing and social
@@ -179,6 +190,7 @@ wedding dance or a competitive dance.
 [High Horse Saloon]: https://www.highhorsesaloontxc.com/
 [Bay Area Whip Dance Club]: https://www.bawdc.org/
 [Buck Wild]: https://www.buckwildcountrydanceclub.com/
+[Houston Swing Dance Society]: https://www.hsds.org/
 [Dance Vision Studio]: https://dancevisiontexas.com/dance-vision-clear-lake/
 [D'Amico Dance]: https://www.damicodance.com/home
 [Fred Astaire]: https://ekkart.com/
@@ -191,6 +203,6 @@ wedding dance or a competitive dance.
 [The Hangar]: https://maps.app.goo.gl/WuJ6ZYWS9DxhtgpBA
 [The Palladium]: https://www.thepalladiumhouston.com/
 [Walter Hall Banquet Hall]: https://maps.app.goo.gl/dNKeYf1f2xzajpEN7
-[Zach and Rachel]: https://www.zachandracheldance.com/group-classes
+[Zach and Rachel]: https://www.vagaro.com/zachandracheldance
 [texasdancecountry.com]: https://texasdancecountry.com/schedule.html
 [Marcone's]: https://maps.app.goo.gl/WBaA9BUeK4M4jL6S7
