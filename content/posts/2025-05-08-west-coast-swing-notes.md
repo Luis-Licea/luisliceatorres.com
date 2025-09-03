@@ -1856,3 +1856,17 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [cross-legged inside turn]: #cross-legged-inside-turn
 [right side-check]: #right-side-check
 [left side-check]: #left-side-check
+
+## Sequences
+
+Hairbrush switcheroo:
+
+1. [sugar push right shoulder slide outside turn]
+2. [sugar push left shoulder slide]
+3. [fold from scout] RAG [free spin]
+
+Goofy triplet:
+
+1. [goofy left-side inside chain turn]
+2. [roll-in-roll-out]
+3. [free spin]
