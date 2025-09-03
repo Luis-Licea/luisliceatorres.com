@@ -718,6 +718,23 @@ like. These names are not well-known. I made them up.
 Descriptive names include: left-side pass with a follower inside chain turn,
 whip with a follower inside turn, left-side with a follower free chain turn.
 
+### Starter steps
+
+#### Forward tap forward triple
+
+Start in [closed] position. On 1 do a tap with your left foot and on 2 step
+forward with your left foot such that it points at 10 o'clock. Notice how it was
+2 beats but only one weight change. On 3&4 do a triple step forward while making
+your body and left foot point at 9 o'clock so that you end in a [starter]
+position.
+
+#### Left triple forward triple
+
+Start in [closed] position. On 1&2 do a triple step with your left foot pointing
+at 10 o'clock as you move in the 9 o'clock direction. On 3&4 do a triple step
+forward while making your body and left foot point at 9 o'clock so that you end
+in a [starter] position.
+
 ### Sugar pushes
 
 On 1, step back with left foot, on 2, step back with right foot, on 3&4 do a
