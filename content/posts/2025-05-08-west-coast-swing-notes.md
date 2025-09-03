@@ -677,7 +677,7 @@ them 2 beats longer, but I have never heard of a standalone 2-beat pattern.
 
 Some ways to lengthen a pattern by 2 beats are:
 
-- Replace the 2-beat anchor step with a 4-beat, slow, and smooth ronde
+- Replace the 2-beat anchor step with a 4-beat, slow, and smooth sweep
 - Replace the 2-beat anchor step with 4 small steps, 1-beat each
 - Split the 6-beat or the 8-beat pattern into 2-beat increments, and repeat any
   2-beat increment. For example, a 6-beat pattern can be split into 2-beat
@@ -1545,9 +1545,9 @@ and whip.
 
 #### Slide
 
-A slide is different from a ronde because a ronde does not require your to build
+A slide is different from a sweep because a sweep does not require your to build
 momentum by lifting your free leg and standing on the ball of your other foot.
-Also, a ronde is a circular clockwise or counter-clockwise motion, whereas a
+Also, a sweep is a circular clockwise or counter-clockwise motion, whereas a
 slide is unidirectional.
 
 There are at least 10 general ways in which you can slide, with 5 ways for each
@@ -1648,32 +1648,40 @@ slot, with your right foot.
 Instead of stepping in place for the & step, step to the left, outside the slot,
 with your left foot.
 
-#### Counter-clockwise ronde
+#### Counter-clockwise sweep
+
+A rond de jambe.
 
 Instead of doing the anchor step for a duration of 2 beats, slide your right
 foot from 6, to 3, to 12 o'clock in a round motion and go back to 6 o'clock.
 
 Pattern suggestion:
 
-- On a [left-side pass], replace steps 5&6 with a ronde.
+- On a [left-side pass], replace steps 5&6 with a sweep.
 
-#### Slow counter-clockwise ronde
+#### Slow counter-clockwise sweep
 
-Mechanically the same as a counter-clockwise ronde, but with a duration of 4
+A rond de jambe.
+
+Mechanically the same as a counter-clockwise sweep, but with a duration of 4
 beats instead of 2.
 
-#### Clockwise ronde
+#### Clockwise sweep
+
+A rond de jambe.
 
 Instead of doing the anchor step for a duration of 2 beats, slide your right
 foot from 12, to 3, to 6 o'clock in a round motion.
 
 Pattern suggestion:
 
-- On a [right-side inside turn], replace steps 5&6 with a ronde.
+- On a [right-side inside turn], replace steps 5&6 with a sweep.
 
-#### Slow clockwise ronde
+#### Slow clockwise sweep
 
-Mechanically the same as a clockwise ronde, but with a duration of 4 beats
+A rond de jambe.
+
+Mechanically the same as a clockwise sweep, but with a duration of 4 beats
 instead of 2.
 
 #### Clockwise taps
