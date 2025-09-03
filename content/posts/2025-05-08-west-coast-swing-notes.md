@@ -169,6 +169,8 @@ From Bob Wilder:
 Musicality is hard. I suspect it will take anywhere from 3 months to 2 years to
 learn.
 
+### Counting straight 8's
+
 1. Count straight 8s up to 12 times. Repeat this exercise at least 3 times
    without mistakes.
 2. Count straight 8s up to 12 times in sync with music. Repeat this exercise at
@@ -211,6 +213,16 @@ Note: I count beats in sets of 8 so I can do quick math on the total number of
 beats I have danced. The way I count beats in a song is as follows:
 
 1 2 3 4 5 6 7 **1** 1 2 3 4 5 6 7 **2** 1 2 3 4 5 6 7 **3** 1 2 3 4 5 6 7 **..**
+
+### Accentuating the 1
+
+Dance your basic patterns while counting straight 8s. Accentuate the 1 by any
+means necessary. This may mean a slide on 1, a back drop on 3, or a side check
+or sweep on 5. You can accentuate the 1 by accentuating the 3&4 compression on a
+sugar tuck. You may also sweep or point your free arm or head. Accentuations
+will all fall on 1, 3, or 5 while counting straight 8s to 6-beat patterns.
+
+**1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 ...
 
 ## Rhythm
 
@@ -292,6 +304,9 @@ the follower's arm on 1 and pushing it on 2.
 Pull straight back on 1 while engaging your latissimus dorsi, not your forearm
 or bicep muscles. Prep slightly to the left between 1 and 2, and rotate your
 hand counter-clockwise in a circular motion on 3.
+
+I have verified that the [Left] prep happens on 1.5 with Ray Trusty and with
+Damon D'Amico.
 
 Use it in a:
 
