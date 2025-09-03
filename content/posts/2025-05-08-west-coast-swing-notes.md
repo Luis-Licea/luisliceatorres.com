@@ -105,6 +105,21 @@ From Bob Wilder:
   between the left and right hands, which cannot be done without the follower's
   help.
 
+From Damon D'Amico:
+
+- Don't step into slot on 4 when doing a left-side pass or a right-side pass. By
+  not walking into the slot you can perform steps 3&4 even if the follower has
+  not finished stepping across the slot. If you step into the slot on 4, you may
+  step on the follower. Also, if you step into the slot on 4, you will be forced
+  to square up on the anchor step and you will be unaligned with the follower
+  instead of being face-to-face.
+- Don't square up on the anchor step or you will look like a nooby. Use angles.
+- The slot is twice as wide as your body for the chain turn, it not a tight
+  rope. Use the full width when turning, otherwise your feet will get crowded
+  and unbalanced like you are walking on a tight rope.
+- Step 3 on a [free spin] should be a back drop so that backwards your body
+  movement causes the follower to rotate counter-clockwise.
+
 ## General West Coast Swing knowledge
 
 - There are 6 pattern types:
@@ -1233,9 +1248,10 @@ A [goofy] unconnected [right-side inside chain turn].
 
 Start from a [goofy] position. The footwork is the same as in a left-side pass.
 On step 2 prep to the left and on step 3 throw the hand to the right so the
-follower turns counter-clockwise. On 4 step into the slot and catch the
-follower's hand. On 5&6 do an anchor step while extending your left hand to grab
-the follower's right hand. You should end in a [open] position.
+follower turns counter-clockwise. Step 3 is a back drop so that your backwards
+body movement causes the follower to rotate counter-clockwise. On 4 don't walk
+into the slot if possible; step in place. On 5, catch the follower's hand. On
+5&6 do an anchor step. You should end in a [open] position.
 
 #### Free spin leader pivot turn
 
