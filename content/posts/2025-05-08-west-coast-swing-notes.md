@@ -733,6 +733,23 @@ like. These names are not well-known. I made them up.
 Descriptive names include: left-side pass with a follower inside chain turn,
 whip with a follower inside turn, left-side with a follower free chain turn.
 
+### Pre-starter steps
+
+A pre-starter step or a groove step is a stationary step that you before a
+starter step or before you start dancing in general.
+
+#### Left tap right tap
+
+On 1 do a tap step diagonally forward at 11 o'clock with your left foot and on 2
+bring your left foot diagonally backward so you step in place and change weight
+onto your right leg. On 3 do tap step diagonally forward at 1 o'clock with your
+right foot and on 4 step diagonally backward with your right foot so you step in
+place as you change weight onto your left leg. You should be in the original
+position. Note that tap steps do not require a weight change, meaning that a
+4-beat groove cycle only requires 2 weight changes.
+
+This groove can be turned into a [forward tap forward triple].
+
 ### Starter steps
 
 #### Forward tap forward triple
@@ -1812,6 +1829,10 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [weird handshake]: #weird-handshake
 [weird scout]: #weird-scout
 [weird]: #weird
+
+<!-- Starter steps -->
+
+[forward tap forward triple]: #forward-tap-forward-triple
 
 <!-- Sugar pushes -->
 
