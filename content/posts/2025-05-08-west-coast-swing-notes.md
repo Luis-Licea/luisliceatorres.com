@@ -748,6 +748,17 @@ points at 10 o'clock. On step 3&4 do compression on 3& and begin the clockwise
 turn around her head on 4 as you step forwards. Anchor on 5&6. You should end in
 a [goofy] position.
 
+#### Handshake sugar push outside pivot turn
+
+Start in a [handshake] or [spiderman handshake] position. On step 2 raise your
+right hand to her face level and align your right hand a couple of inches above
+her forehead while your hand points at 10 o'clock. On step 3&4 do compression on
+3& and begin the turn on 4 as you step forwards. Anchor on 5&6. You should end
+in a [handshake] position.
+
+Next pattern suggestion:
+
+- [weird handshake left-side pass inside pivot turn right picture hold]
 
 #### Sugar push inside pivot turn into closed position
 
@@ -974,6 +985,12 @@ It starts from a [goofy] position and the footwork for the leader is the same as
 in a right-side pass. The handwork is the mirrored equivalent from a [left-side
 outside pass]. You should end in a [goofy] position.
 
+#### Goofy left-side inside chain turn
+
+It starts from a [goofy] position and the footwork for the leader is the same as
+in a [right-side inside turn]. The handwork is the mirrored equivalent from a
+[left-side outside pass]. You should end in a [goofy] position.
+
 #### Right-side outside chain turn
 
 Start from an [open] position. The footwork is the same as a right-side pass.
@@ -1179,6 +1196,8 @@ follower begins the turn. By step 6 the hands should go back down to about
 waist-level.
 
 #### Free spin
+
+A [goofy] unconnected [right-side inside chain turn].
 
 Start from a [goofy] position. The footwork is the same as in a left-side pass.
 On step 2 prep to the left and on step 3 throw the hand to the right so the
@@ -1766,6 +1785,7 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 <!-- Left-side passes -->
 
 [fold]: #fold
+[free spin]: #free-spin
 [left-side pass]: #left-side-pass
 [left-side inside chain turn into closed position]:
   #left-side-inside-chain-turn-into-closed-position
@@ -1775,13 +1795,14 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
   #left-side-starter-inside-chain-turn-into-open-position
 [left-side starter outside turn into a weird handshake position]:
   #left-side-starter-outside-turn-into-a-weird-handshake-position
-[free spin]: #free-spin
+[roll-in-roll-out]: #roll-in-roll-out
 [trusty left-side-pass]: #trusty-left-side-pass
 [weird handshake left-side pass inside pivot turn right picture hold]:
   #weird-handshake-left-side-pass-inside-pivot-turn-right-picture-hold-walk-around-into-open-position
 
 <!-- Right-side passes -->
 
+[goofy left-side inside chain turn]: #goofy-right-side-inside-chain-turn
 [goofy right-side inside turn]: #goofy-right-side-inside-turn
 [right-side inside chain turn]: #right-side-inside-chain-turn
 [right-side inside turn]: #right-side-inside-turn
