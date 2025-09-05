@@ -120,6 +120,15 @@ From Damon D'Amico:
 - Step 3 on a [free spin] should be a back drop so that backwards your body
   movement causes the follower to rotate counter-clockwise.
 
+From Jennifer:
+
+- While leading a [left-side inside chain turn], a [right-side outside chain
+  turn], a [sugar tuck pirouette], or any turn in general, you must use as few
+  fingers as possible to lead follower throughout the rotation. You can use two
+  fingers in chain turns, but you must use one finger for pirouettes. As
+  Jennifer's instructor told her, this is the only time when a follower will be
+  extremely happy to receive the middle finger.
+
 ## General West Coast Swing knowledge
 
 - There are 6 pattern types:
@@ -890,7 +899,7 @@ follower is facing backward. The leader should be on the follower's left side,
 with the chest pointing to the followers left shoulder, in a [starter] position.
 The [starter] position can be followed by a passing tuck!
 
-#### Sugar tuck with spin
+#### Sugar tuck pirouette
 
 Same as a tuck turn, but on step 4 the left hand applies more force so the
 follower can do a double spin. Make sure to draw a halo around the follower's
@@ -1841,6 +1850,7 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [goofy sugar push inside pivot turn]: #goofy-sugar-push-inside-pivot-turn
 [goofy sugar push outside pivot turn]: #goofy-sugar-push-outside-pivot-turn
 [single-arm turn-in]: #single-arm-turn-in
+[sugar tuck pirouette]: #sugar-tuck-pirouette
 [sugar push inside pivot turn into closed position]:
   #sugar-push-inside-pivot-turn-into-closed-position
 [sugar push inside pivot turn]: #sugar-push-inside-pivot-turn
@@ -1881,6 +1891,7 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
   #right-side-inside-turn-lead-inside-turn-into-handshake-position
 [right-side inside pass into parallel position]:
   #right-side-inside-pass-into-parallel-position
+[right-side outside chain turn]: #right-side-outside-chain-turn
 [right-side outside leader turn into left shoulder-lock]:
   #right-side-outside-leader-turn-into-left-shoulder-lock
 [right-side pass into closed position]: #right-side-pass-into-closed-position
