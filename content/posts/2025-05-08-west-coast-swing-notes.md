@@ -404,7 +404,7 @@ perpendicularly to the follower's left side, sort of like the characters \_|.
 
 Reached via:
 
-- [continuous basket whip into starter position]
+- [continuous whip into starter position]
 - [right-side inside turn into starter position]
 
 Leads to:
@@ -765,9 +765,9 @@ This groove can be turned into a [forward tap forward triple].
 
 Start in [closed] position. On 1 do a tap with your left foot and on 2 step
 forward with your left foot such that it points at 10 o'clock. Notice how it was
-2 beats but only one weight change. On 3&4 do a triple step forward while making
-your body and left foot point at 9 o'clock so that you end in a [starter]
-position.
+2 beats but only one weight change. On 3&4 there should be a push and a pull. On
+3&4 do a triple step forward while making your body and left foot point at 9
+o'clock so that you end in a [starter] position.
 
 #### Left triple forward triple
 
@@ -1066,10 +1066,10 @@ in a [right-side inside turn]. The handwork is the mirrored equivalent from a
 
 #### Right-side outside chain turn
 
-Start from an [open] position. The footwork is the same as a right-side pass.
-The handwork is different. On step 1 do a prep to your [right], and do not do a
-prep for step 2, instead, go directly into a [J-hook] (rotating clockwise) over
-her head. You have to be fast. It takes 2.5 chain turns.
+Start from an [open] position. The footwork is the same as a [right-side inside
+turn]. The handwork is different. On step 1 do a prep to your [right], and do
+not do a prep for step 2, instead, go directly into a [J-hook] (rotating
+clockwise) over her head. You have to be fast. It takes 2.5 chain turns.
 
 #### Right-side inside pass into parallel position
 
@@ -1226,6 +1226,20 @@ standing. It looks better than doing the 3& in place. Step & in the 3& is done
 almost in place because there is very little travel towards 6 o'clock. Step 4 is
 diagonal towards 7:30 o'clock. Steps 5&6 are an anchor step. You should end in
 an [open] position.
+
+#### Left-side starter back-lead free-spin
+
+Start in a [starter] position. The handwork for 1 is to lead the follower
+towards 6 o'clock using a flat right hand. On 1.5 lead the follower towards 7
+o'clock with the palm of your right hand, which is the equivalent of the [left]
+prep. On 3 flex your wrist to lead the follower towards 5 o'clock. The right
+hand will disconnect from the shoulder blade on 3 and the follower will enter
+into a [free spin].
+
+Typically for an [free spin], you would use your right hand to lead a [left]
+prep on 1.5 and lead the follower into the turn. In this case you are doing the
+same prep with the same hand and on the same beats, but from a [starter]
+position.
 
 #### Left-side starter outside turn into a weird handshake position
 
@@ -1560,28 +1574,39 @@ into [open] position as you step across the slot on 6 so your body and feet can
 point either 12 o'clock or 6 o'clock depending on how many turns you did. Then
 7&8 are a regular anchor step. You should end in an [open] position.
 
-#### Continuous basket whip into starter position
+Note that the repetition ends on the odd beat 5 because the settling happens on
+the even beat 6.
 
-Start in an [open] position. This pattern is similar to a [continuous whip], but
-you enter [starter] position at the end of the first 5.
+One of the main uses of the continuous whip is to add 2-beat increments so that
+you are more easily able to predict or approach the 8th beat in the song.
 
-Do a basket whip, then on 4 and 5 go into a [starter] position. The
-perpendicular angle is very important, then keep repeating 4 and 5 in one quick,
-smooth motion, like the 4 and 5 are one motion, not two steps, making sure to
-maintain this perpendicular shape at the end of each rotation on 5, and making
-sure the follower moves up and down the slot, not in a circular or orbiting
-fashion. On the last repeat of the 4 and 5, do not build tension on the 5,
-become gooey on 6 so the follower can settle, and should end in [starter]
-position.
+#### Continuous whip into starter position
+
+Start in an [open] position. Then go into a [continuous whip] after 3& or the
+first 5. Then settle on 6 to go into a [starter] position.
+
+The perpendicular angle is very important when stepping across on 4. Keep
+repeating 4 and 5 in one quick, smooth motion, like the 4 and 5 are one motion,
+not two steps, making sure to maintain this perpendicular shape at the end of
+each rotation on 5, and making sure the follower moves up and down the slot, not
+in a circular or orbiting fashion. On the last repeat of the 4 and 5, do not
+build tension on the 5, become gooey on 6 so the follower can settle, and should
+end in [starter] position on 6.
 
 Next pattern suggestion:
 
 - Do a [left-side starter inside chain turn into open position] because most
   followers should be able to follow, and there is something about the angle
   that makes it feel good.
+- [left-side starter back-lead free-spin], which is an intermediate exit.
 - [left-side outside pass]
 - [left-side starter outside turn into a weird handshake position] and a
   [handshake reverse whip]
+
+#### Continuous basket whip into starter position
+
+Do a basket whip, then on 4 and 5 lead a [continuous whip], an settle in a
+[starter] position on 6.
 
 ### Dips
 
@@ -1870,6 +1895,7 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
   #left-side-inside-chain-turn-into-closed-position
 [left-side inside chain turn]: #left-side-inside-chain-turn
 [left-side outside pass]: #left-side-outside-pass
+[left-side starter back-lead free-spin]: #left-side-starter-back-lead-free-spin
 [left-side starter inside chain turn into open position]:
   #left-side-starter-inside-chain-turn-into-open-position
 [left-side starter outside turn into a weird handshake position]:
@@ -1904,8 +1930,7 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [car-wash whip]: #car-wash-whip
 [contemporary Hustle whip]: #contemporary-hustle-whip
 [continuous whip]: #continuous-whip
-[continuous basket whip into starter position]:
-  #continuous-basket-whip-into-starter-position
+[continuous whip into starter position]: #continuous-whip-into-starter-position
 [hustle whip outside pivot turn]: #hustle-whip-outside-pivot-turn
 [hustle whip inside pass turn into open position]:
   #hustle-whip-inside-pass-turn-into-open-position
