@@ -7,14 +7,12 @@ tags: Lindy Hop
 
 ## General
 
-In Lindy Hop, steps 1 and 2 involve rocking backward and forward, with step 1
-being a left-foot step backwards.
+In Lindy Hop, like in [Charleston], steps 1 and 2 involve rocking backward and
+forward, with step 1 being a left-foot step backwards.
 
-## Lindy Hop
+## Positions
 
-### Positions
-
-#### Closed position
+### Closed position
 
 Stand in L position, perpendicular to the follower, such that your left hand and
 her right hand are connected like a towel, meaning her hand should be hanging on
@@ -25,19 +23,19 @@ This is not ballroom hold in the slightest.
 
 The footwork is the same as in a [basic].
 
-#### Open position
+### Open position
 
 You stand in front of the follower with a left-to-right hand connection.
 
-### Patterns
+## Patterns
 
-#### Basic
+### Basic
 
 Step back on 1 with the left leg. Step forward on 2 with the right leg. Steps 1
 and 2 are a rock step. Steps 3&4 are a triple step forward with the left leg.
 Steps 5&6 are a triple step backward with the right leg.
 
-#### Swing out
+### Swing out
 
 Start in a [closed position]. Do a rock stop. Back with left foot (1), front
 with right foot (2), and then step forward with your left foot to do a triple
@@ -48,13 +46,13 @@ forward. Steps 5&6 are triple step with the right leg moving backwards.
 
 You should end in an [open position].
 
-#### Basic break
+### Basic break
 
 Start in a [closed position]. On 1 and 2 do a 2-beat rock-step. On 3 stomp
 solidly into the floor with your left leg on 3, while leaning your body
 forwards. On 4, 5, 6, 7, and 8 shake your hips forwards and backwards.
 
-### Lindy Hop sequences
+## Lindy Hop sequences
 
 Novice pattern:
 
@@ -70,3 +68,7 @@ Novice pattern:
 [basic break]: #basic-break
 [closed position]: #closed-position
 [open position]: #open-position
+
+<!-- Posts -->
+
+[Charleston]: ./2025-09-10-charleston-notes.md
