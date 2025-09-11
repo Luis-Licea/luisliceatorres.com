@@ -14,33 +14,34 @@ forward, with step 1 being a left-foot step backwards.
 
 ### Closed position
 
-The position is the same as a [Lindy Hop Closed Position].
+The position is the same as a [Lindy Hop closed position].
+
+### Left-to-right closed position
+
+The position is the same as a [Lindy Hop left-to-right closed position].
 
 ## Patterns
 
 ### Basic
 
-The footwork for 1 is back with left, 2 is forward with right (rock step) 3 is a
-kick forward with left, 4 is changing weight onto your left leg. Notice that
-there is not a lot of horizontal or vertical travel for the left foot in steps 3
-and 4 because you are kicking forward and then bringing your foot straight down
-to the floor. On 4 you are contracting your right gastrocnemius to impulse you
-forward and your are using your left foot to stop the forward momentum. Your
-right leg should still have forward momentum from step 4, so 5 is a kick forward
-with the right foot. On 6 you are contracting your right leg hamstrings as much
-as possible (bending your right knee) as your leg travels backwards. 7 is a kick
-backward with right foot, 8 is step back on right foot. On 8 you are contracting
-your left gastrocnemius to impulse you backward and you use your right leg to
-stop that momentum and change weight. On 1 your left leg should still have some
-backwards momentum, so bring it back such that 1 left leg is behind right leg.
+Start in a [Lindy Hop closed position]. The footwork for 1 is back with left, 2
+is forward with right (rock step) 3 is a kick forward with left, 4 is changing
+weight onto your left leg. Notice that there is not a lot of horizontal or
+vertical travel for the left foot in steps 3 and 4 because you are kicking
+forward and then bringing your foot straight down to the floor. On 4 you are
+contracting your right gastrocnemius to impulse you forward and your are using
+your left foot to stop the forward momentum. Your right leg should still have
+forward momentum from step 4, so 5 is a kick forward with the right foot. On 6
+you are contracting your right leg hamstrings as much as possible (bending your
+right knee) as your leg travels backwards. 7 is a kick backward with right foot,
+8 is step back on right foot. On 8 you are contracting your left gastrocnemius
+to impulse you backward and you use your right leg to stop that momentum and
+change weight. On 1 your left leg should still have some backwards momentum, so
+bring it back such that 1 left leg is behind right leg.
 
 ### Kick
 
-Start in a [closed position].
-
-For this step you will need to hold the followers hand on 1 at waist level. The
-arms should be relaxed as if they were rubber bands attached at the shoulders
-and hands.
+Start in a [Lindy Hop left-to-right closed position].
 
 For the footwork, the kicks still happen on 3, on 5, and on 7. Step 1 also feels
 like a kick, but it actually lands.
@@ -62,11 +63,11 @@ so you and on your left leg.
 <!-- Anchors -->
 
 [basic]: #basic
-[basic break]: #basic-break
-[closed position]: #closed-position
-[open position]: #open-position
+[kick]: #kick
 
 <!-- Posts -->
 
 [Lindy Hop]: ./2025-09-09-lindy-hop-notes.md
-[Lindy Hop Closed Position]: ./2025-09-09-lindy-hop-notes.md#closed-position
+[Lindy Hop closed position]: ./2025-09-09-lindy-hop-notes.md#closed-position
+[Lindy Hop left-to-right closed position]:
+  ./2025-09-09-lindy-hop-notes.md#left-to-right-closed-position
