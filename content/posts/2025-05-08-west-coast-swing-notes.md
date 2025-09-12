@@ -129,6 +129,11 @@ From Jennifer:
   Jennifer's instructor told her, this is the only time when a follower will be
   extremely happy to receive the middle finger.
 
+From Luke:
+
+- When stepping backward in a sugar push, do it as if doing a moonwalk, because
+  your feet should remain connected to the slot.
+
 ## General West Coast Swing knowledge
 
 - There are 6 pattern types:
@@ -143,9 +148,17 @@ From Jennifer:
 - Side passes are named from the leader's perspective. For example, in a left
   pass, the follower passes by the leader's left side.
 
-- The forward and backward directions are named from the follower's perspective.
-  When a follower and leader move forward, it means the follower is moving
-  forwards while the leader is moving backward.
+- In West Coast Swing, the dancer is trying to trace his or her path on the
+  floor while dancing, meaning that the feet should be in contact with the floor
+  if possible. For example, this means that the first two steps in a sugar push
+  should look like Michael Jackson's moonwalk because the feet are always in the
+  contact with the floor. When stepping forward, the follower also needs to
+  trace the path while moving forward with the inside front part of the foot.
+  The foot comes off the floor when the change is moved onto the hill. When the
+  lead walks forward, he also needs to trace the path on the floor with the
+  inside front part of the foot, but the weight change may happen on the ball of
+  the foot as opposed to the hill because the lead may need to apply force on
+  the ball of the foot to to stop the follower's movement.
 
 ## Musicality
 
