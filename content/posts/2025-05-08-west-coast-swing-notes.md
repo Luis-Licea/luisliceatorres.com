@@ -248,6 +248,12 @@ will all fall on 1, 3, or 5 while counting straight 8s to 6-beat patterns.
 
 **1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 ...
 
+#### Sugar push
+
+- on 1: do a [hitch] step or [level change]
+- on 3: do a back drop while angling your body leftwards or a [brush] backwards
+- on 5: do a [right side-check] side-check or a [clockwise sweep]
+
 ## Rhythm
 
 Not really WCS related, but ...
@@ -1709,7 +1715,7 @@ right foot and body can point at 9 o'clock. As another example, your body and
 feet can point at 10:30 if you are traveling to either 7:30 or 1:30 o'clock
 because 10:30 is perpendicular to the direction of travel.
 
-#### Level change description
+#### Level change
 
 A level change, like a level up or a level down, means standing on your tippy
 toes or bending your knees to increase or decrease your height by a couple of
@@ -2016,10 +2022,15 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 
 <!-- Triple-step replacements -->
 
-[cross-legged outside turn]: #cross-legged-outside-turn
+[brush]: #brush
+[clockwise sweep]: #clockwise-sweep
+[counter-clockwise sweep]: #counter-clockwise-sweep
 [cross-legged inside turn]: #cross-legged-inside-turn
-[right side-check]: #right-side-check
+[cross-legged outside turn]: #cross-legged-outside-turn
+[hitch]: #hitch
 [left side-check]: #left-side-check
+[level change]: #level-change
+[right side-check]: #right-side-check
 
 ## Sequences
 
