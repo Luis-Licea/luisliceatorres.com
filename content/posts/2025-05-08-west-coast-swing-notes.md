@@ -25,7 +25,9 @@ repeating level 2. My current instructor is Ray.
 
 There are many elements in West Coast Swing dancing:
 
-- Musicality: are the dancers synchronized to the music?
+- Musicality: Are the dancers on beat, synchronized to the music? Are the
+  dancers stopping on the breaks? Are the dancers accentuating the 1s in the
+  music?
 - Rock-and-go: are the dancers able to combine patterns without doing an anchor?
 - Repetition: Are the dancers able to take a basic pattern, split it into
   increments, and repeat those increments?
@@ -59,6 +61,13 @@ From Rick Brunson:
   J-hook prematurely.
 - Tension should reach a maximum at the beginning of a pattern, then decrease,
   and then increase back again at the end of the pattern.
+- When doing a whip, do not do a round motion, do an L motion. You are standing
+  perpendicular to the follower up to 3& as you let the tension on the
+  follower's back build up. On 4 you step straight across and slightly forward.
+  On 5 rotate 0.5 turns clockwise on the ball of your left foot as you bring
+  your right foot next to your left foot as if holding a quarter between your
+  ankles. Both of your feet should be pointing at 3 o'clock as opposed to 6
+  o'clock.
 
 From Ray Trusty:
 
@@ -128,6 +137,8 @@ From Jennifer:
   fingers in chain turns, but you must use one finger for pirouettes. As
   Jennifer's instructor told her, this is the only time when a follower will be
   extremely happy to receive the middle finger.
+- Engage your latissimus dorsi in an [open] position as opposed to using your
+  biceps or forearms so there is a direct connection to your core.
 
 From Luke:
 
@@ -190,6 +201,9 @@ From Luke:
   social dancing.
 - A major phrase is 32 beats. A minor phrase is 16 beats (usually) or 8 beats
   (rarely). Songs are usually structured in sets of minor and major phrases.
+- Contemporary music is written in 8 bar phrases, and each bar has 4 beats. This
+  means there are 32 beats in a phrase. In Blues each phrase is 12 bars, so
+  there are 48 beats in each phrase.
 - All ballroom dances except Waltz are written in 4/4 time and can be danced
   using 8 beat patterns:
   - Bachata: 4- or 8-beat patterns

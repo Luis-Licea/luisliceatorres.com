@@ -1,5 +1,6 @@
 ---
 title: Houston and Webster area dance classes
+showTableOfContents: true
 date: 2024-12-07
 categories: Dance
 tags: Places
