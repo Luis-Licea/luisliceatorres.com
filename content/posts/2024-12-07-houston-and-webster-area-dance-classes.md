@@ -36,7 +36,7 @@ You can sign up for classes at https://hsds.punchpass.com/classes.
 | ------ | ---------------------------------------------------------------- |
 | 4:30PM | Level 2 Lindy Hop                                                |
 | 5:30PM | Level 1 Lindy Hop                                                |
-| 6:00PM | Social Dancing + Drop-in class (only on 5th Sunday of the month) |
+| 6:30PM | Social Dancing + Drop-in class (only on 5th Sunday of the month) |
 | 7:00PM | Social Dancing + Drop-in class                                   |
 
 ## [The Chute] | \$10/day
@@ -153,6 +153,25 @@ you take Salsa on 2.
 | 9:00PM | (social dancing) | (social dancing) | (social dancing) |                  |
 | 9:30PM |                  |                  |                  | (social dancing) |
 
+## [Neon Boots] | Free
+
+[Zach and Rachel] teach West Coast Swing at Neon Boots once per months in the
+second Sunday of the month. The music ration is 5 west coast swing songs to 3
+country songs when [Zach and Rachel] teach. On regulars the ratio is more even.
+
+| Time   | Sunday           |
+| ------ | ---------------- |
+| 7:00PM | West Coast Swing |
+
+## [Whiskey River South] | Free
+
+[Zach and Rachel] teach different types of dances at Whiskey River South.
+
+| Time   | Friday        | Sunday         |
+| ------ | ------------- | -------------- |
+| 7:00PM | 2-Step, Polka |                |
+| 8:00PM |               | Salsa, Bachata |
+
 ## [Dance Vision Studio] | 💰/class
 
 Every 4th Sunday there is a \$10 West Coast Swing workshop with world-renowned
@@ -187,22 +206,24 @@ get charged much less.
 I would recommend these guys if have a very important dance coming up, like a
 wedding dance or a competitive dance.
 
-[High Horse Saloon]: https://www.highhorsesaloontxc.com/
 [Bay Area Whip Dance Club]: https://www.bawdc.org/
 [Buck Wild]: https://www.buckwildcountrydanceclub.com/
-[Houston Swing Dance Society]: https://www.hsds.org/
-[Dance Vision Studio]: https://dancevisiontexas.com/dance-vision-clear-lake/
 [D'Amico Dance]: https://www.damicodance.com/home
+[Dance Vision Studio]: https://dancevisiontexas.com/dance-vision-clear-lake/
 [Fred Astaire]: https://ekkart.com/
-[Gilruth Center]:
-  https://anc.apm.activecommunities.com/starport/activity/search?activity_select_param=2&viewMode=list
+[Gilruth Center]: https://anc.apm.activecommunities.com/starport/activity/search
+[High Horse Saloon]: https://www.highhorsesaloontxc.com/
+[Houston Swing Dance Society]: https://www.hsds.org/
 [InZtyle Fitness]: https://maps.app.goo.gl/WMeyU4LJmZn1gJHV9
+[Marcone's]: https://maps.app.goo.gl/WBaA9BUeK4M4jL6S7
+[Neon Boots]: http://www.neonbootsclub.com/
 [Rowdys]: https://rowdysdancehall.com/home/webster/
 [Salsa Eddy]: https://www.salsaeddy.com/
 [The Chute]: https://thechutebaytown.com/
 [The Hangar]: https://maps.app.goo.gl/WuJ6ZYWS9DxhtgpBA
 [The Palladium]: https://www.thepalladiumhouston.com/
 [Walter Hall Banquet Hall]: https://maps.app.goo.gl/dNKeYf1f2xzajpEN7
-[Zach and Rachel]: https://www.vagaro.com/zachandracheldance
+[Whiskey River South]: https://wrsouth.com/
+[Zach and Rachel]:
+  https://mysite.vagaro.com/zachandracheldance/sign-up-for-classes
 [texasdancecountry.com]: https://texasdancecountry.com/schedule.html
-[Marcone's]: https://maps.app.goo.gl/WBaA9BUeK4M4jL6S7
