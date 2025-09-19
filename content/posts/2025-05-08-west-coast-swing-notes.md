@@ -139,11 +139,24 @@ From Jennifer:
   extremely happy to receive the middle finger.
 - Engage your latissimus dorsi in an [open] position as opposed to using your
   biceps or forearms so there is a direct connection to your core.
+- Tension and compression are not results of pulling and pushing with your arms,
+  they are the results of standing or stepping on the heels of your feet and
+  standing or stepping on the balls of your feet, respectively. If you stand on
+  your heels there will be tension, and if you stand on your balls there will be
+  compression.
+
+Rachel Moran:
+
+- Imagine that you are trying to bring your armpits to the floor in an [open]
+  position such that it puffs out your chest slightly. This should improve the
+  connection to your core.
 
 From Luke:
 
 - When stepping backward in a sugar push, do it as if doing a moonwalk, because
   your feet should remain connected to the slot.
+- Whenever you are doing a telemark, which is technically a scroll, you cut
+  across the slot on 5&6. Do not step around the slot.
 
 ## General West Coast Swing knowledge
 
