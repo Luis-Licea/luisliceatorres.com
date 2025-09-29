@@ -39,6 +39,10 @@ There are many elements in West Coast Swing dancing:
 
 - An inside turn is a left, counterclockwise turn
 - An outside turn is a right, clockwise turn
+- Collecting your feet means placing them right next to each other,
+  ankle-to-ankle.
+- Replacing your foot means taking it off the ground and placing it back on the
+  same spot.
 
 ## Personal advice
 
