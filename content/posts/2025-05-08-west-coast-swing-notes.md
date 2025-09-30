@@ -20,6 +20,8 @@ repeating level 2. My current instructor is Ray.
    <!-- Level 2 2025-05-06: Chuck -->
    <!-- Level 2 2025-06-03: Howard -->
    <!-- Level 2 2025-07-01: Ray -->
+   <!-- Level 2 2025-08-01: Ray -->
+   <!-- Level 2 2025-09-01: Rick -->
 
 ## West Coast Swing elements
 
@@ -1546,6 +1548,32 @@ The initial 7&8 inside chain turn is done with the left hand, but you must
 switch to using your right hand because this allows you to perform the exits
 more cleanly.
 
+### Shadow position into sweetheart into scout handhold
+
+Start in an over-rotated [open] position such that you face 3 o'clock as opposed
+to 12 o'clock and the follower faces 9 o'clock instead of 6 o'clock.
+
+On 1, turn clockwise while passing the follower's hand from your left hand to
+your right hand so you face 9 o'clock and have a [handshake] handhold. On 2 your
+left leg is free, so use it to do a left tap step. On 3 change weight onto your
+left leg. On 4 do a right tap step. On 5 change your weight onto your right leg
+and on 6 change your weight onto your left leg, creating a sense of compression
+and tension that tells the follower to move in the 6 o'clock direction. On 7&8
+do a triple step into a sweetheart, meaning you raise your left hand at shoulder
+level to catch the follower's left hand. You also bring your hand to follower
+shoulder height. Hold on 1 and 2 as the follower does a press line. On 2 pull
+the follower backward while you stand with split weight. On 3&4 triple step
+backward while entering a [scout] handhold position. There is no anchor.
+
+Next pattern suggestion:
+
+- [free spin]
+- [Scout fold RAG free spin]
+
+Reached via:
+
+- [whip with two outside turns into over-rotated open position]
+
 ### Whips
 
 Start in an [open] position. On 1 you step back while performing a small
@@ -1837,6 +1865,23 @@ Next pattern suggestion:
 
 Do a basket whip, then on 4 and 5 lead a [continuous whip], an settle in a
 [starter] position on 6.
+
+### Whip with two outside turns into over-rotated open position
+
+Start in a [open] position. The footwork and handwork are exactly the same as a
+[whip with an outside turn] up to an including step 6. A common error is to
+begin leading the outside turn before 6 rather than at the end of 6. Perform a
+whip with two outside turns. On 7 step forward towards 12 o'clock such that your
+right foot points at 3 o'clock while leading one full outside pivot turn with
+the left hand, on 8 lead another outside pivot turn while you turn to face 3
+o'clock. You should end in an over-rotated [open] position because you face 3
+o'clock as opposed to 12 o'clock and because the follower face 9 o'clock instead
+of 6 o'clock.
+
+Next pattern suggestions:
+
+- [shadow position into sweetheart into scout handhold] Note that steps 7, 8,
+  and 1 should be done in one fluid motion to maintain angular momentum.
 
 ### Dips
 
@@ -2275,16 +2320,20 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [behind-the-back whip]: #behind-the-back-whip
 [car-wash whip]: #car-wash-whip
 [contemporary Hustle whip]: #contemporary-hustle-whip
-[continuous whip]: #continuous-whip
 [continuous whip into starter position]: #continuous-whip-into-starter-position
-[hustle whip outside pivot turn]: #hustle-whip-outside-pivot-turn
+[continuous whip]: #continuous-whip
+[handshake reverse whip]: #handshake-reverse-whip
 [hustle whip inside pass turn into open position]:
   #hustle-whip-inside-pass-turn-into-open-position
+[hustle whip outside pivot turn]: #hustle-whip-outside-pivot-turn
 [hustle whip]: #hustle-whip
+[left shoulder-lock reverse whip]: #left-shoulder-lock-reverse-whip
 [pass-through whip]: #pass-through-whip
 [right-side pass reverse whip]: #right-side-pass-reverse-whip
-[handshake reverse whip]: #handshake-reverse-whip
-[left shoulder-lock reverse whip]: #left-shoulder-lock-reverse-whip
+[shadow position into sweetheart into scout handhold]:
+  #Shadow-position-into-sweetheart-into-scout-handhold
+[whip with two outside turns into over-rotated open position]:
+  #whip-with-two-outside-turns-into-over-rotated-open-position
 
 <!-- Triple-step replacements -->
 
