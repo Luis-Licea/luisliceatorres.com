@@ -547,8 +547,13 @@ This is the same as the [handshake] position with the [weird] handhold.
 
 Reached via:
 
-- [apache whip]
 - [Chuck turn into weird handshake]
+- [apache whip]
+
+Leads to:
+
+- [hairbrush]
+- [handshake reverse whip]
 
 ### Scout
 
@@ -1373,6 +1378,31 @@ highest compression happens on step 4 whenever you step into the slot and the
 follower begins the turn. By step 6 the hands should go back down to about
 waist-level.
 
+#### Left-side pass outside pass turn into weird handshake position
+
+Also known as a tuck turn.
+
+Once you are in [starter] or a [closed] position, let go of your left hand. Put
+your left hand in your pocket if you want to look cool. This pattern must be
+lead entirely with the right hand.
+
+Start from a [starter] or a [closed] position. Steps 1 and 2 are to your left
+such that the right leg hooks behind the left. You should walk perpendicular to
+the slot on steps 1 and 2. Step 3&4 requires you to push the follower at the
+latissimus dorsi and then use your fingertips to pull the follower with a
+rotating motion by flexing all your right hand fingertips except your thumb at
+her left scapula middle border connection point. After you flex your fingertips
+and the follower begins rotating, immediately turn your right hand into a
+[weird] position without loosing connection with the follower's back. As the
+follower rotates, slide your hand across the follower's right scapula, tricep,
+forearm, and hand. You should be in [weird handshake] position by the time you
+do an anchor step.
+
+Next pattern suggestions:
+
+- [hairbrush]
+- [handshake reverse whip]
+
 #### Free spin
 
 A [goofy] unconnected [right-side inside chain turn].
@@ -1710,9 +1740,11 @@ is to the left at 9 o'clock. You should end in a [scout] position.
 
 #### Apache whip
 
-Not to be confused with the [behind-the-back whip]. Same on 1 and 2, but on 3
-and 4 you put the follower's right hand behind her lower back and grab her right
-hand with your right hand into a [weird handshake].
+Not to be confused with the [behind-the-back whip].
+
+Start in an [open] position. Same on 1 and 2, but on 3 and 4 you put the
+follower's right hand behind her lower back and grab her right hand with your
+right hand into a [weird handshake].
 [Watch video.](https://m.youtube.com/watch?v=fVUUG6ny4vI&pp=ygUbd2VzdCBjb2FzdCBzd2luZyB3ZWlyZCB3aGlw)
 
 Paraphrased advice from Damon D'Amico:
@@ -2163,16 +2195,17 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [double-arm turn-in]: #double-arm-turn-in
 [goofy sugar push inside pivot turn]: #goofy-sugar-push-inside-pivot-turn
 [goofy sugar push outside pivot turn]: #goofy-sugar-push-outside-pivot-turn
+[hairbrush]: #hairbrush
 [single-arm turn-in]: #single-arm-turn-in
-[sugar tuck pirouette]: #sugar-tuck-pirouette
 [sugar push inside pivot turn into closed position]:
   #sugar-push-inside-pivot-turn-into-closed-position
 [sugar push inside pivot turn]: #sugar-push-inside-pivot-turn
 [sugar push left shoulder slide]: #sugar-push-left-shoulder-slide
 [sugar push outside pivot turn]: #sugar-push-outside-pivot-turn
-[sugar push right shoulder slide]: #sugar-push-right-shoulder-slide
 [sugar push right shoulder slide outside turn]:
   #sugar-push-right-shoulder-slide-outside-turn
+[sugar push right shoulder slide]: #sugar-push-right-shoulder-slide
+[sugar tuck pirouette]: #sugar-tuck-pirouette
 [two-arm turn-in]: #two-arm-turn-in
 
 <!-- Left-side passes -->
