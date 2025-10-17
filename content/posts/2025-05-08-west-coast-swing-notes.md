@@ -945,9 +945,15 @@ happens at waist level. You should end in a [left hammerlock] position.
 
 #### Hairbrush
 
+Same as a [head drape], but the hand goes over the leader's head.
+
 Also known as a head-wrap. It requires a [handshake] or [scout] hold. The
-hairbrush can be performed by brining the hand behind the leader's or the
-follower's head. It is interchangeable.
+head-wrap is performed by brining the hand behind the leader's head on 2, doing
+compression on 3&4, and performing and hand switch on 5&6.
+
+#### Head drape
+
+Same as a [hairbrush], but the hand goes over the follower's head.
 
 #### Sugar tuck chase
 
@@ -1644,6 +1650,7 @@ of just 5 because doing the rotation requires a triple step.
 Next pattern suggestion:
 
 - [right-side outside turn]
+- handshake [head drape] into [closed] position
 
 #### Basket whip
 
@@ -2337,6 +2344,7 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [goofy sugar push inside pivot turn]: #goofy-sugar-push-inside-pivot-turn
 [goofy sugar push outside pivot turn]: #goofy-sugar-push-outside-pivot-turn
 [hairbrush]: #hairbrush
+[head drape]: #head-drape
 [single-arm turn-in]: #single-arm-turn-in
 [sugar push inside pivot turn into closed position]:
   #sugar-push-inside-pivot-turn-into-closed-position
