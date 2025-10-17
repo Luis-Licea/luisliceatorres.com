@@ -432,9 +432,9 @@ each other and what handhold configuration they are in.
 
 ### Closed
 
-The leader's right hand is on the follower's back (on the left shoulder blade),
-and the follower's left arm rests on the leader's right arm. The leader stands
-face-to-face to the follower, sort of like the characters ||.
+The leader's right hand palm is on the follower's back, on the follower's left
+shoulder blade, and the follower's left arm rests on the leader's right arm. The
+leader stands face-to-face to the follower, sort of like the characters ||.
 
 Paraphrased advice from Damon D'Amico:
 
@@ -1168,6 +1168,27 @@ footwork. This pattern will not work well if you are not facing 3:00 by 3 and
 allow the follower to have the full slot. On 5&6 do an anchor step. You should
 end in a [handshake] position.
 
+#### Closed right-side pass redirect
+
+Start in a [closed] position. On step 1 step back and to the left towards 7:30.
+Also, on 1, raise your left hand to follower head-height. On 2, use your right
+foot to step towards 6:00 such that your toes point at 3:00 to open the slot. On
+2, your left hand should already be up, you can think of looking at your watch.
+Your left hand fingers should be pointing at 3:00; this tells the follower it
+will be an inside turn. On 3&4 do a triple step while facing 3:00. On 3&4 use
+your left hand to draw a counter-clockwise halo over the follower's head and
+immediately lower your left hand to her waist level; The follower will do
+exactly one counter-clockwise turn. On 3&4, lower your right hand from her left
+shoulder blade to waist level and apply force with your right forearm towards
+12:00 to lead her back towards 12:00; the forearm is a barrier that prevents her
+from walking towards 6:00; if you do not lower your right arm, your forearm will
+run across her chest; a common mistake on 3 is to take of the right hand from
+the follower's back and then try to use the right hand to redirect the follower
+towards 12:00; there is not enough time to do that; the best thing to do is to
+lower the right arm while maintaining contact, and using the forearm for the
+redirect, not the palm. On 5&6 do an anchor step. You should en in an [open]
+position.
+
 #### Goofy right-side inside turn
 
 Also known as a right-side underarm pass.
@@ -1651,6 +1672,7 @@ Next pattern suggestion:
 
 - [right-side outside turn]
 - handshake [head drape] into [closed] position
+- [closed right-side pass redirect]
 
 #### Basket whip
 
@@ -2379,6 +2401,7 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 
 <!-- Right-side passes -->
 
+[closed right-side pass redirect]: #closed-right-side-pass-redirect
 [goofy left-side inside chain turn]: #goofy-right-side-inside-chain-turn
 [goofy right-side inside turn]: #goofy-right-side-inside-turn
 [right-side inside chain turn]: #right-side-inside-chain-turn
