@@ -1148,6 +1148,20 @@ follower. The left-hand should finish at the follower right-shoulder level. On
 5&6 lower your left hand to waist-level so you will end up in an [open]
 position.
 
+#### Right-side outside turn
+
+I think Damon calls it a Dallas turn.
+
+Start in a [handshake] position. On 1 step back at 6:00 with the left foot, on 2
+step back at 6:00 with the right foot such that you face 3:00 while raising your
+right hand to the follower's face level, making sure your right hand is aligned
+with the follower's right-shoulder. Make sure to pull the follower back on steps
+1 and 2, not just 1. On 2.5 give the follower a slight [right] prep (like 1.5
+inches). On 3&4 lead an outside turn while doing regular right-side pass
+footwork. This pattern will not work well if you are not facing 3:00 by 3 and
+allow the follower to have the full slot. On 5&6 do an anchor step. You should
+end in a [handshake] position.
+
 #### Goofy right-side inside turn
 
 Also known as a right-side underarm pass.
@@ -1626,6 +1640,10 @@ your body and toes.
 
 Note: The count for the follower will be different on 5. They will do 5& instead
 of just 5 because doing the rotation requires a triple step.
+
+Next pattern suggestion:
+
+- [right-side outside turn]
 
 #### Basket whip
 
@@ -2356,16 +2374,17 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [goofy left-side inside chain turn]: #goofy-right-side-inside-chain-turn
 [goofy right-side inside turn]: #goofy-right-side-inside-turn
 [right-side inside chain turn]: #right-side-inside-chain-turn
-[right-side inside turn]: #right-side-inside-turn
+[right-side inside pass into parallel position]:
+  #right-side-inside-pass-into-parallel-position
 [right-side inside turn into starter position]:
   #right-side-inside-turn-into-starter-position
 [right-side inside turn lead inside turn into handshake position]:
   #right-side-inside-turn-lead-inside-turn-into-handshake-position
-[right-side inside pass into parallel position]:
-  #right-side-inside-pass-into-parallel-position
+[right-side inside turn]: #right-side-inside-turn
 [right-side outside chain turn]: #right-side-outside-chain-turn
 [right-side outside leader turn into left shoulder-lock]:
   #right-side-outside-leader-turn-into-left-shoulder-lock
+[right-side outside turn]: #right-side-outside-turn
 [right-side pass into closed position]: #right-side-pass-into-closed-position
 
 <!-- Whips -->
