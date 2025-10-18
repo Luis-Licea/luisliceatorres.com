@@ -449,6 +449,10 @@ Reached via:
 - [right-side pass into closed position]
 - [left-side inside chain turn into closed position]
 
+Leads to:
+
+- [closed right-side pass redirect]
+
 ### Starter
 
 The handwork is identical to the [closed] position, but the leader stands
@@ -458,6 +462,7 @@ Reached via:
 
 - [continuous whip into starter position]
 - [right-side inside turn into starter position]
+- [head drape into starter]
 
 Leads to:
 
@@ -466,6 +471,7 @@ Leads to:
   [handshake reverse whip]
 - [left-side starter inside chain turn into open position]
 - [fold]
+- [closed right-side pass redirect]
 
 ### Open
 
@@ -943,17 +949,60 @@ is technically possible to achieve the same by doing a sugar tuck while holding
 the follower's left hand, but the correct way is to do a pump prep, which
 happens at waist level. You should end in a [left hammerlock] position.
 
-#### Hairbrush
-
-Same as a [head drape], but the hand goes over the leader's head.
-
-Also known as a head-wrap. It requires a [handshake] or [scout] hold. The
-head-wrap is performed by brining the hand behind the leader's head on 2, doing
-compression on 3&4, and performing and hand switch on 5&6.
-
 #### Head drape
 
-Same as a [hairbrush], but the hand goes over the follower's head.
+Same as a [hairbrush], but the hand goes over the follower's head. Also known as
+a head-wrap.
+
+Start in a [handshake] position; a [scout] hold also works. The footwork is the
+same as in a sugar push; only the handwork changes. For the head-wrap, bring
+your right and her right hand to her nose level on 1 while stepping back. On 2,
+move your right hand from her nose level to her nape and leave her right hand on
+her nape. On 3&4 slide your right hand down her left arm to go into a [goofy]
+handhold and post to avoid moving further down the slot. On 5&6 do an anchor
+step. You should end in a [goofy] position.
+
+If you start in a [scout] position, the [head drape] would end in an [open]
+position.
+
+Next pattern suggestion:
+
+- [head drape into starter] position
+
+#### Head drape into starter
+
+Start in a [handshake] position. Same as a [head drape] up to step 2. For the
+handwork, on 3&4, rather than sliding your right arm down the follower's left
+arm, you will slide your right hand under the follower's left armpit to go into
+a [closed] position; curl your wrist and fingers before you slide your right
+hand under the armpit and smoothly twist your wrist from 9:00 to 6:00 to 3:00
+like drawing the letter U with your wrist as you slide under the armpit; at the
+same time on 3&4, grab the follower's right hand with your left hand as if going
+in an [open] position.
+
+For the footwork, on 4, you will step towards 12:00 with your left toes pointing
+at 10:30. On 5&6 do an anchor step; end facing 9:00 with your body and toes; be
+in a [starter] position.
+
+Next pattern suggestion:
+
+- [closed right-side pass redirect]
+
+#### Hairbrush
+
+Same as a [head drape], but the hand goes over the leader's head. Also known as
+a head-wrap.
+
+Start in a [handshake] position; a [scout] hold also works. The footwork is the
+same as in a sugar push; only the handwork changes. For the head-wrap, bring
+your right and her right hand to your nose level on 1 while stepping back. On 2,
+move your right hand from your nose level to your nape and leave her right hand
+on your nape. On 3&4 she may slide her right hand down your left arm to go into
+a [goofy] handhold; post at the end of 4 to avoid moving further down the slot.
+On 5&6 do an anchor step. You should end in a [goofy] position.
+
+If you start in a [scout] position, the [head drape] would end in an [open]
+position.
 
 #### Sugar tuck chase
 
@@ -1167,6 +1216,10 @@ inches). On 3&4 lead an outside turn while doing regular right-side pass
 footwork. This pattern will not work well if you are not facing 3:00 by 3 and
 allow the follower to have the full slot. On 5&6 do an anchor step. You should
 end in a [handshake] position.
+
+Next pattern suggestion:
+
+- [head drape into starter] position
 
 #### Closed right-side pass redirect
 
@@ -1589,7 +1642,7 @@ The initial 7&8 inside chain turn is done with the left hand, but you must
 switch to using your right hand because this allows you to perform the exits
 more cleanly.
 
-### Shadow position into sweetheart into scout handhold
+#### Shadow position into sweetheart into scout handhold
 
 Start in an over-rotated [open] position such that you face 3 o'clock as opposed
 to 12 o'clock and the follower faces 9 o'clock instead of 6 o'clock.
@@ -1671,8 +1724,6 @@ of just 5 because doing the rotation requires a triple step.
 Next pattern suggestion:
 
 - [right-side outside turn]
-- handshake [head drape] into [closed] position
-- [closed right-side pass redirect]
 
 #### Basket whip
 
@@ -1941,7 +1992,7 @@ Next pattern suggestion:
 Do a basket whip, then on 4 and 5 lead a [continuous whip], an settle in a
 [starter] position on 6.
 
-### Whip with two outside turns into over-rotated open position
+#### Whip with two outside turns into over-rotated open position
 
 Start in a [open] position. The footwork and handwork are exactly the same as a
 [whip with an outside turn] up to an including step 6. A common error is to
@@ -2366,6 +2417,7 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [goofy sugar push inside pivot turn]: #goofy-sugar-push-inside-pivot-turn
 [goofy sugar push outside pivot turn]: #goofy-sugar-push-outside-pivot-turn
 [hairbrush]: #hairbrush
+[head drape into starter]: #head-drape-into-starter
 [head drape]: #head-drape
 [single-arm turn-in]: #single-arm-turn-in
 [sugar push inside pivot turn into closed position]:
