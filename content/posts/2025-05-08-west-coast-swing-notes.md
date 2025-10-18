@@ -833,7 +833,6 @@ forward with your left foot such that it points at 10 o'clock. Notice how it was
 3&4 do a triple step forward while making your body and left foot point at 9
 o'clock so that you end in a [starter] position.
 
-#### Left triple forward triple
 #### Left triple forward triple into starter position
 
 Start in [closed] position. On 1&2 do a triple step with your left foot pointing
@@ -1053,22 +1052,6 @@ shoulder while offering your right hand by placing it under-and-in-front of your
 left elbow. The follower's hand should slide down your left forearm onto your
 right hand by the end of 4. You should be in an regular [handshake] or a
 [spiderman handshake] by the end of 5&6.
-
-#### Sugar push right shoulder slide outside turn
-
-This is an exit variation for the [sugar push right shoulder slide].
-
-Start in an [open] position. All the handwork and footwork is the same as in a
-[sugar push right shoulder slide], but the handwork changes on the 5&6. You
-should have a [handshake] or [spiderman handshake] by 4, so you can add styling
-to the anchor by raising your right hand to follower head-height on 5 while
-looking at your clock, and performing an outside turn on &6. Of course, the 5&6
-outside turn should be a single, smooth motion because there will be no
-compression in the 3&4 to indicate an outside turn.
-
-The footwork and handwork for the follower should be very similar to a [sugar
-push outside pivot turn], except that there will be no compression in the 3&4 to
-indicate an outside turn.
 
 #### Sugar push left shoulder slide
 
@@ -2426,8 +2409,6 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 [sugar push inside pivot turn]: #sugar-push-inside-pivot-turn
 [sugar push left shoulder slide]: #sugar-push-left-shoulder-slide
 [sugar push outside pivot turn]: #sugar-push-outside-pivot-turn
-[sugar push right shoulder slide outside turn]:
-  #sugar-push-right-shoulder-slide-outside-turn
 [sugar push right shoulder slide]: #sugar-push-right-shoulder-slide
 [sugar tuck pirouette]: #sugar-tuck-pirouette
 [two-arm turn-in]: #two-arm-turn-in
@@ -2509,7 +2490,6 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
 
 Hairbrush switcheroo:
 
-1. [sugar push right shoulder slide outside turn]
 2. [sugar push left shoulder slide]
 3. [Scout fold RAG free spin]
 
