@@ -156,6 +156,10 @@ From Rachel Moran:
 - Imagine that you are trying to bring your armpits to the floor in an [open]
   position such that it puffs out your chest slightly. This should improve the
   connection to your core.
+- Unlike salsa, WCS does not require you to dance with your knees slightly bent.
+- Unlike Lindy Hop, WCS does not have a mandatory "pulse", meaning that you
+  don't have to bend your knees or bounce at the rhythm of the beat. That being
+  said, you can use the pulse if it is a feeling and look you are going for.
 
 From Luke:
 
