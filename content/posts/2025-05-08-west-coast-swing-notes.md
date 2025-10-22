@@ -151,7 +151,7 @@ From Jennifer:
   your heels there will be tension, and if you stand on your balls there will be
   compression.
 
-Rachel Moran:
+From Rachel Moran:
 
 - Imagine that you are trying to bring your armpits to the floor in an [open]
   position such that it puffs out your chest slightly. This should improve the
@@ -161,8 +161,8 @@ From Luke:
 
 - When stepping backward in a sugar push, do it as if doing a moonwalk, because
   your feet should remain connected to the slot.
-- Whenever you are doing a telemark, which is technically a scroll, you cut
-  across the slot on 5&6. Do not step around the slot.
+- When doing a telemark, which is technically a scroll, cut across the slot on
+  5&6. Do not step around the slot.
 
 ## General West Coast Swing knowledge
 
@@ -172,6 +172,7 @@ From Luke:
   - side passes (6 beats): result in 0.5 turns
   - sugar pushes (6 beats)
   - whips (8 beats)
+  - redirects
   - dips
   - lifts
 
@@ -808,20 +809,37 @@ whip with a follower inside turn, left-side with a follower free chain turn.
 
 ### Pre-starter steps
 
-A pre-starter step or a groove step is a stationary step that you before a
-starter step or before you start dancing in general.
+Use pre-starter steps to find the beat in the music and to verify the follower
+is also feeling the beat. You can [lock the knee] or [left diagonal tap right
+diagonal tap] while counting 5678.
 
-#### Left tap right tap
+Use pre-starter steps at the beginning of a song for two accomplish two goals.
+First, establish a connection with the follower. Second, set the tone or the
+atmosphere for the song. Make it fun, playful, smooth, sensual, bluesy, stylish,
+etc. Whatever you do, smile and have fun. Don't get serious and make it boring.
 
-On 1 do a tap step diagonally forward at 11 o'clock with your left foot and on 2
-bring your left foot diagonally backward so you step in place and change weight
-onto your right leg. On 3 do tap step diagonally forward at 1 o'clock with your
-right foot and on 4 step diagonally backward with your right foot so you step in
-place as you change weight onto your left leg. You should be in the original
-position. Note that tap steps do not require a weight change, meaning that a
-4-beat groove cycle only requires 2 weight changes.
+#### Left diagonal tap right diagonal tap
+
+Start in an [open] or [closed] position. On 1 do a tap step diagonally forward
+at 11 o'clock with your left foot and on 2 bring your left foot diagonally
+backward so you step in place and change weight onto your right leg. On 3 do tap
+step diagonally forward at 1 o'clock with your right foot and on 4 step
+diagonally backward with your right foot so you step in place as you change
+weight onto your left leg. You should be in the original position. Note that tap
+steps do not require a weight change, meaning that a 4-beat groove cycle only
+requires 2 weight changes.
 
 This groove can be turned into a [forward tap forward triple].
+
+#### Lock the knee
+
+Start in an [open] or [closed] position. On 1 put your weight on your right foot
+and hip, place your left foot at 10:30 about 1 foot away from your center of
+mass. Use your right hip to counter-balance your left foot for style. On 2, flex
+your left calve and bend your left knee so only the ball of your left foot
+touches the floor while still maintaining your weight on your right foot. On 3
+extend your left calve and lock your left knee so your left foot is flat against
+the floor. Repeat steps 2 and 3.
 
 ### Starter steps
 
@@ -2392,6 +2410,11 @@ duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
   https://www.westcoastswingonline.com/spin-in-all-four-directions/
 [Zach and Rachel]: https://mysite.vagaro.com/zachandracheldance
 [Bob Bowlby]: https://www.youtube.com/watch?v=7RMxJcnNXws
+
+<!-- Pre-starter steps -->
+
+[left diagonal tap right diagonal tap]: #left-diagonal-tap-right-diagonal-tap
+[lock the knee]: #lock-the-knee
 
 <!-- Preparation variations -->
 
