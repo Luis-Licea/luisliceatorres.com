@@ -43,6 +43,8 @@ There are many elements in West Coast Swing dancing:
 - An outside turn is a right, clockwise turn
 - Collecting your feet means placing them right next to each other,
   ankle-to-ankle.
+- A collect-tap-return step involves collecting the free foot, tapping with the
+  free foot, and returning the free foot to its original position.
 - Replacing your foot means taking it off the ground and placing it back on the
   same spot.
 
@@ -821,6 +823,24 @@ Use pre-starter steps at the beginning of a song for two accomplish two goals.
 First, establish a connection with the follower. Second, set the tone or the
 atmosphere for the song. Make it fun, playful, smooth, sensual, bluesy, stylish,
 etc. Whatever you do, smile and have fun. Don't get serious and make it boring.
+
+#### Left collect-tap-return right collect-tap-return
+
+Start an [open] or [closed] position or standing in split-weight. On 1 do a left
+side-check at 9:00 with your left foot and put your weight on your left foot. On
+1.5 collect your right foot next to your left foot and tap. On 2 return your
+right foot to its original position and put your weight on it. On 2.5
+collect-tap your left foot next to your right foot. On 3&4 return your left foot
+to its original position and put your weight on it, on the & collect your right
+foot next to the weighted left foot to perform a tap. On 4 hold the tap with the
+right foot. On 5&6 triple step forward with the free right foot. End in a
+[starter] position.
+
+You can repeat steps 1 and 2 as many times as you would like.
+
+Stay inside the slot while stepping side to side. If you step outside the slot,
+the follower will triple step progressively to adjust her center of mass because
+you are doing a progressive step.
 
 #### Left diagonal tap right diagonal tap
 
@@ -2026,14 +2046,22 @@ A redirect has a tension and a compression component, just like a sugar push.
 
 #### Right-side pass redirect
 
-Start from an [open] position. Step back on 1 and 2 to get out of the slot and
-face 3:00 while raising your left hand to the follower's right side of her head;
-step slightly to the left to encourage the follower to take the slot but do not
-step out of the slot completely. On 3&4, create a compression with your left
-hand while leading the follower through an inside rotation. Also put your right
-hand on the followers right-side ribs and slightly push her towards 12:00 to
-redirect her. Step forward on 4 and face 12:00. On 5&6, anchor step. End in an
+Start from an [open] position. Step back on 1 with the left foot towards 6:00
+with toes pointing at 1:30. On 2 step back at 6:00 with toes pointing at 3:00 to
+get out of the slot and face 3:00 while raising your left hand to the follower's
+right side of her head; on 2 your feet should be apart as if in split-weight,
+but your weight should be on your right foot. On 3 and 4, create compression
+with your left hand while leading the follower through an inside rotation. Also
+put your right forearm on the follower's right-side ribs and slightly push her
+towards 12:00 to redirect her. On 3, collect-tap with your left foot while your
+weight is on your right foot. On 4 move your left foot towards 12:00 so you
+return the left foot where to you left it on step 1, and put your weight on it
+and face 1:30; on 3 and 4, collect-tap-return. On 5&6, anchor step. End in an
 [open] position.
+
+Note, if you do a 3&4 as the lead, there will be barely any weight on the & step
+when you stand on your left foot, so it is better to do a 3 and 4 with a
+collect-tap-return step.
 
 #### Right-side pass redirect to starter
 
