@@ -56,9 +56,8 @@ The 5 in S5 means that the distance between a root note and the next octave is 5
 units away. For example. The chord A5 requires notes 0A, 2D, and 2G to be
 pressed, which is equivalent to (0,0), (2, 1), (2, 2) on Cartesian plane.
 
-The formula is R(0,0), r(2, -1), r(2, -2). Where R is the root note and r is the
-note relative to the root note. This is equivalent to (Rx, Ry), (Rx+2, Ry-1),
-(Rx+2, Rx-2), which makes sense algebraically, but is too verbose.
+The chord shape is (Rx, Ry), (Rx+2, Ry-1), and (Rx+2, Rx-2), where Rx and Ry is
+the root note fret and string position.
 
 The range in which the S5 formula works is \[(0, 4), (6, 4)\] and \[(0, 5), (4,
 5)\].
