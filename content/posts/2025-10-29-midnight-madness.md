@@ -29,7 +29,10 @@ will mean you will have to pay an extra night.
 Whenever you compete for the first time, you do not need to have a [World Swing
 Dance Council] competitor ID. You will be given one after you compete.
 
-Read the [driving instructions] so that you do not need to pay for parking.
+Read the [driving instructions] so that you do not need to pay for parking. The
+short of it is, do not use toll lanes, use the two right-hand "Ticket Only"
+lanes to get a ticket, get the ticket from the machine, get the ticket validated
+at the hotel, and use the "Cash Only" exit when yo u go through the exit gate.
 
 [Midnight Madness]: https://www.midnightmadnesswcs.com/home
 [Hyatt Regency DFW International Airport]:
