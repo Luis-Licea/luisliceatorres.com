@@ -507,9 +507,7 @@ shooting a spider web.
 
 #### Weird
 
-The leader's left-hand ring and middle fingers point to the left.
-
-The leader's right-hand ring and middle fingers point to the right.
+The leader’s left-hand ring and middle fingers point to the left at 9:00 while the leader faces 12:00.
 
 ### Goofy
 
@@ -530,6 +528,8 @@ This is a mirror image of the [horn] position.
 This is a mirror image of the [spiderman] position.
 
 #### Weird goofy
+
+The leader’s right-hand ring and middle fingers point to the right at 3:00 while the leader faces 12:00.
 
 This is a mirror image of the [weird] position.
 
