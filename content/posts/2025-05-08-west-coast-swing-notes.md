@@ -307,16 +307,6 @@ will all fall on 1, 3, or 5 while counting straight 8s to 6-beat patterns.
 - on 3: do a back drop while angling your body leftwards or a [brush] backwards
 - on 5: do a [right side-check] side-check or a [clockwise sweep]
 
-## Rhythm
-
-Not really WCS related, but ...
-
-I have been told contradictory information about Rumba and Waltz:
-
-- Rumba and Waltz have a box step, but the Rumba rhythm is slow, quick, quick,
-  while the Waltz rhythm is even because all steps are the same speed
-- Rumba and Waltz have the same rhythm: slow, quick, quick
-
 ## Rock-and-go (RAG)
 
 A rock-and-go (RAG) combines the last two steps of a pattern with the first two
