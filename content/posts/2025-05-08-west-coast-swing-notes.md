@@ -301,11 +301,30 @@ will all fall on 1, 3, or 5 while counting straight 8s to 6-beat patterns.
 
 **1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 ...
 
-#### Sugar push
+#### Sugar push with accents
 
 - on 1: do a [hitch] step or [level change]
 - on 3: do a back drop while angling your body leftwards or a [brush] backwards
 - on 5: do a [right side-check] side-check or a [clockwise sweep]
+
+### Counting straight 2's
+
+Zach told me that counting straight 8's takes too much mental bandwidth, so he
+only counts 1, 2 or 1&2 for triple steps. He is able to feel the music
+progression to avoid having to count straight 8's to hit the phrase changes.
+Jennifer also counts straight 2's.
+
+The benefit of counting straight 2's is that you do not need to know when the
+phrase change will happen. You just get ready for it on every 2, or continue as
+normal if you do not hear the phrase change. This may be the most useful for
+songs that are completely unfamiliar. I wonder if it may be useful to use a
+mixed approach, where one counts straight 2's until a phrase change, after which
+counting straight 8's may become relevant again.
+
+Counting straight 2's simplifies hitting phrase changes because you do not have
+to know if the phrase change will happen on a 1, a 3, a 5, or a 7. The negative
+part of this is that you may not be able to plan your patterns in advanced if
+you only have 2 beats to prepare.
 
 ## Rock-and-go (RAG)
 
