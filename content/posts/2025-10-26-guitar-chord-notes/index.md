@@ -2,6 +2,7 @@
 title: Guitar chord notes
 date: 2025-10-26T14:16:05-05:00
 categories: Music
+draft: true
 tags: Music Theory
 ---
 
@@ -127,3 +128,97 @@ You can have rhythm without having melody by playing only one type of note.
 
 Musical harmony requires playing 2 or more notes (a chord) or sounds that sound
 good together.
+
+## Expensive instruments
+
+There are violins that are very expensive because they were made in the 16th
+century. Stradivarius had various apprentices who also made other instruments.
+Those instruments are also very expensive. Their instruments are worth millions
+of dollars and usually the only way an artist can play them is if they are lent
+to them by institutions or museums.
+
+Violins, unlike brass instruments, get more expensive with age. They are an
+investment. Brass instruments on the other hand such as trumpets or French horns
+lose value with time and there are no brass instruments from the 16th century.
+
+Also, Steinway pianos can cost upwards of 100,000. I have also heard that
+expensive violins can cost upwards of \$400,000 and the bows can also get
+ridiculously expensive. They can be like \$200,000. The reason for this is that
+some bows are made with rare materials like ivory. Whenever violin players
+travel, it is not uncommon for them to be stopped by customs and for customs to
+try to take away their ivory items. However, bows and instruments containing
+ivory are considered pieces of art and cannot be confiscated.
+
+Pianos use good enough tuning as opposed to natural tuning which is the tuning
+that Pythagoras found out. The reason for this compromise. I do not understand.
+But to an experienced musician, this means that a piano always sounds just a
+little bit out of tune.
+
+## Pythagoras
+
+Pythagoras realized that if you could the string in half and vibrated it, the
+string will vibrate with twice the frequency. This is known as a higher octave.
+
+He also did experiments and divided each octave, which you can think of as a
+string, into 12 segments which became notes that make up an octave. The strange
+thing about this is that notes B and E do not have a sharp version because
+B-sharp would be the same as C and because E-sharp would be the same as F.
+Likewise F-lat is the same as E.
+
+## Transposition
+
+Because trumpets didn't have valves up until the 19th century in the past, the
+only way to change the tuning on a trumpet was to get a new trumpet or to insert
+pieces into the trumpet to make it longer. Because of this, the music sheets
+that were written in the 15th century, when trumpets didn't have vows, are
+written with the same notes in different scales which is known as transposition.
+Nowadays trumpets have valves, but the music sheets didn't change. So the music
+sheet will say something like play in C or play in B and the player has to do
+the mental math to do the transposition in their heads. Some instruments like
+guitars or flutes or trombones never transpose.
+
+## Solfagé
+
+The point of solfagé is to be able to read music sheets extremely fast because
+you're able to audiate or sound out the keys as you are reading them. This works
+best for instruments like trumpets or windpipe instruments where you can only
+arpeggiate or in other words play one note at a time, which works well whenever
+you are pronouncing the sounds with your voice. This may not work very well for
+instruments like piano. Although I wonder if there may be some unique technique
+to make it possible.
+
+Professional players are able to go into an arrangement and read music sheets
+for the first time and be able to play along with other people, even if they
+have never played the song for in their lives.
+
+Usually, the spacing in music sheets does not matter, unless there are multiple
+voices in the arrangement, and the voices must be synchronized.
+
+And here by voice I mean the sound of other instruments such as trumpets or
+trombone's or French horns.
+
+Whenever taking solfagé classes, it's usually guitar players and singers that
+have the worst rhythm. People who play instruments like a trumpet can follow the
+rhythm as they press the valves. It is very noticeable whenever a singer has
+good rhythm. It is not the fault of the singer that he or she does not have good
+rhythm because he or she is usually yelling as loud as possible, so he or she
+cannot hear anything else but their own voice, so they cannot synchronize
+themselves to the rhythm of the other voices in their arrangement.
+
+## Frequencies
+
+What is A440? It basically defines a frequency of 440 vibrations per second to
+equal the note A at the 4th octave, meaning that if you played a note with a
+frequency of 880, that would be an A5, an octave higher.
+
+A4: 440Hz
+
+A3: 220Hz
+
+A2: 110Hz
+
+A1: 55Hz
+
+A0: 27.5Hz (fundamental frequency)
+
+A-1: 13.75 Hz (cannot be heard but can be felt)

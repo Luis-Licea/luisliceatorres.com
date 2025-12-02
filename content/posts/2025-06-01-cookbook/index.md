@@ -1,5 +1,6 @@
 ---
 title: Cookbook
+draft: true
 date: 2025-06-01T17:16:19-05:00
 showTableOfContents: true
 categories: Cooking
@@ -69,3 +70,48 @@ Ingredients:
 Cook everything for 15 minutes on high pressure in a pressure cooker. The peas
 will turn out mushy like baby food.
 
+## Red rice
+
+Ingredients:
+
+- Two roma tomatoes
+- A quarter of a white onion
+- Three garlic heads
+- 1 cup of water
+- Two cups of jasmin rice
+- 3tbs of canonla oil
+- 2 cup water or chicken stock for flavor
+- 1/4 tsp of cumin
+
+
+Mix and blend the tomatoes, onion, garlic, and water.
+Toast the rice for 5 min with the 3tbs of oil, then add the two cups of water.
+Then strain the salsa mix and add it to the rice as it cooks.
+
+## Fruit electrolyte water
+
+- 8oz of water
+- 3 ice cubes
+- frozen strawberries
+- a handful of frozen blueberries
+- 1 sliced peach
+- 1 nuun lemon lime pill
+
+Put everything in a blander and blend for at least 15 seconds into a smoothie
+
+## Tomato spaghetti
+
+- 8 cups of water
+- 1 packet of Mc Trader 16oz spaghetti
+- 1 can of 15oz vine ripe tomato sauce
+- 1 can 6oz contadina roma tomatoes paste with pesto
+
+Pressure cooked white rice:
+- 100g white rice
+- 140g water
+- 4g salt
+
+Pressure cook 8 minutes at high pressure. Quick release as soon as possible.
+
+Baked sweet potato:
+Put 3 medium potatoes in a glass container, cover, and put in oven at 450°F for 50 minutes.
