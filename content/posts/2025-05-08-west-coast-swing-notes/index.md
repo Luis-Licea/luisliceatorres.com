@@ -460,7 +460,7 @@ wrist and the armpit. This is where the steering power comes from.
 
 Reached via:
 
-- Left side pass with inside turn from goofy position
+- Left-side pass with inside chain turn from goofy position
 - [sugar push inside pivot turn into closed position]
 - [right-side pass into closed position]
 - [left-side inside chain turn into closed position]
@@ -479,6 +479,7 @@ Reached via:
 - [continuous whip into starter position]
 - [right-side inside turn into starter position]
 - [head drape into starter]
+- whip with an inside turn into starter position
 
 Leads to:
 
@@ -516,7 +517,8 @@ shooting a spider web.
 
 #### Weird
 
-The leader’s left-hand ring and middle fingers point to the left at 9:00 while the leader faces 12:00.
+The leader’s left-hand ring and middle fingers point to the left at 9:00 while
+the leader faces 12:00.
 
 ### Goofy
 
@@ -538,7 +540,8 @@ This is a mirror image of the [spiderman] position.
 
 #### Weird goofy
 
-The leader’s right-hand ring and middle fingers point to the right at 3:00 while the leader faces 12:00.
+The leader’s right-hand ring and middle fingers point to the right at 3:00 while
+the leader faces 12:00.
 
 This is a mirror image of the [weird] position.
 
@@ -883,6 +886,16 @@ forward with your left foot such that it points at 10 o'clock. Notice how it was
 2 beats but only one weight change. On 3&4 there should be a push and a pull. On
 3&4 do a triple step forward while making your body and left foot point at 9
 o'clock so that you end in a [starter] position.
+
+Next patter suggestions:
+
+- [fold] from closed position such that the first two steps or backwards.
+  Because you're in close position you need two steps backwards instead of one.
+- whip with an inside turn into a head duck
+
+- closed fold
+- whip with an inside turn into a head duck
+- head-duck left-side redirect
 
 #### Left triple forward triple into starter position
 
@@ -1680,6 +1693,7 @@ Next pattern suggestion:
 Reached via:
 
 - [whip with two outside turns into over-rotated open position]
+- [sugar tuck into over-rotated open position]
 
 ### Whips
 
@@ -1861,6 +1875,28 @@ another 2 in a salsa right turn) as her right hand slides down your right
 shoulder and hand into a [handshake] position looking at 9 o'clock.
 
 A good pattern to do after this one is a [trusty left-side-pass].
+
+#### Hustle whip into left hammerlock walk-around
+
+The walk-around finishes on steps 10, then one must do a very good of indicating
+the end of the rotation and undoing the hammer-lock on the 4 steps, the final 2
+of which are an anchor step
+
+This hammer lock position is achieved by bringing your left hand up as if asking
+a question and tracing a circle over the follower's head that goes from the back
+of the follower's head to your chest while the right goes directly down and
+close to the follower's waist to avoid preventing the follower's rotation
+
+#### Hustle whip outside turn
+
+The outside turn requires a [goofy] handhold. On 5 release your left hand and
+use your right hand to lead a 1.5 outside turn into an anchor step. You should
+end in a [goofy] position.
+
+Next pattern suggestion:
+
+- [free spin] (you may be able to skip the anchor step and go directly onto a
+  free spin)
 
 #### Right-side pass reverse whip
 
@@ -2082,6 +2118,8 @@ Quickly going from facing 3:00 to 9:00 makes this pattern look dynamic.
 
 #### Closed right-side pass redirect
 
+Fix footwork.
+
 Start in a [closed] position. On step 1 step back and to the left towards 7:30.
 Also, on 1, raise your left hand to follower head-height. On 2, step towards
 6:00 with your right foot such that your toes point at 3:00 to open the slot. On
@@ -2106,6 +2144,8 @@ anchor.
 
 #### Starter left-side pass redirect
 
+Fix footwork.
+
 Start in a [starter] position. On 1, step back and to the left towards 4:30 with
 your left foot; move out of the slot for the follower to walk through; face 9:00
 while standing with your feet apart in split weight. On 2 shift your weight onto
@@ -2113,15 +2153,15 @@ your left foot and raise your left hand and the follower's right hand to her
 face level as a prep for an inside turn; move slightly diagonally to the right
 on 1 and 2 to encourage the follower to move into the slot but do not move
 totally out of the slot; on 1 and 2 the follower will pass pas your left
-shoulder, do not cut her travel short. On 3 move your weight onto your right
-leg. On 4 bring your left foot next to your right foot while facing 9:00. You
-may choose to do a cross or a hook step as long as your weight ends on the left
-foot. For the handwork, on 3 and 4 (or 3&4 for the follower) use your left hand
-to lead an inside turn while using your right hand, which is placed between in
-the groove between the followers shoulder blades, to apply force to pull the
-follower back into the 12:00 direction; left hand is mostly for show. On 5&6,
-the follower will do an anchor step while facing 6:00 and you should be back in
-[starter] position.
+shoulder, do not cut her travel short. On 3&4 move your weight onto your right
+leg collect-tap-return with your left foot while facing 9:00. You may choose to
+do a cross or a hook step as long as your weight ends on the left foot. For the
+handwork, on 3 and 4 (or 3&4 for the follower) use your left hand to lead an
+inside turn while using your right hand, which is placed between in the groove
+between the followers shoulder blades, to apply force to pull the follower back
+into the 12:00 direction; left hand is mostly for show. On 5&6, the follower
+will do an anchor step while facing 6:00 and you should be back in [starter]
+position.
 
 ### Dips
 
@@ -2440,6 +2480,22 @@ duration of 4 beats. The taps will be at 12, 2, 4, and 6 o'clock.
 
 Instead of doing the anchor step for a duration of 2 beats, do 4 taps for a
 duration of 4 beats. The taps will be at 6, 3, 12, and 6 o'clock.
+
+#### Laser swivels
+
+Just like in Lindy Hop.
+
+#### Chick-ball-change
+
+It is very important that your change happens such that your toes are behind
+your knee so that there is a natural drop. Also, the "ball-change" part are
+almost instantaneous. They happen very quickly next to each other, which may
+mean they will will be syncopated to the music.
+
+### Outside pivot turn
+
+On the 5&6 anchor step, you can choose to style it by leading the follower on an
+outside pivot turn, like in a sugar tuck.
 
 [^1]: This is a hypothetical move. I have not actually tried it. :smile_cat:
 [^2]: Thanks Daniela for the corrections and suggestions!
