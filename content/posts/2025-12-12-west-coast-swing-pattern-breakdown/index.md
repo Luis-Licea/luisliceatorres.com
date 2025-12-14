@@ -1,7 +1,6 @@
 ---
 title: West Coast Swing Pattern Breakdown
 date: 2025-12-12T23:48:20-06:00
-draft: true
 description: ""
 ---
 
@@ -35,6 +34,8 @@ late, you fail.
 Alternatively, you could program some drums to have hits on the 1st, 9th, 17th,
 and 25th beats.
 
+<https://beatmaker-app.netlify.app/>
+
 ## Patterns
 
 The breakdown takes inspiration from Labanotation:
@@ -56,23 +57,51 @@ All the movable parts:
 
 1. The direction of the movement (or gesture). Use clock time.
 2. The part of the body doing the movement:
-   - Left hand
-   - left arm,
-   - left part of body
-   - left leg gesture
-   - left support (usually left foot)
-   - body center-line,
-   - right support (usually right foot)
-   - right leg gesture
-   - right part of body,
-   - left arm,
-   - left hand
+   - left, right hand
+     - pinky
+     - ring
+     - middle
+     - index
+     - thumb
+   - left, right wrist
+   - left, right forearm
+   - left, right elbow
+   - left, right arm
+   - left, right shoulder
+   - left, right hip
+   - left, right leg
+   - left, right knee
+   - left, right foreleg
+   - left, right ankle
+   - left, right foot
+     - ball
+     - pinky
+     - ring
+     - middle
+     - index
+     - thumb
+   - lower spine
+   - thoracic spine
+   - neck
+   - head
+     - eyes
+     - mouth
+     - eyebrows
+     - forehead
+
+A body T-posing with an expressionless represents the neutral position. If a
+body part is not described, assume it is in neutral position.
+
+All joints use spherical coordinates (Radius, Theta, Phi). Radius can be a
+percentage, inches, or 0 if it does not make sense. Theta and Phi are in
+degrees.
+
 3. The distance of movement:
 
    - feet:
      - tiny:
-     - small: 3.5 ft
-     - normal:
+     - small:
+     - normal: 18in
      - big:
      - huge:
    - shoulders:
@@ -108,12 +137,22 @@ All the movable parts:
    - bounce
    - impact
 
+{{% include "./animation-functions.html" %}}
+
 ## Open position to hip catch
 
 Start: open position.
 
 Upbeat:
 
+0% - %100:
+
+- left hand:
+  - ring (r: 80%, T: 90, P: 0)
+  - middle (same as ring)
+- right hand:
+- left, right wrist: same
+-
 - feet: take a fast, momentous step back with left foot at 7:30, out of the
   slot.
 - arm: Do not use left bicep to pull the follower. The arm must be relaxed.

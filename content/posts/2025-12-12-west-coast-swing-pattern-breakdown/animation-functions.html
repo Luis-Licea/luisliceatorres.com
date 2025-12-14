@@ -1,0 +1,38 @@
+<style> 
+
+#div1, #div2, #div3, #div4, #div4, #div5 {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  font-weight: bold;
+  position: relative;
+  animation-name: motionType;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  /* animation-direction: alternate; */
+  animation-fill-mode: forwards;
+}
+
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+
+@keyframes motionType {
+
+  0% {left: 0px;}
+  80% {left: 300px;}
+  100% {left: 300px;}
+  /* from {left: 0px;} */
+  /* to {left: 300px;} */
+}
+</style>
+</head>
+
+<div id="div1">linear</div>
+<div id="div2">ease</div>
+<div id="div3">ease-in</div>
+<div id="div4">ease-out</div>
+<div id="div5">ease-in-out</div>
