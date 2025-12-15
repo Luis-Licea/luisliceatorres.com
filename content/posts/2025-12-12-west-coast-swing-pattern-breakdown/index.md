@@ -38,8 +38,6 @@ and 25th beats.
 
 ## Patterns
 
-The breakdown takes inspiration from Labanotation:
-
 Axis of movement:
 
 - X: left and right
@@ -133,9 +131,13 @@ degrees.
    - 0.25 beat
    - 0.125 beat
 6. The type of motion in the direction of movement:
-   - ease-in
-   - bounce
-   - impact
+   - linear
+   - legato
+   - staccato
+   - impact-rebound
+
+The following animations are not perfect, but they should be conceptually
+helpful.
 
 {{% include "./animation-functions.html" %}}
 
