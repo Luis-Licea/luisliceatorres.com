@@ -38,14 +38,19 @@ and 25th beats.
 
 ## Patterns
 
-Axis of movement:
+Location and orientation of movement can be described using Cartesian, airplane,
+or spherical units:
 
-- X: left and right
-- Y: up and down
-- Z: in and out
-- P: pitch
-- W: yaw
-- R: roll
+- XYZ(left and right, up and down, in and out)
+- PYR(pitch, yaw, roll)
+- RTP(radius, theta, phi)
+  - All joints use spherical coordinates (Radius, Theta, Phi). Radius can be a
+    percentage, inches, or 0 if it does not make sense. Theta and Phi are in
+    degrees.
+
+A body T-posing with an expressionless face represents the neutral position. If
+a body part is not described, assume it is in neutral position, meaning all
+values and location and orientation values are 0.
 
 All the movable parts:
 
@@ -55,6 +60,7 @@ All the movable parts:
 
 1. The direction of the movement (or gesture). Use clock time.
 2. The part of the body doing the movement:
+
    - left, right hand
      - pinky
      - ring
@@ -86,13 +92,6 @@ All the movable parts:
      - mouth
      - eyebrows
      - forehead
-
-A body T-posing with an expressionless represents the neutral position. If a
-body part is not described, assume it is in neutral position.
-
-All joints use spherical coordinates (Radius, Theta, Phi). Radius can be a
-percentage, inches, or 0 if it does not make sense. Theta and Phi are in
-degrees.
 
 3. The distance of movement:
 
@@ -150,7 +149,7 @@ Upbeat:
 0% - %100:
 
 - left hand:
-  - ring (r: 80%, T: 90, P: 0)
+  - ring RTP(80%, 90, 0)
   - middle (same as ring)
 - right hand:
 - left, right wrist: same
