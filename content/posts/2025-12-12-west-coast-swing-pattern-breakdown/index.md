@@ -36,6 +36,57 @@ and 25th beats.
 
 <https://beatmaker-app.netlify.app/>
 
+## Competition tips
+
+If your face is stone cold without making eye contact, you will be perceived as
+less confident, less sure of yourself, or hiding something, meaning you will be
+graded more critically. Your smile is part of how your dance is perceived.
+Having a stone-cold face also makes your partner feel more critical of your
+dance and her own dance. It is an overall unpleasant experience.
+
+Smiling will let the judges be more forgiving of your mistakes. Smile, look at
+your partner, and enjoy every moment.
+
+Dancing competitively is a visual sport, so judges can only judge what they see
+during your performance. Judges are not supposed to use previous knowledge of
+your dancing even if they dance with you before competing.
+
+### Strictly dances
+
+Every dance is judged like it is a final, meaning that the leader and follow are
+judged as a couple.
+
+### Jack-and-Jill
+
+In Jack-and-Jill prelims and semi-finals, the leader and the follow are judged
+individually. Because the judge only looks at you for 8 seconds, your dance must
+be extremely busy, full of quality motion. Be repetitive because you will only
+be judged a few seconds and you do not know when that will be. In other words,
+do basics, but style them as much as possible without affecting the partnership
+or the footwork. Everything below the knees is WCS, and anything above is for
+you to style. Amplify and style often. Do not wait for the anchor step to style.
+Be selfish, be flashy. It is upon the partner to amplify and style to get to
+your level. Do not try to be less flashy to try to avoid creating an imbalance;
+meet your parter where she is if she is being flashy rather than dumbing down
+the dance. That's not what Jack and Jill is about; you are being judged
+individually so do your best independently of your partner. Start moving soon.
+Do not spend too much time to start the dance. Waiting 16 beats is definitely
+too much.
+
+In newcomer division, doing clean basics may win, but in novice it will not. In
+novice division you must have clean basics and lots of variety in your movement.
+If you see advanced followers, you will see their lats and backs are constantly
+rippling.
+
+A straight spine has no styling. Quality motion comes from engaging the upper
+body, specially the lats, and improving footwork. Quality of motion is the most
+important in competitions. Do not confuse movement across the dance floor with
+motion within your own body. Quality motion, not movement, is more effective for
+looking good when swing dancing in general.
+
+In the finals context, the criteria changes. Rather than focusing on quality of
+movement and variety, the focus is on connection and partnership.
+
 ## Patterns
 
 Location and orientation of movement can be described using Cartesian, airplane,
@@ -84,10 +135,10 @@ All the movable parts:
      - middle
      - index
      - thumb
-   - lower spine
-   - thoracic spine
+   - lower spine (abdominal and lower-back muscles engage lower spine and hips)
+   - thoracic spine (lats engage thoracic spine)
    - neck
-   - head
+   - head (neck muscles engage head)
      - eyes
      - mouth
      - eyebrows
