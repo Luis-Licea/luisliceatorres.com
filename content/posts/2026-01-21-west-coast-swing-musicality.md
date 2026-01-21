@@ -99,6 +99,17 @@ beats I have danced. The way I count beats in a song is as follows:
 
 1 2 3 4 5 6 7 **1** 1 2 3 4 5 6 7 **2** 1 2 3 4 5 6 7 **3** 1 2 3 4 5 6 7 **..**
 
+One of the biggest drawbacks with the straight 8's method is that it takes too
+much mental space, specially if you try to count triple steps like 1&2 3 4 5&6 7
+8 instead of 1 2 3 4 5 6 7 8.
+
+Another drawback is that count correction is very difficult. If you are 2 beats
+behind while counting 6 and hear the 1 in the song, you have to correct your
+current. By the time you update the number 6 to number 1, the music has already
+moved to number 2. By the time you realize this, the music is on 3. Your count
+will be completely messed up before you know it. Counting straight evens solves
+this issue.
+
 ### Accentuating the 1
 
 Dance your basic patterns while counting straight 8s. Accentuate the 1 by any
@@ -134,6 +145,59 @@ to know if the phrase change will happen on a 1, a 3, a 5, or a 7. The negative
 part of this is that you may not be able to plan your patterns in advanced if
 you only have 2 beats to prepare.
 
+### Counting straight odds (the up-beats)
+
+Since West Coast Swing is structured 2-beat increments, it possible to only
+count the odd numbers. So instead of counting:
+
+**1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 ...
+
+You could equivalently count:
+
+**1** b 2 b 3 b 4 b **1** b 2 b 3 b 4 b **1** b 2 b 3 b 4 b **1** b 2 b 3 b ...
+
+In this case, the even down-beats get replaced by the letter "b". The drawback
+with this method is that that you are counting the up-beat, which can be silent
+sometimes depending on the song.
+
+### Counting straight evens (the down-beats)
+
+Since West Coast Swing is structured 2-beat increments, it possible to only
+count the even numbers. So instead of counting:
+
+**1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 ...
+
+You could equivalently count:
+
+**b** 1 b 2 b 3 b 4 **b** 1 b 2 b 3 b 4 **b** 1 b 2 b 3 b 4 **b** 1 b 2 b 3 ...
+
+In this case, the odd down-beats get replaced by the letter "b".
+
+I have not found a major drawback to this system. But it has many benefits:
+
+- The down-beat is usually audible, so it is easy to count.
+- Counting half the beats reduces the mental bandwidth needed by half.
+- Beat count correction is much easier. When the beat is "b" and you hear the 1,
+  the next number that you count is 1. Even though you are thinking
+  retroactively about what the music is doing, your count is on time. The beat
+  "1" is self correcting. The remaining beats are not "self correcting", but who
+  cares about those?
+- If you count up to 8, you are counting minor phrase changes, which has an
+  incredibly positive impact on your musicality and ability to plan music
+  because it makes it tremendously easier to hit phrase changes.
+
+Personally, I believe this is the best counting method. The only additional
+suggestion is avoid fucking it up by counting half beats. Do not count **b** 1
+b&2 b&3 b 4. Counting the half beats is bad for multiple reasons:
+
+- Counting half beats takes mental bandwidth.
+- Counting half beats promotes counting the pattern, when in reality you should
+  be counting the music. If you count the pattern, you will always be robotic
+  and miss the phrase changes while focusing on completing the pattern (I have
+  been stuck doing this for a year). If you count the music, you will be more
+  reactionary and spontaneous. Count the music, not the pattern. Dance the
+  fucking music, not the pattern, man!
+
 ## Pattern count combinations
 
 Many popular songs are composed such that each phrase is 32 beats. The leader
@@ -147,6 +211,11 @@ must last 30 beats, etc.
 The equations below split up the total number of beats into chunks that can be
 translated into specific patterns. For example, the equation \\(32=6+6+6+6+8\\)
 could be translated into \\(4\\) basic patterns and \\(1\\) whip.
+
+This table is descriptive, not predictive, meaning that studying it will not
+make you a better dancer. It will only help you understand why someone is a good
+dancer or why a patter is structured well. Int he best case you may be able to
+use it for choreography.
 
 {{< katex >}}
 
@@ -215,4 +284,3 @@ Some ways to lengthen a pattern by 2 beats are:
   increment like walk-walk triple-step triple-step, and then lengthened by
   2-beats by adding another walk-walk at the beginning or another triple-step
   any time after the initial walk-walk. It is a subtle form of copy-and-paste.
-
