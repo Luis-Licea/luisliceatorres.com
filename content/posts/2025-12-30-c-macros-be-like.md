@@ -1,7 +1,6 @@
 ---
 title: C Macros Be Like
 date: 2025-12-30T14:46:28-06:00
-draft: true
 description: C Macro Hell
 categories: Programming
 tags: [C, Sarcasm]
