@@ -7,47 +7,198 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-- Music is commonly written in the 4/4 time signature and commonly structured in
-  sets of 8 beats.
+## Time signatures
+
+- Pop music is commonly written in the 4/4 time signature and structured in sets
+  of 8 beats. Pop songs frequently come up on the radio radio. They have a
+  distinctive boom-tick rhythm.
 - The 4/4 time signature means 4 quarter notes per bar. How long is a quarter
   note? In this case it is one beat long, but that is not the case for other
   time signatures. The length of the beat is defined by the beats per minute
   (BPM) in a song.
 
-  For example, if a song is fast and has 120 beats per second, then there are
-  two beats per minute. In other words, counting 8 beats will take 4 seconds.
+  For example, if a song is fast and has 120 beats per minute, then there are
+  two beats per second. In other words, one beat is exactly 0.5 seconds.
 
-- You can approximate the beats per minute in a song by counting 8 beats and
-  seeing how many seconds it takes. If you started counting when the music
-  player was at 2min 15 sec and you finished counting when it was at 2min 20
-  sec, then 8 beats took 5 seconds. This means the song is 96 BPM.
-
-  If it takes 5 seconds to count 8 beats, then you are listening to a mid-tempo
-  song with \\(((8 beats / 5 seconds) \* 60 seconds / 1 minute) = 96\\) beats
-  per minute.
-
-  If it takes 3 seconds to count 8 beats, then you are listing to a really fast,
-  non-danceable song of \\(((8 beats / 3 seconds) \* 60 seconds / 1 minute) =
-  160\\) beats per minute.
-
-- West Coast Swing competitions usually feature songs around 100 beats per
-  minute, so that means songs between 80 to 120 beats per minute are good for
-  social dancing.
-- A major phrase is 32 beats. A minor phrase is 16 beats (usually) or 8 beats
-  (rarely). Songs are usually structured in sets of minor and major phrases.
-- Contemporary music is written in 8 bar phrases, and each bar has 4 beats. This
-  means there are 32 beats in a phrase. In Blues each phrase is 12 bars, so
-  there are 48 beats in each phrase.
-- All ballroom dances except Waltz are written in 4/4 time and can be danced
+- Most ballroom dances except Waltz are written in 4/4 time and can be danced
   using 8 beat patterns:
   - Bachata: 4- or 8-beat patterns
   - Chacha: 4- or 8-beat patterns
   - Country Polka: 4- or 8-beat patterns
-  - Country Two Step: 4- or 8-beat patterns
   - Salsa: 8-beat patterns
   - West Coast Swing: primarily 6- and 8-beat patterns, with 10- and 12-beat
     patterns requiring a rock-and-go
   - Waltz is written in 3/4 time signature and has 6-beat patterns
+
+## Approximating song beats per minute
+
+You can approximate the beats per minute in a song by counting 8 beats and
+seeing how many seconds it takes. If you started counting when the music player
+was at 2min 15 sec and you finished counting when it was at 2min 20 sec, then 8
+beats took 5 seconds. This means the song is 96 BPM.
+
+If it takes 5 seconds to count 8 beats, then you are listening to a mid-tempo
+song with \\(((8 beats / 5 seconds) \* 60 seconds / 1 minute) = 96\\) beats per
+minute.
+
+If it takes 3 seconds to count 8 beats, then you are listing to a really fast,
+non-danceable song of \\(((8 beats / 3 seconds) \* 60 seconds / 1 minute) =
+160\\) beats per minute.
+
+## Competition music
+
+- West Coast Swing competitions usually feature pop songs around 100 beats per
+  minute, so that means songs between 80 to 120 beats per minute are good for
+  social dancing.
+- Contemporary pop music is written such that major phrases are 32 beats long
+  and minor phrases are 16 beats long.
+- In Blues, phrases are 48 beats long.
+
+## Music counting strategies
+
+Pop music is organized in minor and major phrase changes, so you can count the
+number of beats to determine when the next phrase change will be. Standing
+still, performing a dip, or doing fancy footwork at the beginning of a phrase
+change is known as "accentuating the 1".
+
+You can count music in different way depending on what works for you.
+
+### Counting straight 8's
+
+This counting strategy involves counting each beat in the music, like so:
+
+**1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 7 8 **1** 2 3 4 5 **..**
+
+You can also count straight 8's in sets of 8. It may help you do math of keep
+track of how far away you are from the next phrase change:
+
+1 2 3 4 5 6 7 **1** 1 2 3 4 5 6 7 **2** 1 2 3 4 5 6 7 **3** 1 2 3 4 5 6 7 **..**
+
+Pros:
+
+- Counting each beat is helpful when learning a new pattern to make sure the
+  song rhythm matches the steps in the pattern.
+
+Cons:
+
+- It takes too much mental bandwidth, specially if you try to count triple steps
+  like 1&2 3 4 5&6 7 8 instead of just counting 1 2 3 4 5 6 7 8.
+
+- Count correction is very difficult. If you are 2 beats behind while counting 6
+  and hear the 1 in the song, you have to correct your current. By the time you
+  update the number 6 to number 1, the music has already moved to number 2. By
+  the time you realize this, the music is on 3. Your count will be completely
+  messed up before you know it. Gracefully getting on beat if dancing off-beat
+  by 1, 2, 3, 4, 5, 6, or 7 beats is very hard. Counting down-beats solves this
+  issue.
+
+### Counting straight 2's
+
+This counting strategy involves counting 2-beat increments, like so:
+
+1 2 1&2 1&2 1 2 1&2 1&2 1 2 1&1 1 2 1&2 1 2
+
+Zach told me that counting straight 8's takes too much mental bandwidth, so he
+only counts 1, 2 or 1&2 for triple steps. He is able to feel the music
+progression to avoid having to count straight 8's to hit the phrase changes.
+Jennifer also counts straight 2's.
+
+Pros:
+
+- It helps maintain the step-step (1 2) and tri-ple-step (1&2) rhythm.
+- It simplifies hitting phrase changes because you do not have to know if the
+  phrase change will happen on a 1, a 3, a 5, or a 7. You just get ready for a
+  phrase change after every 2 beats, or continue as normal if you do not hear
+  the phrase change. This may be the most useful for songs that are completely
+  unfamiliar.
+- It may be useful when using a mixed approach, where one counts straight 2's
+  until a phrase change, after which counting straight 8's may become relevant
+  again.
+
+Cons:
+
+- This strategy will not work if you cannot intuit or feel when the phrase
+  changes happen.
+- You may not be able to plan your patterns in advance if you only have 2 beats
+  to prepare.
+
+### Counting upbeats
+
+West Coast Swing is structured in 2-beat increments, so it is possible to only
+count the upbeats. So instead of counting:
+
+**1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 ...
+
+You could equivalently count the odd beats:
+
+**1** b 2 b 3 b 4 b **1** b 2 b 3 b 4 b **1** b 2 b 3 b 4 b **1** b 2 b 3 b ...
+
+In this case, the even down-beats get replaced by the letter "b".
+
+Pros:
+
+- Not counting half beats in triple steps, like 1&b, frees mental bandwidth.
+- Not counting half beats in triple steps promotes counting the music, not the
+  pattern.
+- Counting half the beats reduces the mental bandwidth needed by half.
+- Counting up to 8 is the same as counting phrase changes, which makes it easier
+  to hit the phrase change.
+
+Cons:
+
+- Counting the music as opposed to counting the pattern makes it easier to mess
+  up the pattern footwork.
+- Counting the upbeat is hard sometimes because the upbeat is silent in some
+  songs.
+- Not counting half beats in the triple-steps, like b&1, can negatively affect
+  rhythm.
+
+### Counting downbeats
+
+West Coast Swing is structured in 2-beat increments, so it is possible to only
+count the downbeats. So instead of counting:
+
+**1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 ...
+
+You could equivalently count the even beats:
+
+**b** 1 b 2 b 3 b 4 **b** 1 b 2 b 3 b 4 **b** 1 b 2 b 3 b 4 **b** 1 b 2 b 3 ...
+
+In this case, the odd down-beats get replaced by the letter "b".
+
+I have not found a major drawback to this system. But it has many benefits:
+
+Pros:
+
+- Not counting half beats in triple steps, like 1&b, frees mental bandwidth.
+- Not counting half beats in triple steps promotes counting the music, not the
+  pattern.
+- The down-beat is usually audible, so it is easy to count.
+- Counting up to 8 is the same as counting phrase changes, which makes it easier
+  to hit the phrase change.
+- Counting half the beats reduces the mental bandwidth needed by half.
+- Count correction is easy because the count self-corrects when you count "1".
+  If you count "1" when you hear it, your count will be on time. This is because
+  the beat is "b" when you hear the "1", so the next number that you count is 1.
+  Your count will be correct even though you are retroactively counting the 1.
+  The remaining beats are not "self correcting", but who cares about those?
+
+Cons:
+
+- Counting the music as opposed to counting the pattern makes it easier to mess
+  up the pattern footwork.
+- Not counting half beats in the triple-steps, like b&1, can negatively affect
+  rhythm.
+
+Personally, I believe this is the best counting method. The only additional
+suggestion is avoid fucking it up by counting half beats. Do not count **b** 1
+b&2 b&3 b 4. Counting the half beats is bad because counting half beats promotes
+counting the pattern, when in reality you should be counting the music. If it
+does not affect your rhythm, count 1 2 3 4 without the "b". If you count the
+pattern, you will always be robotic and miss the phrase changes while focusing
+on completing the pattern. I have been stuck counting patterns for a year. If
+you count the music, you will be more reactionary and spontaneous. Count the
+music, not the pattern. Dance the music, not the pattern.
 
 ## Musicality exercises
 
@@ -84,31 +235,12 @@ learn.
 17. Now do 14, 15, and 16 all simultaneously. If you can manage to do this, you
     are a musicality professional.
 
-These exercises miss a few things, like how to gracefully get on beat if dancing
-off-beat by 1, 2, 3, 4, 5, 6, or 7 beats.
-
 You don't have to hit all the phrase changes in the song. Aim for 1, then 2,
 then 3, then all of them for a specific song you are familiar with.
 
 Rules: once the song starts and you make your first move, you cannot bail out
 and stop dancing. Doesn't matter how fast, how slow, how tired, how sloppy, how
 confused you may be.
-
-Note: I count beats in sets of 8 so I can do quick math on the total number of
-beats I have danced. The way I count beats in a song is as follows:
-
-1 2 3 4 5 6 7 **1** 1 2 3 4 5 6 7 **2** 1 2 3 4 5 6 7 **3** 1 2 3 4 5 6 7 **..**
-
-One of the biggest drawbacks with the straight 8's method is that it takes too
-much mental space, specially if you try to count triple steps like 1&2 3 4 5&6 7
-8 instead of 1 2 3 4 5 6 7 8.
-
-Another drawback is that count correction is very difficult. If you are 2 beats
-behind while counting 6 and hear the 1 in the song, you have to correct your
-current. By the time you update the number 6 to number 1, the music has already
-moved to number 2. By the time you realize this, the music is on 3. Your count
-will be completely messed up before you know it. Counting straight evens solves
-this issue.
 
 ### Accentuating the 1
 
@@ -125,78 +257,6 @@ will all fall on 1, 3, or 5 while counting straight 8s to 6-beat patterns.
 - on 1: do a [hitch] step or [level change]
 - on 3: do a back drop while angling your body leftwards or a [brush] backwards
 - on 5: do a [right side-check] side-check or a [clockwise sweep]
-
-### Counting straight 2's
-
-Zach told me that counting straight 8's takes too much mental bandwidth, so he
-only counts 1, 2 or 1&2 for triple steps. He is able to feel the music
-progression to avoid having to count straight 8's to hit the phrase changes.
-Jennifer also counts straight 2's.
-
-The benefit of counting straight 2's is that you do not need to know when the
-phrase change will happen. You just get ready for it on every 2, or continue as
-normal if you do not hear the phrase change. This may be the most useful for
-songs that are completely unfamiliar. I wonder if it may be useful to use a
-mixed approach, where one counts straight 2's until a phrase change, after which
-counting straight 8's may become relevant again.
-
-Counting straight 2's simplifies hitting phrase changes because you do not have
-to know if the phrase change will happen on a 1, a 3, a 5, or a 7. The negative
-part of this is that you may not be able to plan your patterns in advanced if
-you only have 2 beats to prepare.
-
-### Counting straight odds (the up-beats)
-
-Since West Coast Swing is structured 2-beat increments, it possible to only
-count the odd numbers. So instead of counting:
-
-**1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 ...
-
-You could equivalently count:
-
-**1** b 2 b 3 b 4 b **1** b 2 b 3 b 4 b **1** b 2 b 3 b 4 b **1** b 2 b 3 b ...
-
-In this case, the even down-beats get replaced by the letter "b". The drawback
-with this method is that that you are counting the up-beat, which can be silent
-sometimes depending on the song.
-
-### Counting straight evens (the down-beats)
-
-Since West Coast Swing is structured 2-beat increments, it possible to only
-count the even numbers. So instead of counting:
-
-**1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 7 8 **1** 2 3 4 5 6 ...
-
-You could equivalently count:
-
-**b** 1 b 2 b 3 b 4 **b** 1 b 2 b 3 b 4 **b** 1 b 2 b 3 b 4 **b** 1 b 2 b 3 ...
-
-In this case, the odd down-beats get replaced by the letter "b".
-
-I have not found a major drawback to this system. But it has many benefits:
-
-- The down-beat is usually audible, so it is easy to count.
-- Counting half the beats reduces the mental bandwidth needed by half.
-- Beat count correction is much easier. When the beat is "b" and you hear the 1,
-  the next number that you count is 1. Even though you are thinking
-  retroactively about what the music is doing, your count is on time. The beat
-  "1" is self correcting. The remaining beats are not "self correcting", but who
-  cares about those?
-- If you count up to 8, you are counting minor phrase changes, which has an
-  incredibly positive impact on your musicality and ability to plan music
-  because it makes it tremendously easier to hit phrase changes.
-
-Personally, I believe this is the best counting method. The only additional
-suggestion is avoid fucking it up by counting half beats. Do not count **b** 1
-b&2 b&3 b 4. Counting the half beats is bad for multiple reasons:
-
-- Counting half beats takes mental bandwidth.
-- Counting half beats promotes counting the pattern, when in reality you should
-  be counting the music. If you count the pattern, you will always be robotic
-  and miss the phrase changes while focusing on completing the pattern (I have
-  been stuck doing this for a year). If you count the music, you will be more
-  reactionary and spontaneous. Count the music, not the pattern. Dance the
-  fucking music, not the pattern, man!
 
 ## Pattern count combinations
 
