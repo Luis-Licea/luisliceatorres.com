@@ -200,6 +200,28 @@ on completing the pattern. I have been stuck counting patterns for a year. If
 you count the music, you will be more reactionary and spontaneous. Count the
 music, not the pattern. Dance the music, not the pattern.
 
+### Not counting
+
+After I proudly showed my downbeat counting method to Karin, she understood it,
+but said that she personally did not count. Whenever we danced, I struggled to
+find the 1 in the music, and even when I found it, the phrases were not always 8
+downbeats long, or at least they did not feel like so, causing me to lose
+confidence in my count. However, Karin was able to identify the 1 in the music.
+She was even able to identify the 1 at least six beats in advance. In other
+words, she did not need to count because she could hear the count in the music.
+
+The counting downbeats strategy is first-beat centric because the count is
+useless if you are not able to identify the 1. Also, it feels odd having to
+patiently wait for the first 1 to come around so you can reset your count. Truly
+listening to the music means being able to identify the phrase progression and
+being able to identify the second, third, fourth, fifth, sixth, etc., beats.
+Whenever you can just listen to the music and know what beat it is on, then
+counting becomes meaningless. Why do you need to count when the music is telling
+you what count it is on? Rather than listening to the count from the music and
+"echoing" it back by counting it, simply listen to the count. Doing so requires
+being able to identify all or most of the beats in a phrase independently, not
+just the 1. This is a skill I do not have, but it is a skill I can practice.
+
 ## Musicality exercises
 
 Musicality is hard. I suspect it will take anywhere from 3 months to 2 years to
