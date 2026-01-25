@@ -15,6 +15,8 @@ serve # hugo serve --buildDrafts
 ## To create new posts
 
 ```sh
-hugo new content/posts/<date>-<post-name>.md
+hugo new content/posts/$(date -u +%Y-%m-%d)-<post-name>.md
+# or
+post <post-name>
 ```
 

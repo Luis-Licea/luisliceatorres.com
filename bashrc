@@ -13,3 +13,12 @@ serve() {
     cd "$root_path" || exit
     hugo serve --buildDrafts "$@"
 }
+
+# Create an empty post.
+post() {
+    local post_name=$1
+    # shellcheck disable=2155
+    local root_path=$(git rev-parse --show-toplevel)
+    cd "$root_path" || exit
+    hugo new "content/posts/$(date -u +%Y-%m-%d)-$post_name.md"
+}
