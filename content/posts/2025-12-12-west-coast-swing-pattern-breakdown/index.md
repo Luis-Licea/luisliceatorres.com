@@ -10,32 +10,6 @@ analytical part of the brain, so numbers will not be used to count the steps in
 the pattern. Just listen to the music, or if necessary, count the music beats,
 not the pattern steps.
 
-## Rhythm exercise
-
-Counting takes too much mental bandwidth, so learn to dance without counting.
-Count only when learning new patterns. The counting must be replaced by either
-listening to the music or having an ingrained sense or rhythm.
-
-Use a metronome to develop a sense of rhythm. Get used to listening to rhythms
-between 80 and 120 beats per minute. Set the metronome to have 8 beats, but only
-play the first beat. The remaining 7 beats must be silent. The goal is to
-ingrain the 8-beat measure into your brain. The goal is to hit, stop, or clap on
-or right before the 1.
-
-Listen to the 1 four times before attempting to hit it. Work it into your system
-first.
-
-Once you have ingrained the 8-beat measure, you must ingrain the 32-beat
-measure. Try setting a timer to 24 seconds (80bpm), 19.2 seconds (100bpm), and
-16 seconds (120bpm). The goal is to hit, stop, or clap exactly when the timer
-rings. Your grade is based on how early you are to the timer ringing, but if you
-late, you fail.
-
-Alternatively, you could program some drums to have hits on the 1st, 9th, 17th,
-and 25th beats.
-
-<https://beatmaker-app.netlify.app/>
-
 ## Competition tips
 
 If your face is stone cold without making eye contact, you will be perceived as
