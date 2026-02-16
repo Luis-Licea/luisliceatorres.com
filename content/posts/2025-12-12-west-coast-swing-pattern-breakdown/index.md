@@ -2,6 +2,7 @@
 title: West Coast Swing Pattern Breakdown
 date: 2025-12-12T23:48:20-06:00
 description: ""
+draft: true
 ---
 
 ## Patterns
