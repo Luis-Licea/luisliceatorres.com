@@ -202,11 +202,11 @@ music, not the pattern. Dance the music, not the pattern.
 
 ### Not counting
 
-After I proudly showed my downbeat counting method to Karin, she understood it,
+After I proudly showed my downbeat counting method to Caryn, she understood it,
 but said that she personally did not count. Whenever we danced, I struggled to
 find the 1 in the music, and even when I found it, the phrases were not always 8
 downbeats long, or at least they did not feel like so, causing me to lose
-confidence in my count. However, Karin was able to identify the 1 in the music.
+confidence in my count. However, Caryn was able to identify the 1 in the music.
 She was even able to identify the 1 at least six beats in advance. In other
 words, she did not need to count because she could hear the count in the music.
 
