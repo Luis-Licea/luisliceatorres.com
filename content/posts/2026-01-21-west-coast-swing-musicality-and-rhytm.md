@@ -45,14 +45,12 @@ If it takes 3 seconds to count 8 beats, then you are listing to a really fast,
 non-danceable song of \\(((8 beats / 3 seconds) \* 60 seconds / 1 minute) =
 160\\) beats per minute.
 
-## Competition music
+## Music phrasing
 
-- West Coast Swing competitions usually feature pop songs around 100 beats per
-  minute, so that means songs between 80 to 120 beats per minute are good for
-  social dancing.
-- Contemporary pop music is written such that major phrases are 32 beats long
-  and minor phrases are 16 beats long.
-- In Blues, phrases are 48 beats long.
+- Contemporary (ooey-gooey, legato, smooth) and pop (high-energy, staccato)
+  music are written such that major phrases are 32 beats long and minor phrases
+  are 16 beats long.
+- In Blues (bouncy) music, phrases are 48 beats long.
 
 ## Music counting strategies
 
