@@ -1,5 +1,5 @@
 ---
-title: "West Coast Swing Checklist"
+title: West Coast Swing Dance Checklist
 date: 2026-02-16T01:10:14-06:00
 description: ""
 showTableOfContents: true
