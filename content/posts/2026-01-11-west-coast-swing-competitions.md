@@ -1,5 +1,5 @@
 ---
-title: "West Coast Swing Competitions"
+title: West Coast Swing Competitions
 date: 2026-01-11T12:53:41-06:00
 description: ""
 showTableOfContents: true
@@ -27,8 +27,6 @@ your partner, and enjoy every moment.
 Dancing competitively is a visual sport, so judges can only judge what they see
 during your performance. Judges are not supposed to use previous knowledge of
 your dancing even if they dance with you before competing.
-
-There are 4 types of West Coast Swing competitions.
 
 ## Jack & Jill
 
@@ -87,4 +85,9 @@ judged as a couple.
 
 ## Pro-Am Strictly Swing
 
+You choose your partner, but not the song. You get to dance with a pro, so only
+you get graded.
+
 ## Routines
+
+You choose your partner and the song.
