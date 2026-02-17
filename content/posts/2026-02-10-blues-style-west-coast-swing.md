@@ -21,23 +21,23 @@ Pop music has staccato (high-energy, detached, short, detached) beats.
 - Do hitch steps on sugar pushes, side passes, etc.
 - Do kick-ball-changes.
 - Do feet taps on folds.
-- Replace left-side tuck passes anchor with right foot swivels.
+- Replace left-side tuck pass anchors with right foot swivels.
 
 ## Blues starter step
 
 Start in a closed position.
 
-On B(1), step at 4:30 with the left foot behind right foot; lift right foot;
-push follower away. On &, replace right foot; lift left foot; pull follower
-closer. On 1, replace left foot at origin; stop pulling the follower closer,
-slower her down.
-
-On B(2) step at 7:30 with right foot behind left foot; lift right foot; push
-follower away. On &, replace left foot; lift right foot; pull follower closer.
-On 2, replace right foot at origin; stop pulling the follower closer. Slow her
+On 1, step at 4:30 with the left foot behind right foot; lift right foot; push
+follower away. On &, replace right foot; lift left foot; pull follower closer.
+On 2, replace left foot at origin; stop pulling the follower closer, slower her
 down.
 
-On B(3) repeat the starter step or begin a new sequence.
+On 3 step at 7:30 with right foot behind left foot; lift right foot; push
+follower away. On &, replace left foot; lift right foot; pull follower closer.
+On 4, replace right foot at origin; stop pulling the follower closer. Slow her
+down.
+
+On 5 repeat the starter step or begin a new sequence.
 
 The footwork looks like a basic cumbia step, minus the push-pull.
 

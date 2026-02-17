@@ -8,24 +8,26 @@ tags: West Coast Swing
 ---
 
 - Smile
-- count down beats (to hit 1's, phrase changes)
-- Break wrists so thumbs line up along radius bone.
-- Do full weight changes by settling slightly on hips:
-  - To slow down weight transfer, stand with feet apart at shoulder width.
-  - Do not shift feet on even beets.
-  - Do drop steps on 3 of sugar push and side passes.
-- Keep elbows bent so they stay at or behind rib cage, not past it.
-- angling body at 2:00 for effecting stretching when anchoring before squaring
-  up.
-  - Stretch on the 7 of the &1 of a new pattern.
-- Practice choreography.
-- Practice engaging lats.
 - Interpret the lyrics.
 - Interpret the instruments (bouncy, smooth, or detached beats).
-- Create opposition and twist spine on every step by contracting latissimus
-  dorsi laterally on every step or triple step (as opposed to contracting the
-  both side of the lat on a triple step). Contract the lat that is opposite to
-  the free leg.
+- Count down beats (to hit 1's, phrase changes)
+- Align thumbs and forearms in a straight line and bend middle and ring fingers
+  to create a nice platform for the follower, like shaking someone's hand.
+- Do full weight changes by settling slightly on hips:
+  - To slow down weight transfer, stand with feet apart at shoulder width.
+  - Do not slide feet on even beets. The replace step must happen in place.
+  - Do drop steps on 3 of sugar push and side passes.
+- Keep elbows bent so they stay at or behind rib cage, not past it.
+- Angle body at 2:00 to create stretch when anchoring.
+  - Square up on the one and pull shoulder back into un-stretched position to
+    "jerk" follower.
+  - Stretch shoulder on the & of the &1 of a new pattern.
+- Practice choreography.
+- Practice engaging lats.
+  - Create opposition on every step by contracting latissimus dorsi backwards
+    when stepping backward, or engaging shoulder forward when moving forward.
+    Only contract lat once in a triple step, not three times. Contract the lat
+    that is opposite to the free leg when walking backward.
   - A side wave will not work because it requires bending the knees or changing
     levels, which will not work well with side passes or whips.
 
