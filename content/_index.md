@@ -3,7 +3,9 @@ date: 2021-06-21T04:07:57.636Z
 ---
 
 <link rel="stylesheet" href="./profile-picture.css">
-<img src="luis.jpg" alt="Luis David Licea Torres">
+<div class="circular-wrapper">
+    <img src="./2026-03-21-luis.jpg" alt="Luis David Licea Torres">
+</div>
 
 I am a software developer and I work in the aerospace industry doing system
 integration and JavaScript back-end development. At work, I
