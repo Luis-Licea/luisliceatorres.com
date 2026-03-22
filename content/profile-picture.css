@@ -17,8 +17,4 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /*Display the border as a solid line around the element.*/
-  border-style: solid;
-  /*Make the border of medium thickness.*/
-  border-width: medium;
 }
