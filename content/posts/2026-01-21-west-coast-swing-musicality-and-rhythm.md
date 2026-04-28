@@ -7,6 +7,55 @@ categories: Dance
 tags: West Coast Swing
 ---
 
+## Pattern-planning tables
+
+If you lost your count, stop counting the pattern you are currently dancing a
+few moments before hearing the upcoming one. Focus on counting the 1 and 2 of
+the music.
+
+You may stop counting the music at any point, but I suggest stopping on an
+anchor step. The count you end up with is the number of beats since 1.
+
+The number of beats since 1 will determine how many patterns you can dance and
+how many beats the last pattern in the sequence must be before hitting the one.
+
+| Beats since 1 | Patterns | Break Pattern | Total beats |
+| ------------- | -------- | ------------- | ----------- |
+| 2             | 4\*6     | 6             | 32          |
+| 4             | 4\*6     | 4             | 32          |
+| 6             | 4\*6     | 2             | 32          |
+| 8             | 3\*6     | 6             | 32          |
+| 10            | 3\*6     | 4             | 32          |
+| 12            | 3\*6     | 2             | 32          |
+| 14            | 2\*6     | 6             | 32          |
+| 16            | 2\*6     | 4             | 32          |
+| 18            | 2\*6     | 2             | 32          |
+| 20            | 1\*6     | 6             | 32          |
+| 22            | 1\*6     | 4             | 32          |
+| 24            | 1\*6     | 2             | 32          |
+
+Notice the following patterns are equivalent:
+
+| 24 beats | 18 beats | 12 beats |
+| -------- | -------- | -------- |
+| 6+6+6+6  | 6+6+6    | 6+6      |
+| 8+8+8    | 12+6     | 12       |
+| 12+6+6   | 10+8     |          |
+| 12+12    |          |          |
+| 8        |          |          |
+
+Some songs have 48-beat phrase changes, so this may come in handy:
+
+| Beats since 1 | Patterns | Break Pattern | Total beats |
+| ------------- | -------- | ------------- | ----------- |
+| 2             | 2\*6     | 2             | 16          |
+| 4             | 1\*6     | 6             | 16          |
+| 6             | 1\*6     | 4             | 16          |
+| 8             | 1\*6     | 2             | 16          |
+| 10            | 0\*6     | 6             | 16          |
+| 12            | 0\*6     | 4             | 16          |
+| 14            | 0\*6     | 2             | 16          |
+
 ## Time signatures
 
 - Pop music is commonly written in the 4/4 time signature and structured in sets
