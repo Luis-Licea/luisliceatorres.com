@@ -1,5 +1,5 @@
 ---
-title: West Coast Swing Musicality and Rhytm
+title: West Coast Swing Musicality and Rhythm
 date: 2026-01-21T10:52:30-06:00
 description: ""
 showTableOfContents: true
