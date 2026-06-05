@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# Serve the website.
+root_path=$(git rev-parse --show-toplevel)
+cd "$root_path" || exit
+hugo serve --buildDrafts "$@"

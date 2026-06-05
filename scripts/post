@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# shellcheck disable=2155
+post_name=$1
+root_path=$(git rev-parse --show-toplevel)
+cd "$root_path" || exit
+hugo new "content/posts/$(date -u +%Y-%m-%d)-$post_name.md"

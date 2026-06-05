@@ -7,6 +7,6 @@ with import <nixpkgs> {};
       markdown-link-check
     ];
     shellHook = ''
-      source bashrc
+      export PATH="$PWD/scripts:$PATH"
     '';
   }
