@@ -1,7 +1,6 @@
 ---
-title: "Weird"
+title: "Goofy Weird"
 date: 2026-06-04T00:18:19-05:00
-draft: true
 description: ""
 ---
 

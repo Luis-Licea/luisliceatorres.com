@@ -1,7 +1,6 @@
 ---
-title: "Spiderman"
+title: "Open Spiderman"
 date: 2026-06-04T00:14:12-05:00
-draft: true
 description: ""
 ---
 

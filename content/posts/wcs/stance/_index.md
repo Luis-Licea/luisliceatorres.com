@@ -1,7 +1,7 @@
 ---
 title: "Stance configurations"
 date: 2026-06-04T00:02:14-05:00
-draft: true
+draft: false
 description: ""
 ---
 

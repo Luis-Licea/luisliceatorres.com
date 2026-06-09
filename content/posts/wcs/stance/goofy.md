@@ -1,7 +1,6 @@
 ---
 title: "Goofy"
 date: 2026-06-04T00:18:05-05:00
-draft: true
 description: ""
 ---
 

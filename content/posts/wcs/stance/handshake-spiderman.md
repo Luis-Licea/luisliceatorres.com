@@ -1,7 +1,6 @@
 ---
-title: "Spiderman"
+title: "Handshake Spiderman"
 date: 2026-06-04T00:22:24-05:00
-draft: true
 description: ""
 ---
 

@@ -1,7 +1,6 @@
 ---
-title: "Weird"
+title: "Handshake Weird"
 date: 2026-06-04T00:22:46-05:00
-draft: true
 description: ""
 ---
 
