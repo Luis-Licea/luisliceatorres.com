@@ -7,8 +7,8 @@ description: ""
 
 ### Whips
 
-Start in an [open] position. On 1 you step back while performing a small
-[J-hook] prep with the left arm. A common mistake is not to step back at 6
+Start in an {{% titleref "Open" %}} position. On 1 you step back while performing a small
+{{% titleref "J-hook" %}} prep with the left arm. A common mistake is not to step back at 6
 o'clock or to forget the prep. On 2 you face 3 o'clock and catch the follower by
 the armpit. To be exact, your right hand should be under the follower's right
 armpit such that there is no gap between the armpit and your hand. In other
