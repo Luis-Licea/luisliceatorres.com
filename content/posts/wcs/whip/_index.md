@@ -7,8 +7,8 @@ description: ""
 
 ### Whips
 
-Start in an {{% titleref "Open" %}} position. On 1 you step back while performing a small
-{{% titleref "J-hook" %}} prep with the left arm. A common mistake is not to step back at 6
+Start in an {{% a "Open" %}} position. On 1 you step back while performing a small
+{{% a "J-hook" %}} prep with the left arm. A common mistake is not to step back at 6
 o'clock or to forget the prep. On 2 you face 3 o'clock and catch the follower by
 the armpit. To be exact, your right hand should be under the follower's right
 armpit such that there is no gap between the armpit and your hand. In other
@@ -394,3 +394,4 @@ the 4 must be a half-step. In other words, 4 & 5 & 6 & 7 & 8, as opposed to 4 5
 1-beat steps. Make sure not the push or pull the follower off-balance. She is
 merely using your right arm as a rest while you both rotate. You are providing
 angular momentum with your right arm, but not pushing or pulling, just holding.
+
