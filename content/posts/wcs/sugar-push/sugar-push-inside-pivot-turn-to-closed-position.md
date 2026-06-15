@@ -1,7 +1,6 @@
 ---
 title: "Sugar Push Inside Pivot Turn to Closed"
 date: 2026-06-04T00:50:27-05:00
-draft: false
 description: ""
 ---
 
