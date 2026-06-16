@@ -1,10 +1,8 @@
 ---
-title: "Handshake Sugar Push Shoulder Catch Into Scout"
+title: "Handshake sugar push shoulder catch into scout"
 date: 2026-06-04T23:55:02-05:00
 description: ""
----
-
-## Handshake sugar push shoulder catch into scout
+--- 
 
 A pattern that Zach taught me.
 

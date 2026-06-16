@@ -1,10 +1,8 @@
 ---
-title: "Sugar Push Inside Pivot Turn"
+title: "Sugar push inside pivot turn"
 date: 2026-06-15T01:43:26-05:00
 description: ""
 ---
-
-## Sugar push inside pivot turn
 
 Start in an [open] position. On step 2 raise your left hand and make it
 perpendicular to the floor. Your hand must be aligned with the follower's left

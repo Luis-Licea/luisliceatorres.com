@@ -1,10 +1,8 @@
 ---
-title: "Sugar Push Inside Pivot Turn to Closed"
+title: "Sugar push inside pivot turn into closed position"
 date: 2026-06-04T00:50:27-05:00
 description: ""
 ---
-
-## Sugar push inside pivot turn into closed position
 
 The footwork is the same as a [sugar push inside pivot turn], and the handwork
 is the same up to step 3&. For the handwork, on 3& you should see the follower's

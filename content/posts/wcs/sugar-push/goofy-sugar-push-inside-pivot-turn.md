@@ -1,10 +1,8 @@
 ---
-title: "Goofy Sugar Push Inside Pivot Turn"
+title: "Goofy sugar push inside pivot turn"
 date: 2026-06-15T01:43:56-05:00
 description: ""
 ---
-
-## Goofy sugar push inside pivot turn
 
 Start in a [goofy] position. On step 2 raise your right hand to her face level
 and align your right hand with her left shoulder while your hand points at 2

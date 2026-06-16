@@ -1,10 +1,8 @@
 ---
-title: "Sugar Push Outside Pivot Turn"
+title: "Sugar push outside pivot turn"
 date: 2026-06-15T01:43:05-05:00
 description: ""
 ---
-
-## Sugar push outside pivot turn
 
 Also known as a Sugar Tuck.
 
