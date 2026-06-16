@@ -1,5 +1,5 @@
 ---
-title: "Stance configurations"
+title: "Positions"
 date: 2026-06-04T00:02:14-05:00
 draft: false
 description: ""
