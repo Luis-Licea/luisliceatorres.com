@@ -6,6 +6,3 @@ description: ""
 categories: Dance
 tags: West Coast Swing
 ---
-
-
-
