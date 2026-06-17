@@ -1,7 +1,12 @@
 #!/usr/bin/env bash
 
-# shellcheck disable=2155
-post_name=$1
+# Usage:
+# $ post hello world
+# $ Content "hello-world.md" created
+
+post_name=$*
+post_name=$(echo "$post_name" | tr ' ' '-') # Replace spaces
+post_name=$(echo "$post_name" | tr '[:upper:]' '[:lower:]') # Make lowercase
 # Add a single md ending.
 post_name=${post_name%%.*}.md
 root_path=$(git rev-parse --show-toplevel)
