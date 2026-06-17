@@ -1,5 +1,5 @@
 ---
-title: "Sugar push outside pivot turn"
+title: "sugar push outside pivot turn"
 date: 2026-06-15T01:43:05-05:00
 description: ""
 ---
