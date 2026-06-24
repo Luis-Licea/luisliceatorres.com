@@ -9,7 +9,7 @@ tags: West Coast Swing
 
 A regular {{% a "left-side pass" %}} has a slot that looks like a line. This pattern has a slot that looks like an *X*.
 
-- Start in an {{% a "Open" %}} position.
+- Start in an {{% a "open" %}} position.
 - On 1, step towards 6:00 with left leg such that your left foot and frame point at 9:00. Bend your left should so your arm still points at 6:00. You do not want your left arm to stick out straight at 9:00.
 - On 2, step back towards 2:00 with the right leg to create texture.
 - On 3&4, do a do back triple with your frame moving along the 2:00 -- 8:00 slot. On 4 your left foot and frame should be pointing at 8:00.

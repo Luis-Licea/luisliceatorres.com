@@ -24,7 +24,6 @@ tags: West Coast Swing
 
 <!-- Preparation variations -->
 
-[J-hook]: #j-hook
 [L-hook]: #l-hook
 [piston]: #piston
 [left]: #left

@@ -4,8 +4,8 @@ date: 2026-06-17T00:18:51-05:00
 description: ""
 ---
 
-Start in an {{% a "Open" %}} position. On 1 you step back while performing a small
-{{% a "J-hook" %}} prep with the left arm. A common mistake is not to step back at 6
+Start in an {{% a "open" %}} position. On 1 you step back while performing a small
+{{% a "j-hook" %}} prep with the left arm. A common mistake is not to step back at 6
 o'clock or to forget the prep. On 2 you face 3 o'clock and catch the follower by
 the armpit. To be exact, your right hand should be under the follower's right
 armpit such that there is no gap between the armpit and your hand. In other
