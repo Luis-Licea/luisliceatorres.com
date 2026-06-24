@@ -39,8 +39,6 @@ tags: West Coast Swing
 
 [back-to-front]: #back-to-front
 [closed]: #closed
-[goofy horn]: #goofy-horn
-[goofy spiderman]: #goofy-spiderman
 [goofy]: #goofy
 [handshake]: #handshake
 [horn]: #horn
