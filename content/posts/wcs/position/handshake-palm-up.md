@@ -1,10 +1,8 @@
 ---
-title: "Handshake Spiderman"
+title: "handshake palm-up"
 date: 2026-06-04T00:22:24-05:00
 description: ""
 ---
-
-## Spiderman Handshake
 
 This is the same as the [handshake] position with the [spiderman] handhold.
 

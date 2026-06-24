@@ -20,5 +20,6 @@ your back on 1 and 2 so that the follower is able to have the right hand go over
 your head and reach the right shoulder. On 3&4 keep your left hand at the right
 shoulder while offering your right hand by placing it under-and-in-front of your
 left elbow. The follower's hand should slide down your left forearm onto your
-right hand by the end of 4. You should be in an regular [handshake] or a
-[spiderman handshake] by the end of 5&6.
+right hand by the end of 4.
+
+You should be in an regular [handshake] or a {{% a "handshake palm-up" %}} position by the end of 5&6.

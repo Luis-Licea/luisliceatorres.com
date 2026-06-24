@@ -45,16 +45,12 @@ tags: West Coast Swing
 [left hammerlock]: #left-hammerlock
 [left shoulder-lock]: #left-shoulder-lock
 [left shoulder]: #left-shoulder
-[open]: #open
 [parallel]: #parallel
 [right hammerlock]: #right-hammerlock
 [right picture]: #right-picture
 [right shoulder-lock]: #right-shoulder-lock
 [right shoulder]: #right-shoulder
 [scout]: #scout
-[spiderman scout]: #spiderman-scout
-[spiderman]: #spiderman
-[spiderman handshake]: #spiderman-handshake
 [starter]: #starter
 [weird goofy]: #weird-goofy
 [weird handshake]: #weird-handshake
