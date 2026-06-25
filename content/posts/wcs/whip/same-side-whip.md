@@ -4,7 +4,6 @@ date: 2026-06-24T01:44:10-05:00
 description: ""
 ---
 
-
 - Start in an {{% a "open" %}} position. 
 - On 1, step back.
 - On 2, lead a {{% a "j-hook" %}} prep while facing 12:00.
