@@ -1,5 +1,5 @@
 ---
-title: "Left"
+title: "left"
 date: 2026-06-15T01:01:34-05:00
 description: ""
 ---

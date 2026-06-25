@@ -1,7 +1,6 @@
 ---
 title: "same-side whip"
 date: 2026-06-24T01:44:10-05:00
-draft: true
 description: ""
 ---
 
