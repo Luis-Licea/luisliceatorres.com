@@ -6,7 +6,7 @@
 defaultContentLanguage = "en"
 
 baseURL = 'https://luisliceatorres.com'
-languageCode = 'en-us'
+locale = 'en-us'
 
 enableRobotsTXT = true
 summaryLength = 0

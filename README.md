@@ -20,3 +20,12 @@ hugo new content/posts/$(date -u +%Y-%m-%d)-<post-name>.md
 post <post-name>
 ```
 
+## Update Hugo
+
+Update the `HUGO_VERSION` variable in `main.yaml`.
+
+## Update Congo theme
+
+```sh
+hugo mod get -u
+```
