@@ -10,4 +10,4 @@ This is a two-handed cross-handhold. The left hand is in a {{% a "scout"
 
 Suggested patterns:
 - {{% a "handshake sugar tuck wrist clip" %}}
-- {{% a "handshake whip neck wrap outside wrist clip palm-down over palm-down" %}}
+- {{% a "handshake whip neck wrap outside wrist clip weird over down" %}}
