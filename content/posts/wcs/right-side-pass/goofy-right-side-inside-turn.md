@@ -6,6 +6,7 @@ description: ""
 
 Also known as a right-side underarm pass.
 
-It starts from a [goofy] position and the footwork for the leader is the same as
-in a right-side pass. The handwork is the mirrored equivalent from a [left-side
-outside pass]. You should end in a [goofy] position.
+- It starts from a [goofy] position.
+- The footwork for the leader is the same as in a right-side pass.
+- The handwork is the mirrored equivalent from a [left-side outside pass]. 
+- You end in a [goofy] position.
