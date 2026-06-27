@@ -8,7 +8,7 @@ This pattern is based on the {{% a "sugar push outside pivot turn" %}}. These ar
 
 - Begin in a {{% a "handshake" %}} position.
 - On 2, use left hand to grab follower's left hand at waist level to get into a
-  {{% a "left under right" %}} handhold.
+  {{% a "lower" %}} handhold.
 - On 3&4, begin the rotation while left hand is still at waist level.
     - On 4, adjust left handhold so your palm points down and is on top of the
       follower's left hand, whose palm is also pointing down. The follower

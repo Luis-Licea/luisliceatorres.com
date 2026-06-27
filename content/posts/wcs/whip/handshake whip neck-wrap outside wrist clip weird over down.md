@@ -10,7 +10,7 @@ description: ""
 - On 3&4 lead a counterclockwise neck wrap. 
 - On 4, straddle across the slot and grab the follower's left hand with your
   left hand at stomach level. Even though your arm is around the follower's
-  neck, you are in a {{% a "left under right" %}} handhold.
+  neck, you are in a {{% a "lower" %}} handhold.
 - On 5, step down the slot to face 3:00.
 - On 6, begin the clockwise wrist-clip. Your left arm should be at stomach level and the right arm should be above the head.
 - On 7&8 perform the wrist-clip.

@@ -1,5 +1,5 @@
 ---
-title: "left under right"
+title: "lower"
 date: 2026-06-24T23:29:05-05:00
 description: ""
 ---
