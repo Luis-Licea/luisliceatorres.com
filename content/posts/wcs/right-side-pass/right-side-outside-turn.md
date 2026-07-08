@@ -1,5 +1,5 @@
 ---
-title: "Right-side outside turn"
+title: "right-side outside chain turn"
 date: 2026-06-15T01:27:15-05:00
 description: ""
 ---
@@ -19,4 +19,3 @@ end in a [handshake] position.
 Next pattern suggestion:
 
 - [head drape into starter] position
-
