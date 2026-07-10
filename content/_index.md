@@ -7,15 +7,18 @@ date: 2021-06-21T04:07:57.636Z
     <img src="./2026-03-21-luis.jpg" alt="Luis David Licea Torres">
 </div>
 
-I am a software developer and I work in the aerospace industry doing system
-integration and JavaScript back-end development. At work, I
-am surrounded by C/C++ developers who hate JavaScript, which gives me a lot of
-job stability. :smile:
+This is my personal website for blogging and writing about my hobbies and
+interests.
 
-In the past year, I worked on developing a single page application using
-[koa] and [lit], containerizing C/C++ services using [Docker], developing a REST
-API using [SQLite] to query a small database, and configuring Linux systems to
-run all this software.
+I am a software developer and I work in the aerospace industry doing system
+integration and JavaScript back-end development. At work, I am surrounded by
+C/C++ developers who hate JavaScript, which gives me a lot of job stability.
+:smile:
+
+In the past year, I worked on developing a single page application using [koa]
+and [lit], containerizing C/C++ services using [Docker], developing a REST API
+using [SQLite] to query a small database, and configuring Linux systems to run
+all this software.
 
 Before that, I maintained a website for visualizing simulation data that used
 [hdf5] and [numpy] in the back-end for processing large datasets. I also worked
