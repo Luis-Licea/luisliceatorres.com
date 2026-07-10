@@ -5,4 +5,3 @@ description: ""
 ---
 
 This is the same as the [handshake] position with the [horn] handhold.
-

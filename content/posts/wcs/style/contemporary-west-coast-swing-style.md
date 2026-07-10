@@ -11,7 +11,6 @@ Contemporary music has legato (smooth, ooey-gooey, connected) beats.
 
 Examples:
 
-
 ## General Elements
 
 - Use slides.

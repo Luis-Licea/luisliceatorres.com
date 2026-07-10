@@ -12,4 +12,3 @@ Reached via:
 
 - [right-side inside turn lead inside turn into handshake position]
 - [sugar push right shoulder slide]
-

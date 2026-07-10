@@ -3,6 +3,7 @@ title: "Scout Fold Rag Free Spin"
 date: 2026-06-11T23:46:18-05:00
 description: ""
 ---
+
 #### Scout fold RAG free spin
 
 Start in a [scout] position. The footwork is the same as in a [fold] up to but

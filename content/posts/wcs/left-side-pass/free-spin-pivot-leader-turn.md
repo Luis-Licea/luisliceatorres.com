@@ -4,7 +4,6 @@ date: 2026-06-11T23:50:29-05:00
 description: ""
 ---
 
-
 #### Free spin leader pivot turn
 
 Star from a [goofy] position. This pattern is identical to the [free spin] up to

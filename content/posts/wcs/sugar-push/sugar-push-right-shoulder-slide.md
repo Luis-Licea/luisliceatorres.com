@@ -22,4 +22,5 @@ shoulder while offering your right hand by placing it under-and-in-front of your
 left elbow. The follower's hand should slide down your left forearm onto your
 right hand by the end of 4.
 
-You should be in an regular [handshake] or a {{% a "handshake palm-up" %}} position by the end of 5&6.
+You should be in an regular [handshake] or a {{% a "handshake palm-up" %}}
+position by the end of 5&6.

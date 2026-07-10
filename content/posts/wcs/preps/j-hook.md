@@ -6,4 +6,3 @@ description: ""
 
 Use it to rotate the follower clockwise 180 degrees into a [starter] position
 during a whip.
-

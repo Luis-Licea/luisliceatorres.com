@@ -7,7 +7,6 @@ description: ""
 ## General West Coast Swing knowledge
 
 - There are 6 pattern types:
-
   - four count triple pairs (4 beats)
   - side passes (6 beats): result in 0.5 turns
   - sugar pushes (6 beats)
@@ -55,4 +54,3 @@ There are many elements in West Coast Swing dancing:
   free foot, and returning the free foot to its original position.
 - Replacing your foot means taking it off the ground and placing it back on the
   same spot.
-

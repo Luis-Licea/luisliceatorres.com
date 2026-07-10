@@ -15,5 +15,3 @@ of like the characters |\\|.
 Reached via:
 
 - [behind-the-back whip]
-
-

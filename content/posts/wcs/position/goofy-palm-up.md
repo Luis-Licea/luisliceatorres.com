@@ -5,4 +5,3 @@ description: ""
 ---
 
 This is a mirror image of the [horn] position.
-

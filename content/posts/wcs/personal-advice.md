@@ -125,4 +125,3 @@ From Luke:
   your feet should remain connected to the slot.
 - When doing a telemark, which is technically a scroll, cut across the slot on
   5&6. Do not step around the slot.
-

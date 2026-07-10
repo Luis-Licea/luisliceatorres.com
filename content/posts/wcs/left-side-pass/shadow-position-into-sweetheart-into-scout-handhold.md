@@ -4,7 +4,6 @@ date: 2026-06-11T23:55:14-05:00
 description: ""
 ---
 
-
 #### Shadow position into sweetheart into scout handhold
 
 Start in an over-rotated [open] position such that you face 3 o'clock as opposed
@@ -31,4 +30,3 @@ Reached via:
 
 - [whip with two outside turns into over-rotated open position]
 - [sugar tuck into over-rotated open position]
-

@@ -1,5 +1,7 @@
 ---
-title: "Weird Handshake Left Side Pass Inside Chain Turn Right Picture Hold Walk Around Into Open Position"
+title:
+  "Weird Handshake Left Side Pass Inside Chain Turn Right Picture Hold Walk
+  Around Into Open Position"
 date: 2026-06-11T23:53:57-05:00
 description: ""
 ---
@@ -24,4 +26,3 @@ walk-around, the follower will step backwards and stay in place, while you step
 forwards around her for 0.5 turns. Finally on 7&8, you will move away from each
 other while her arm slides down your left hand so you will end up in [open]
 position.
-

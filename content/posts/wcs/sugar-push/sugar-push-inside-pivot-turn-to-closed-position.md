@@ -15,4 +15,3 @@ against the shoulder blade, achieving a closed position. Steps 4, 5&6 may need
 to be bigger than usual to close the gap between you and the follower, otherwise
 there will be a lot of space between you both, as if you were in an open
 position.
-

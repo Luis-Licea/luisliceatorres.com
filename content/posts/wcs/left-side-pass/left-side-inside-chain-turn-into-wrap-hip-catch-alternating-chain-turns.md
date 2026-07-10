@@ -4,7 +4,6 @@ date: 2026-06-11T23:54:51-05:00
 description: ""
 ---
 
-
 #### Left-side inside chain turn into wrap hip catch alternating chain turns
 
 Start in a [parallel] position. Step 1 is back and to the right. On 2 step back

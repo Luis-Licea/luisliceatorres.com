@@ -12,4 +12,3 @@ back, signaling her to go back. On step 5 you can give a strong indication for
 the follower to turn clockwise by putting her left hand on your right hip. Her
 left hand will collide with your right hip as she steps backwards and your hip
 will push her arm clockwise.
-

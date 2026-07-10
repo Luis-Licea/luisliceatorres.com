@@ -13,5 +13,3 @@ and middle fingers (pointing to the left) are held by the follower's left hand
 Reached via:
 
 - [goofy right-side inside turn]
-
-

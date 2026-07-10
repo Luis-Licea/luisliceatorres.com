@@ -5,4 +5,3 @@ description: ""
 ---
 
 The left and right hand can be oriented so the palm points downwards.
-

@@ -99,4 +99,3 @@ This page is meant to create new front matter boiler plate for Hugo posts.
     <textarea id="front-matter" readonly="" disable="true" wrap="off" rows="8" ></textarea>
     <button class="copy" onclick="copyToClipboard('front-matter')">Copy</button>
 </div>
-

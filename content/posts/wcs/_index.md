@@ -6,8 +6,8 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-
 [^1]: This is a hypothetical move. I have not actually tried it. :smile_cat:
+
 [^2]: This needs to be verified.
 
 [Bay Area Whip Dance Club]: https://www.bawdc.org/
@@ -154,4 +154,3 @@ tags: West Coast Swing
 [left side-check]: #left-side-check
 [level change]: #level-change
 [right side-check]: #right-side-check
-

@@ -14,4 +14,3 @@ Reached via:
 
 - [left-side inside chain turn]
 - [weird handshake left-side pass inside chain turn right picture hold]
-

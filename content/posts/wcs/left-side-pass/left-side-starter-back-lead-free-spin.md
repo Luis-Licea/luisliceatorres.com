@@ -4,7 +4,6 @@ date: 2026-06-11T23:48:21-05:00
 description: ""
 ---
 
-
 #### Left-side starter back-lead free-spin
 
 Start in a [starter] position. The handwork for 1 is to lead the follower

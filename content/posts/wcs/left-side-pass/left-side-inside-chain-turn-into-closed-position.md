@@ -4,7 +4,6 @@ date: 2026-06-11T23:47:03-05:00
 description: ""
 ---
 
-
 #### Left-side inside chain turn into closed position
 
 Start from an [open] position. The footwork and most of the handwork is the same

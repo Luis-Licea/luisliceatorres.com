@@ -2,7 +2,7 @@
 title: anchor
 created: 2026-07-09T20:57:48-05:00
 modified: 2026-07-09T21:07:30-05:00
-params: 
+params:
     rhythm: qqs
 ---
 
@@ -10,4 +10,5 @@ params:
 - On &, unbend left knee.
 - On 2, bend right knee.
 - On &, unbend right knee.
-- On & of next pattern, begin shifting weight with your core, not your upper body. If you begin 
+- On & of next pattern, begin shifting weight with your core, not your upper
+  body. If you begin

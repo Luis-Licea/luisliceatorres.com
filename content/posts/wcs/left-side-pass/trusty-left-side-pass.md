@@ -14,4 +14,3 @@ facing your back. As you perform the half turn, bring your right hand over your
 right shoulder and then drop the follower's hand on your shoulder. On 3&4 turn
 180 degrees counter-clockwise such that the followers hand slides around the
 back of your neck and down your left arm, leaving you in an [open] position.
-

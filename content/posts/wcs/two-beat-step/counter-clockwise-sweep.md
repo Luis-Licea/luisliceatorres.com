@@ -13,7 +13,6 @@ Pattern suggestion:
 
 - On a [left-side pass], replace steps 5&6 with a sweep.
 
-
 #### Slow counter-clockwise sweep
 
 A rond de jambe.

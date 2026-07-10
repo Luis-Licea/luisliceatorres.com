@@ -2,7 +2,7 @@
 title: "Goofy sugar push outside pivot turn"
 date: 2026-06-15T01:44:17-05:00
 description: ""
---- 
+---
 
 Start in a [goofy] position. On step 2 raise your right hand to her face level
 and align your right hand a couple of inches above her forehead while your hand

@@ -26,4 +26,3 @@ Variations:
   throughout the entire rotation.
 
 - {{% a "Handshake sugar push shoulder catch into scout" %}}
-

@@ -4,7 +4,6 @@ date: 2026-06-11T23:52:39-05:00
 description: ""
 ---
 
-
 #### Left-side goofy inside chain turn into closed position
 
 A pattern that [Bob Bowlby] and Joan Peeples taught me.

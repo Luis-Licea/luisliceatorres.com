@@ -4,7 +4,6 @@ date: 2026-06-11T23:48:47-05:00
 description: ""
 ---
 
-
 #### Left-side starter outside turn into a weird handshake position
 
 This is a pattern that Ray Trusty taught me.

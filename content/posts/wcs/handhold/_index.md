@@ -6,6 +6,6 @@ description: ""
 
 Can all variations can be described by this list?
 
-- twisted|weird|down|(left|roman)|up 
-- under|over 
+- twisted|weird|down|(left|roman)|up
+- under|over
 - twisted|weird|down|(right|roman)|up

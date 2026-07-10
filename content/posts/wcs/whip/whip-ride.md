@@ -28,4 +28,3 @@ the 4 must be a half-step. In other words, 4 & 5 & 6 & 7 & 8, as opposed to 4 5
 1-beat steps. Make sure not the push or pull the follower off-balance. She is
 merely using your right arm as a rest while you both rotate. You are providing
 angular momentum with your right arm, but not pushing or pulling, just holding.
-

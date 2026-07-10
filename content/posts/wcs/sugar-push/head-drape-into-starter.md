@@ -20,4 +20,3 @@ in a [starter] position.
 Next pattern suggestion:
 
 - [closed right-side pass redirect]
-

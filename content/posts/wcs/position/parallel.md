@@ -14,4 +14,3 @@ Reached via:
 
 - [contemporary Hustle whip]
 - [right-side inside pass into parallel position]
-
