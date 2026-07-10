@@ -41,17 +41,18 @@ jobs:
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
-      - name: Compile Resume
+      - name: Install Typst
         uses: typst-community/setup-typst@v5
         with:
-          typst-version: 0.14.0
+          typst-version: 0.14.2
           allow-prereleases: false
-        run: ./content/resume/resume/compile.sh
       - name: Checkout
         uses: actions/checkout@v6
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Compile Resume
+        run: ./content/resume/resume/compile.sh
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
