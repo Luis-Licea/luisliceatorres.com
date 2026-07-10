@@ -2,3 +2,6 @@
 /public/
 /resources/
 .hugo_build.lock
+
+# Ignore resume.
+Luis David Licea Torres Resume.pdf
