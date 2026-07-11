@@ -1,15 +1,16 @@
 ---
-title: "Left Side Starter Back Lead Free Spin"
+title: Left Side Starter Back Lead Free Spin
 date: 2026-06-11T23:48:21-05:00
-description: ""
+description: null
 ---
 
-#### Left-side starter back-lead free-spin
-
-Start in a [starter] position. The handwork for 1 is to lead the follower
-towards 6 o'clock using a flat right hand. On 1.5 lead the follower towards 7
+- Start in a [starter] position. 
+- On 1, is to lead the follower
+towards 6 o'clock using a flat right hand.
+- On 1.5 lead the follower towards 7
 o'clock with the palm of your right hand, which is the equivalent of the [left]
-prep. On 3 flex your wrist to lead the follower towards 5 o'clock. The right
+prep. 
+- On 3 flex your wrist to lead the follower towards 5 o'clock. The right
 hand will disconnect from the shoulder blade on 3 and the follower will enter
 into a [free spin].
 
