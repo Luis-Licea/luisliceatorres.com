@@ -1,5 +1,5 @@
 ---
-title: "right"
+title: "right prep"
 date: 2026-06-15T01:01:40-05:00
 description: ""
 categories: Dance
