@@ -1,5 +1,5 @@
 ---
-title: "Hitch"
+title: "hitch"
 date: 2026-06-16T01:31:40-05:00
 description: ""
 categories: Dance

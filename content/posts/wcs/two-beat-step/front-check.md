@@ -1,5 +1,5 @@
 ---
-title: "Front-check"
+title: "front-check"
 date: 2026-06-16T01:32:11-05:00
 description: ""
 categories: Dance

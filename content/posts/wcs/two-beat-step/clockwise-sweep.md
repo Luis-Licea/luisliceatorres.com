@@ -1,5 +1,5 @@
 ---
-title: "Clockwise Sweep"
+title: "clockwise sweep"
 date: 2026-06-16T01:35:27-05:00
 description: ""
 categories: Dance

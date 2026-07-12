@@ -1,5 +1,5 @@
 ---
-title: "Counter-clockwise sweep"
+title: "counter-clockwise sweep"
 date: 2026-06-16T01:34:05-05:00
 description: ""
 categories: Dance

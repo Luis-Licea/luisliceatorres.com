@@ -1,5 +1,5 @@
 ---
-title: "Clockwise taps"
+title: "clockwise taps"
 date: 2026-06-16T01:36:08-05:00
 description: ""
 categories: Dance

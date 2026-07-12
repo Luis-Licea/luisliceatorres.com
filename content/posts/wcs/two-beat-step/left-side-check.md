@@ -1,5 +1,5 @@
 ---
-title: "Left-side check"
+title: "left-side check"
 date: 2026-06-16T01:33:23-05:00
 description: ""
 categories: Dance
