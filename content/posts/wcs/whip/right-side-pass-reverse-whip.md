@@ -1,5 +1,5 @@
 ---
-title: "Right-side pass reverse whip"
+title: "right-side pass reverse whip"
 date: 2026-06-17T00:10:31-05:00
 description: ""
 categories: Dance

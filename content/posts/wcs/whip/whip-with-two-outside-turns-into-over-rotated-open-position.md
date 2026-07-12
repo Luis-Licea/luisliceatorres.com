@@ -1,5 +1,5 @@
 ---
-title: "Whip with two outside turns into over-rotated open position"
+title: "whip with two outside turns into over-rotated open position"
 date: 2026-06-17T00:16:37-05:00
 description: ""
 categories: Dance

@@ -1,5 +1,5 @@
 ---
-title: "Basket whip"
+title: "basket whip"
 date: 2026-06-16T23:59:00-05:00
 description: ""
 categories: Dance

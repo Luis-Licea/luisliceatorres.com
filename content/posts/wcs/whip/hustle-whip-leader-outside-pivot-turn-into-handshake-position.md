@@ -1,5 +1,5 @@
 ---
-title: "Hustle whip leader outside pivot turn into handshake position"
+title: "hustle whip leader outside pivot turn into handshake position"
 date: 2026-06-17T00:09:06-05:00
 description: ""
 categories: Dance

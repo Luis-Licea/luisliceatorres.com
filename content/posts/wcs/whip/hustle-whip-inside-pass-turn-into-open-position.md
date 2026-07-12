@@ -1,5 +1,5 @@
 ---
-title: "Hustle whip inside pass turn into open position"
+title: "hustle whip inside pass turn into open position"
 date: 2026-06-17T00:06:31-05:00
 description: ""
 categories: Dance

@@ -1,5 +1,5 @@
 ---
-title: "Continuous whip"
+title: "continuous whip"
 date: 2026-06-17T00:15:03-05:00
 description: ""
 categories: Dance

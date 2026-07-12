@@ -1,5 +1,5 @@
 ---
-title: "Apache whip"
+title: "apache whip"
 date: 2026-06-17T00:14:42-05:00
 description: ""
 categories: Dance

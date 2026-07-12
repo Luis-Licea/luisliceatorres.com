@@ -1,5 +1,5 @@
 ---
-title: "Contemporary Hustle whip"
+title: "contemporary hustle whip"
 date: 2026-06-17T00:01:42-05:00
 description: ""
 categories: Dance

@@ -1,5 +1,5 @@
 ---
-title: "Whip ride"
+title: "whip ride"
 date: 2026-06-17T00:17:05-05:00
 description: ""
 categories: Dance

@@ -1,5 +1,5 @@
 ---
-title: "Behind-the-back whip"
+title: "behind-the-back whip"
 date: 2026-06-17T00:14:11-05:00
 description: ""
 categories: Dance

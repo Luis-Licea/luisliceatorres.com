@@ -1,5 +1,5 @@
 ---
-title: "Hustle whip into left hammerlock walk-around"
+title: "hustle whip into left hammerlock walk-around"
 date: 2026-06-17T00:09:39-05:00
 description: ""
 categories: Dance

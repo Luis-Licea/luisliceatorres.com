@@ -6,6 +6,6 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-The same as a {{% a "Right-side pass redirect" %}}, but on 5&6 you step forward progressively to close the distance with the follower and end in a [starter] position.
+The same as a {{% a "right-side pass redirect" %}}, but on 5&6 you step forward progressively to close the distance with the follower and end in a [starter] position.
 
 Quickly going from facing 3:00 to 9:00 makes this pattern look dynamic.

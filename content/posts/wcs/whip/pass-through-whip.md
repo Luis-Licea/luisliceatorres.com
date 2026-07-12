@@ -1,5 +1,5 @@
 ---
-title: "Pass-through whip"
+title: "pass-through whip"
 date: 2026-06-17T00:11:49-05:00
 description: ""
 categories: Dance

@@ -1,5 +1,5 @@
 ---
-title: "Hustle Whip"
+title: "hustle whip"
 date: 2026-06-17T00:06:11-05:00
 description: ""
 categories: Dance

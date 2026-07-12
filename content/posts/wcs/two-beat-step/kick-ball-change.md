@@ -1,5 +1,5 @@
 ---
-title: "Kick-ball-change"
+title: "kick-ball-change"
 date: 2026-06-16T01:37:37-05:00
 description: ""
 categories: Dance

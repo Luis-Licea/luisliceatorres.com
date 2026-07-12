@@ -1,5 +1,5 @@
 ---
-title: "Basket whip with arm escape"
+title: "basket whip with arm escape"
 date: 2026-06-17T00:00:34-05:00
 description: ""
 categories: Dance

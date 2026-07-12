@@ -1,5 +1,5 @@
 ---
-title: "Basket whip with an outside turn"
+title: "basket whip with an outside turn"
 date: 2026-06-16T23:59:42-05:00
 description: ""
 categories: Dance

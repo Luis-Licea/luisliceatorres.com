@@ -1,5 +1,5 @@
 ---
-title: "Hustle whip outside turn"
+title: "hustle whip outside turn"
 date: 2026-06-17T00:10:08-05:00
 description: ""
 categories: Dance

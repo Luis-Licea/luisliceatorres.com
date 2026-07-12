@@ -1,5 +1,5 @@
 ---
-title: "Handshake reverse whip"
+title: "handshake reverse whip"
 date: 2026-06-17T00:10:54-05:00
 description: ""
 categories: Dance

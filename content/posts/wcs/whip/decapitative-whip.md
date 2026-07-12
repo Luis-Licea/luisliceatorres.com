@@ -1,5 +1,5 @@
 ---
-title: "Decapitation whip"
+title: "decapitation whip"
 date: 2026-06-17T00:05:26-05:00
 description: ""
 categories: Dance

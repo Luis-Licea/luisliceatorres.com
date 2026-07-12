@@ -1,5 +1,5 @@
 ---
-title: "Cross-legged outside turn"
+title: "cross-legged outside turn"
 date: 2026-06-16T01:30:28-05:00
 description: ""
 categories: Dance

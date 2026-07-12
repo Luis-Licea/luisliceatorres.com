@@ -1,5 +1,5 @@
 ---
-title: "Laser swivels"
+title: "laser swivels"
 date: 2026-06-16T01:36:52-05:00
 description: ""
 categories: Dance

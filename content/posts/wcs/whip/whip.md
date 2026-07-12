@@ -1,5 +1,5 @@
 ---
-title: "Whip"
+title: "whip"
 date: 2026-06-17T00:18:51-05:00
 description: ""
 categories: Dance

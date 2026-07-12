@@ -1,5 +1,5 @@
 ---
-title: "Car-wash whip"
+title: "car-wash whip"
 date: 2026-06-17T00:01:09-05:00
 description: ""
 categories: Dance
