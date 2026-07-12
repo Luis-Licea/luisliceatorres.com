@@ -5,18 +5,11 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-Being the lead is hard because it requires being able to quickly remember a
-sequence of patterns to dance to. Eventually these patterns become second nature
-and memorization is not necessary because new sequences can be created on the
-spot, but in the first half year of dancing it is useful to memorize sequences.
-Learning sequences is like learning phrases in a new language. Eventually you
-will know the language well enough to create unique phrases you never learned
-anywhere.
+Being the lead is hard because it requires being able to quickly remember a sequence of patterns to dance to. Eventually these patterns become second nature and memorization is not necessary because new sequences can be created on the spot, but in the first half year of dancing it is useful to memorize sequences. Learning sequences is like learning phrases in a new language. Eventually you will know the language well enough to create unique phrases you never learned anywhere.
 
 ## Basic sequences
 
-These sequences do not add up to 32 beats, so they are better suited for songs
-that do not have breaks.
+These sequences do not add up to 32 beats, so they are better suited for songs that do not have breaks.
 
 Minus 18 beats (14 beats):
 
@@ -41,11 +34,7 @@ Plus 10 beats (42 beats):
 
 ## Basic Choreography
 
-This is a basic sequence, or choreography, designed to be danced to songs with
-32-beat phrases. Each sequence section contains four 6-beat patterns and one
-8-beat pattern, such that each section adds up to 32 beats. The last section
-also adds up to 32 beats but it only has 8-beat patterns. Also, each section
-gets progressively harder.
+This is a basic sequence, or choreography, designed to be danced to songs with 32-beat phrases. Each sequence section contains four 6-beat patterns and one 8-beat pattern, such that each section adds up to 32 beats. The last section also adds up to 32 beats but it only has 8-beat patterns. Also, each section gets progressively harder.
 
 1. sugar push
 2. left pass

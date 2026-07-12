@@ -6,13 +6,7 @@ tags: Benchmarkig
 languages: [en]
 ---
 
-I used the Fibonacci sequence to test the speed of recursive calls in different
-languages. Take the results with a grain of salt because my computer is not a
-controlled environment. I found that Python was slower than I expected, while
-JavaScript was faster than I expected. Bash was more than 100,000 times slower
-than C because the Bash benchmark did not finish after the 5-hour mark. My
-hypothesis is that Bash is very slow because math is done in sub-shells,
-requiring bash to spawn a process for every arithmetic operation.
+I used the Fibonacci sequence to test the speed of recursive calls in different languages. Take the results with a grain of salt because my computer is not a controlled environment. I found that Python was slower than I expected, while JavaScript was faster than I expected. Bash was more than 100,000 times slower than C because the Bash benchmark did not finish after the 5-hour mark. My hypothesis is that Bash is very slow because math is done in sub-shells, requiring bash to spawn a process for every arithmetic operation.
 
 Execution times for calculating the 39th term of the Fibonacci sequence:
 
@@ -37,6 +31,7 @@ Execution times for calculating the 39th term of the Fibonacci sequence:
 <summary>C</summary>
 
 ```c {{% include "assets/fibonacci.c" %}}
+
 ```
 
 </details>
@@ -45,6 +40,7 @@ Execution times for calculating the 39th term of the Fibonacci sequence:
 <summary>C++</summary>
 
 ```c++ {{% include "assets/fibonacci.cpp" %}}
+
 ```
 
 </details>
@@ -53,6 +49,7 @@ Execution times for calculating the 39th term of the Fibonacci sequence:
 <summary>Rust</summary>
 
 ```rust {{% include "assets/fibonacci.rs" %}}
+
 ```
 
 </details>
@@ -61,6 +58,7 @@ Execution times for calculating the 39th term of the Fibonacci sequence:
 <summary>Java</summary>
 
 ```java {{% include "assets/Fibonacci.java" %}}
+
 ```
 
 </details>
@@ -69,6 +67,7 @@ Execution times for calculating the 39th term of the Fibonacci sequence:
 <summary>Dart</summary>
 
 ```dart {{% include "assets/fibonacci.dart" %}}
+
 ```
 
 </details>
@@ -77,6 +76,7 @@ Execution times for calculating the 39th term of the Fibonacci sequence:
 <summary>JavaScript</summary>
 
 ```js {{% include "assets/fibonacci.js" %}}
+
 ```
 
 </details>
@@ -92,6 +92,7 @@ Execution times for calculating the 39th term of the Fibonacci sequence:
 <summary>Python</summary>
 
 ```python {{% include "assets/fibonacci.py" %}}
+
 ```
 
 </details>
@@ -100,6 +101,7 @@ Execution times for calculating the 39th term of the Fibonacci sequence:
 <summary>Perl</summary>
 
 ```perl {{% include "assets/fibonacci.pl" %}}
+
 ```
 
 </details>
@@ -108,6 +110,7 @@ Execution times for calculating the 39th term of the Fibonacci sequence:
 <summary>Vimscript</summary>
 
 ```vimscript {{% include "assets/fibonacci.vim" %}}
+
 ```
 
 </details>
@@ -116,6 +119,7 @@ Execution times for calculating the 39th term of the Fibonacci sequence:
 <summary>Nushell</summary>
 
 ```nu {{% include "assets/fibonacci.nu" %}}
+
 ```
 
 </details>
@@ -124,6 +128,7 @@ Execution times for calculating the 39th term of the Fibonacci sequence:
 <summary>Bash</summary>
 
 ```bash {{% include "assets/fibonacci.bash" %}}
+
 ```
 
 </details>

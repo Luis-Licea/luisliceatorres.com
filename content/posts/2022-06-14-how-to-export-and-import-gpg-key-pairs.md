@@ -5,18 +5,13 @@ categories: Programming
 tags: GPG
 ---
 
-For context, GPG key pairs are necessary for password managers such as `pass`.
-Migrating computers requires migrating the GPG key pairs or else `pass` will be
-unable to load or create passwords. Migrating GPG pairs requires exporting them
-in the original computer and exporting them in the target computer. That is what
-this tutorial shows.
+For context, GPG key pairs are necessary for password managers such as `pass`. Migrating computers requires migrating the GPG key pairs or else `pass` will be unable to load or create passwords. Migrating GPG pairs requires exporting them in the original computer and exporting them in the target computer. That is what this tutorial shows.
 
 ## How to export GPG key pairs
 
 ### Export the private key
 
-Export an existing private key. Make sure to use the `--armor` flag if the
-private key will be printed in the future as a backup.
+Export an existing private key. Make sure to use the `--armor` flag if the private key will be printed in the future as a backup.
 
 ```bash
 gpg --export-secret-keys --armor <key-name|key-email> > <private-key-file>
@@ -24,8 +19,7 @@ gpg --export-secret-keys --armor <key-name|key-email> > <private-key-file>
 
 ### Export a public key
 
-A public key can be created now or later on. What matters is the private key,
-which can generate more public keys. To create the key now:
+A public key can be created now or later on. What matters is the private key, which can generate more public keys. To create the key now:
 
 ```bash
 gpg --export --armor <key-name|key-email> > <public-key-file>
@@ -43,8 +37,7 @@ gpg --import <private-key-file>
 
 ### Export a public key if this has not been done
 
-Generate a public key from the exported private key. Redirect the output into a
-file.
+Generate a public key from the exported private key. Redirect the output into a file.
 
 ```bash
 gpg --export --armor <key-name|key-email> > <publick-key-file>

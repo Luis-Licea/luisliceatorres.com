@@ -6,8 +6,9 @@ tags: Benchmarkig
 languages: [en]
 ---
 
-This simple benchmark compares the speed at which different languages are able
-to sum values:
+This simple benchmark compares the speed at which different languages are able to sum values:
+
+<div>
 <math display="block" style="font-size: x-large; margin: 0.5em;">
     <munderover>
         <mo>∑</mo>
@@ -20,13 +21,9 @@ to sum values:
     </munderover>
     <mi>i</mi>
 </math>
+</div>
 
-Unsurprisingly, the Rust implementation was the fastest. This is likely due to
-Rust being a compiled language while the other languages are interpreted. This
-shows that Bash is not designed to perform arithmetic operations since it is
-slow at addition and [exceptionally slow at recursion]({{< ref "/posts/2023-07-09-benchmarking-recursion-in-different-languages" >}}).
-Instead, Bash should be used for calling external commands since it is [the
-fastest command interpreter]({{< ref "/posts/2024-06-15-benchmarking-external-command-execution-time" >}}).
+Unsurprisingly, the Rust implementation was the fastest. This is likely due to Rust being a compiled language while the other languages are interpreted. This shows that Bash is not designed to perform arithmetic operations since it is slow at addition and [exceptionally slow at recursion]({{< ref "/posts/2023-07-09-benchmarking-recursion-in-different-languages" >}}). Instead, Bash should be used for calling external commands since it is [the fastest command interpreter]({{< ref "/posts/2024-06-15-benchmarking-external-command-execution-time" >}}).
 
 Execution times for calculating the series sum of 100,000:
 
@@ -44,6 +41,7 @@ Execution times for calculating the series sum of 100,000:
 <summary>Rust</summary>
 
 ```rs {{% include "assets/arithmetic.rs" %}}
+
 ```
 
 </details>
@@ -52,6 +50,7 @@ Execution times for calculating the series sum of 100,000:
 <summary>Perl</summary>
 
 ```pl {{% include "assets/arithmetic.pl" %}}
+
 ```
 
 </details>
@@ -60,6 +59,7 @@ Execution times for calculating the series sum of 100,000:
 <summary>Python</summary>
 
 ```py {{% include "assets/arithmetic.py" %}}
+
 ```
 
 </details>
@@ -68,6 +68,7 @@ Execution times for calculating the series sum of 100,000:
 <summary>JavaScript</summary>
 
 ```js {{% include "assets/arithmetic.js" %}}
+
 ```
 
 </details>
@@ -76,6 +77,7 @@ Execution times for calculating the series sum of 100,000:
 <summary>Bash</summary>
 
 ```sh {{% include "assets/arithmetic.sh" %}}
+
 ```
 
 </details>

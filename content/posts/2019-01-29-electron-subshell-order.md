@@ -6,13 +6,8 @@ categories: Chemistry
 tags: Electron Subshells
 ---
 
-Whenever I took my chemistry classes in college, i found away to come up with
-the circles.
-- Write:
-sx2
-psx2
-dpsx2
-fdpsx2
+Whenever I took my chemistry classes in college, i found away to come up with the circles.
+
+- Write: sx2 psx2 dpsx2 fdpsx2
 - Write 1, 2, 3, ..., before every s
 - Fill spaces by counting backwards
-

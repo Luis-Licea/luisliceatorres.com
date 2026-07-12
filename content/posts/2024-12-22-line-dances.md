@@ -5,8 +5,7 @@ categories: Dance
 tags: Line Dance
 ---
 
-A list of line dances with accompanying dance steps, instructional videos, or music
-videos.
+A list of line dances with accompanying dance steps, instructional videos, or music videos.
 
 <p>
 <details>

@@ -3,16 +3,9 @@ title: Random Russian verb generator
 date: 2020-08-08T05:30:16-05:00
 ---
 
-One (very autistic) day I decided to look at the verb conjugations for all the
-Russian verbs.
+One (very autistic) day I decided to look at the verb conjugations for all the Russian verbs.
 
-A quick search may tell you that there are two types of Russian verb
-conjugations, which is complete bullshit. If you search more deeply you will
-read that there are actually 16 conjugation types, which is more or less still
-bullshit. There are 16 conjugation types, but each one of those conjugation
-types can have 1, 2, 3, or 4 different stress patterns, meaning that you are not
-guaranteed to pronounce the verb correctly even if you know the correct spelling
-because you will not know where the stress falls.
+A quick search may tell you that there are two types of Russian verb conjugations, which is complete bullshit. If you search more deeply you will read that there are actually 16 conjugation types, which is more or less still bullshit. There are 16 conjugation types, but each one of those conjugation types can have 1, 2, 3, or 4 different stress patterns, meaning that you are not guaranteed to pronounce the verb correctly even if you know the correct spelling because you will not know where the stress falls.
 
 <script type="module">
 import {randomVerbPicker} from "./randomVerbPicker.mjs";
@@ -50,8 +43,7 @@ document.generateRandomVerb = () => {
 .download {background-color: #BE8EEE;}
 </style>
 
-<button class="button div button1" onclick="generateRandomVerb();">Generate
-random verb</button>
+<button class="button div button1" onclick="generateRandomVerb();">Generate random verb</button>
 
 <div id="verb-type" class="div div1">Verb Class</div>
 <div id="verb" class="div div2">Verb</div>

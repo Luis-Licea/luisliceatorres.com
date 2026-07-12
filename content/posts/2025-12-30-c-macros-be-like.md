@@ -6,8 +6,7 @@ categories: Programming
 tags: [C, Sarcasm]
 ---
 
-C syntax is super ugly and hard to understand, so you should use macros to make the code
-more readable and maintainable. "Code like you speak and think" is my motto.
+C syntax is super ugly and hard to understand, so you should use macros to make the code more readable and maintainable. "Code like you speak and think" is my motto.
 
 ```c
 #include <err.h>
@@ -43,5 +42,4 @@ $ gcc ./test.c && ./a.out
 a.out: sheeit thats crazy
 ```
 
-Macros are a wonderful, powerful, and underused tool that every program should
-use.
+Macros are a wonderful, powerful, and underused tool that every program should use.

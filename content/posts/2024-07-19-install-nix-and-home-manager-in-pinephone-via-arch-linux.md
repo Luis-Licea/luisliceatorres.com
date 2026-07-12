@@ -5,14 +5,10 @@ categories: Programming
 tags: [PinePhone, NixOS]
 ---
 
-I am running [Arch Linux ARM] on my [PinePhone]. Installing the native `nix`
-package via `sudo pacman -S nix` did not work for me because I ran into
-`libboost_context.so` shared library errors. I had to remove and cleanup the
-`nix` installation and use the official [Nix installation script].
+I am running [Arch Linux ARM] on my [PinePhone]. Installing the native `nix` package via `sudo pacman -S nix` did not work for me because I ran into `libboost_context.so` shared library errors. I had to remove and cleanup the `nix` installation and use the official [Nix installation script].
 
-Before running the [Nix installation script] I had to uninstall the native `nix`
-package with `sudo pacman -Rs nix` and remove the users and groups that had been
-created, otherwise the official script would fail:
+Before running the [Nix installation script] I had to uninstall the native `nix` package with `sudo pacman -Rs nix` and remove the users and groups that had been created, otherwise the official script would fail:
+
 ```bash
 for i in {01..10}; do
     sudo userdel "nixbld$i";
@@ -32,8 +28,7 @@ nix-channel --update
 nix-shell '<home-manager>' -A install
 ```
 
-Then I used `home-manager edit` and `home-manager switch` to add packages to the
-home-manger configuration file and install the packages.
+Then I used `home-manager edit` and `home-manager switch` to add packages to the home-manger configuration file and install the packages.
 
 Installing different `nixpkgs` channels is described in the [Home-Manager standalone installation] section.
 

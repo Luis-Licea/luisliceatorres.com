@@ -5,9 +5,7 @@ categories: Programming
 tags: Sarcasm
 ---
 
-Self-documenting code is supposed to reduce the need for comments and increase
-readability, so here is a self-documenting CRC32 function to show exactly how it
-is done.
+Self-documenting code is supposed to reduce the need for comments and increase readability, so here is a self-documenting CRC32 function to show exactly how it is done.
 
 ```c
 #include <stddef.h>

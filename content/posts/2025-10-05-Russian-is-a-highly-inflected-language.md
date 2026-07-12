@@ -3,10 +3,7 @@ title: "Russian is a highly inflected language"
 date: 2025-10-05T22:07:54-05:00
 ---
 
-Russian modifies words to reflect mood, tense, and gender, whereas English uses
-mostly word order and auxiliary verbs. Here is an example of the verb **to do**.
-I filled up the inflections I know. Some inflections depend on context and the
-prepositions being used, so it is specially difficult to translate them.
+Russian modifies words to reflect mood, tense, and gender, whereas English uses mostly word order and auxiliary verbs. Here is an example of the verb **to do**. I filled up the inflections I know. Some inflections depend on context and the prepositions being used, so it is specially difficult to translate them.
 
 | Russian     | English                                 |
 | ----------- | --------------------------------------- |

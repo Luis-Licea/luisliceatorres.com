@@ -6,8 +6,7 @@ showTableOfContents: true
 categories: Cooking
 ---
 
-Do not use my recipes; my cooking sucks and is very plain; these recipes are
-just personal notes.
+Do not use my recipes; my cooking sucks and is very plain; these recipes are just personal notes.
 
 ## Baked, sliced sweet potato
 
@@ -17,11 +16,7 @@ Ingredients:
 - 1 tbs spoon extra virgin oil
 - 5g salt
 
-Slice the sweet potatoes into circles.
-Mix the oil and the salt in a small container.
-Cover each potato slice with a thin salt-oil layer.
-Make the slices stand straight on a ceramic plate, making small cuts as needed.
-Bake for 40 minutes at 450°F, which is below the extra virgin olive oil smoke point.
+Slice the sweet potatoes into circles. Mix the oil and the salt in a small container. Cover each potato slice with a thin salt-oil layer. Make the slices stand straight on a ceramic plate, making small cuts as needed. Bake for 40 minutes at 450°F, which is below the extra virgin olive oil smoke point.
 
 ## Baked sweet potato
 
@@ -29,9 +24,7 @@ Ingredients:
 
 - 2 medium-sized sweet potatoes
 
-Place the unpeeled sweet potatoes on a ceramic plate. 
-Bake for 40 minutes at 450°F until the skin detaches and the molten sugars start
-seeping.
+Place the unpeeled sweet potatoes on a ceramic plate. Bake for 40 minutes at 450°F until the skin detaches and the molten sugars start seeping.
 
 This method is so lazy. Can it even be called cooking? :joy_cat:
 
@@ -43,10 +36,7 @@ Ingredients:
 - 1,200g water
 - 12g sea salt
 
-Measure the beans, check them for stones, wash them to remove dirt, then put
-them into a pressure cooker. Add the water and the salt. Set the pressure cooker
-timer to 40 minutes at high pressure. Different beans have different hardnesses
-so they require different cook times.
+Measure the beans, check them for stones, wash them to remove dirt, then put them into a pressure cooker. Add the water and the salt. Set the pressure cooker timer to 40 minutes at high pressure. Different beans have different hardnesses so they require different cook times.
 
 ## Split Pea soup
 
@@ -67,8 +57,7 @@ Ingredients:
 - pepper
 - 1/2 cup fresh parsley
 
-Cook everything for 15 minutes on high pressure in a pressure cooker. The peas
-will turn out mushy like baby food.
+Cook everything for 15 minutes on high pressure in a pressure cooker. The peas will turn out mushy like baby food.
 
 ## Red rice
 
@@ -83,10 +72,7 @@ Ingredients:
 - 2 cup water or chicken stock for flavor
 - 1/4 tsp of cumin
 
-
-Mix and blend the tomatoes, onion, garlic, and water.
-Toast the rice for 5 min with the 3tbs of oil, then add the two cups of water.
-Then strain the salsa mix and add it to the rice as it cooks.
+Mix and blend the tomatoes, onion, garlic, and water. Toast the rice for 5 min with the 3tbs of oil, then add the two cups of water. Then strain the salsa mix and add it to the rice as it cooks.
 
 ## Fruit electrolyte water
 
@@ -107,6 +93,7 @@ Put everything in a blander and blend for at least 15 seconds into a smoothie
 - 1 can 6oz contadina roma tomatoes paste with pesto
 
 Pressure cooked white rice:
+
 - 100g white rice
 - 140g water
 - 4g salt
@@ -114,4 +101,5 @@ Pressure cooked white rice:
 Pressure cook 8 minutes at high pressure. Quick release as soon as possible.
 
 Baked sweet potato:
-Put 3 medium potatoes in a glass container, cover, and put in oven at 450°F for 50 minutes.
+
+- Put 3 medium potatoes in a glass container, cover, and put in oven at 450°F for 50 minutes.

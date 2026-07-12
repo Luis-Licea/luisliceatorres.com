@@ -6,11 +6,7 @@ categories: Math
 tags: Boolean Algebra
 ---
 
-What is the minimum number of ways to test a two-floor elevator with two
-buttons? One button is for floor 1 and the other button is for floor 2. We can
-assume that if both buttons are pressed simultaneously, the elevator will ignore
-the current floor button and go to the other floor. If we create a truth table
-we will see that there are 8 possible outcomes.
+What is the minimum number of ways to test a two-floor elevator with two buttons? One button is for floor 1 and the other button is for floor 2. We can assume that if both buttons are pressed simultaneously, the elevator will ignore the current floor button and go to the other floor. If we create a truth table we will see that there are 8 possible outcomes.
 
 | Current Floor | Floor 1 Button | Floor 2 Button | Next Floor |
 | ------------- | -------------- | -------------- | ---------- |
@@ -23,9 +19,7 @@ we will see that there are 8 possible outcomes.
 | 1             | 1              | 0              | 0          |
 | 1             | 1              | 1              | 0          |
 
-Then we can create a Karnaugh map to express the next floor (N) variable in
-terms of the current floor (C) and the first and second floor buttons (F1 and
-F2).
+Then we can create a Karnaugh map to express the next floor (N) variable in terms of the current floor (C) and the first and second floor buttons (F1 and F2).
 
 <style>
     .green {

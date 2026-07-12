@@ -9,15 +9,11 @@ tags: West Coast Swing
 
 ## Pattern-planning tables
 
-If you lost your count, stop counting the pattern you are currently dancing a
-few moments before hearing the upcoming one. Focus on counting the 1 and 2 of
-the music.
+If you lost your count, stop counting the pattern you are currently dancing a few moments before hearing the upcoming one. Focus on counting the 1 and 2 of the music.
 
-You may stop counting the music at any point, but I suggest stopping on an
-anchor step. The count you end up with is the number of beats since 1.
+You may stop counting the music at any point, but I suggest stopping on an anchor step. The count you end up with is the number of beats since 1.
 
-The number of beats since 1 will determine how many patterns you can dance and
-how many beats the last pattern in the sequence must be before hitting the one.
+The number of beats since 1 will determine how many patterns you can dance and how many beats the last pattern in the sequence must be before hitting the one.
 
 | Beats since 1 | Patterns | Break Pattern | Total beats |
 | ------------- | -------- | ------------- | ----------- |
@@ -90,13 +86,9 @@ Some songs have 48-beat phrase changes, so this may come in handy:
 
 ## Major vs minor phrase change patterns
 
-Sometimes a musical phrase like a verse or a bridge may be 64 beats instead of
-64 beats. In such cases, the first 32 beats will be the minor phrase and the
-second 32 beats will be the major phrase.
+Sometimes a musical phrase like a verse or a bridge may be 64 beats instead of 64 beats. In such cases, the first 32 beats will be the minor phrase and the second 32 beats will be the major phrase.
 
-If you do a fancy pattern to heat the 1 on a minor phrase change you will look
-too dramatic. In the other hand, if you don't do a dramatic pattern to hit the 1
-on a major phrase change you will look dull and non-musical.
+If you do a fancy pattern to heat the 1 on a minor phrase change you will look too dramatic. In the other hand, if you don't do a dramatic pattern to hit the 1 on a major phrase change you will look dull and non-musical.
 
 ## Major phrase change patterns
 
