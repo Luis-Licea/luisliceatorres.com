@@ -8,4 +8,11 @@ Also known as a short right-side pass.
 
 A variation of the [right-side inside turn].
 
-It is like an L in Tetris, whereas a regular right-side pass is the straight piece in Tetris. Step 1 is back-leftwards, and step two is a cross step. The movement leftwards happens on number 4. In other words, rather than stepping into the slot on step 4, you are stepping past the slot. The anchor step can be a [front-check] or a [back-check].
+It is like an L in Tetris, whereas a regular right-side pass is the straight piece in Tetris. 
+
+- Step 1 is back-leftwards
+- Step 2 is a cross step. 
+- On 3 step towards 12:00.
+- On 3.5 step towards 3:00.
+- On 4 step towards 3:00 across the slot.
+- On 6&6 [front-check] or [back-check].

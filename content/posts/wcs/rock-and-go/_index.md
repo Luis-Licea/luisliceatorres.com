@@ -1,11 +1,8 @@
 ---
-title: "Rock and Go"
+title: "Rock and Go (RAG)"
 date: 2026-06-10T01:04:49-05:00
 description: ""
 ---
-
-## Rock-and-go (RAG)
-
 A rock-and-go (RAG) combines the last two steps of a pattern with the first two steps of the next pattern.
 
 A RAG reduces the beat count by 2, e.g:
