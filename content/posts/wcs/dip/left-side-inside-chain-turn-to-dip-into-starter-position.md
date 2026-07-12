@@ -1,5 +1,5 @@
 ---
-title: "Left-side inside chain turn to dip into starter position"
+title: "left-side inside chain turn to dip into starter position"
 date: 2026-06-15T00:57:17-05:00
 description: ""
 categories: Dance

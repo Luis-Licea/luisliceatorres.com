@@ -1,5 +1,5 @@
 ---
-title: "Left diagonal tap right diagonal tap"
+title: "left diagonal tap right diagonal tap"
 date: 2026-06-15T01:13:41-05:00
 description: ""
 categories: Dance

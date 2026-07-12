@@ -1,5 +1,5 @@
 ---
-title: Piston-prepped dip
+title: piston-prepped dip
 date: 2026-06-15T00:56:15-05:00
 description:
 categories: Dance

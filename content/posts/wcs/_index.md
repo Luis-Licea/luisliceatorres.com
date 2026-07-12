@@ -1,24 +1,10 @@
 ---
 title: West Coast Swing Notes
-# created: 2025-05-08
 date: 2025-07-28
 categories: Dance
 tags: West Coast Swing
 ---
 
-[^1]: This is a hypothetical move. I have not actually tried it. :smile_cat:
-
-[^2]: This needs to be verified.
-
-[Bay Area Whip Dance Club]: https://www.bawdc.org/
-[Chuck Anders]: https://www.bawdc.org/profile/chuck-anders/
-[Mastering All Turns in West Coast Swing]: https://www.westcoastswingonline.com/spin-in-all-four-directions/
-[Zach and Rachel]: https://mysite.vagaro.com/zachandracheldance
-[Bob Bowlby]: https://www.youtube.com/watch?v=7RMxJcnNXws
-
-<!-- Pre-starter steps -->
-
-[left diagonal tap right diagonal tap]: #left-diagonal-tap-right-diagonal-tap
 [lock the knee]: #lock-the-knee
 
 <!-- Preparation variations -->
