@@ -6,5 +6,4 @@ description: ""
 
 ## Spiderman
 
-The leader's ring and middle fingers point up. The hand looks like spiderman
-shooting a spider web.
+The leader's ring and middle fingers point up. The hand looks like spiderman shooting a spider web.

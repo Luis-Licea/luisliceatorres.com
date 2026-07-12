@@ -6,8 +6,7 @@ description: ""
 
 A rond de jambe.
 
-Instead of doing the anchor step for a duration of 2 beats, slide your right
-foot from 12, to 3, to 6 o'clock in a round motion.
+Instead of doing the anchor step for a duration of 2 beats, slide your right foot from 12, to 3, to 6 o'clock in a round motion.
 
 Pattern suggestion:
 
@@ -17,5 +16,4 @@ Pattern suggestion:
 
 A rond de jambe.
 
-Mechanically the same as a clockwise sweep, but with a duration of 4 beats
-instead of 2.
+Mechanically the same as a clockwise sweep, but with a duration of 4 beats instead of 2.

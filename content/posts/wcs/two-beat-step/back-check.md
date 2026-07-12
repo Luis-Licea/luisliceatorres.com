@@ -6,5 +6,4 @@ description: ""
 
 Also known as a hook-step.
 
-Instead of stepping in place for the & step, step behind your left foot with
-with your right foot.
+Instead of stepping in place for the & step, step behind your left foot with with your right foot.

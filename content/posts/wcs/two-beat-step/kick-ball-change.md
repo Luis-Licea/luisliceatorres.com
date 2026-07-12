@@ -6,7 +6,4 @@ description: ""
 
 #### Chick-ball-change
 
-It is very important that your change happens such that your toes are behind
-your knee so that there is a natural drop. Also, the "ball-change" part are
-almost instantaneous. They happen very quickly next to each other, which may
-mean they will will be syncopated to the music.
+It is very important that your change happens such that your toes are behind your knee so that there is a natural drop. Also, the "ball-change" part are almost instantaneous. They happen very quickly next to each other, which may mean they will will be syncopated to the music.

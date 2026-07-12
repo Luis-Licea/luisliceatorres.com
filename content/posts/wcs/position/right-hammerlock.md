@@ -6,6 +6,4 @@ description: ""
 
 ### Right hammerlock
 
-The leader stands slightly to the right of the follower, maintaining a double
-handhold where the leader's hands point down and the follower's right hand is
-behind the back pointing outside while the left hand is pointing down.
+The leader stands slightly to the right of the follower, maintaining a double handhold where the leader's hands point down and the follower's right hand is behind the back pointing outside while the left hand is pointing down.

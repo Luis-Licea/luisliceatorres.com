@@ -10,5 +10,4 @@ params:
 - On &, unbend left knee.
 - On 2, bend right knee.
 - On &, unbend right knee.
-- On & of next pattern, begin shifting weight with your core, not your upper
-  body. If you begin
+- On & of next pattern, begin shifting weight with your core, not your upper body. If you begin

@@ -6,8 +6,7 @@ description: ""
 
 ### Starter
 
-The handwork is identical to the [closed] position, but the leader stands
-perpendicularly to the follower's left side, sort of like the characters \_|.
+The handwork is identical to the [closed] position, but the leader stands perpendicularly to the follower's left side, sort of like the characters \_|.
 
 Reached via:
 
@@ -19,8 +18,7 @@ Reached via:
 Leads to:
 
 - [left-side outside pass]
-- [left-side starter outside turn into a weird handshake position] and
-  [handshake reverse whip]
+- [left-side starter outside turn into a weird handshake position] and [handshake reverse whip]
 - [left-side starter inside chain turn into open position]
 - [fold]
 - [closed right-side pass redirect]

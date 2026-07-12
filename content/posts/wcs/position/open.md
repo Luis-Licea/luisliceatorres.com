@@ -6,9 +6,7 @@ description: ""
 
 ## Open
 
-The leader's left-hand ring and middle fingers (pointing to the right) are held
-by the follower's right hand (pointing down) at waist level, sort of like the
-characters |¯|.
+The leader's left-hand ring and middle fingers (pointing to the right) are held by the follower's right hand (pointing down) at waist level, sort of like the characters |¯|.
 
 Reached via:
 

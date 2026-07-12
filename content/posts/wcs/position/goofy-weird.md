@@ -6,7 +6,6 @@ description: ""
 
 ## Weird goofy
 
-The leader’s right-hand ring and middle fingers point to the right at 3:00 while
-the leader faces 12:00.
+The leader’s right-hand ring and middle fingers point to the right at 3:00 while the leader faces 12:00.
 
 This is a mirror image of the [weird] position.

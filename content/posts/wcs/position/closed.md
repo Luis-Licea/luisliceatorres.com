@@ -6,15 +6,11 @@ description: ""
 
 ### Closed
 
-The leader's right hand palm is on the follower's back, on the follower's left
-shoulder blade, and the follower's left arm rests on the leader's right arm. The
-leader stands face-to-face to the follower, sort of like the characters ||.
+The leader's right hand palm is on the follower's back, on the follower's left shoulder blade, and the follower's left arm rests on the leader's right arm. The leader stands face-to-face to the follower, sort of like the characters ||.
 
 Paraphrased advice from Damon D'Amico:
 
-In general, in a closed position, the leader's wrist should rest against the
-crook of the follower's armpit, the axilla. There should be no gap between the
-wrist and the armpit. This is where the steering power comes from.
+In general, in a closed position, the leader's wrist should rest against the crook of the follower's armpit, the axilla. There should be no gap between the wrist and the armpit. This is where the steering power comes from.
 
 Reached via:
 

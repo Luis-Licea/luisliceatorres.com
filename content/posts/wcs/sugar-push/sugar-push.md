@@ -16,14 +16,10 @@ Connection:
 
 Connection:
 
-- On 1, your body should go from 1:00 to 12:00 as you step back to perform a
-  body lead, not an arm lead.
-- On 4, your left arm should be aligned with your ear, your centerline, not be
-  past your core.
-- On 5&6 your left arm can stretch past the centerline as the follower increases
-  the tension.
+- On 1, your body should go from 1:00 to 12:00 as you step back to perform a body lead, not an arm lead.
+- On 4, your left arm should be aligned with your ear, your centerline, not be past your core.
+- On 5&6 your left arm can stretch past the centerline as the follower increases the tension.
 
 Grounding:
 
-- On 4, anchor with the left foot into the ground so your center of mass is
-  behind, not on top, of your left foot.
+- On 4, anchor with the left foot into the ground so your center of mass is behind, not on top, of your left foot.

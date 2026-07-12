@@ -6,5 +6,4 @@ description: ""
 
 Also known as a cross-step.
 
-Instead of stepping in place for the & step, step on front of your left foot
-with with your right foot.
+Instead of stepping in place for the & step, step on front of your left foot with with your right foot.

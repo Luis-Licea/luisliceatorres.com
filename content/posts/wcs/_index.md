@@ -12,8 +12,7 @@ tags: West Coast Swing
 
 [Bay Area Whip Dance Club]: https://www.bawdc.org/
 [Chuck Anders]: https://www.bawdc.org/profile/chuck-anders/
-[Mastering All Turns in West Coast Swing]:
-  https://www.westcoastswingonline.com/spin-in-all-four-directions/
+[Mastering All Turns in West Coast Swing]: https://www.westcoastswingonline.com/spin-in-all-four-directions/
 [Zach and Rachel]: https://mysite.vagaro.com/zachandracheldance
 [Bob Bowlby]: https://www.youtube.com/watch?v=7RMxJcnNXws
 
@@ -70,8 +69,7 @@ tags: West Coast Swing
 [head drape into starter]: #head-drape-into-starter
 [head drape]: #head-drape
 [single-arm turn-in]: #single-arm-turn-in
-[sugar push inside pivot turn into closed position]:
-  #sugar-push-inside-pivot-turn-into-closed-position
+[sugar push inside pivot turn into closed position]: #sugar-push-inside-pivot-turn-into-closed-position
 [sugar push inside pivot turn]: #sugar-push-inside-pivot-turn
 [sugar push left shoulder slide]: #sugar-push-left-shoulder-slide
 [sugar push outside pivot turn]: #sugar-push-outside-pivot-turn
@@ -84,36 +82,28 @@ tags: West Coast Swing
 [Scout fold RAG free spin]: #scout-fold-rag-free-spin
 [fold]: #fold
 [free spin]: #free-spin
-[left-side inside chain turn into closed position]:
-  #left-side-inside-chain-turn-into-closed-position
+[left-side inside chain turn into closed position]: #left-side-inside-chain-turn-into-closed-position
 [left-side inside chain turn]: #left-side-inside-chain-turn
 [left-side outside pass]: #left-side-outside-pass
 [left-side pass]: #left-side-pass
 [left-side starter back-lead free-spin]: #left-side-starter-back-lead-free-spin
-[left-side starter inside chain turn into open position]:
-  #left-side-starter-inside-chain-turn-into-open-position
-[left-side starter outside turn into a weird handshake position]:
-  #left-side-starter-outside-turn-into-a-weird-handshake-position
+[left-side starter inside chain turn into open position]: #left-side-starter-inside-chain-turn-into-open-position
+[left-side starter outside turn into a weird handshake position]: #left-side-starter-outside-turn-into-a-weird-handshake-position
 [roll-in-roll-out]: #roll-in-roll-out
 [trusty left-side-pass]: #trusty-left-side-pass
-[weird handshake left-side pass inside chain turn right picture hold]:
-  #weird-handshake-left-side-pass-inside-chain-turn-right-picture-hold-walk-around-into-open-position
+[weird handshake left-side pass inside chain turn right picture hold]: #weird-handshake-left-side-pass-inside-chain-turn-right-picture-hold-walk-around-into-open-position
 
 <!-- Right-side passes -->
 
 [goofy left-side inside chain turn]: #goofy-right-side-inside-chain-turn
 [goofy right-side inside turn]: #goofy-right-side-inside-turn
 [right-side inside chain turn]: #right-side-inside-chain-turn
-[right-side inside pass into parallel position]:
-  #right-side-inside-pass-into-parallel-position
-[right-side inside turn into starter position]:
-  #right-side-inside-turn-into-starter-position
-[right-side inside turn lead inside turn into handshake position]:
-  #right-side-inside-turn-lead-inside-turn-into-handshake-position
+[right-side inside pass into parallel position]: #right-side-inside-pass-into-parallel-position
+[right-side inside turn into starter position]: #right-side-inside-turn-into-starter-position
+[right-side inside turn lead inside turn into handshake position]: #right-side-inside-turn-lead-inside-turn-into-handshake-position
 [right-side inside turn]: #right-side-inside-turn
 [right-side outside chain turn]: #right-side-outside-chain-turn
-[right-side outside leader turn into left shoulder-lock]:
-  #right-side-outside-leader-turn-into-left-shoulder-lock
+[right-side outside leader turn into left shoulder-lock]: #right-side-outside-leader-turn-into-left-shoulder-lock
 [right-side outside turn]: #right-side-outside-turn
 [right-side pass into closed position]: #right-side-pass-into-closed-position
 
@@ -127,17 +117,14 @@ tags: West Coast Swing
 [continuous whip into starter position]: #continuous-whip-into-starter-position
 [continuous whip]: #continuous-whip
 [handshake reverse whip]: #handshake-reverse-whip
-[hustle whip inside pass turn into open position]:
-  #hustle-whip-inside-pass-turn-into-open-position
+[hustle whip inside pass turn into open position]: #hustle-whip-inside-pass-turn-into-open-position
 [hustle whip outside pivot turn]: #hustle-whip-outside-pivot-turn
 [hustle whip]: #hustle-whip
 [left shoulder-lock reverse whip]: #left-shoulder-lock-reverse-whip
 [pass-through whip]: #pass-through-whip
 [right-side pass reverse whip]: #right-side-pass-reverse-whip
-[shadow position into sweetheart into scout handhold]:
-  #Shadow-position-into-sweetheart-into-scout-handhold
-[whip with two outside turns into over-rotated open position]:
-  #whip-with-two-outside-turns-into-over-rotated-open-position
+[shadow position into sweetheart into scout handhold]: #Shadow-position-into-sweetheart-into-scout-handhold
+[whip with two outside turns into over-rotated open position]: #whip-with-two-outside-turns-into-over-rotated-open-position
 
 <!-- Redirects -->
 

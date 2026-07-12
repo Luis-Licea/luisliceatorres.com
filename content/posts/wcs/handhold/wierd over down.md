@@ -5,8 +5,7 @@ description: ""
 ---
 
 This is a two-handed cross-handhold. The left hand is in a {{% a "palm-left"
-%}} {{% a "scout" %}} handshake over the right hand in a {{% a "palm-down" %}}
-{{% a
+%}} {{% a "scout" %}} handshake over the right hand in a {{% a "palm-down" %}} {{% a
 "handshake" %}}.
 
 Patterns:

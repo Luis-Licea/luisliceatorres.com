@@ -15,10 +15,6 @@ Technically speaking this is a right side inside turn.
 Handwork
 
 - 1 is straight back,
-- 2 is raising your left hand to the follower face level with the back of your
-  hand visible as if looking at the watch on your left hand.
-- 3&4 is going over the follower's head with the left hand, as if drawing an
-  upside-down U over the follower. The left-hand should finish at the follower
-  right-shoulder level.
-- 5&6 lower your left hand to xiphoid-level so you will end up in an [open]
-  position.
+- 2 is raising your left hand to the follower face level with the back of your hand visible as if looking at the watch on your left hand.
+- 3&4 is going over the follower's head with the left hand, as if drawing an upside-down U over the follower. The left-hand should finish at the follower right-shoulder level.
+- 5&6 lower your left hand to xiphoid-level so you will end up in an [open] position.

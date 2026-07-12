@@ -6,8 +6,7 @@ description: ""
 
 ## Horn
 
-The leader's ring and middle fingers point down. The hand looks like the sign of
-horns.
+The leader's ring and middle fingers point down. The hand looks like the sign of horns.
 
 Reached via:
 
