@@ -9,8 +9,8 @@ description:
 - On 2 step back and face 9 o'clock.
 - On 3&4 perform a triple step while facing 9 o'clock.
 - On &5 step towards 6 o'clock such that you end up facing 9 o'clock with split weight on both legs.
-- Hold on 6 while building tension in the 12 o'clock direction.
-- On 7&8 perform a triple step starting with your left foot while moving in the 12 o'clock direction. You should be facing 6 o'clock, at the follower.
+- On 6, hold while building tension in the 12 o'clock direction.
+- On 7&8, perform a triple step starting with your left foot while moving in the 12 o'clock direction. You should be facing 6 o'clock, at the follower.
 - On 9&10 perform another triple step in the 12 o'clock direction. Make sure you have a lot of clearance in the 12 o'clock direction if you decide to repeat steps 7&8 and 9&10. The remaining footwork will depend on the exit you take.
 
 This pattern has three exits:
