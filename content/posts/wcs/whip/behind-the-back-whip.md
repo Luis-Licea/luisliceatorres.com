@@ -2,6 +2,8 @@
 title: "Behind-the-back whip"
 date: 2026-06-17T00:14:11-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Use it from an [open] position.

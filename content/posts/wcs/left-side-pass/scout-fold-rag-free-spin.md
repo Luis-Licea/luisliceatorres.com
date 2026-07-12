@@ -2,6 +2,8 @@
 title: "Scout Fold RAG Free Spin"
 date: 2026-06-11T23:46:18-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Start in a [scout] position.

@@ -2,6 +2,8 @@
 title: "Shadow Position Into Sweetheart Into Scout Handhold"
 date: 2026-06-11T23:55:14-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Start in an over-rotated [open] position such that you face 3 o'clock as opposed to 12 o'clock and the follower faces 9 o'clock instead of 6 o'clock.

@@ -2,6 +2,8 @@
 title: Left Side Inside Chain Turn
 date: 2026-06-11T23:46:40-05:00
 description:
+categories: Dance
+tags: West Coast Swing
 ---
 
 - The footwork is the same as a left-side pass. The handwork is different.

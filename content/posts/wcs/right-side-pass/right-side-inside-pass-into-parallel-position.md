@@ -2,6 +2,8 @@
 title: "Right-side inside pass into parallel position"
 date: 2026-06-15T01:30:22-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Use it from an [open] hold.

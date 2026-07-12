@@ -2,6 +2,8 @@
 title: "K-anchor step"
 date: 2026-06-16T01:28:29-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 An improved anchor step that Damon D'Amico taught me.

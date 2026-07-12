@@ -2,6 +2,8 @@
 title: "Weird Handshake Left Side Pass Inside Chain Turn Right Picture Hold Walk Around Into Open Position"
 date: 2026-06-11T23:53:57-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Start form a [handshake] or a [weird handshake]. Lead an inside chain turn and then go into a [right picture] position and then do a two-step walk-around before anchoring back.

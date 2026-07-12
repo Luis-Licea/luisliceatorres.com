@@ -3,6 +3,8 @@ title: "Pre-starter steps"
 date: 2026-06-09T01:34:13-05:00
 draft: false
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 Use pre-starter steps to find the beat in the music and to verify the follower is also feeling the beat. You can [lock the knee] or [left diagonal tap right diagonal tap] while counting 5678.

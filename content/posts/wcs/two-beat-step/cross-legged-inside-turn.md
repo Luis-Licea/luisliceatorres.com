@@ -2,6 +2,8 @@
 title: "Cross-legged inside turn"
 date: 2026-06-16T01:31:13-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 Also known as a cross-legged inside turn.

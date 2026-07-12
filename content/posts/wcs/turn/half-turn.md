@@ -2,6 +2,8 @@
 title: "half turn"
 date: 2026-06-24T01:05:14-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 A 180 degree traveling turn that happens in 2 beats.

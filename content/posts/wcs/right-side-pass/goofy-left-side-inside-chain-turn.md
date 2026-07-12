@@ -2,6 +2,8 @@
 title: "Goofy left-side inside chain turn"
 date: 2026-06-15T01:29:33-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - It starts from a [goofy] position.

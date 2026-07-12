@@ -2,6 +2,8 @@
 title: "Sugar push clockwise duck to handshake"
 date: 2026-06-16T00:59:05-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 Alternative name: Back-to-neck hand-slide

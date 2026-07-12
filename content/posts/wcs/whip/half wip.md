@@ -5,6 +5,8 @@ params:
   beats: 4
   rhythm: 1 1 1 1
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Start in an {{% a "open" %}} position.

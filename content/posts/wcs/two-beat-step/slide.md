@@ -2,6 +2,8 @@
 title: "Slide"
 date: 2026-06-16T01:29:19-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 A slide is different from a sweep because a sweep does not require your to build momentum by lifting your free leg and standing on the ball of your other foot. Also, a sweep is a circular clockwise or counter-clockwise motion, whereas a slide is unidirectional.

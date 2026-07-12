@@ -2,6 +2,8 @@
 title: Left Side Outside Pass
 date: 2026-06-11T23:49:19-05:00
 description:
+categories: Dance
+tags: West Coast Swing
 ---
 
 Also known as passing tuck.

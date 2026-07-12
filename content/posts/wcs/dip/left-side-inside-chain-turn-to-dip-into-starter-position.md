@@ -2,6 +2,8 @@
 title: "Left-side inside chain turn to dip into starter position"
 date: 2026-06-15T00:57:17-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 This is an 6 beat pattern elongated into an 8 beat pattern because the anchor step is 4 beats to allow the follower to go into closed position. The actual dip happens on beat 5.

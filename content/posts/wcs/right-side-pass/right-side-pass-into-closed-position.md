@@ -2,6 +2,8 @@
 title: "Right-side pass into closed position"
 date: 2026-06-15T01:30:42-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 The footwork and most of the handwork is the same as in a [right-side inside turn].

@@ -2,6 +2,8 @@
 title: "Whip"
 date: 2026-06-17T00:18:51-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 Start in an {{% a "open" %}} position. On 1 you step back while performing a small {{% a "j-hook" %}} prep with the left arm. A common mistake is not to step back at 6 o'clock or to forget the prep.

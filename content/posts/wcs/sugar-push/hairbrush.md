@@ -2,6 +2,8 @@
 title: "Hairbrush"
 date: 2026-06-16T00:48:45-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 Same as a [head drape], but the hand goes over the leader's head. Also known as a head-wrap.

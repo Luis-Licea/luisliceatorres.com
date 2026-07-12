@@ -2,6 +2,8 @@
 title: "Car-wash whip"
 date: 2026-06-17T00:01:09-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - It requires a [goofy] hold or a [parallel] hold.

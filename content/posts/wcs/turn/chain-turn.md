@@ -2,6 +2,8 @@
 title: "chain turn"
 date: 2026-06-16T01:23:14-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 A traveling 180 degree turn in which the weight changes from one foot to the other.

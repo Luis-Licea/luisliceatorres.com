@@ -2,6 +2,8 @@
 title: Left Side Pass Outside Pass Turn Into Weird Handshake
 date: 2026-06-11T23:49:40-05:00
 description:
+categories: Dance
+tags: West Coast Swing
 ---
 
 Also known as a tuck turn.

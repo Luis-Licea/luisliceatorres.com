@@ -2,6 +2,8 @@
 title: Left Side Inside Chain Turn Into Closed Position
 date: 2026-06-11T23:47:03-05:00
 description:
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Start from an [open] position. The footwork and most of the handwork is the same as a [left-side inside chain turn].

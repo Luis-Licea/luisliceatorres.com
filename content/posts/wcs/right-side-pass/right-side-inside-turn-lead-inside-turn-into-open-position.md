@@ -2,6 +2,8 @@
 title: "Right-side inside turn lead inside turn into open position"
 date: 2026-06-15T01:33:30-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 This is a variation of the [right-side inside turn lead inside turn into handshake position]. The only difference is the handwork on the 4, 5&6.

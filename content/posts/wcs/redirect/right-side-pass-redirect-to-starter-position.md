@@ -2,6 +2,8 @@
 title: "Right-side pass redirect to starter position"
 date: 2026-06-15T01:17:34-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 The same as a {{% a "Right-side pass redirect" %}}, but on 5&6 you step forward progressively to close the distance with the follower and end in a [starter] position.

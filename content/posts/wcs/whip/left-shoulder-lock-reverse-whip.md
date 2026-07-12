@@ -2,6 +2,8 @@
 title: "Left shoulder-lock reverse whip"
 date: 2026-06-17T00:11:23-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Start in a [left shoulder-lock] position.

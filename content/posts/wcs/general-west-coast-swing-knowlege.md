@@ -2,6 +2,8 @@
 title: "General West Coast Swing Knowlege"
 date: 2026-06-10T01:08:51-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 ## General West Coast Swing knowledge

@@ -2,6 +2,8 @@
 title: "goofy right-side inside turn"
 date: 2026-06-15T01:28:58-05:00
 description:
+categories: Dance
+tags: West Coast Swing
 ---
 
 Also known as a right-side underarm pass or a right-side pass.

@@ -2,6 +2,8 @@
 title: "Basket whip with an spinning anchor"
 date: 2026-06-17T00:00:02-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - It looks like a basket whip with an accelerated tuck turn exit.

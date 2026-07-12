@@ -2,6 +2,8 @@
 title: "Behind the back whip into shadow right shoulder catch"
 date: 2026-06-16T23:58:29-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 Damon calls it a pikaboo whip.

@@ -2,6 +2,8 @@
 title: "Pass-through whip"
 date: 2026-06-17T00:11:49-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - It is similar to a [car-wash whip].

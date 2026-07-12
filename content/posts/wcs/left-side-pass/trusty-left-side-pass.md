@@ -2,6 +2,8 @@
 title: "Trusty Left Side Pass"
 date: 2026-06-11T23:53:21-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 A pattern that Ray _Trusty_ taught me.

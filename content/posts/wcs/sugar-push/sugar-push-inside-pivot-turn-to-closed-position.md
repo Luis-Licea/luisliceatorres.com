@@ -2,6 +2,8 @@
 title: "Sugar push inside pivot turn into closed position"
 date: 2026-06-04T00:50:27-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 The footwork is the same as a [sugar push inside pivot turn], and the handwork is the same up to step 3&. For the handwork, on 3& you should see the follower's back, so place your right hand onto the followers left shoulder blade to achieve a [closed] position as the turn finishes and you step forward on 4.

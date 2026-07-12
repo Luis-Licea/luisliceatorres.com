@@ -2,6 +2,8 @@
 title: left-side pass
 date: 2026-06-11T23:45:24-05:00
 description:
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Start from an {{% a "open" %}} position.

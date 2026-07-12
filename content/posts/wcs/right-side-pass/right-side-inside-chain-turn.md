@@ -2,6 +2,8 @@
 title: "Right-side inside chain turn"
 date: 2026-06-15T01:31:02-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Start from an [open] position. This is a right-side pass with chain 2.5 turns instead of 1.5 turns.

@@ -2,6 +2,8 @@
 title: "Hustle Whip"
 date: 2026-06-17T00:06:11-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - The footwork is the same as in a whip.

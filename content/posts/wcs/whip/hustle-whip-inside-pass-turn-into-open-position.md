@@ -2,6 +2,8 @@
 title: "Hustle whip inside pass turn into open position"
 date: 2026-06-17T00:06:31-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - The footwork is the same as a [hustle whip], and the handwork is the same up to step 4.

@@ -2,6 +2,8 @@
 title: Piston-prepped dip
 date: 2026-06-15T00:56:15-05:00
 description:
+categories: Dance
+tags: West Coast Swing
 ---
 
 #### Piston into dip

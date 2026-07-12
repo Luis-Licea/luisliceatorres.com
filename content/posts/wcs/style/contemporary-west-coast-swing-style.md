@@ -2,9 +2,9 @@
 title: Contemporary West Coast Swing Style
 date: 2026-02-16T01:45:53-06:00
 description: ""
-# showTableOfContents: true
 categories: Dance
 tags: West Coast Swing
+# showTableOfContents: true
 ---
 
 Contemporary music has legato (smooth, ooey-gooey, connected) beats.

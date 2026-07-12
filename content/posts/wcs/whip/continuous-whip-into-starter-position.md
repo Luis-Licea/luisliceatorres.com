@@ -2,6 +2,8 @@
 title: "Continuous whip into starter position"
 date: 2026-06-17T00:15:38-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Start in an [open] position.

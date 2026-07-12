@@ -2,6 +2,8 @@
 title: "Left collect-tap-return right collect-tap-return"
 date: 2026-06-15T01:12:40-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Start an [open] or [closed] position or standing in split-weight.

@@ -2,6 +2,8 @@
 title: Right-side pass
 date: 2026-06-15T01:26:26-05:00
 description:
+categories: Dance
+tags: West Coast Swing
 ---
 
 Technically speaking this is a right side inside turn.

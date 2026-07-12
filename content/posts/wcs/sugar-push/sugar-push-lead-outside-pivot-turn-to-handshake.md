@@ -2,6 +2,8 @@
 title: "Sugar push lead outside pivot turn to handshake"
 date: 2026-06-16T00:56:02-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 Alternate names:

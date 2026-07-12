@@ -2,6 +2,8 @@
 title: "sugar push outside pivot turn"
 date: 2026-06-15T01:43:05-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 Also known as a Sugar Tuck.

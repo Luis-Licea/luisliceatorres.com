@@ -2,6 +2,8 @@
 title: "Sequences"
 date: 2026-06-10T01:17:49-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 ## Sequences

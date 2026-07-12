@@ -2,6 +2,8 @@
 title: New front matter
 date: 2026-06-12T22:36:08-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 This page is meant to create new front matter boiler plate for Hugo posts.
@@ -74,6 +76,8 @@ This page is meant to create new front matter boiler plate for Hugo posts.
             title: ${title.value}
             date: ${getLocalISOTime()}
             description: ""
+categories: Dance
+tags: West Coast Swing
             categories: Dance
             tags: West Coast Swing
             ---

@@ -2,6 +2,8 @@
 title: "Level Change"
 date: 2026-06-16T01:29:47-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 A level change, like a level up or a level down, means standing on your tippy toes or bending your knees to increase or decrease your height by a couple of inches.

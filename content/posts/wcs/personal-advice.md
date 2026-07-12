@@ -2,6 +2,8 @@
 title: "Personal Advice"
 date: 2026-06-10T01:12:10-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 This advice is not verbatim. It is paraphrased in the manner I understood it.

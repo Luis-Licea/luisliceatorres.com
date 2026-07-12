@@ -2,6 +2,8 @@
 title: "Brush"
 date: 2026-06-16T01:31:56-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 A brush step is different from a sweep because it does not have a rotating motion about the hip. A brush is also different from a slide because a slide is a progressive move, whereas a brush is an stationary move that resembles a kick.

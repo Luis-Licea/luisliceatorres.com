@@ -2,6 +2,8 @@
 title: "location"
 date: 2026-06-20T00:56:55-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 An arm location can be described using the following directions:

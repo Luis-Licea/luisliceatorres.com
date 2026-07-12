@@ -5,6 +5,8 @@ params:
   beats: 6
   rhythm: ss qqs qqs
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Begin in an {{% a "lower" %}} handhold.

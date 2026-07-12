@@ -2,6 +2,8 @@
 title: "Right-side outside leader turn into left shoulder-lock"
 date: 2026-06-15T01:31:24-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Start in an [open] hold. Same as a right-side pass up to step 4.

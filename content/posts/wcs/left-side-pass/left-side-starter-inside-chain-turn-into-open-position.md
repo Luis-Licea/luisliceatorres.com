@@ -2,6 +2,8 @@
 title: Left Side Starter Inside Chain Turn Into Open Position
 date: 2026-06-11T23:47:27-05:00
 description:
+categories: Dance
+tags: West Coast Swing
 ---
 
 Whenever you are in a [closed] or [starter] position, your first two steps are half the length, so the [left] prep for the inside chain turn will happen on 2 rather than between 1 and 2. [^2]

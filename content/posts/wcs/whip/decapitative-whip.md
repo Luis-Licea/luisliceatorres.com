@@ -2,6 +2,8 @@
 title: "Decapitation whip"
 date: 2026-06-17T00:05:26-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - A variation of a [handshake reverse whip].

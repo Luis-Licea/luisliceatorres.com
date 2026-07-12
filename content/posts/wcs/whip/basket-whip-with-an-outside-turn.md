@@ -2,6 +2,8 @@
 title: "Basket whip with an outside turn"
 date: 2026-06-16T23:59:42-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 It looks like a basket whip with a tuck turn exit.

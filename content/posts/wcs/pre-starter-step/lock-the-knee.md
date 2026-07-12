@@ -2,6 +2,8 @@
 title: "Lock the knee"
 date: 2026-06-15T01:14:21-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Start in an [open] or [closed] position.

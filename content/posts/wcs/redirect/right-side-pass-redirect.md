@@ -2,6 +2,8 @@
 title: "Right-side pass redirect"
 date: 2026-06-15T01:16:34-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Start from an [open] position. Step back on 1 with the left foot towards 6:00 with toes pointing at 1:30.

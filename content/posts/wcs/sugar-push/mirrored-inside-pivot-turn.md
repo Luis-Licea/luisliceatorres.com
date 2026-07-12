@@ -2,6 +2,8 @@
 title: "Mirrored inside pivot turn"
 date: 2026-06-16T00:59:39-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 Note that there are no triple steps in this pattern.

@@ -2,6 +2,8 @@
 title: Left Side Starter Outside Turn Into a Weird Handshake Position
 date: 2026-06-11T23:48:47-05:00
 description:
+categories: Dance
+tags: West Coast Swing
 ---
 
 #### Left-side starter outside turn into a weird handshake position

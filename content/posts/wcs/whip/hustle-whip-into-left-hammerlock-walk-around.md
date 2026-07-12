@@ -2,6 +2,8 @@
 title: "Hustle whip into left hammerlock walk-around"
 date: 2026-06-17T00:09:39-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 The walk-around finishes on steps 10, then one must do a very good of indicating the end of the rotation and undoing the hammer-lock on the 4 steps, the final 2 of which are an anchor step

@@ -2,6 +2,8 @@
 title: Left Side Goofy Inside Chain Turn Into Closed Position
 date: 2026-06-11T23:52:39-05:00
 description:
+categories: Dance
+tags: West Coast Swing
 ---
 
 A pattern that [Bob Bowlby] and Joan Peeples taught me.

@@ -2,6 +2,8 @@
 title: "Left triple forward triple into starter position"
 date: 2026-06-15T01:40:27-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Start in [closed] position.

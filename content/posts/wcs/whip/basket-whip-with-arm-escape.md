@@ -2,6 +2,8 @@
 title: "Basket whip with arm escape"
 date: 2026-06-17T00:00:34-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Start from an [open] or [parallel] position.

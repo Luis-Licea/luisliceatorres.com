@@ -2,6 +2,8 @@
 title: "Whip ride"
 date: 2026-06-17T00:17:05-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 A leader cannot lead a ride, but he can strongly coax the follower onto a ride. In a ride, the follower stands on one leg as the lead walks around her while maintaining a closed position, causing her to rotate in place. Maintaining balance is very difficult for the follower. Both the lead and the follower must know what they are doing.

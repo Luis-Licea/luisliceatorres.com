@@ -2,6 +2,8 @@
 title: "Continuous whip"
 date: 2026-06-17T00:15:03-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Do a regular whip, then on 3& you should be in a [starter] position with your left foot free to step across on 4.

@@ -2,6 +2,8 @@
 title: "Right-side pass reverse whip"
 date: 2026-06-17T00:10:31-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - From an [open] hold, for steps 1 thru 4, do a right-side pass into [closed] position.

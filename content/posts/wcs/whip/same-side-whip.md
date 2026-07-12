@@ -2,6 +2,8 @@
 title: "same-side whip"
 date: 2026-06-24T01:44:10-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Start in an {{% a "open" %}} position.

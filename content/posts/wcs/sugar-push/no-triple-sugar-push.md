@@ -2,6 +2,8 @@
 title: "No-triple sugar tuck"
 date: 2026-06-16T00:46:12-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 This is a sugar tuck but the 3&4 becomes a 3 and 4 step-tap because the & goes away.

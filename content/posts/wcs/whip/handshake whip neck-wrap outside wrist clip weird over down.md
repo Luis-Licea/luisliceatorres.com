@@ -2,6 +2,8 @@
 title: "handshake whip neck wrap outside wrist clip weird over down"
 date: 2026-06-24T23:18:25-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Start in a {{% a "handshake" %}} position.

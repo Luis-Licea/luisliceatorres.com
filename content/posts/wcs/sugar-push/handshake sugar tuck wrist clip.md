@@ -2,6 +2,8 @@
 title: "handshake sugar tuck wrist clip"
 date: 2026-06-17T00:40:56-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 This pattern is based on the {{% a "sugar push outside pivot turn" %}}. These are the main differences:

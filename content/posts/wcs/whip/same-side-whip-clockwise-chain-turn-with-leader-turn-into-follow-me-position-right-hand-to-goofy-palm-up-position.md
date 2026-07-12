@@ -2,6 +2,8 @@
 title: "same-side whip clockwise chain turn with leader turn into follow-me position handshake palm-up position"
 date: 2026-06-24T01:27:00-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Start in an {{% a "open" %}} position.

@@ -2,6 +2,8 @@
 title: Free Spin Pivot Leader Turn
 date: 2026-06-11T23:50:29-05:00
 description:
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Start from a [goofy] position. This pattern is identical to the [free spin] up to step 3&.

@@ -2,6 +2,8 @@
 title: "Starter"
 date: 2026-06-04T00:10:58-05:00
 description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 The handwork is identical to the [closed] position, but the leader stands perpendicularly to the follower's left side, sort of like the characters \_|.
