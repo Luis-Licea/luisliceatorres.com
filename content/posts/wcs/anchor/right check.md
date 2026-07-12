@@ -1,5 +1,5 @@
 ---
-title: "right-side check"
+title: "right check"
 date: 2026-06-16T01:33:04-05:00
 description: ""
 categories: Dance
