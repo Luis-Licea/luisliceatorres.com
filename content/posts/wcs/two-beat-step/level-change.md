@@ -6,6 +6,8 @@ description: ""
 
 A level change, like a level up or a level down, means standing on your tippy toes or bending your knees to increase or decrease your height by a couple of inches.
 
+According to Rachel, you can improve sugar pushes by rising on the 2, 4, and 6.
+
 Stand on the balls of your feet to increase your stature by about 2 inches.
 
 Bend your knees slightly to decrease your stature by about 2 inches.
