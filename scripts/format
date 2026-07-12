@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
 
-# Lint markdown files
-#git ls-files -z '*.md' | xargs -0 markdown-link-check
-#"prettier --write '**/*.md'
-# 
-# git ls-files -z '*.md' | xargs -0 prettier --write
-git ls-files -z 'content/posts/wcs/*.md' | xargs -0 prettier --write
+git ls-files -z '*.md' | xargs -0 prettier --write
+# git ls-files -z 'content/posts/wcs/*.md' | xargs -0 prettier --write
