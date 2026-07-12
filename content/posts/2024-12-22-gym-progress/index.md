@@ -5,14 +5,13 @@ categories: Health
 tags: Weight Training
 ---
 
-Unless I am doing a bodyweight exercise, I like to increase the weight until I
-can do at most 7 repetitions.
+Unless I am doing a bodyweight exercise, I like to increase the weight until I can do at most 7 repetitions.
 
-{{% include "assets/output/exerciseWithWeights.html" %}}
+{{% include "assets/output/exerciseWithWeights.md" %}}
 
 <div id="exercise-plot"></div>
 
-{{% include "assets/output/exerciseWithBodyweight.html" %}}
+{{% include "assets/output/exerciseWithBodyweight.md" %}}
 
 <div id="exercise-plot2"></div>
 

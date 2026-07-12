@@ -91,17 +91,6 @@ export function escapeHtml(str) {
 }
 
 /**
- *
- * @param {string|number} elements
- * @param {string} tagName The tag name, such as "th" or "td".
- * @returns {string} The elements concatenated as a string.
- */
-export function joinElements(elements, tagName, { separator = " ", escape = true } = {}) {
-    const escapedElements = escape ? elements.map(escapeHtml) : elements;
-    return escapedElements.map(element => `<${tagName}>${element}</${tagName}>`).join(separator);
-}
-
-/**
  * Return the sessions with the max weights.
  *
  * @param {ExerciseSet[]} sessions
@@ -109,18 +98,13 @@ export function joinElements(elements, tagName, { separator = " ", escape = true
  * @param {Array<keyof ExerciseSet>} properties
  */
 export function sessionsToTable(sessions, headers, properties) {
-    const headerHtml = joinElements(headers, "th");
-    const cells = sessions.map(session => properties.map(property => session[property]));
-    const cellsHtml = cells.map(row => joinElements(row, "td"));
-    const rowsHtml = joinElements(cellsHtml, "tr", { escape: false, separator: "\n    " })
+    const headerHtml = `|${headers.join('|')}|`;
+    const headerDivider = `${'| -- '.repeat(headers.length)}|`
+    const rowCells = sessions.map(session => properties.map(property => session[property]));
+    const rows = rowCells.map(rowCells => `|${rowCells.join('|')}|`).join('\n');
     return `
-<table>
-  <thead>
-    <tr>${headerHtml}</tr>
-  </thead>
-  <tbody>
-    ${rowsHtml}
-  </tbody>
-</table>
-`;
+${headerHtml}
+${headerDivider}
+${rows}
+`.trim();
 }

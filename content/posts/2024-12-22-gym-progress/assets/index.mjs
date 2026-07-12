@@ -1,8 +1,8 @@
 #!/usr/bin/env -S deno run --allow-write
 
 import { findMax, objectToExerciseSet, sessionsToTable } from "./generateExerciseTables.mjs";
-import exerciseWithWeights from "./exerciseWithWeights.json" assert { type: "json" };
-import exerciseWithBodyWeight from "./exerciseWithBodyweight.json" assert { type: "json" };
+import exerciseWithWeights from "./exerciseWithWeights.json" with { type: "json" };
+import exerciseWithBodyWeight from "./exerciseWithBodyweight.json" with { type: "json" };
 import { writeFile } from "node:fs/promises";
 
 const sessions = objectToExerciseSet(exerciseWithWeights);
@@ -12,7 +12,7 @@ const table = sessionsToTable(
     ["Exercise", "Max Weight (lb)", "Repetitions"],
     ["exercise", "lb", "repetitions"]
 );
-await writeFile(`${import.meta.dirname}/output/exerciseWithWeights.html`, table);
+await writeFile(`${import.meta.dirname}/output/exerciseWithWeights.md`, table);
 
 
 const sessions2 = objectToExerciseSet(exerciseWithBodyWeight);
@@ -22,4 +22,4 @@ const table2 = sessionsToTable(
     ["Exercise", "Max Repetition", "Body Weight (lb)"],
     ["exercise", "repetitions", "lb"]
 );
-await writeFile(`${import.meta.dirname}/output/exerciseWithBodyweight.html`, table2);
+await writeFile(`${import.meta.dirname}/output/exerciseWithBodyweight.md`, table2);
