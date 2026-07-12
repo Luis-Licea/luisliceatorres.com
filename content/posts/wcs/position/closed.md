@@ -4,8 +4,6 @@ date: 2026-06-04T00:08:42-05:00
 description: ""
 ---
 
-### Closed
-
 The leader's right hand palm is on the follower's back, on the follower's left shoulder blade, and the follower's left arm rests on the leader's right arm. The leader stands face-to-face to the follower, sort of like the characters ||.
 
 Paraphrased advice from Damon D'Amico:

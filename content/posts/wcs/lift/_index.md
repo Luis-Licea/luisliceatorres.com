@@ -5,8 +5,6 @@ draft: false
 description: ""
 ---
 
-### Lifts
-
 These patterns require leaving the floor while being supported or being thrown into an airborne state.
 
 I have yet to learn one of these patterns.
