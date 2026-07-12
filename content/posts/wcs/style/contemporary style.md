@@ -1,5 +1,5 @@
 ---
-title: Contemporary West Coast Swing Style
+title: contemporary style
 date: 2026-02-16T01:45:53-06:00
 description: ""
 categories: Dance
