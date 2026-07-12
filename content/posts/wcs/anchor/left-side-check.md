@@ -9,3 +9,5 @@ tags:
 ---
 
 Instead of stepping in place for the & step, step to the left, outside the slot, with your left foot.
+
+- Step towards 9:00.
