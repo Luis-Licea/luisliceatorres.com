@@ -1,5 +1,5 @@
 ---
-title: "Right-side outside chain turn"
+title: "right-side outside chain turn"
 date: 2026-06-15T01:29:56-05:00
 description: ""
 categories: Dance

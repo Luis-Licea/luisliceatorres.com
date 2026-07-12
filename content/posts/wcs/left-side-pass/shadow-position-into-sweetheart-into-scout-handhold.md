@@ -1,5 +1,5 @@
 ---
-title: "Shadow Position Into Sweetheart Into Scout Handhold"
+title: "shadow position into sweetheart into scout handhold"
 date: 2026-06-11T23:55:14-05:00
 description: ""
 categories: Dance

@@ -1,5 +1,5 @@
 ---
-title: Left Side Outside Pass
+title: left side outside pass
 date: 2026-06-11T23:49:19-05:00
 description:
 categories: Dance

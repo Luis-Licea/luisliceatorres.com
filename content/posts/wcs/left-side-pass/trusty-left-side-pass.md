@@ -1,5 +1,5 @@
 ---
-title: "Trusty Left Side Pass"
+title: "trusty left side pass"
 date: 2026-06-11T23:53:21-05:00
 description: ""
 categories: Dance

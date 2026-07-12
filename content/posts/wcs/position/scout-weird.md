@@ -1,5 +1,5 @@
 ---
-title: "Scout Weird"
+title: "scout weird"
 date: 2026-06-04T00:27:32-05:00
 description: ""
 categories: Dance

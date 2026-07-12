@@ -1,5 +1,5 @@
 ---
-title: "Sugar push inside pivot turn"
+title: "sugar push inside pivot turn"
 date: 2026-06-15T01:43:26-05:00
 description: ""
 categories: Dance

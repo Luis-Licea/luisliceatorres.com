@@ -1,5 +1,5 @@
 ---
-title: "Lock the knee"
+title: "lock the knee"
 date: 2026-06-15T01:14:21-05:00
 description: ""
 categories: Dance

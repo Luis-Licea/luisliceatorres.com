@@ -1,5 +1,5 @@
 ---
-title: "Right-side inside pass into parallel position"
+title: "right-side inside pass into parallel position"
 date: 2026-06-15T01:30:22-05:00
 description: ""
 categories: Dance

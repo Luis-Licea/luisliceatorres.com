@@ -1,5 +1,5 @@
 ---
-title: "Right shoulder"
+title: "right shoulder"
 date: 2026-06-16T01:16:14-05:00
 description: ""
 categories: Dance

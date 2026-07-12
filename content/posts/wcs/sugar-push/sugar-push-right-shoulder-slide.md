@@ -1,5 +1,5 @@
 ---
-title: "Sugar push right shoulder slide"
+title: "sugar push right shoulder slide"
 date: 2026-06-16T00:54:35-05:00
 description: ""
 categories: Dance

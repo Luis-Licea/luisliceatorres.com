@@ -1,5 +1,5 @@
 ---
-title: "Right picture"
+title: "right picture"
 date: 2026-06-16T01:16:34-05:00
 description: ""
 categories: Dance

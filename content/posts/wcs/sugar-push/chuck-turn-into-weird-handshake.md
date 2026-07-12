@@ -1,5 +1,5 @@
 ---
-title: "Chuck turn into weird handshake"
+title: "chuck turn into weird handshake"
 date: 2026-06-16T00:54:01-05:00
 description: ""
 categories: Dance

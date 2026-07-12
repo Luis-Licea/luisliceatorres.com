@@ -1,5 +1,5 @@
 ---
-title: Fold
+title: fold
 date: 2026-06-11T23:45:47-05:00
 description: null
 ---

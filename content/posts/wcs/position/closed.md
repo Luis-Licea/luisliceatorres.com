@@ -1,5 +1,5 @@
 ---
-title: "Closed"
+title: "closed"
 date: 2026-06-04T00:08:42-05:00
 description: ""
 categories: Dance

@@ -1,5 +1,5 @@
 ---
-title: "Handshake Weird"
+title: "handshake weird"
 date: 2026-06-04T00:22:46-05:00
 description: ""
 categories: Dance

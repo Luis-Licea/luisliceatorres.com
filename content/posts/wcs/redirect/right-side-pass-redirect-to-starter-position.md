@@ -1,5 +1,5 @@
 ---
-title: "Right-side pass redirect to starter position"
+title: "right-side pass redirect to starter position"
 date: 2026-06-15T01:17:34-05:00
 description: ""
 categories: Dance

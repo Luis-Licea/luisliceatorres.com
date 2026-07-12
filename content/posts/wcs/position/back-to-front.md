@@ -1,5 +1,5 @@
 ---
-title: "Back-to-front"
+title: "back-to-front"
 date: 2026-06-16T01:12:17-05:00
 description: ""
 categories: Dance

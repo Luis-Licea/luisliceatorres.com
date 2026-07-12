@@ -1,5 +1,5 @@
 ---
-title: "Starter"
+title: "starter"
 date: 2026-06-04T00:10:58-05:00
 description: ""
 categories: Dance

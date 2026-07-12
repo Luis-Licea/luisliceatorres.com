@@ -1,5 +1,5 @@
 ---
-title: "Right-side inside turn lead inside turn into open position"
+title: "right-side inside turn lead inside turn into open position"
 date: 2026-06-15T01:33:30-05:00
 description: ""
 categories: Dance

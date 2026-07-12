@@ -1,5 +1,5 @@
 ---
-title: "Double-arm turn-in"
+title: "double-arm turn-in"
 date: 2026-06-16T00:47:16-05:00
 description: ""
 categories: Dance

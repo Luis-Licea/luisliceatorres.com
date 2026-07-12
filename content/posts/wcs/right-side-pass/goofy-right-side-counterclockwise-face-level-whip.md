@@ -1,5 +1,5 @@
 ---
-title: Goofy right-side counterclockwise face-level whip
+title: goofy right-side counterclockwise face-level whip
 date: 2026-06-12T23:36:14-05:00
 description: ""
 categories: Dance

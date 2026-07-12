@@ -1,5 +1,5 @@
 ---
-title: "No-triple sugar tuck"
+title: "no-triple sugar tuck"
 date: 2026-06-16T00:46:12-05:00
 description: ""
 categories: Dance

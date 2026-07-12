@@ -1,5 +1,5 @@
 ---
-title: "Open Spiderman"
+title: "open spiderman"
 date: 2026-06-04T00:14:12-05:00
 description: ""
 categories: Dance

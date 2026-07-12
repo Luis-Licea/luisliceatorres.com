@@ -1,5 +1,5 @@
 ---
-title: "Right hammerlock"
+title: "right hammerlock"
 date: 2026-06-16T01:13:04-05:00
 description: ""
 categories: Dance

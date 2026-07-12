@@ -1,5 +1,5 @@
 ---
-title: "Right-side pass redirect"
+title: "right-side pass redirect"
 date: 2026-06-15T01:16:34-05:00
 description: ""
 categories: Dance

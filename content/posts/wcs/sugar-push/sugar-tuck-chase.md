@@ -1,5 +1,5 @@
 ---
-title: "Sugar tuck chase"
+title: "sugar tuck chase"
 date: 2026-06-16T00:53:00-05:00
 description: ""
 categories: Dance

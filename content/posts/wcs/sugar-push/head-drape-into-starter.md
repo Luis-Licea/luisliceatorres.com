@@ -1,5 +1,5 @@
 ---
-title: "Head drape into starter"
+title: "head drape into starter"
 date: 2026-06-16T00:48:20-05:00
 description: ""
 categories: Dance

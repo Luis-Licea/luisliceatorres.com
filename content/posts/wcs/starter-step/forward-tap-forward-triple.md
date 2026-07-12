@@ -1,5 +1,5 @@
 ---
-title: "Forward tap forward triple"
+title: "forward tap forward triple"
 date: 2026-06-15T01:39:51-05:00
 description: ""
 categories: Dance

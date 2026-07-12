@@ -1,5 +1,5 @@
 ---
-title: "Goofy sugar push outside pivot turn"
+title: "goofy sugar push outside pivot turn"
 date: 2026-06-15T01:44:17-05:00
 description: ""
 categories: Dance

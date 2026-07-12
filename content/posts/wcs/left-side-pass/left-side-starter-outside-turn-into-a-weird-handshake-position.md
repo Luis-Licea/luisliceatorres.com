@@ -1,5 +1,5 @@
 ---
-title: Left Side Starter Outside Turn Into a Weird Handshake Position
+title: left side starter outside turn into a weird handshake position
 date: 2026-06-11T23:48:47-05:00
 description:
 categories: Dance

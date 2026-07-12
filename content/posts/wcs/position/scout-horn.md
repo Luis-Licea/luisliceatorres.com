@@ -1,5 +1,5 @@
 ---
-title: "Scout Horn"
+title: "scout horn"
 date: 2026-06-04T00:27:40-05:00
 description: ""
 categories: Dance

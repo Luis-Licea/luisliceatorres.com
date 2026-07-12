@@ -1,5 +1,5 @@
 ---
-title: "Single-arm turn-in"
+title: "single-arm turn-in"
 date: 2026-06-16T00:46:49-05:00
 description: ""
 categories: Dance

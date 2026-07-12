@@ -1,5 +1,5 @@
 ---
-title: "Sugar tuck pirouette"
+title: "sugar tuck pirouette"
 date: 2026-06-16T00:53:26-05:00
 description: ""
 categories: Dance

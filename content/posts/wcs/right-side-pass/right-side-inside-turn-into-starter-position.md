@@ -1,5 +1,5 @@
 ---
-title: "Right-side inside turn into starter position"
+title: "right-side inside turn into starter position"
 date: 2026-06-15T01:34:05-05:00
 description: ""
 categories: Dance

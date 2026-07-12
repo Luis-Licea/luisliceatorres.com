@@ -1,5 +1,5 @@
 ---
-title: Free Spin Pivot Leader Turn
+title: free spin pivot leader turn
 date: 2026-06-11T23:50:29-05:00
 description:
 categories: Dance

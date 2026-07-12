@@ -1,5 +1,5 @@
 ---
-title: "Short right-side inside turn"
+title: "short right-side inside turn"
 date: 2026-06-15T01:31:46-05:00
 description: ""
 categories: Dance

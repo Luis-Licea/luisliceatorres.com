@@ -1,5 +1,5 @@
 ---
-title: "Left waiter"
+title: "left waiter"
 date: 2026-06-16T01:14:38-05:00
 description: ""
 categories: Dance

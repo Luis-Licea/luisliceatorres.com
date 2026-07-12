@@ -1,5 +1,5 @@
 ---
-title: "Right-side inside turn lead inside turn into handshake position"
+title: "right-side inside turn lead inside turn into handshake position"
 date: 2026-06-15T01:32:14-05:00
 description: ""
 categories: Dance

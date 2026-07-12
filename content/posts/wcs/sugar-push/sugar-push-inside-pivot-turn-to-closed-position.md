@@ -1,5 +1,5 @@
 ---
-title: "Sugar push inside pivot turn into closed position"
+title: "sugar push inside pivot turn into closed position"
 date: 2026-06-04T00:50:27-05:00
 description: ""
 categories: Dance

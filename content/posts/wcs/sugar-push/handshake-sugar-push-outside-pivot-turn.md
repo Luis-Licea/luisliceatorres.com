@@ -1,5 +1,5 @@
 ---
-title: "Handshake sugar push outside pivot turn"
+title: "handshake sugar push outside pivot turn"
 date: 2026-06-16T00:45:21-05:00
 description: ""
 categories: Dance

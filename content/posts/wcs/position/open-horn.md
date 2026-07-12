@@ -1,5 +1,5 @@
 ---
-title: "Open Horn"
+title: "open horn"
 date: 2026-06-04T00:14:06-05:00
 description: ""
 categories: Dance

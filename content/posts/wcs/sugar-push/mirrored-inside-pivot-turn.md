@@ -1,5 +1,5 @@
 ---
-title: "Mirrored inside pivot turn"
+title: "mirrored inside pivot turn"
 date: 2026-06-16T00:59:39-05:00
 description: ""
 categories: Dance

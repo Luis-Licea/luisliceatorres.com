@@ -1,5 +1,5 @@
 ---
-title: "Open Weird"
+title: "open weird"
 date: 2026-06-04T00:14:20-05:00
 description: ""
 categories: Dance

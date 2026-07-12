@@ -1,5 +1,5 @@
 ---
-title: Free Spin
+title: free spin
 date: 2026-06-11T23:50:03-05:00
 description:
 categories: Dance

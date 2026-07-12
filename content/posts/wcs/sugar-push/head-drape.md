@@ -1,5 +1,5 @@
 ---
-title: "Head drape"
+title: "head drape"
 date: 2026-06-16T00:47:42-05:00
 description: ""
 categories: Dance

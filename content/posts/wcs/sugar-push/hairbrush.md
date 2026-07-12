@@ -1,5 +1,5 @@
 ---
-title: "Hairbrush"
+title: "hairbrush"
 date: 2026-06-16T00:48:45-05:00
 description: ""
 categories: Dance

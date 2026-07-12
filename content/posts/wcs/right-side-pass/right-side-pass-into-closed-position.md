@@ -1,5 +1,5 @@
 ---
-title: "Right-side pass into closed position"
+title: "right-side pass into closed position"
 date: 2026-06-15T01:30:42-05:00
 description: ""
 categories: Dance

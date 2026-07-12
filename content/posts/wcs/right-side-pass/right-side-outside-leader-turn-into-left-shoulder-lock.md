@@ -1,5 +1,5 @@
 ---
-title: "Right-side outside leader turn into left shoulder-lock"
+title: "right-side outside leader turn into left shoulder-lock"
 date: 2026-06-15T01:31:24-05:00
 description: ""
 categories: Dance

@@ -1,5 +1,5 @@
 ---
-title: "Goofy Weird"
+title: "goofy weird"
 date: 2026-06-04T00:18:19-05:00
 description: ""
 categories: Dance

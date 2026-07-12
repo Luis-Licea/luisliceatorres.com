@@ -1,5 +1,5 @@
 ---
-title: "Left shoulder-lock"
+title: "left shoulder-lock"
 date: 2026-06-16T01:13:44-05:00
 description: ""
 categories: Dance
