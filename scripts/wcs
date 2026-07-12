@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+cd "$(git rev-parse --show-toplevel)" || exit
+
+mapfile -d '' FILES < <(git ls-files -z 'content/posts/wcs/*.md')
+
+check() {
+    if ! echo "$MATTER" | grep "$1" &> /dev/null; then
+        echo "$FILE"
+        echo "$MATTER"
+    fi
+}
+
+for FILE in "${FILES[@]}"; do
+    MATTER=$(awk '/---/{c++} c==2{print; exit} c==1{print}' "$FILE")
+    #check "categories:"
+    #check "title:"
+    check "rhythm:"
+done
