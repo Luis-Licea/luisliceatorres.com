@@ -12,7 +12,7 @@ I have verified that the [Left] prep happens on 1.5 with Ray Trusty and with Dam
 
 Use it in a:
 
-- [left-side inside chain turn]
+- {{% a "left-side inside chain turn" %}}
 - [right-side inside chain turn]
 - [righty reverse whip]
 - {{% a "free spin" %}}

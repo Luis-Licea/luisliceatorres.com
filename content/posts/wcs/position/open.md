@@ -10,5 +10,5 @@ The leader's left-hand ring and middle fingers (pointing to the right) are held 
 
 Reached via:
 
-- [left-side inside chain turn]
-- [weird handshake left-side pass inside chain turn right picture hold]
+- {{% a "left-side inside chain turn" %}}
+- [righty-down-out left-side pass inside chain turn right picture hold]

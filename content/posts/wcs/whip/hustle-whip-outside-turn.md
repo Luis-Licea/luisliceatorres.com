@@ -11,4 +11,4 @@ tags: West Coast Swing
 
 Next pattern suggestion:
 
-- {{% a "free spin" %}} (you may be able to skip the anchor step and go directly onto a free spin)
+- You may be able to skip the anchor step and go directly onto a {{% a "free spin" %}}

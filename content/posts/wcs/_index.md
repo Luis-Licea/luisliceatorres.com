@@ -61,9 +61,7 @@ tags: West Coast Swing
 <!-- Left-side passes -->
 
 [fold]: #fold
-[free spin]: #free-spin
 [left-side inside chain turn into closed position]: #left-side-inside-chain-turn-into-closed-position
-[left-side inside chain turn]: #left-side-inside-chain-turn
 [left-side outside pass]: #left-side-outside-pass
 [left-side pass]: #left-side-pass
 [left-side starter back-lead free-spin]: #left-side-starter-back-lead-free-spin
