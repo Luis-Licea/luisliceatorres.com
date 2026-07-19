@@ -16,7 +16,7 @@ tags: West Coast Swing
 - On 7&8 do a triple step into a sweetheart, meaning you raise your left hand at shoulder level to catch the follower's left hand. You also bring your hand to follower shoulder height.
 - Hold on 1 and 2 as the follower does a press line.
 - On 2 pull the follower backward while you stand with split weight.
-- On 3&4 triple step backward while entering a [scout] handhold position. There is no anchor.
+- On 3&4 triple step backward while entering a {{% a "lefty" %}} handhold position. There is no anchor.
 
 Next pattern suggestion:
 

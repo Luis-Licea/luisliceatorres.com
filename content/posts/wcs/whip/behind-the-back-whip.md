@@ -12,5 +12,5 @@ tags: West Coast Swing
 - On step 3, offer your left hand at either waist level pointing at 8 o'clock relative to your body with your palm pointing up or at neck level pointing at 2 o'clock relative to your body.
 - On 3&4 step backwards towards 3:00 while facing 9:00.
 - Steps 5, 6, 7&8 are normal, as in, 5 is forward at 12 o'clock and 6 is to the left at 9 o'clock.
-- End in a [scout] position.
+- End in a {{% a "lefty" %}} position.
 - [Watch video](https://m.youtube.com/watch?v=ZpEKKNSNg50&pp=ygUVd2VpcmQgd2hpcCB3ZXN0IGNvYXN0)

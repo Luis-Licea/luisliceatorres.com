@@ -33,10 +33,8 @@ tags: West Coast Swing
 [right picture]: #right-picture
 [right shoulder-lock]: #right-shoulder-lock
 [right shoulder]: #right-shoulder
-[scout]: #scout
 [starter]: #starter
 [weird goofy]: #weird-goofy
-[weird scout]: #weird-scout
 [weird]: #weird
 
 <!-- Starter steps -->
@@ -62,7 +60,6 @@ tags: West Coast Swing
 
 <!-- Left-side passes -->
 
-[Scout fold RAG free spin]: #scout-fold-rag-free-spin
 [fold]: #fold
 [free spin]: #free-spin
 [left-side inside chain turn into closed position]: #left-side-inside-chain-turn-into-closed-position

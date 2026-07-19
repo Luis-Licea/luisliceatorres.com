@@ -6,7 +6,7 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-- Start in a [scout] position.
+- Start in a {{% a "lefty" %}} position.
 - The footwork is the same as in a [fold] up to but not including 4.
 - On 3& you should be standing on the left side of the slot facing 9 o'clock.
 - On 4 take a step from the left side of the slot to the right side of the slot with you left foot pointing at 5 o'clock and your body facing 6 o'clock.
