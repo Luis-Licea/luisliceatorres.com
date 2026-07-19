@@ -1,12 +1,12 @@
 ---
-title: "handshake whip neck wrap outside wrist clip weird over down"
+title: "righty whip neck wrap outside wrist clip weird over down"
 date: 2026-06-24T23:18:25-05:00
 description: ""
 categories: Dance
 tags: West Coast Swing
 ---
 
-- Start in a {{% a "handshake" %}} position.
+- Start in a {{% a "righty" %}} position.
 - On 1, step back.
 - On 2, lead a left prep? Is it a chain turn or a pivot turn or just a turn?
 - On 3&4 lead a counterclockwise neck wrap.

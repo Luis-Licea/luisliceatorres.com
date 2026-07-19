@@ -24,7 +24,6 @@ tags: West Coast Swing
 [back-to-front]: #back-to-front
 [closed]: #closed
 [goofy]: #goofy
-[handshake]: #handshake
 [horn]: #horn
 [left hammerlock]: #left-hammerlock
 [left shoulder-lock]: #left-shoulder-lock
@@ -37,7 +36,6 @@ tags: West Coast Swing
 [scout]: #scout
 [starter]: #starter
 [weird goofy]: #weird-goofy
-[weird handshake]: #weird-handshake
 [weird scout]: #weird-scout
 [weird]: #weird
 
@@ -47,7 +45,6 @@ tags: West Coast Swing
 
 <!-- Sugar pushes -->
 
-[Chuck turn into weird handshake]: #chuck-turn-into-weird-handshake
 [double-arm turn-in]: #double-arm-turn-in
 [goofy sugar push inside pivot turn]: #goofy-sugar-push-inside-pivot-turn
 [goofy sugar push outside pivot turn]: #goofy-sugar-push-outside-pivot-turn
@@ -74,10 +71,8 @@ tags: West Coast Swing
 [left-side pass]: #left-side-pass
 [left-side starter back-lead free-spin]: #left-side-starter-back-lead-free-spin
 [left-side starter inside chain turn into open position]: #left-side-starter-inside-chain-turn-into-open-position
-[left-side starter outside turn into a weird handshake position]: #left-side-starter-outside-turn-into-a-weird-handshake-position
 [roll-in-roll-out]: #roll-in-roll-out
 [trusty left-side-pass]: #trusty-left-side-pass
-[weird handshake left-side pass inside chain turn right picture hold]: #weird-handshake-left-side-pass-inside-chain-turn-right-picture-hold-walk-around-into-open-position
 
 <!-- Right-side passes -->
 
@@ -86,7 +81,6 @@ tags: West Coast Swing
 [right-side inside chain turn]: #right-side-inside-chain-turn
 [right-side inside pass into parallel position]: #right-side-inside-pass-into-parallel-position
 [right-side inside turn into starter position]: #right-side-inside-turn-into-starter-position
-[right-side inside turn lead inside turn into handshake position]: #right-side-inside-turn-lead-inside-turn-into-handshake-position
 [right-side inside turn]: #right-side-inside-turn
 [right-side outside chain turn]: #right-side-outside-chain-turn
 [right-side outside leader turn into left shoulder-lock]: #right-side-outside-leader-turn-into-left-shoulder-lock
@@ -102,7 +96,6 @@ tags: West Coast Swing
 [contemporary Hustle whip]: #contemporary-hustle-whip
 [continuous whip into starter position]: #continuous-whip-into-starter-position
 [continuous whip]: #continuous-whip
-[handshake reverse whip]: #handshake-reverse-whip
 [hustle whip inside pass turn into open position]: #hustle-whip-inside-pass-turn-into-open-position
 [hustle whip outside pivot turn]: #hustle-whip-outside-pivot-turn
 [hustle whip]: #hustle-whip

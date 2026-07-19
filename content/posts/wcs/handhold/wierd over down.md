@@ -7,9 +7,8 @@ tags: West Coast Swing
 ---
 
 This is a two-handed cross-handhold. The left hand is in a {{% a "palm-left"
-%}} {{% a "scout" %}} handshake over the right hand in a {{% a "palm-down" %}} {{% a
-"handshake" %}}.
+%}} {{% a "scout" %}} handshake over the right hand in a {{% a "palm-down" %}} {{% a "righty" %}}.
 
 Patterns:
 
-- {{% a "handshake whip neck wrap outside wrist clip weird over down" %}}
+- {{% a "righty whip neck wrap outside wrist clip weird over down" %}}

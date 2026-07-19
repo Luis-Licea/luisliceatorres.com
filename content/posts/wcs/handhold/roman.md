@@ -6,4 +6,4 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-Similar to a {{% a "handshake" %}}, but rather than grasping the palm, you grasp the wrist.
+Similar to a {{% a "righty" %}}, but rather than grasping the palm, you grasp the wrist.

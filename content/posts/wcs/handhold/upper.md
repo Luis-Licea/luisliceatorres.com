@@ -6,5 +6,5 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-This is a two-handed cross-handhold. The left hand is in a {{% a "scout"
-%}} handshake over the right hand in a {{% a "handshake" %}} handhold.
+This is a two-handed cross-handhold. The left hand is in a {{% a "lefty"
+%}} handshake over the right hand in a {{% a "righty" %}} handshake.
