@@ -1,5 +1,5 @@
 ---
-title: "weird over down"
+title: "down-out over down"
 date: 2026-06-24T23:12:09-05:00
 description: ""
 categories: Dance
@@ -11,4 +11,4 @@ This is a two-handed cross-handhold. The left hand is in a {{% a "palm-left"
 
 Patterns:
 
-- {{% a "righty whip neck wrap outside wrist clip weird over down" %}}
+- {{% a "righty whip neck wrap outside wrist clip down-out over down" %}}

@@ -12,5 +12,5 @@ This is a two-handed cross-handhold. The left hand is in a {{% a "lefty"
 Suggested patterns:
 
 - {{% a "righty sugar tuck wrist clip" %}}
-- {{% a "righty whip neck wrap outside wrist clip weird over down" %}}
+- {{% a "righty whip neck wrap outside wrist clip down-out over down" %}}
 - {{% a "lower right-side pass rainbow" %}}

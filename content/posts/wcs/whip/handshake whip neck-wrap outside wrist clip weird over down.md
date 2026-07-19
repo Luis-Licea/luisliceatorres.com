@@ -1,5 +1,5 @@
 ---
-title: "righty whip neck wrap outside wrist clip weird over down"
+title: "righty whip neck wrap outside wrist clip down-out over down"
 date: 2026-06-24T23:18:25-05:00
 description: ""
 categories: Dance
@@ -14,4 +14,4 @@ tags: West Coast Swing
 - On 5, step down the slot to face 3:00.
 - On 6, begin the clockwise wrist-clip. Your left arm should be at stomach level and the right arm should be above the head.
 - On 7&8 perform the wrist-clip.
-- End in a {{% a "weird over down" %}} handhold.
+- End in a {{% a "down-out over down" %}} handhold.
