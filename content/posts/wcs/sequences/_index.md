@@ -21,5 +21,5 @@ Goofy triplet:
 
 Around the world:
 
-1. [hustle whip outside pivot turn] into handshake
+1. [hustle whip outside pivot turn] into [righty]
 2. [trusty left-side-pass]

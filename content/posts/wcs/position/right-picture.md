@@ -10,4 +10,4 @@ In this position, you stand next-to-and-to-the right of the follower, with your 
 
 Reached via:
 
-- [weird handshake left-side pass inside chain turn right picture hold]
+- [righty-down-out left-side pass inside chain turn right picture hold]

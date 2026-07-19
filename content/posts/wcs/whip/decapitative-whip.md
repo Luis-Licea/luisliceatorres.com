@@ -6,7 +6,7 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-- A variation of a [handshake reverse whip].
-- It requires a [handshake] hold.
+- A variation of a [righty reverse whip].
+- It requires a {{% a "righty" %}} hold.
 - Do a [J-hook], but on step 3 don't release her right hand, go over her head.
 - On step 4, hold or "cup" her left triceps with your left hand. Use your right hand to turn her back into the right position.

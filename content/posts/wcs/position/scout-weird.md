@@ -6,4 +6,4 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-This is the same as the [handshake] position with the [weird] handhold.
+This is the same as the {{% a "righty" %}} position with the [weird] handhold.

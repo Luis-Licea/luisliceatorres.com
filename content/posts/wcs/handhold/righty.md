@@ -12,5 +12,5 @@ This is the same as the {{% a "open" %}} position, but it requires a right-to-ri
 
 Reached via:
 
-- [right-side inside turn lead inside turn into handshake position]
+- [right-side inside turn lead inside turn into righty position]
 - [sugar push right shoulder slide]

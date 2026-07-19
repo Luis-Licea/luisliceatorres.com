@@ -19,4 +19,4 @@ Next pattern suggestion:
 - Do a [left-side starter inside chain turn into open position] because most followers should be able to follow, and there is something about the angle that makes it feel good.
 - [left-side starter back-lead free-spin], which is an intermediate exit.
 - [left-side outside pass]
-- [left-side starter outside turn into a righty-down-out position] and a [handshake reverse whip]
+- [left-side starter outside turn into a righty-down-out position] and a [righty reverse whip]

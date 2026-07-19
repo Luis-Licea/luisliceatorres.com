@@ -12,6 +12,6 @@ Use it in a:
 
 - [left-side inside chain turn]
 - [right-side inside chain turn]
-- [handshake reverse whip]
+- [righty reverse whip]
 - [free spin]
 - [fold]

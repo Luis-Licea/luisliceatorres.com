@@ -13,7 +13,7 @@ Not to be confused with the [behind-the-back whip].
 - Same on 2
 - On 3&4
   - put the follower's right hand behind her lower back
-  - grab her right hand with your right hand into a [weird handshake].
+  - grab her right hand with your right hand into a {{% a "righty-down-out" %}}.
   - [Watch video](https://m.youtube.com/watch?v=fVUUG6ny4vI&pp=ygUbd2VzdCBjb2FzdCBzd2luZyB3ZWlyZCB3aGlw)
 
 Paraphrased advice from Damon D'Amico:
