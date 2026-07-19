@@ -1,5 +1,5 @@
 ---
-title: "shadow position into sweetheart into scout handhold"
+title: "shadow position into sweetheart into lefty handhold"
 date: 2026-06-11T23:55:14-05:00
 description: ""
 categories: Dance
@@ -21,7 +21,7 @@ tags: West Coast Swing
 Next pattern suggestion:
 
 - [free spin]
-- [Scout fold RAG free spin]
+- [Lefty fold RAG free spin]
 
 Reached via:
 

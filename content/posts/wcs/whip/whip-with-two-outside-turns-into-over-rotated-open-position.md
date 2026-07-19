@@ -12,4 +12,4 @@ tags: West Coast Swing
 
 Next pattern suggestions:
 
-- [shadow position into sweetheart into scout handhold] Note that steps 7, 8, and 1 should be done in one fluid motion to maintain angular momentum.
+- [shadow position into sweetheart into righty handhold] Note that steps 7, 8, and 1 should be done in one fluid motion to maintain angular momentum.

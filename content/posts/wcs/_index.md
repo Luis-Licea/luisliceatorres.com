@@ -99,7 +99,6 @@ tags: West Coast Swing
 [left shoulder-lock reverse whip]: #left-shoulder-lock-reverse-whip
 [pass-through whip]: #pass-through-whip
 [right-side pass reverse whip]: #right-side-pass-reverse-whip
-[shadow position into sweetheart into scout handhold]: #Shadow-position-into-sweetheart-into-scout-handhold
 [whip with two outside turns into over-rotated open position]: #whip-with-two-outside-turns-into-over-rotated-open-position
 
 <!-- Redirects -->

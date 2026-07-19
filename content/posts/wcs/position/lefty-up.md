@@ -1,5 +1,5 @@
 ---
-title: "scout spiderman"
+title: "lefty-up"
 date: 2026-06-04T00:27:36-05:00
 description: ""
 categories: Dance

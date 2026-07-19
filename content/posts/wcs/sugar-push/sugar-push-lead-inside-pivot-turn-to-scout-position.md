@@ -1,5 +1,5 @@
 ---
-title: "sugar push lead inside pivot turn to scout position"
+title: "sugar push lead inside pivot turn to righty position"
 date: 2026-06-16T00:56:45-05:00
 description: ""
 categories: Dance
