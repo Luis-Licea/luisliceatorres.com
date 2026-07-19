@@ -44,7 +44,7 @@ From Damon D'Amico:
 - Don't step into slot on 4 when doing a left-side pass or a right-side pass. By not walking into the slot you can perform steps 3&4 even if the follower has not finished stepping across the slot. If you step into the slot on 4, you may step on the follower. Also, if you step into the slot on 4, you will be forced to square up on the anchor step and you will be unaligned with the follower instead of being face-to-face.
 - Don't square up on the anchor step or you will look like a nooby. Use angles.
 - The slot is twice as wide as your body for the chain turn, it not a tight rope. Use the full width when turning, otherwise your feet will get crowded and unbalanced like you are walking on a tight rope.
-- Step 3 on a [free spin] should be a back drop so that backwards your body movement causes the follower to rotate counter-clockwise.
+- Step 3 on a {{% a "free spin" %}} should be a back drop so that backwards your body movement causes the follower to rotate counter-clockwise.
 
 From Jennifer:
 

@@ -20,7 +20,7 @@ tags: West Coast Swing
 
 Next pattern suggestion:
 
-- [free spin]
+- {{% a "free spin" %}}
 - [Lefty fold RAG free spin]
 
 Reached via:

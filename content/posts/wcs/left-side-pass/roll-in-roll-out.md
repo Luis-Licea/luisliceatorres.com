@@ -6,6 +6,6 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-It is similar to a [free spin].
+It is similar to a {{% a "free spin" %}}.
 
 - Start in a [goofy] handhold.

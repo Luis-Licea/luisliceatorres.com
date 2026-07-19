@@ -17,7 +17,7 @@ Goofy triplet:
 
 1. [goofy left-side inside chain turn]
 2. [roll-in-roll-out]
-3. [free spin]
+3. {{% a "free spin" %}}
 
 Around the world:
 
