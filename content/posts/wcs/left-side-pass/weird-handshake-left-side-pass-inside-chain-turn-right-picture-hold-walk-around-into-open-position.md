@@ -1,5 +1,5 @@
 ---
-title: "weird handshake left side pass inside chain turn right picture hold walk around into open position"
+title: "righty-down-out left-side pass inside chain turn right picture hold walk around into open position"
 date: 2026-06-11T23:53:57-05:00
 description: ""
 categories: Dance

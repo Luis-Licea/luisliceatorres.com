@@ -1,5 +1,5 @@
 ---
-title: left side pass outside pass turn into weird handshake
+title: "left side pass outside pass turn into righty-down-out"
 date: 2026-06-11T23:49:40-05:00
 description:
 categories: Dance

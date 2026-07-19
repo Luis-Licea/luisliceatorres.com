@@ -15,4 +15,4 @@ Variations:
 - On 3 instead of releasing your left hand you may choose to keep it connected and continue the rest of the pattern while holding hands. This easier to follow.
 - This pattern can be done from a [parallel] position while holding both hands throughout the entire rotation.
 
-- {{% a "handshake sugar push shoulder catch into scout" %}}
+- {{% a "righty sugar push shoulder catch into scout" %}}

@@ -18,7 +18,7 @@ Reached via:
 Leads to:
 
 - [left-side outside pass]
-- [left-side starter outside turn into a weird handshake position] and [handshake reverse whip]
+- [left-side starter outside turn into a righty-down-out position] and [handshake reverse whip]
 - [left-side starter inside chain turn into open position]
 - [fold]
 - [closed right-side pass redirect]
