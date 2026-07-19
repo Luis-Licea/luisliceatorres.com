@@ -13,7 +13,7 @@ tags: West Coast Swing
 - On 4, the goal is to move down the slot as the follower travels and end up to the right of her, not behind of her.
 - On 5&6 you should be facing 3 o'clock.
 - On 7&8 do a triple step so you end up facing 2 o'clock.
-- On 9&10 catch the follower's hand while doing an anchor. You should end in an [open] position. Notice that there is not a lot of travel in the 5&6 because you are unwinding the follower; she cannot travel.
+- On 9&10 catch the follower's hand while doing an anchor. You should end in an {{% a "open" %}} position. Notice that there is not a lot of travel in the 5&6 because you are unwinding the follower; she cannot travel.
 - On 7&8 there may not be a lot of travel either; the spin begins on 7, so there is not a lot of travel that can happen on 7.
 
 As for the handwork:
@@ -25,4 +25,4 @@ As for the handwork:
 - On 5&6 unwind the follower so she faces 12 o'clock. This is the equivalent of steps 1 and the [left] prep in a [free spin].
 - On 5&6, for styling, you may choose to hold the follower's left forearm with your right hand.
 - On 7&8 give the follower a counter-clockwise spin.
-- On 9&10 catch the follower's hand. You should end in an [open] position.
+- On 9&10 catch the follower's hand. You should end in an {{% a "open" %}} position.

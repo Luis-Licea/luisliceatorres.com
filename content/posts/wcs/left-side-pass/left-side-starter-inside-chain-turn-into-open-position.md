@@ -15,6 +15,6 @@ Whenever you are in a [closed] or [starter] position, your first two steps are h
 - Step 3 in the 3& is a back towards 3 o'clock so that your left foot goes backwards more so than where the right foot is standing. It looks better than doing the 3& in place.
 - Step & in the 3& is done almost in place because there is very little travel towards 6 o'clock.
 - Step 4 is diagonal towards 7:30 o'clock.
-- Steps 5&6 are an anchor step. You should end in an [open] position.
+- Steps 5&6 are an anchor step. You should end in an {{% a "open" %}} position.
 
 [^2]: This needs to be verified.

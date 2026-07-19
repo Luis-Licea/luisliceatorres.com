@@ -6,7 +6,7 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-- Start in an [open] position.
+- Start in an {{% a "open" %}} position.
 - Then go into a [continuous whip] after 3& or the first 5.
 - Then settle on 6 to go into a [starter] position.
 

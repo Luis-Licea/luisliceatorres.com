@@ -6,7 +6,7 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-- Use it from an [open] hold.
+- Use it from an {{% a "open" %}} hold.
 - The footwork and most of the handwork is the same as in a [right-side inside turn].
 - The follower will turn and her back should be visible by the end of step 2.
 - Immediately when the follower's back is visible, slide your hand from her back to her shoulder (3&4),

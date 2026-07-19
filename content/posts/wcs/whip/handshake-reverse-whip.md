@@ -13,4 +13,4 @@ tags: West Coast Swing
 - On 5 step down the slot towards 12 o'clock
 - On 6 step across the slot towards 9 o'clock, not diagonally
 - On 7&8 anchor step.
-- End in a [open] position.
+- End in a {{% a "open" %}} position.

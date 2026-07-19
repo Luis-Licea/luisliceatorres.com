@@ -6,7 +6,7 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-This is the same as the [open] position, but it requires a right-to-right hand connection instead of a left-to-right hand connection, sort of like the characters |/|.
+This is the same as the {{% a "open" %}} position, but it requires a right-to-right hand connection instead of a left-to-right hand connection, sort of like the characters |/|.
 
 Reached via:
 

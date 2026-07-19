@@ -8,7 +8,7 @@ tags: West Coast Swing
 
 A variation of the [right-side inside turn].
 
-- Starting in an [open] position
+- Starting in an {{% a "open" %}} position
 - On 1, step back and to the left
 - On 2, step back and to the left to face 3 o'clock.
 - On 3&, step in place

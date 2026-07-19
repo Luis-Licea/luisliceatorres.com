@@ -4,9 +4,9 @@ date: 2026-06-11T23:45:47-05:00
 description: null
 ---
 
-- Start from an [open] position. The footwork can be the same as in a [left-side pass]. However, it looks better if on step 4 your body faces 9 o'clock because the follower is also facing 9 o'clock.
+- Start from an {{% a "open" %}} position. The footwork can be the same as in a [left-side pass]. However, it looks better if on step 4 your body faces 9 o'clock because the follower is also facing 9 o'clock.
 - On 5&6 anchor step to face 6 o'clock while the follower faces 12 o'clock.
-- End in an [open] position.
+- End in an {{% a "open" %}} position.
 
 As for the handwork:
 

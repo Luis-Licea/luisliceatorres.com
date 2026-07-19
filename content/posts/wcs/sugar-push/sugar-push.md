@@ -8,7 +8,7 @@ tags: West Coast Swing
 
 Connection:
 
-- Begin in an [open] position.
+- Begin in an {{% a "open" %}} position.
 - Adjust your left hand level so your hand is at the follower's xiphoid level.
 - Post left arm next to core.
 

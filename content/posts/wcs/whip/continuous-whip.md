@@ -14,9 +14,9 @@ tags: West Coast Swing
   - Make sure that you are not making an orbiting motion.
 - You should be stepping across the slot, and the follower should be moving up and down the slot, kind of like the + sign, as opposed to orbiting around the slot, like a circle O. As you are stepping across the slot, make sure there is tension on the 4 such that the tension directs the follower to move across the slot, not around the slot.
 - Also, on 4 both will be very closed together whereas on 5 there should be a little bit of a stretch as the tension builds up before the next 4 and 5.
-- To finish the pattern, stop creating tension on step 5 while the follower is in closed position, and slowly release the follower's left shoulder blade into [open] position as you step across the slot on 6 so your body and feet can point either 12 o'clock or 6 o'clock depending on how many turns you did.
+- To finish the pattern, stop creating tension on step 5 while the follower is in closed position, and slowly release the follower's left shoulder blade into {{% a "open" %}} position as you step across the slot on 6 so your body and feet can point either 12 o'clock or 6 o'clock depending on how many turns you did.
 - Then 7&8 are a regular anchor step.
-- End in an [open] position.
+- End in an {{% a "open" %}} position.
 
 Note that the repetition ends on the odd beat 5 because the settling happens on the even beat 6.
 

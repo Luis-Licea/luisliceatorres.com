@@ -8,7 +8,7 @@ tags: West Coast Swing
 
 Not to be confused with the [behind-the-back whip].
 
-- Start in an [open] position.
+- Start in an {{% a "open" %}} position.
 - Same on 1
 - Same on 2
 - On 3&4

@@ -49,12 +49,12 @@ From Damon D'Amico:
 From Jennifer:
 
 - While leading a [left-side inside chain turn], a [right-side outside chain turn], a [sugar tuck pirouette], or any turn in general, you must use as few fingers as possible to lead follower throughout the rotation. You can use two fingers in chain turns, but you must use one finger for pirouettes. As Jennifer's instructor told her, this is the only time when a follower will be extremely happy to receive the middle finger.
-- Engage your latissimus dorsi in an [open] position as opposed to using your biceps or forearms so there is a direct connection to your core.
+- Engage your latissimus dorsi in an {{% a "open" %}} position as opposed to using your biceps or forearms so there is a direct connection to your core.
 - Tension and compression are not results of pulling and pushing with your arms, they are the results of standing or stepping on the heels of your feet and standing or stepping on the balls of your feet, respectively. If you stand on your heels there will be tension, and if you stand on your balls there will be compression.
 
 From Rachel Moran:
 
-- Imagine that you are trying to bring your armpits to the floor in an [open] position such that it puffs out your chest slightly. This should improve the connection to your core.
+- Imagine that you are trying to bring your armpits to the floor in an {{% a "open" %}} position such that it puffs out your chest slightly. This should improve the connection to your core.
 - Unlike salsa, WCS does not require you to dance with your knees slightly bent.
 - Unlike Lindy Hop, WCS does not have a mandatory "pulse", meaning that you don't have to bend your knees or bounce at the rhythm of the beat. That being said, you can use the pulse if it is a feeling and look you are going for.
 

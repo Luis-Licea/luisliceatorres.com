@@ -13,4 +13,4 @@ Start in an {{% a "open" %}} position. On 1 you step back while performing a sma
 - On 4 you step into the slot such that you face 6 o'clock and the follower's right foot is positioned directly between your feet.
 - On 5 you step in the 12 o'clock direction while turning your body to face at 9 o'clock such that your right arm is not straight any more. Instead, your right elbow should be bent at a 90 degree angle such that you are face-to-face with the follower. A common mistake is not to step towards 12 o'clock on 5, which is necessary to tell the follower to move forwards.
 - On 6 you release the right hand while you turn your body to face 12 o'clock. You post on 6, meaning that you stop moving forward to tell the follower the pattern is over.
-- On 7&8 you do an anchor step. You should end in an [open] position.
+- On 7&8 you do an anchor step. You should end in an {{% a "open" %}} position.

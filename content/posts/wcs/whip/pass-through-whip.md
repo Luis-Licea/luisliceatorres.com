@@ -14,4 +14,4 @@ tags: West Coast Swing
 - Step 5 does not have any rotation. Simply place your right foot next to your left foot.
 - Step 6 requires your left foot to step back so you go into the slot.
 - In steps 7&8 you are also stepping backward into the slot and offering your hand.
-- End in an [open] position.
+- End in an {{% a "open" %}} position.

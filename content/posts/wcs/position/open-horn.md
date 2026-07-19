@@ -10,4 +10,4 @@ The leader's ring and middle fingers point down. The hand looks like the sign of
 
 Reached via:
 
-- Sugar tuck from [open] position
+- Sugar tuck from {{% a "open" %}} position

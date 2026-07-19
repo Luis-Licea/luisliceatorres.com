@@ -6,7 +6,7 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-- Use it from an [open] position.
+- Use it from an {{% a "open" %}} position.
 - On step 1 step back and to the left such that left foot points at 9:00 counter-clockwise.
 - On step 2, close your feet so your whole body points at 9:00. When doing the hand switch on 2, rotate your right hand into a [weird] position and place her right palm on your left wrist, which will facility her hand to slide down into a behind-the-back handshake position.
 - On step 3, offer your left hand at either waist level pointing at 8 o'clock relative to your body with your palm pointing up or at neck level pointing at 2 o'clock relative to your body.

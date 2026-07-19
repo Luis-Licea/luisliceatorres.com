@@ -6,7 +6,7 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-- Start an [open] or [closed] position or standing in split-weight.
+- Start an {{% a "open" %}} or [closed] position or standing in split-weight.
 - On 1 do a left side-check at 9:00 with your left foot and put your weight on your left foot.
 - On 1.5 collect your right foot next to your left foot and tap.
 - On 2 return your right foot to its original position and put your weight on it.

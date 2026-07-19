@@ -6,7 +6,7 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-- Start in an over-rotated [open] position such that you face 3 o'clock as opposed to 12 o'clock and the follower faces 9 o'clock instead of 6 o'clock.
+- Start in an over-rotated {{% a "open" %}} position such that you face 3 o'clock as opposed to 12 o'clock and the follower faces 9 o'clock instead of 6 o'clock.
 
 - On 1, turn clockwise while passing the follower's hand from your left hand to your right hand so you face 9 o'clock and have a [handshake] handhold.
 - On 2 your left leg is free, so use it to do a left tap step.

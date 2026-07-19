@@ -6,7 +6,7 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-- Start from an [open] position. The footwork and most of the handwork is the same as a [left-side inside chain turn].
+- Start from an {{% a "open" %}} position. The footwork and most of the handwork is the same as a [left-side inside chain turn].
 
 For the handwork,
 

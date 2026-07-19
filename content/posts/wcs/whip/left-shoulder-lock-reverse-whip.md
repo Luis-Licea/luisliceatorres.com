@@ -9,7 +9,7 @@ tags: West Coast Swing
 - Start in a [left shoulder-lock] position.
 - Steps 1 and 2 are backwards diagonally such that you should face 3 o'clock by the end of step 2.
 - On step 3& you enter [starter] position, and on steps 4 through 8 you lead a regular whip.
-- End in [open] position.
+- End in {{% a "open" %}} position.
 
 - For the handwork,
 - pull the follower toward 6 o'clock on 1 using your left arm.

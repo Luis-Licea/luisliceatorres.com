@@ -13,4 +13,4 @@ tags: West Coast Swing
 - By the end of &4, you should look like you are standing together to take a picture!
 - On 4 also make sure to make a bigger step than usual. You are not stepping into the slot, you are stepping past it, since steps 4, 5, and 6 are part of the walk-around.
 - On the walk-around, the follower will step backwards and stay in place, while you step forwards around her for 0.5 turns.
-- On 7&8, you will move away from each other while her arm slides down your left hand so you will end up in [open] position.
+- On 7&8, you will move away from each other while her arm slides down your left hand so you will end up in {{% a "open" %}} position.
