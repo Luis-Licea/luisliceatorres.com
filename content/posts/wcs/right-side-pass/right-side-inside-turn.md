@@ -8,7 +8,7 @@ tags: West Coast Swing
 
 Technically speaking this is a right side inside turn.
 
-- Starting in an [open] or [horn] position,
+- Start in [open] or [horn] position.
 - step 1 is back and to the left,
 - step 2 is back and to the left to face 3 o'clock.
 - Do 3& traveling, not in place, towards 12:00 and 3:00.

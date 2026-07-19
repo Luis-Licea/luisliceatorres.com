@@ -1,7 +1,10 @@
 ---
 title: "right-side pass typewriter anchor"
-created: 2026-07-07T21:55:50-05:00
+date: 2026-07-07T21:55:50-05:00
 modified: 2026-07-07T22:08:23-05:00
+description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 The footwork is the same as a right side pass up to but not including four.
