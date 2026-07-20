@@ -23,7 +23,7 @@ checkMatter() {
 
 checkLinks() {
     for FILE in "${FILES[@]}"; do
-        grep -Po '\[.*?\]' "$FILE"
+        grep -Po '\[\w.+?\]' "$FILE"
     done
 }
 
