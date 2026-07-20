@@ -1,5 +1,5 @@
 ---
-title: right-side pass
+title: "right-side pass"
 date: 2026-06-15T01:26:26-05:00
 description:
 categories: Dance

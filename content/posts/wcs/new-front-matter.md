@@ -1,5 +1,5 @@
 ---
-title: New front matter
+title: "New front matter"
 date: 2026-06-12T22:36:08-05:00
 description: ""
 categories: Dance

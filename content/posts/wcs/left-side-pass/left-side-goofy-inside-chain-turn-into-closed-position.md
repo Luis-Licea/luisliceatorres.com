@@ -1,5 +1,5 @@
 ---
-title: left side goofy inside chain turn into closed position
+title: "left side goofy inside chain turn into closed position"
 date: 2026-06-11T23:52:39-05:00
 description:
 categories: Dance

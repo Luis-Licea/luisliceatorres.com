@@ -1,5 +1,5 @@
 ---
-title: left side starter outside turn into a righty-down-out position
+title: "left side starter outside turn into a righty-down-out position"
 date: 2026-06-11T23:48:47-05:00
 description:
 categories: Dance

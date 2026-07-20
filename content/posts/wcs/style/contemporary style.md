@@ -1,5 +1,5 @@
 ---
-title: contemporary style
+title: "contemporary style"
 date: 2026-02-16T01:45:53-06:00
 description: ""
 categories: Dance
