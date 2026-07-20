@@ -14,11 +14,6 @@ tags: West Coast Swing
 [left]: #left
 [right]: #right
 
-<!-- Anchor wheel -->
-
-[back-check]: #back-check
-[front-check]: #front-check
-
 <!-- Stance configurations -->
 
 [back-to-front]: #back-to-front

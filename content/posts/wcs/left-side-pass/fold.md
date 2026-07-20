@@ -2,6 +2,8 @@
 title: fold
 date: 2026-06-11T23:45:47-05:00
 description: null
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Start from an {{% a "open" %}} position. The footwork can be the same as in a [left-side pass]. However, it looks better if on step 4 your body faces 9 o'clock because the follower is also facing 9 o'clock.

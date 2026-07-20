@@ -1,7 +1,9 @@
 ---
-title: left side starter back lead free spin
+title: "left-side starter back lead free spin"
 date: 2026-06-11T23:48:21-05:00
-description: null
+description: ""
+categories: Dance
+tags: West Coast Swing
 ---
 
 - Start in a [starter] position.
