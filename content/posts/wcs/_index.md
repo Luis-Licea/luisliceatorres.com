@@ -30,13 +30,8 @@ tags: West Coast Swing
 [weird goofy]: #weird-goofy
 [weird]: #weird
 
-<!-- Starter steps -->
-
-[forward tap forward triple]: #forward-tap-forward-triple
-
 <!-- Sugar pushes -->
 
-[double-arm turn-in]: #double-arm-turn-in
 [goofy sugar push inside pivot turn]: #goofy-sugar-push-inside-pivot-turn
 [goofy sugar push outside pivot turn]: #goofy-sugar-push-outside-pivot-turn
 [hairbrush]: #hairbrush
@@ -77,9 +72,6 @@ tags: West Coast Swing
 
 <!-- Whips -->
 
-[contemporary Hustle whip]: #contemporary-hustle-whip
-[continuous whip into starter position]: #continuous-whip-into-starter-position
-[continuous whip]: #continuous-whip
 [hustle whip inside pass turn into open position]: #hustle-whip-inside-pass-turn-into-open-position
 [hustle whip outside pivot turn]: #hustle-whip-outside-pivot-turn
 [hustle whip]: #hustle-whip
@@ -88,15 +80,8 @@ tags: West Coast Swing
 [right-side pass reverse whip]: #right-side-pass-reverse-whip
 [whip with two outside turns into over-rotated open position]: #whip-with-two-outside-turns-into-over-rotated-open-position
 
-<!-- Redirects -->
-
-[closed right-side pass redirect]: #closed-right-side-pass-redirect
-
 <!-- Triple-step replacements -->
 
-[counter-clockwise sweep]: #counter-clockwise-sweep
-[cross-legged inside turn]: #cross-legged-inside-turn
-[cross-legged outside turn]: #cross-legged-outside-turn
 [hitch]: #hitch
 [left side-check]: #left-side-check
 [level change]: #level-change

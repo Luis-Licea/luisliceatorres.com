@@ -6,4 +6,4 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-Do a {{% a "basket whip" %}}, then on 4 and 5 lead a [continuous whip], an settle in a [starter] position on 6.
+Do a {{% a "basket whip" %}}, then on 4 and 5 lead a {{% a "continuous whip" %}}, an settle in a [starter] position on 6.

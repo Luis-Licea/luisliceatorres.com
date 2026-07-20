@@ -15,4 +15,4 @@ tags: West Coast Swing
 
 Next pattern suggestion:
 
-- [closed right-side pass redirect]
+- {{% a "closed right-side pass redirect" %}}

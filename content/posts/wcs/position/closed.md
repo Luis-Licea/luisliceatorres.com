@@ -21,4 +21,4 @@ Reached via:
 
 Leads to:
 
-- [closed right-side pass redirect]
+- {{% a "closed right-side pass redirect" %}}

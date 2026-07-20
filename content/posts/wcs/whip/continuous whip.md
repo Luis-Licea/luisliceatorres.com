@@ -20,4 +20,4 @@ tags: West Coast Swing
 
 Note that the repetition ends on the odd beat 5 because the settling happens on the even beat 6.
 
-One of the main uses of the continuous whip is to add 2-beat increments so that you are more easily able to predict or approach the 8th beat in the song.
+One of the main uses of the {{% a "continuous whip" %}} is to add 2-beat increments so that you are more easily able to predict or approach the 8th beat in the song.

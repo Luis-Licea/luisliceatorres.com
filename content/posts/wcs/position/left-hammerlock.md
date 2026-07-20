@@ -10,5 +10,5 @@ The leader stands slightly to the left of the follower, maintaining a double han
 
 Reached via:
 
-- [double-arm turn-in]
+- {{% a "double-arm turn-in" %}}
 - [hustle whip outside pivot turn]

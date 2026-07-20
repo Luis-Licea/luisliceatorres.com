@@ -10,7 +10,7 @@ The handwork is identical to the {{% a "closed" %}} position, but the leader sta
 
 Reached via:
 
-- [continuous whip into starter position]
+- {{% a "continuous whip into starter position" %}}
 - [right-side inside turn into starter position]
 - [head drape into starter]
 - whip with an inside turn into starter position
@@ -21,4 +21,4 @@ Leads to:
 - [left-side starter outside turn into a righty-down-out position] and [righty reverse whip]
 - [left-side starter inside chain turn into open position]
 - [fold]
-- [closed right-side pass redirect]
+- {{% a "closed right-side pass redirect" %}}

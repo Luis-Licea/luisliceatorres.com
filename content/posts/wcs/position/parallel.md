@@ -10,5 +10,5 @@ A specific double handhold. The leader's left hand ring finger and middle finger
 
 Reached via:
 
-- [contemporary Hustle whip]
+- {{% a "contemporary hustle whip" %}}
 - [right-side inside pass into parallel position]
