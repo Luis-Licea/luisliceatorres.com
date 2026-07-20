@@ -11,9 +11,20 @@ check() {
     fi
 }
 
-for FILE in "${FILES[@]}"; do
-    MATTER=$(awk '/---/{c++} c==2{print; exit} c==1{print}' "$FILE")
-    #check "categories:"
-    #check "title:"
-    check "rhythm:"
-done
+checkMatter() {
+    for FILE in "${FILES[@]}"; do
+        MATTER=$(awk '/---/{c++} c==2{print; exit} c==1{print}' "$FILE")
+        check "categories:"
+        check "tags:"
+        check "title:"
+        check "rhythm:"
+    done
+}
+
+checkLinks() {
+    for FILE in "${FILES[@]}"; do
+        grep -Po '\[.*?\]' "$FILE"
+    done
+}
+
+checkLinks | sort -u
