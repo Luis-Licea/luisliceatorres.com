@@ -2,9 +2,10 @@ with import <nixpkgs> {};
 # Use `nix-shell` to activate shell.
   mkShell {
     packages = [
-      hugo
       go
+      hugo
       markdown-link-check
+      nushell
     ];
     shellHook = ''
       export PATH="$PWD/scripts:$PATH"

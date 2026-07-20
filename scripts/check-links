@@ -1,0 +1,59 @@
+#!/usr/bin/env nu
+
+
+cd (git rev-parse --show-toplevel)
+
+let files = git ls-files 'content/posts/wcs/*.md' | lines;
+
+def readTitle [text: string] {
+    let matter = $text | lines | skip 1 | take until {|line| $line == "---"} | to text | from yaml
+    return $matter.title;
+}
+
+mut posts = []
+for file in $files {
+    let text: string = open --raw $file;
+    let title: string = readTitle $text;
+    $posts = ($posts | append {
+        title: $title
+        text: $text
+        file: $file
+    })
+}
+
+let length = ($posts | length) - 1
+let skip = [
+    left
+    right
+    slide
+    turn
+    'chain turn'
+    'pivot turn'
+    'sugar push'
+    starter
+    parallel
+    'right shoulder'
+    Dips
+]
+for i in 0..$length {
+    let post1 = $posts | get $i
+    if $post1.title in $skip {
+        continue;
+    }
+    for j in ($i + 1)..$length {
+        if $j >= $length {
+            continue;
+        }
+        let post2 = $posts | get $j;
+
+        if $post2.text has $" ($post1.title) " {
+            # let result = $post2.text | str replace --all --regex  $post1.title $"{{% a \"($post1.title)\" %}}"
+            let result = $post2.text | str replace --all --regex --multiline  $"^\(?<!title:\) ($post1.title)" $"{{% a \"($post1.title)\" %}}"
+            print { ...$post2 found: $post1.title}
+            print $post2.text
+            # if $result != $post2.text {
+                # print $result
+            # }
+        }
+    }
+}
