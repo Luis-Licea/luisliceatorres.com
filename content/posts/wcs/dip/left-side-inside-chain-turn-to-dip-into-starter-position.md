@@ -6,7 +6,7 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-This is an 6 beat pattern elongated into an 8 beat pattern because the anchor step is 4 beats to allow the follower to go into closed position. The actual dip happens on beat 5.
+This is an 6 beat pattern elongated into an 8 beat pattern because the anchor step is 4 beats to allow the follower to go into {{% a "closed" %}} position. The actual dip happens on beat 5.
 
 - Start from an {{% a "open" %}} position. Lead a {{% a "left-side inside chain turn" %}} up to step 4. On this pattern you are facing 9 o'clock on steps 4 thru 8.
 

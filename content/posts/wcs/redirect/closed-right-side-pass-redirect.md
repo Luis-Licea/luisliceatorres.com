@@ -8,7 +8,7 @@ tags: West Coast Swing
 
 Fix footwork.
 
-- Start in a [closed] position.
+- Start in a {{% a "closed" %}} position.
 - On step 1 step back and to the left towards 7:30. Also, on 1, raise your left hand to follower head-height.
 - On 2, step towards 6:00 with your right foot such that your toes point at 3:00 to open the slot.
 - On 2, raise your left hand and look at your imaginary watch in preparation to lead an inside turn. Make left hand fingers point at 3:00 to tell the follower it will be an inside turn.

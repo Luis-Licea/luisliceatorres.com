@@ -10,8 +10,8 @@ This is the same as the [righty] position with the [weird] handhold.
 
 Reached via:
 
-- [Chuck turn into righty-down-out]
-- [apache whip]
+- {{% a "chuck turn into righty-down-out" %}}
+- {{% a "apache whip" %}}
 
 Leads to:
 

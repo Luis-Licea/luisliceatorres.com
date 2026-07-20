@@ -18,4 +18,4 @@ Pattern suggestion:
 
 A rond de jambe.
 
-Mechanically the same as a clockwise sweep, but with a duration of 4 beats instead of 2.
+Mechanically the same as a {{% a "clockwise sweep" %}}, but with a duration of 4 beats instead of 2.

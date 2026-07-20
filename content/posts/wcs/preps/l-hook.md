@@ -6,6 +6,6 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-Use it from a {{% a "righty" %}} hold to rotate the follower counter-clockwise 180 degrees into a [closed] position during a whip.
+Use it from a {{% a "righty" %}} hold to rotate the follower counter-clockwise 180 degrees into a {{% a "closed" %}} position during a whip.
 
 Make sure this hand preparation is done at waist level, not a chest level, so it is more comfortable for the follower.

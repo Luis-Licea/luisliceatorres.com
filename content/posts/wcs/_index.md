@@ -16,8 +16,6 @@ tags: West Coast Swing
 
 <!-- Stance configurations -->
 
-[back-to-front]: #back-to-front
-[closed]: #closed
 [goofy]: #goofy
 [horn]: #horn
 [left hammerlock]: #left-hammerlock
@@ -79,10 +77,6 @@ tags: West Coast Swing
 
 <!-- Whips -->
 
-[apache whip]: #apache-whip
-[basket whip]: #basket-whip
-[behind-the-back whip]: #behind-the-back-whip
-[car-wash whip]: #car-wash-whip
 [contemporary Hustle whip]: #contemporary-hustle-whip
 [continuous whip into starter position]: #continuous-whip-into-starter-position
 [continuous whip]: #continuous-whip
@@ -100,8 +94,6 @@ tags: West Coast Swing
 
 <!-- Triple-step replacements -->
 
-[brush]: #brush
-[clockwise sweep]: #clockwise-sweep
 [counter-clockwise sweep]: #counter-clockwise-sweep
 [cross-legged inside turn]: #cross-legged-inside-turn
 [cross-legged outside turn]: #cross-legged-outside-turn

@@ -6,7 +6,7 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-Not to be confused with the [behind-the-back whip].
+Not to be confused with the {{% a "behind-the-back whip" %}}.
 
 - Start in an {{% a "open" %}} position.
 - Same on 1

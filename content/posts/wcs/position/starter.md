@@ -6,7 +6,7 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-The handwork is identical to the [closed] position, but the leader stands perpendicularly to the follower's left side, sort of like the characters \_|.
+The handwork is identical to the {{% a "closed" %}} position, but the leader stands perpendicularly to the follower's left side, sort of like the characters \_|.
 
 Reached via:
 

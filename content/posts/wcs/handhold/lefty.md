@@ -12,7 +12,7 @@ This is a mirror image of the [righty] position because it requires a left-to-le
 
 Reached via:
 
-- [behind-the-back whip]
+- {{% a "behind-the-back whip" %}}
 
 Examples:
 

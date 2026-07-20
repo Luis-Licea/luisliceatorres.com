@@ -8,7 +8,7 @@ tags: West Coast Swing
 
 Damon calls it a pikaboo whip.
 
-This pattern is the same as a [behind-the-back whip] up to but not including 4.
+This pattern is the same as a {{% a "behind-the-back whip" %}} up to but not including 4.
 
 - On 4, grab the followers left hand with your left hand and pull your left elbow backwards towards 3:00. This will cause the follower to rotate 0.75 turns clockwise such that you will end up in a shadow position facing 9:00 on 5. Make sure to place your right hand preemptively at her shoulder level so that you will be able to catch the follower right shoulder at the end of 5 and stop her motion so that she will end up in a shadow position.
 - On 5, while still facing 9:00 with your body and feet, you will step slightly backwards and down the slot with your right foot towards 1:00 to create just enough space for crossing the left leg.

@@ -17,4 +17,4 @@ It is like an L in Tetris, whereas a regular right-side pass is the straight pie
 - On 3 step towards 12:00.
 - On 3.5 step towards 3:00.
 - On 4 step towards 3:00 across the slot.
-- On 6&6 [front-check] or [back-check].
+- On 6&6 [front-check] or {{% a "back-check" %}}.

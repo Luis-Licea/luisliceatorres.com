@@ -10,7 +10,7 @@ The leader's right hand palm is on the follower's back, on the follower's left s
 
 Paraphrased advice from Damon D'Amico:
 
-In general, in a closed position, the leader's wrist should rest against the crook of the follower's armpit, the axilla. There should be no gap between the wrist and the armpit. This is where the steering power comes from.
+In general, in a {{% a "closed" %}} position, the leader's wrist should rest against the crook of the follower's armpit, the axilla. There should be no gap between the wrist and the armpit. This is where the steering power comes from.
 
 Reached via:
 

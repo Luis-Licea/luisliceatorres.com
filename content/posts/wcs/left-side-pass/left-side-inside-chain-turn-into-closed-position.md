@@ -10,4 +10,4 @@ tags: West Coast Swing
 
 For the handwork,
 
-- on 3& you should see the follower's back, so place your right hand onto the followers left shoulder blade to achieve a [closed] position as the turn finishes and you step forward on 4.
+- on 3& you should see the follower's back, so place your right hand onto the followers left shoulder blade to achieve a {{% a "closed" %}} position as the turn finishes and you step forward on 4.

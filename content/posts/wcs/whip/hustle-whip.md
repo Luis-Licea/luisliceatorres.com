@@ -12,4 +12,4 @@ tags: West Coast Swing
 - Open the hands on 4,5, and close them by 6.
 - Post on 6 for the anchor step.
 
-You may do a [car-wash whip] exit.
+You may do a {{% a "car-wash whip" %}} exit.
