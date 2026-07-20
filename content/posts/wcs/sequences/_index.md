@@ -11,7 +11,7 @@ tags: West Coast Swing
 Hairbrush switcheroo:
 
 2. [sugar push left shoulder slide]
-3. [lefty fold RAG free spin]
+3. {{% a "lefty fold RAG free spin" %}}
 
 Goofy triplet:
 

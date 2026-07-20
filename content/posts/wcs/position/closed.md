@@ -16,8 +16,8 @@ Reached via:
 
 - Left-side pass with inside chain turn from goofy position
 - [sugar push inside pivot turn into closed position](../sugar-push/sugar-push-inside-pivot-turn-to-closed-position)
-- [right-side pass into closed position]
-- [left-side inside chain turn into closed position]
+- {{% a "right-side pass into closed position" %}}
+- {{% a "left-side inside chain turn into closed position" %}}
 
 Leads to:
 

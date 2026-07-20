@@ -13,7 +13,7 @@ I have verified that the {{% a "left prep" %}} happens on 1.5 with Ray Trusty an
 Use it in a:
 
 - {{% a "left-side inside chain turn" %}}
-- [right-side inside chain turn]
+- {{% a "right-side inside chain turn" %}}
 - [righty reverse whip]
 - {{% a "free spin" %}}
 - [fold]

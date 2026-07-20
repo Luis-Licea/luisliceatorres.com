@@ -18,7 +18,6 @@ tags: West Coast Swing
 
 [goofy]: #goofy
 [horn]: #horn
-[left hammerlock]: #left-hammerlock
 [left shoulder-lock]: #left-shoulder-lock
 [left shoulder]: #left-shoulder
 [parallel]: #parallel
@@ -49,11 +48,8 @@ tags: West Coast Swing
 <!-- Left-side passes -->
 
 [fold]: #fold
-[left-side inside chain turn into closed position]: #left-side-inside-chain-turn-into-closed-position
 [left-side outside pass]: #left-side-outside-pass
 [left-side pass]: #left-side-pass
-[left-side starter back-lead free-spin]: #left-side-starter-back-lead-free-spin
-[left-side starter inside chain turn into open position]: #left-side-starter-inside-chain-turn-into-open-position
 [roll-in-roll-out]: #roll-in-roll-out
 [trusty left-side-pass]: #trusty-left-side-pass
 
@@ -61,14 +57,7 @@ tags: West Coast Swing
 
 [goofy left-side inside chain turn]: #goofy-right-side-inside-chain-turn
 [goofy right-side inside turn]: #goofy-right-side-inside-turn
-[right-side inside chain turn]: #right-side-inside-chain-turn
-[right-side inside pass into parallel position]: #right-side-inside-pass-into-parallel-position
-[right-side inside turn into starter position]: #right-side-inside-turn-into-starter-position
 [right-side inside turn]: #right-side-inside-turn
-[right-side outside chain turn]: #right-side-outside-chain-turn
-[right-side outside leader turn into left shoulder-lock]: #right-side-outside-leader-turn-into-left-shoulder-lock
-[right-side outside turn]: #right-side-outside-turn
-[right-side pass into closed position]: #right-side-pass-into-closed-position
 
 <!-- Whips -->
 

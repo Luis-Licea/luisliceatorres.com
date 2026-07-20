@@ -10,4 +10,4 @@ In this position, you stand next-to-and-to-the right of the follower, with your 
 
 Reached via:
 
-- [righty-down-out left-side pass inside chain turn right picture hold]
+- {{% a "righty-down-out left-side pass inside chain turn right picture hold walk around into open position" %}}

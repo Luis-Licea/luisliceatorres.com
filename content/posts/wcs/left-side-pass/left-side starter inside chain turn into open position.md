@@ -1,5 +1,5 @@
 ---
-title: "left side starter inside chain turn into open position"
+title: "left-side starter inside chain turn into open position"
 date: 2026-06-11T23:47:27-05:00
 description:
 categories: Dance

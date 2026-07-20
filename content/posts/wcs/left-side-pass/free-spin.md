@@ -6,7 +6,7 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-A [goofy] unconnected [right-side inside chain turn].
+A [goofy] unconnected {{% a "right-side inside chain turn" %}}.
 
 - Start from a [goofy] position. The footwork is the same as in a left-side pass.
 - On 1.5 {{% a "left prep" %}}.

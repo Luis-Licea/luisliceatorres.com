@@ -16,7 +16,7 @@ The perpendicular angle is very important when stepping across on 4. Keep repeat
 
 Next pattern suggestion:
 
-- Do a [left-side starter inside chain turn into open position] because most followers should be able to follow, and there is something about the angle that makes it feel good.
-- [left-side starter back-lead free-spin], which is an intermediate exit.
+- Do a {{% a "left-side starter inside chain turn into open position" %}} because most followers should be able to follow, and there is something about the angle that makes it feel good.
+- {{% a "left-side starter back-lead free spin" %}}, which is an intermediate exit.
 - [left-side outside pass]
-- [left-side starter outside turn into a righty-down-out position] and a [righty reverse whip]
+- {{% a "left-side starter outside turn into a righty-down-out position" %}} and a [righty reverse whip]

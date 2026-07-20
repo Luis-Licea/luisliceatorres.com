@@ -1,5 +1,5 @@
 ---
-title: "lefty fold rag free spin"
+title: "lefty fold RAG free spin"
 date: 2026-06-11T23:46:18-05:00
 description: ""
 categories: Dance

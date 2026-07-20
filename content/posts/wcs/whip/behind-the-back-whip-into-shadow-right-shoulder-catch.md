@@ -21,4 +21,4 @@ Note: The count for the follower will be different on 5. They will do 5& instead
 
 Next pattern suggestion:
 
-- [right-side outside turn]
+- {{% a "right-side outside chain turn" %}}
