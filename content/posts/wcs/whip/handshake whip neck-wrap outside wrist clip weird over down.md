@@ -8,7 +8,7 @@ tags: West Coast Swing
 
 - Start in a {{% a "righty" %}} position.
 - On 1, step back.
-- On 2, lead a left prep? Is it a chain turn or a pivot turn or just a turn?
+- On 2, lead a {{% a "left prep" %}}? Is it a chain turn or a pivot turn or just a turn?
 - On 3&4 lead a counterclockwise neck wrap.
 - On 4, straddle across the slot and grab the follower's left hand with your left hand at stomach level. Even though your arm is around the follower's neck, you are in a {{% a "lower" %}} handhold.
 - On 5, step down the slot to face 3:00.
