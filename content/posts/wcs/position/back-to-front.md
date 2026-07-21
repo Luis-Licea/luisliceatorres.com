@@ -10,4 +10,4 @@ The follower and the leader face in the same direction while the follower stands
 
 Reached via:
 
-- [single-arm turn-in]
+- {{% a "single-arm turn-in" %}}

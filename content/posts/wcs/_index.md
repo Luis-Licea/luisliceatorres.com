@@ -29,45 +29,21 @@ tags: West Coast Swing
 [weird goofy]: #weird-goofy
 [weird]: #weird
 
-<!-- Sugar pushes -->
-
-[goofy sugar push inside pivot turn]: #goofy-sugar-push-inside-pivot-turn
-[goofy sugar push outside pivot turn]: #goofy-sugar-push-outside-pivot-turn
-[hairbrush]: #hairbrush
-[head drape into starter]: #head-drape-into-starter
-[head drape]: #head-drape
-[single-arm turn-in]: #single-arm-turn-in
-[sugar push inside pivot turn into closed position]: #sugar-push-inside-pivot-turn-into-closed-position
-[sugar push inside pivot turn]: #sugar-push-inside-pivot-turn
-[sugar push left shoulder slide]: #sugar-push-left-shoulder-slide
-[sugar push outside pivot turn]: #sugar-push-outside-pivot-turn
-[sugar push right shoulder slide]: #sugar-push-right-shoulder-slide
-[sugar tuck pirouette]: #sugar-tuck-pirouette
-[two-arm turn-in]: #two-arm-turn-in
-
 <!-- Left-side passes -->
 
 [fold]: #fold
 [left-side outside pass]: #left-side-outside-pass
 [left-side pass]: #left-side-pass
 [roll-in-roll-out]: #roll-in-roll-out
-[trusty left-side-pass]: #trusty-left-side-pass
 
 <!-- Right-side passes -->
 
-[goofy left-side inside chain turn]: #goofy-right-side-inside-chain-turn
-[goofy right-side inside turn]: #goofy-right-side-inside-turn
 [right-side inside turn]: #right-side-inside-turn
 
 <!-- Whips -->
 
-[hustle whip inside pass turn into open position]: #hustle-whip-inside-pass-turn-into-open-position
-[hustle whip outside pivot turn]: #hustle-whip-outside-pivot-turn
-[hustle whip]: #hustle-whip
 [left shoulder-lock reverse whip]: #left-shoulder-lock-reverse-whip
-[pass-through whip]: #pass-through-whip
 [right-side pass reverse whip]: #right-side-pass-reverse-whip
-[whip with two outside turns into over-rotated open position]: #whip-with-two-outside-turns-into-over-rotated-open-position
 
 <!-- Triple-step replacements -->
 

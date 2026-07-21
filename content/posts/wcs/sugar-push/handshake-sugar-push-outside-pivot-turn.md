@@ -15,4 +15,4 @@ tags: West Coast Swing
 Next pattern suggestion:
 
 - {{% a "righty-down-out left-side pass inside chain turn right picture hold walk around into open position" %}}
-- [Sugar push inside pivot turn into closed position]({{% ref "./sugar-push-inside-pivot-turn-to-closed-position.md" %}})
+- {{% a "sugar push inside pivot turn into closed position" %}}

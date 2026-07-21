@@ -17,4 +17,4 @@ I think Damon calls it a Dallas turn.
 
 Next pattern suggestion:
 
-- [head drape into starter] position
+- {{% a "head drape into starter" %}} position

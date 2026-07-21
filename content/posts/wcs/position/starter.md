@@ -12,7 +12,7 @@ Reached via:
 
 - {{% a "continuous whip into starter position" %}}
 - {{% a "right-side inside turn into starter position" %}}
-- [head drape into starter]
+- {{% a "head drape into starter" %}}
 - whip with an inside turn into starter position
 
 Leads to:

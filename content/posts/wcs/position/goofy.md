@@ -10,4 +10,4 @@ This is mirror image of the {{% a "open" %}} position. The leader's right-hand r
 
 Reached via:
 
-- [goofy right-side inside turn]
+- {{% a "goofy right-side inside turn" %}}

@@ -25,5 +25,5 @@ Next pattern suggestion:
 
 Reached via:
 
-- [whip with two outside turns into over-rotated open position]
+- {{% a "whip with two outside turns into over-rotated open position" %}}
 - [sugar tuck into over-rotated open position]

@@ -6,7 +6,7 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-- The footwork is the same as a [hustle whip], and the handwork is the same up to step 4.
+- The footwork is the same as a {{% a "hustle whip" %}}, and the handwork is the same up to step 4.
 - On step 4, apply tension to lead the follower forwards while raising your left hand.
 - On 5, raise your left hand as though you were asking a question.
 - On 5, lower your right hand so the follower is able to turn clockwise. Your left hand should be at her right-ear level and at shoulder-width.

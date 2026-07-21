@@ -10,4 +10,4 @@ This is the same as the [righty] position with the [spiderman] handhold.
 
 Reached via:
 
-- [sugar push right shoulder slide]
+- {{% a "sugar push right shoulder slide" %}}

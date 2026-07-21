@@ -25,7 +25,7 @@ From Rick Brunson:
 From Ray Trusty:
 
 - A prep does not happen on step two, it happens between step 1 and 2, when the follower's left foot is floating and pulling on the arm would cause a rotation on the follower's right foot. In other words, it is 1-prep-2-3&4 as opposed to 1-prep-3&4.
-- Do not open up you arms when doing a sugar push. Imagine you are holding a piece of paper under each armpit and you do not want the pieces to fall. Only open up your arms is when doing a hustle whip to close the space between you and the follower.
+- Do not open up you arms when doing a sugar push. Imagine you are holding a piece of paper under each armpit and you do not want the pieces to fall. Only open up your arms is when doing a {{% a "hustle whip" %}} to close the space between you and the follower.
 - Even if you are doing the steps correctly, you must actively lead the follower and move the slot. Otherwise she looks good dancing around you while you look like a pole standing in the middle.
 
 From Bob Wilder:
@@ -48,7 +48,7 @@ From Damon D'Amico:
 
 From Jennifer:
 
-- While leading a {{% a "left-side inside chain turn" %}}, a [right-side outside chain turn], a [sugar tuck pirouette], or any turn in general, you must use as few fingers as possible to lead follower throughout the rotation. You can use two fingers in chain turns, but you must use one finger for pirouettes. As Jennifer's instructor told her, this is the only time when a follower will be extremely happy to receive the middle finger.
+- While leading a {{% a "left-side inside chain turn" %}}, a [right-side outside chain turn], a {{% a "sugar tuck pirouette" %}}, or any turn in general, you must use as few fingers as possible to lead follower throughout the rotation. You can use two fingers in chain turns, but you must use one finger for pirouettes. As Jennifer's instructor told her, this is the only time when a follower will be extremely happy to receive the middle finger.
 - Engage your latissimus dorsi in an {{% a "open" %}} position as opposed to using your biceps or forearms so there is a direct connection to your core.
 - Tension and compression are not results of pulling and pushing with your arms, they are the results of standing or stepping on the heels of your feet and standing or stepping on the balls of your feet, respectively. If you stand on your heels there will be tension, and if you stand on your balls there will be compression.
 

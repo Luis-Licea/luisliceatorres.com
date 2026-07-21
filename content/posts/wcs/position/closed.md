@@ -15,7 +15,7 @@ In general, in a {{% a "closed" %}} position, the leader's wrist should rest aga
 Reached via:
 
 - Left-side pass with inside chain turn from goofy position
-- [sugar push inside pivot turn into closed position](../sugar-push/sugar-push-inside-pivot-turn-to-closed-position)
+- {{% a "sugar push inside pivot turn into closed position" %}}
 - {{% a "right-side pass into closed position" %}}
 - {{% a "left-side inside chain turn into closed position" %}}
 

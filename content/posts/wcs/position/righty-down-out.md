@@ -15,5 +15,5 @@ Reached via:
 
 Leads to:
 
-- [hairbrush]
+- {{% a "hairbrush" %}}
 - [righty reverse whip]

@@ -17,5 +17,5 @@ Once you are in [starter] or a {{% a "closed" %}} position, let go of your left 
 
 Next pattern suggestions:
 
-- [hairbrush]
+- {{% a "hairbrush" %}}
 - [righty reverse whip]
