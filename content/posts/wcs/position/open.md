@@ -6,9 +6,6 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-The leader's left-hand ring and middle fingers (pointing to the right) are held by the follower's right hand (pointing down) at waist level, sort of like the characters |¯|.
+The leader and the follower are away from each other.
 
-Reached via:
-
-- {{% a "left-side inside chain turn" %}}
-- {{% a "righty-down-out left-side pass inside chain turn right picture hold walk around into open position" %}}
+- Opposite of [closed].

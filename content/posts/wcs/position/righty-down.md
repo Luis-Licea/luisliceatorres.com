@@ -6,4 +6,4 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-This is the same as the [righty] position with the [horn] handhold.
+This is the same as the [righty] position with the [palm-down].

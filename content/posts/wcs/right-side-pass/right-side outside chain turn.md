@@ -9,4 +9,4 @@ tags: West Coast Swing
 - Start from an {{% a "open" %}} position.
 - The footwork is the same as a [right-side inside turn].
 - The handwork is different.
-- On step 1, [right prep]. Do not do a prep for step 2, instead, go directly into a {{% a "j-hook" %}} (rotating clockwise) over her head. You have to be fast. It takes 2.5 chain turns.
+- On step 1, {{% a "right prep" %}}. Do not do a prep for step 2, instead, go directly into a {{% a "j-hook" %}} (rotating clockwise) over her head. You have to be fast. It takes 2.5 chain turns.

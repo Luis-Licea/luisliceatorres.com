@@ -8,6 +8,13 @@ tags:
   - Anchor Wheel
 ---
 
-Instead of stepping in place for the & step, step to the left, outside the slot, with your right foot.
+In the context of an anchor:
 
-- Step towards 9:00 with the right foot while the core faces 3:00 to facilitate the pattern.
+- On 5, step to the left, outside the slot, with your right foot flat and left knee bent.
+- On 5, step towards 9:00 with the right foot while rotating clockwise so the core faces 3:00 to facilitate the pattern.
+- On 5.5, unbend left knee, bend right knee, and rotate counterclockwise to the core faces 12:00 again.
+- On 6, collect, both knees unbent.
+
+In any other context:
+
+- Step towards 9:00 with the left foo.

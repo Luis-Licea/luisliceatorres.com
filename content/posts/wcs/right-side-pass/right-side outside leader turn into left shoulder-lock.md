@@ -11,4 +11,4 @@ tags: West Coast Swing
 
 Consider performing the 5&6 as an {{% a "cross-legged outside turn" %}}.
 
-This pattern can be followed by a [left shoulder-lock reverse whip].
+This pattern can be followed by a {{% a "left shoulder-lock reverse whip" %}}.

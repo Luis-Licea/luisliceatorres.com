@@ -1,5 +1,5 @@
 ---
-title: "open weird"
+title: "left-down-out"
 date: 2026-06-04T00:14:20-05:00
 description: ""
 categories: Dance
