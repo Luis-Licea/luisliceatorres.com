@@ -1,12 +1,12 @@
 ---
-title: "left side goofy inside chain turn into closed position"
+title: "right left-side inside chain turn into closed"
 date: 2026-06-11T23:52:39-05:00
 description:
 categories: Dance
 tags: West Coast Swing
 ---
 
-A pattern that [Bob Bowlby] and Joan Peeples taught me.
+- A pattern that [Bob Bowlby] and Joan Peeples taught me.
 
 - On 1, prep on line with the follower's shoulder.
 - On 2, {{% a "left prep" %}} on line with the follower's face.

@@ -1,0 +1,13 @@
+---
+title: "right sugar push outside pivot turn"
+date: 2026-06-15T01:44:17-05:00
+description: ""
+categories: Dance
+tags: West Coast Swing
+---
+
+- Start in a {{% a "right" %}} position.
+- On step 2 raise your right hand to her face level and align your right hand a couple of inches above her forehead while your hand points at 10 o'clock.
+- On step 3&4 do compression on 3& and begin the clockwise turn around her head on 4 as you step forwards.
+- Anchor on 5&6.
+- End in a {{% a "right" %}} position.

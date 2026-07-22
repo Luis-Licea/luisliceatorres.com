@@ -13,7 +13,7 @@ These sequences do not add up to 32 beats, so they are better suited for songs t
 
 Minus 18 beats (14 beats):
 
-1. sugar push to goofy right-to-left handhold
+1. sugar push to right right-to-left handhold
 2. pass-through whip
 
 Minus 2 beats (30 beats):
@@ -54,14 +54,14 @@ This is a basic sequence, or choreography, designed to be danced to songs with 3
 
 11. left pass inside turn
 12. right pass inside chain turns
-13. sugar push to goofy right-to-left handhold
+13. sugar push to right right-to-left handhold
 14. free spin to regular handhold
 15. fold (8 steps) don't put in shoulder lock
 
 <br>
 
 16. passing tuck
-17. sugar push to goofy right-to-left handhold
+17. sugar push to right right-to-left handhold
 18. roll-in-roll-out
 19. free spin to regular handhold
 20. basket whip

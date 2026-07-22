@@ -8,4 +8,4 @@ tags: West Coast Swing
 
 It is similar to a {{% a "free spin" %}}.
 
-- Start in a [goofy] handhold.
+- Start in a {{% a "right" %}} handhold.

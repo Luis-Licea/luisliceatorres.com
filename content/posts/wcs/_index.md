@@ -16,7 +16,6 @@ tags: West Coast Swing
 
 <!-- Stance configurations -->
 
-[goofy]: #goofy
 [horn]: #horn
 [left shoulder-lock]: #left-shoulder-lock
 [left shoulder]: #left-shoulder
@@ -26,7 +25,6 @@ tags: West Coast Swing
 [right shoulder-lock]: #right-shoulder-lock
 [right shoulder]: #right-shoulder
 [starter]: #starter
-[weird goofy]: #weird-goofy
 [weird]: #weird
 
 <!-- Left-side passes -->

@@ -13,9 +13,9 @@ Hairbrush switcheroo:
 2. {{% a "sugar push left shoulder slide" %}}
 3. {{% a "lefty fold RAG free spin" %}}
 
-Goofy triplet:
+Right triplet:
 
-1. {{% a "goofy left-side inside chain turn" %}}
+1. {{% a "right left-side pass inside chain turn" %}}
 2. [roll-in-roll-out]
 3. {{% a "free spin" %}}
 

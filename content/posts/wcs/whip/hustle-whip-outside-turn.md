@@ -6,8 +6,8 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-- The outside turn requires a [goofy] handhold.
-- On 5 release your left hand and use your right hand to lead a 1.5 outside turn into an anchor step. You should end in a [goofy] position.
+- The outside turn requires a {{% a "right" %}} handhold.
+- On 5 release your left hand and use your right hand to lead a 1.5 outside turn into an anchor step. You should end in a {{% a "right" %}} position.
 
 Next pattern suggestion:
 
