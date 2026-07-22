@@ -18,7 +18,7 @@ From Chuck Anders:
 From Rick Brunson:
 
 - After finishing a pattern on step 6 or 8, do not rush immediately into step 1 of the next pattern. There is a whole beat between step 8 and step 1 of the next pattern.
-- When leading a whip, step back on 1 and pull straight back. Do not begin the J-hook prematurely.
+- When leading a whip, step back on 1 and pull straight back. Do not begin the {{% a "j-hook" %}} prematurely.
 - Tension should reach a maximum at the beginning of a pattern, then decrease, and then increase back again at the end of the pattern.
 - When doing a whip, do not do a round motion, do an L motion. You are standing perpendicular to the follower up to 3& as you let the tension on the follower's back build up. On 4 you step straight across and slightly forward. On 5 rotate 0.5 turns clockwise on the ball of your left foot as you bring your right foot next to your left foot as if holding a quarter between your ankles. Both of your feet should be pointing at 3 o'clock as opposed to 6 o'clock.
 
