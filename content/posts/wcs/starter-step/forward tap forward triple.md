@@ -15,9 +15,7 @@ tags: West Coast Swing
 
 Next patter suggestions:
 
-- [fold] from {{% a "closed" %}} position such that the first two steps or backwards. Because you're in close position you need two steps backwards instead of one.
 - whip with an inside turn into a head duck
-
-- closed fold
+- {{% a "closed fold" %}}
 - whip with an inside turn into a head duck
 - head-duck left-side redirect

@@ -29,7 +29,6 @@ tags: West Coast Swing
 
 <!-- Left-side passes -->
 
-[fold]: #fold
 [left-side outside pass]: #left-side-outside-pass
 [left-side pass]: #left-side-pass
 [roll-in-roll-out]: #roll-in-roll-out

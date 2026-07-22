@@ -16,4 +16,4 @@ Use it in a:
 - {{% a "right-side inside chain turn" %}}
 - [righty reverse whip]
 - {{% a "free spin" %}}
-- [fold]
+- {{% a "fold" %}}

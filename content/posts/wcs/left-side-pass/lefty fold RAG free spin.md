@@ -7,7 +7,7 @@ tags: West Coast Swing
 ---
 
 - Start in a {{% a "lefty" %}} position.
-- The footwork is the same as in a [fold] up to but not including 4.
+- The footwork is the same as in a {{% a "fold" %}} up to but not including 4.
 - On 3& you should be standing on the left side of the slot facing 9 o'clock.
 - On 4 take a step from the left side of the slot to the right side of the slot with you left foot pointing at 5 o'clock and your body facing 6 o'clock.
 - On 4, the goal is to move down the slot as the follower travels and end up to the right of her, not behind of her.

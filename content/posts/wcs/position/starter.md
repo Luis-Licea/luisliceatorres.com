@@ -20,5 +20,5 @@ Leads to:
 - [left-side outside pass]
 - {{% a "left-side starter outside turn into a righty-down-out position" %}} and [righty reverse whip]
 - {{% a "left-side starter inside chain turn into open position" %}}
-- [fold]
+- {{% a "fold" %}}
 - {{% a "closed right-side pass redirect" %}}
