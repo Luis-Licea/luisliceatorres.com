@@ -15,6 +15,6 @@ This is an 6 beat pattern elongated into an 8 beat pattern because the anchor st
 
 After the dip, the follower should be looking at 12 o'clock and you should be perpendicular, looking at 9 o'clock.
 
-The dip happens on 5, the follower begins to stand up on 6, and then on 7 8 you shift your weight onto your right foot while the follower does a 0.5 turn clockwise as you "unwind" her from your right arm. At this point you should be in a [starter] position.
+The dip happens on 5, the follower begins to stand up on 6, and then on 7 8 you shift your weight onto your right foot while the follower does a 0.5 turn clockwise as you "unwind" her from your right arm. At this point you should be in a {{% a "starter" %}} position.
 
-From here you can step across as if doing a {{% a "continuous whip" %}} and repeating steps 4 and 5. Then stop doing {{% a "continuous whip" %}} and signal this by relaxing your arms and allowing the follower to settle. Then do a inside chain turn from [starter] position.
+From here you can step across as if doing a {{% a "continuous whip" %}} and repeating steps 4 and 5. Then stop doing {{% a "continuous whip" %}} and signal this by relaxing your arms and allowing the follower to settle. Then do a inside chain turn from {{% a "starter" %}} position.

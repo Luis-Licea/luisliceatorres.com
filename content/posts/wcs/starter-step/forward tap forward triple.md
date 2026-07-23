@@ -11,7 +11,7 @@ tags: West Coast Swing
 - On 2 step forward with your left foot such that it points at 10 o'clock.
   - Notice how it was 2 beats but only one weight change.
 - On 3&4 there should be a push and a pull.
-- On 3&4 do a triple step forward while making your body and left foot point at 9 o'clock so that you end in a [starter] position.
+- On 3&4 do a triple step forward while making your body and left foot point at 9 o'clock so that you end in a {{% a "starter" %}} position.
 
 Next patter suggestions:
 

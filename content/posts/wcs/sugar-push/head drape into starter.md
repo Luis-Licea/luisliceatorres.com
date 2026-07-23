@@ -11,7 +11,7 @@ tags: West Coast Swing
 
 - For the footwork, on 4, you will step towards 12:00 with your left toes pointing at 10:30.
 
-- On 5&6 do an anchor step; end facing 9:00 with your body and toes; be in a [starter] position.
+- On 5&6 do an anchor step; end facing 9:00 with your body and toes; be in a {{% a "starter" %}} position.
 
 Next pattern suggestion:
 

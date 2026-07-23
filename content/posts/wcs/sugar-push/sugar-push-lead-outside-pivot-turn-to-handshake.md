@@ -29,4 +29,4 @@ Alternative explanation:
 - The footwork and handwork are the same as in a [sugar push] up to 3&.
 - The footwork on 4 is with your left foot stepping forward pointing at 2 o'clock.
 - On 5&6 do a clockwise pivot turn while switching hands behind your back the hand-switch from your left hand to right hand should happen on 5 around the butt-to-waist level while you are facing 6 o'clock. At the end your body should point at 9 o'clock.
-- End up in a [righty] position.
+- End up in a {{% a "righty" %}} position.

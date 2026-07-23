@@ -8,11 +8,11 @@ tags: West Coast Swing
 
 - Start in an {{% a "open" %}} position.
 - Then go into a {{% a "continuous whip" %}} after 3& or the first 5.
-- Then settle on 6 to go into a [starter] position.
+- Then settle on 6 to go into a {{% a "starter" %}} position.
 
 The perpendicular angle is very important when stepping across on 4. Keep repeating 4 and 5 in one quick, smooth motion, like the 4 and 5 are one motion, not two steps, making sure to maintain this perpendicular shape at the end of each rotation on 5, and making sure the follower moves up and down the slot, not in a circular or orbiting fashion.
 
-- On the last repeat of the 4 and 5, do not build tension on the 5, become gooey on 6 so the follower can settle, and should end in [starter] position on 6.
+- On the last repeat of the 4 and 5, do not build tension on the 5, become gooey on 6 so the follower can settle, and should end in {{% a "starter" %}} position on 6.
 
 Next pattern suggestion:
 

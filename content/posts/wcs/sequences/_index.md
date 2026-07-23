@@ -21,5 +21,5 @@ Right triplet:
 
 Around the world:
 
-1. [{{% a "hustle whip outside pivot turn" %}}] into [righty]
+1. [{{% a "hustle whip outside pivot turn" %}}] into {{% a "righty" %}}
 2. {{% a "trusty left-side pass" %}}

@@ -8,7 +8,7 @@ tags: West Coast Swing
 
 This is a pattern that Ray Trusty taught me.
 
-- Start in a [starter] position.
+- Start in a {{% a "starter" %}} position.
 - Steps 1, 2, and 3& are done while facing 9 o'clock. Step 1 is to 6 o'clock.
 - Step 2 is to 6 o'clock, but you must cross your right leg behind your left leg.
 - Step 3 in the 3& is a back towards 3 o'clock so that your left foot goes backwards more so than where the right foot is standing. It looks better than doing the 3& in place. - Step & in the 3& is done almost in place because there is very little travel towards 6 o'clock.

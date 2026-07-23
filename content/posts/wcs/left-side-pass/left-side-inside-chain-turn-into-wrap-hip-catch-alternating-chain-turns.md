@@ -6,7 +6,7 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-- Start in a [parallel] position.
+- Start in a {{% a "parallel" %}} position.
 - Step 1 is back and to the right.
 - On 2 step back and face 9 o'clock.
 - On 3&4 perform a triple step while facing 9 o'clock.
@@ -35,7 +35,7 @@ This pattern has three exits:
 - on 11&12 pull on the left hip with your right hand while you turn counter-clockwise from 6 to 3 o'clock and step to the left of the slot.
 - As she turns and her back becomes visible, slide your hand from the right hip to the right armpit and catch the latissiums dorsi, but to not absorb the angular momentum so she gets wrapped into your right arm as you lean to the right, causing a dip on 13.
 - On 14 unwrap the hand while standing up, causing the follower to face 12 o'clock.
-- End be in a [starter] position.
+- End be in a {{% a "starter" %}} position.
 
 - On 4, the follower should be wrapped in with both of your hands at waist level while shes faces 6 o'clock and you face 9 o'clock, so release the left hand without moving it away from the hip because you will pull you right hand to unwind her and catch her hip on 5.
 - On the & of the &5 the follower the follower goes from facing 6 o'clock to facing 12 o'clock. The hip should already be caught, but with little force.

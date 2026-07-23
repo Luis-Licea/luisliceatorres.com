@@ -6,9 +6,9 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-Whenever you are in a {{% a "closed" %}} or [starter] position, your first two steps are half the length, so the {{% a "left prep" %}} for the inside chain turn will happen on 2 rather than between 1 and 2. [^2]
+Whenever you are in a {{% a "closed" %}} or {{% a "starter" %}} position, your first two steps are half the length, so the {{% a "left prep" %}} for the inside chain turn will happen on 2 rather than between 1 and 2. [^2]
 
-- Start in a [starter] position.
+- Start in a {{% a "starter" %}} position.
 - Steps 1, 2, and 3& are done while facing 9 o'clock.
 - Step 1 is to 6 o'clock.
 - Step 2 is to 6 o'clock, but you must cross your right leg behind your left leg.

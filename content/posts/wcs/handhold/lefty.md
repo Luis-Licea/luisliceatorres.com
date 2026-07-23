@@ -8,7 +8,7 @@ tags: West Coast Swing
 
 Leader left to follower left handhold.
 
-This is a mirror image of the [righty] position because it requires a left-to-left hand connection instead of a right-to-right hand connection, sort of like the characters |\\|.
+This is a mirror image of the {{% a "righty" %}} position because it requires a left-to-left hand connection instead of a right-to-right hand connection, sort of like the characters |\\|.
 
 Reached via:
 

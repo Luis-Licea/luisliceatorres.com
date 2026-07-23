@@ -6,7 +6,7 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-- Do a regular whip, then on 3& you should be in a [starter] position with your left foot free to step across on 4.
+- Do a regular whip, then on 3& you should be in a {{% a "starter" %}} position with your left foot free to step across on 4.
 - On 4 step across with your foot pointing at 9 o'clock, not 12 o'clock,
 - so on 5 you can use your right foot to propel yourself on a 0.5 clockwise turn so your body, face, and feet face 3 o'clock.
   - It is very important to perform steps 4 and 5 as a single, fluid motion.

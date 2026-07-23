@@ -6,4 +6,4 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-This is the same as the [righty] position with the [palm-down].
+This is the same as the {{% a "righty" %}} position with the [palm-down].

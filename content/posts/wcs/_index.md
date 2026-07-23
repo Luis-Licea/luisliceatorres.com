@@ -13,13 +13,10 @@ tags: West Coast Swing
 
 <!-- Stance configurations -->
 
-[parallel]: #parallel
 [right hammerlock]: #right-hammerlock
 [right picture]: #right-picture
 [right shoulder-lock]: #right-shoulder-lock
 [right shoulder]: #right-shoulder
-[starter]: #starter
-[weird]: #weird
 
 <!-- Left-side passes -->
 

@@ -13,6 +13,6 @@ Start in an {{% a "open" %}} position. On 1 and 2 step backwards towards 6:00. O
 Variations:
 
 - On 3 instead of releasing your left hand you may choose to keep it connected and continue the rest of the pattern while holding hands. This easier to follow.
-- This pattern can be done from a [parallel] position while holding both hands throughout the entire rotation.
+- This pattern can be done from a {{% a "parallel" %}} position while holding both hands throughout the entire rotation.
 
 - {{% a "righty sugar push shoulder catch into lefty" %}}

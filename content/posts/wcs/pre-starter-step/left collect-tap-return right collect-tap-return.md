@@ -13,7 +13,7 @@ tags: West Coast Swing
 - On 2.5 collect-tap your left foot next to your right foot.
 - On 3&4 return your left foot to its original position and put your weight on it, on the & collect your right foot next to the weighted left foot to perform a tap.
 - On 4 hold the tap with the right foot.
-- On 5&6 triple step forward with the free right foot. End in a [starter] position.
+- On 5&6 triple step forward with the free right foot. End in a {{% a "starter" %}} position.
 
 You can repeat steps 1 and 2 as many times as you would like.
 

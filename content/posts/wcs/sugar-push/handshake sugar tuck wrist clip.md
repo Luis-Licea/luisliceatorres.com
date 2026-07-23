@@ -14,4 +14,4 @@ This pattern is based on the {{% a "sugar push outside pivot turn" %}}. These ar
   - On 4, adjust left handhold so your palm points down and is on top of the follower's left hand, whose palm is also pointing down. The follower should be facing 12:00.
 - On 5, lead half a turn and perform wrist clip. The left arm must be placed on the wrist, not at hand-level, otherwise there will be a collision.
 - On &6 perform another half-turn.
-- End in a {{% a "lefty-down-out" %}} over a [righty].
+- End in a {{% a "lefty-down-out" %}} over a {{% a "righty" %}}.
