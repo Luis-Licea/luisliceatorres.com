@@ -6,4 +6,4 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-This is a mirror image of the {{% a "left" %}} [palm-up] position.
+This is a mirror image of the {{% a "left" %}} {{% a "palm-up" %}} position.

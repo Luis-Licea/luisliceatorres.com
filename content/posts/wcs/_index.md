@@ -7,9 +7,6 @@ tags: West Coast Swing
 
 <!-- Stance configurations -->
 
-[right hammerlock]: #right-hammerlock
-[right picture]: #right-picture
-[right shoulder-lock]: #right-shoulder-lock
 [right shoulder]: #right-shoulder
 
 <!-- Whips -->
@@ -18,5 +15,4 @@ tags: West Coast Swing
 
 <!-- Triple-step replacements -->
 
-[level change]: #level-change
 [right side-check]: #right-side-check

@@ -48,7 +48,7 @@ From Damon D'Amico:
 
 From Jennifer:
 
-- While leading a {{% a "left-side inside chain turn" %}}, a [right-side outside chain turn], a {{% a "sugar tuck pirouette" %}}, or any turn in general, you must use as few fingers as possible to lead follower throughout the rotation. You can use two fingers in chain turns, but you must use one finger for pirouettes. As Jennifer's instructor told her, this is the only time when a follower will be extremely happy to receive the middle finger.
+- While leading a {{% a "left-side inside chain turn" %}}, a {{% a "right-side outside chain turn" %}}, a {{% a "sugar tuck pirouette" %}}, or any turn in general, you must use as few fingers as possible to lead follower throughout the rotation. You can use two fingers in chain turns, but you must use one finger for pirouettes. As Jennifer's instructor told her, this is the only time when a follower will be extremely happy to receive the middle finger.
 - Engage your latissimus dorsi in an {{% a "open" %}} position as opposed to using your biceps or forearms so there is a direct connection to your core.
 - Tension and compression are not results of pulling and pushing with your arms, they are the results of standing or stepping on the heels of your feet and standing or stepping on the balls of your feet, respectively. If you stand on your heels there will be tension, and if you stand on your balls there will be compression.
 
