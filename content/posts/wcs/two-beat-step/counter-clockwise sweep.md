@@ -12,7 +12,7 @@ Instead of doing the anchor step for a duration of 2 beats, slide your right foo
 
 Pattern suggestion:
 
-- On a [left-side pass], replace steps 5&6 with a sweep.
+- On a {{% a "left-side pass" %}}, replace steps 5&6 with a sweep.
 
 #### Slow counter-clockwise sweep
 

@@ -6,7 +6,7 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-- The footwork is the same as a left-side pass. The handwork is different.
+- The footwork is the same as a {{% a "left-side pass" %}}. The handwork is different.
 - Start from an {{% a "open" %}} position.
 - On step 1 go straight back (maybe raising your hand to her shoulder level).
 - On 2 do {{% a "left prep" %}} at the follower's face level.

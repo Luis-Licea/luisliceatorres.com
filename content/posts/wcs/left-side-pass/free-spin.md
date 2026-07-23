@@ -8,7 +8,7 @@ tags: West Coast Swing
 
 A {{% a "right" %}} unconnected {{% a "right-side inside chain turn" %}}.
 
-- Start from a {{% a "right" %}} position. The footwork is the same as in a left-side pass.
+- Start from a {{% a "right" %}} position. The footwork is the same as in a {{% a "left-side pass" %}}.
 - On 1.5 {{% a "left prep" %}}.
 - On 2, begin turning follower to the right (counterclockwise).
 - On 2.5 release the hand.

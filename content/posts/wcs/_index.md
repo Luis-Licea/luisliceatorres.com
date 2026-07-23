@@ -12,10 +12,6 @@ tags: West Coast Swing
 [right shoulder-lock]: #right-shoulder-lock
 [right shoulder]: #right-shoulder
 
-<!-- Left-side passes -->
-
-[left-side pass]: #left-side-pass
-
 <!-- Whips -->
 
 [right-side pass reverse whip]: #right-side-pass-reverse-whip
