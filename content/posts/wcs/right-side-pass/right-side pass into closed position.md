@@ -6,7 +6,7 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-The footwork and most of the handwork is the same as in a [right-side inside turn].
+The footwork and most of the handwork is the same as in a {{% a "right-side inside turn" %}}.
 
 - Use it from an {{% a "open" %}} hold.
 - On 2, the follower will turn and her back should be visible by the end of step 2.

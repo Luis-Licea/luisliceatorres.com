@@ -8,4 +8,4 @@ tags: West Coast Swing
 
 The leader and the follower are away from each other.
 
-- Opposite of [closed].
+- Opposite of {{% a "closed" %}}.

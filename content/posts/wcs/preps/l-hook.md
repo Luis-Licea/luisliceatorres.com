@@ -1,5 +1,5 @@
 ---
-title: "l-hook"
+title: "L-hook"
 date: 2026-06-15T01:01:49-05:00
 description: ""
 categories: Dance

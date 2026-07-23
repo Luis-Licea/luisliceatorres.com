@@ -8,7 +8,7 @@ tags: West Coast Swing
 
 Also known as a short right-side pass.
 
-A variation of the [right-side inside turn].
+A variation of the {{% a "right-side inside turn" %}}.
 
 It is like an L in Tetris, whereas a regular right-side pass is the straight piece in Tetris.
 

@@ -18,4 +18,4 @@ Once you are in {{% a "starter" %}} or a {{% a "closed" %}} position, let go of 
 Next pattern suggestions:
 
 - {{% a "hairbrush" %}}
-- [righty reverse whip]
+- {{% a "righty reverse whip" %}}

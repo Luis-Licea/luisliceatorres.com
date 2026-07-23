@@ -12,7 +12,7 @@ Instead of doing the anchor step for a duration of 2 beats, slide your right foo
 
 Pattern suggestion:
 
-- On a [right-side inside turn], replace steps 5&6 with a sweep.
+- On a {{% a "right-side inside turn" %}}, replace steps 5&6 with a sweep.
 
 #### Slow clockwise sweep
 

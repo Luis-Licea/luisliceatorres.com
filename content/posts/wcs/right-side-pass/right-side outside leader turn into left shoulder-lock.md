@@ -7,7 +7,7 @@ tags: West Coast Swing
 ---
 
 - Start in an {{% a "open" %}} hold. Same as a right-side pass up to step 4.
-- On the 5&6, the leader turns clockwise 1 time to the left of the slot into a [left shoulder-lock]. The back part of the hand should be firmly placed on the follower's right shoulder for leading the following step.
+- On the 5&6, the leader turns clockwise 1 time to the left of the slot into a {{% a "left shoulder-lock" %}}. The back part of the hand should be firmly placed on the follower's right shoulder for leading the following step.
 
 Consider performing the 5&6 as an {{% a "cross-legged outside turn" %}}.
 

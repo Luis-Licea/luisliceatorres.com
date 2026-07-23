@@ -25,4 +25,4 @@ For the handwork, you should be able to do this pattern with your left hand in y
 
 Next pattern suggestion:
 
-- [righty reverse whip]
+- {{% a "righty reverse whip" %}}

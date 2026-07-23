@@ -6,7 +6,7 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-A variation of the [right-side inside turn].
+A variation of the {{% a "right-side inside turn" %}}.
 
 - Starting in an {{% a "open" %}} position
 - On 1, step back and to the left

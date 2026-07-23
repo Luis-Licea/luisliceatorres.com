@@ -17,8 +17,8 @@ Reached via:
 
 Leads to:
 
-- [left-side outside pass]
-- {{% a "left-side starter outside turn into a righty-down-out position" %}} and [righty reverse whip]
+- {{% a "left-side outside pass" %}}
+- {{% a "left-side starter outside turn into a righty-down-out position" %}} and {{% a "righty reverse whip" %}}
 - {{% a "left-side starter inside chain turn into open position" %}}
 - {{% a "fold" %}}
 - {{% a "closed right-side pass redirect" %}}

@@ -5,12 +5,6 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-[lock the knee]: #lock-the-knee
-
-<!-- Preparation variations -->
-
-[L-hook]: #l-hook
-
 <!-- Stance configurations -->
 
 [right hammerlock]: #right-hammerlock
@@ -20,13 +14,7 @@ tags: West Coast Swing
 
 <!-- Left-side passes -->
 
-[left-side outside pass]: #left-side-outside-pass
 [left-side pass]: #left-side-pass
-[roll-in-roll-out]: #roll-in-roll-out
-
-<!-- Right-side passes -->
-
-[right-side inside turn]: #right-side-inside-turn
 
 <!-- Whips -->
 

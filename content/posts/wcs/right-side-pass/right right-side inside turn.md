@@ -10,5 +10,5 @@ tags: West Coast Swing
 
 - It starts from a {{% a "right" %}} position.
 - The footwork for the leader is the same as in a right-side pass.
-- The handwork is the mirrored equivalent from a [left-side outside pass].
+- The handwork is the mirrored equivalent from a {{% a "left-side outside pass" %}}.
 - You end in a {{% a "right" %}} position.
