@@ -20,7 +20,7 @@ For the handwork, you should be able to do this pattern with your left hand in y
 
 - On beats 1 and 2 your hand stays on the follower's left shoulder.
 - On step 3&4 you do a push-and-pull to lead the follower into a 0.5 clockwise turn.
-- For the pulling motion on 4, you may need to use your right-hand fingertips to leverage the follower's left shoulder blade groove. Without the grove, you will have nowhere to pull from. If you lead the 3&4 correctly, the follower will do a [right side-check] while turning 0.25 turns clockwise. The remaining 0.25 clockwise turn will be done by the follower on the anchor step.
+- For the pulling motion on 4, you may need to use your right-hand fingertips to leverage the follower's left shoulder blade groove. Without the grove, you will have nowhere to pull from. If you lead the 3&4 correctly, the follower will do a {{% a "right-side check" %}} while turning 0.25 turns clockwise. The remaining 0.25 clockwise turn will be done by the follower on the anchor step.
 - On 5&6, as the follower turns clockwise, slide your right hand across the follower's back while rotating it into a {{% a "righty-down-out" %}} position without losing connection with the follower at any point throughout the entire pattern.
 
 Next pattern suggestion:
