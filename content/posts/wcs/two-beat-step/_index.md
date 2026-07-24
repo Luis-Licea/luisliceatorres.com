@@ -7,8 +7,6 @@ categories: Dance
 tags: West Coast Swing
 ---
 
-### Triple-step replacements
-
 Two beat increments can be replaced and triple steps can be replaced with slides, holds, brushes, turns, etc.
 
 All anchor steps can additionally be elongated from 2 to 4 beats to fit faster music where 2 beats will feel too short.
