@@ -13,9 +13,3 @@ Instead of doing the anchor step for a duration of 2 beats, slide your right foo
 Pattern suggestion:
 
 - On a {{% a "right-side inside turn" %}}, replace steps 5&6 with a sweep.
-
-#### Slow clockwise sweep
-
-A rond de jambe.
-
-Mechanically the same as a {{% a "clockwise sweep" %}}, but with a duration of 4 beats instead of 2.
